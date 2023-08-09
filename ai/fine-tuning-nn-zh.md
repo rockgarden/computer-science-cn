@@ -2,7 +2,7 @@
 
 1. 简介
 
-    如今，一些[卷积神经网络架构](https://www.baeldung.com/cs/ai-convolutional-neural-networks)（如 [GPipe](https://arxiv.org/abs/1811.06965)）拥有多达 5.57 亿个参数。考虑到计算成本，用我们日常使用的计算机来训练这样的模型几乎是不可能的。
+    如今，一些[卷积神经网络架构](ai-convolutional-neural-networks-zh.md)（如 [GPipe](https://arxiv.org/abs/1811.06965)）拥有多达 5.57 亿个参数。考虑到计算成本，用我们日常使用的计算机来训练这样的模型几乎是不可能的。
 
     在本教程中，我们将讨论克服这一问题的方法--微调。
 
