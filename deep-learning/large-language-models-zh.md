@@ -22,7 +22,7 @@
 
         语言建模（[LM](https://en.wikipedia.org/wiki/Language_model)）使用统计和概率技术来确定一个句子中出现的特定单词序列的概率。因此，一个语言模型基本上是一个关于单词序列的概率分布：
 
-        $P(x^{(t+1)}|x^{(t)},..., x^{(1)})$
+        \[P(x^{(t+1)}|x^{(t)},..., x^{(1)})\]
 
         这里，表达式计算的是条件概率分布，其中$x^{(t+1)}$可以是词汇表中的任何词。
 
@@ -30,11 +30,11 @@
 
         最早建立语言模型的方法之一是基于[n-gram](https://en.wikipedia.org/wiki/N-gram)。n-gram是指来自给定文本样本的n个项目的连续序列。在这里，该模型假设序列中下一个词的概率只取决于一个固定大小的前一个词的窗口：
 
-        ![n-gram](pic/Language-Model-N-gram.jpg)
+        ![n-gram](large-language-models-pic/Language-Model-N-gram.jpg)
 
         然而，n-gram语言模型在很大程度上已经被神经语言模型所取代了。它以神经网络为基础，是一种受生物神经网络启发的计算系统。这些模型利用单词的连续表示或嵌入来进行预测：
 
-        ![neural networks](pic/Language-Model-Neural-Network.jpg)
+        ![neural networks](large-language-models-pic/Language-Model-Neural-Network.jpg)
 
         `输入文本序列->串联的词嵌入->神经网络的隐藏层->输出概率分布`
 
@@ -60,7 +60,7 @@
 
         尽管如此，LLM通常是在语言相关的数据上训练的，如文本。但基础模型通常是在多模态数据上训练的，是文本、图像、音频等的混合。更重要的是，基础模型的目的是作为更具体的任务的基础或依据：
 
-        ![基础模型](pic/Foundation-Models.jpg)
+        ![基础模型](large-language-models-pic/Foundation-Models.jpg)
 
         基础模型通常通过进一步的训练来微调各种下游的认知任务。微调是指将预先训练好的语言模型，用特定的数据对其进行不同但相关的任务训练的过程。这个过程也被称为转移学习。
 
@@ -74,7 +74,7 @@
 
         很多时候，自监督学习算法使用基于人工神经网络（[ANN](https://en.wikipedia.org/wiki/Artificial_neural_network)）的模型。我们可以使用几种架构来创建ANN，但在LLM中使用最广泛的架构是递归神经网络（[RNN](https://en.wikipedia.org/wiki/Recurrent_neural_network)）：
 
-        ![RNN](pic/Neural-Network-Architecture-RNN-1.jpg)
+        ![RNN](large-language-models-pic/Neural-Network-Architecture-RNN-1.jpg)
 
         现在，RNN可以使用其内部状态来处理可变长度的输入序列。一个RNN既有长期记忆又有短期记忆。有一些RNN的变种，如长短时记忆（[LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory)）和门控递归单元（[GRU](https://en.wikipedia.org/wiki/Gated_recurrent_unit)）。
 
@@ -86,7 +86,7 @@
 
         另外，带有GRU的RNN模型训练速度更快，但在较大的数据集上表现不佳。尽管如此，在很长一段时间里，LSTM和GRU仍然是构建复杂NLP系统的首选。然而，这类模型也存在着[梯度消失](https://en.wikipedia.org/wiki/Vanishing_gradient_problem)的问题：
 
-        ![梯度消失](pic/Vanishing-Gradient-Problem.jpg)
+        ![梯度消失](large-language-models-pic/Vanishing-Gradient-Problem.jpg)
 
         梯度消失问题是在使用基于梯度的反向传播学习方法的ANN中遇到的。在这种方法中，在训练的每一次迭代中，权重得到的更新与关于当前权重的误差函数的偏导成正比。
 
@@ -98,7 +98,7 @@
 
         然而，通过[注意机制](https://en.wikipedia.org/wiki/Attention_(machine_learning))，这个信息窗口可以被大大增加。注意力是一种增强输入数据的某些部分而减弱其他部分的技术。这背后的动机是，网络应该把更多的注意力放在数据的重要部分：
 
-        ![注意机制](pic/Self-Attention-Mechanism.jpg)
+        ![注意机制](large-language-models-pic/Self-Attention-Mechanism.jpg)
 
         注意和自我注意之间存在着微妙的区别，但它们的动机是相同的。注意机制指的是关注另一个序列的不同部分的能力，而自我注意指的是关注当前序列的不同部分的能力。
 
@@ -110,7 +110,7 @@
 
         [词的嵌入](https://en.wikipedia.org/wiki/Word_embedding)能够捕捉到词的意义，在向量空间中比较接近的词预计在意义上是相似的。词嵌入的进一步进展还允许他们在不同的向量中捕捉每个词的多种含义：
 
-        ![词的嵌入](pic/Word-Embedding.jpg)
+        ![词的嵌入](large-language-models-pic/Word-Embedding.jpg)
 
         词嵌入有不同的风格，其中之一是将词表达为该词出现的语言环境的向量。此外，有几种生成词嵌入的方法，其中最流行的方法是依靠神经网络架构。
 
@@ -122,7 +122,7 @@
 
         谷歌大脑团队在2017年推出的[转化器](https://arxiv.org/abs/1706.03762)也许是LLM历史上最重要的拐点之一。[变换器](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))是一种深度学习模型，它采用自我关注机制，一次性处理整个输入：
 
-        ![转化器](pic/Neural-Network-Architecture-Transformer-Attention.jpg)
+        ![转化器](large-language-models-pic/Neural-Network-Architecture-Transformer-Attention.jpg)
 
         作为对早期基于RNN模型的重大改变，转化器没有递归(recurrent)结构。在有足够训练数据的情况下，仅转化器架构中的注意力机制就能与带有注意力的RNN模型的性能相匹配。
 
@@ -134,7 +134,7 @@
 
         最初的转化器模型也使用了编码器-解码器架构。编码器由编码层组成，对输入进行迭代处理，一层接一层。解码器由解码层组成，对编码器的输出做同样的事情：
 
-        ![Transformer model with an encoder/decoder architecture](pic/Neural-Network-Architecture-Transformer-Encoder-Decoder.jpg)
+        ![Transformer model with an encoder/decoder architecture](large-language-models-pic/Neural-Network-Architecture-Transformer-Encoder-Decoder.jpg)
 
         每个编码器层的功能是生成编码，其中包含关于输入的哪些部分是相互关联的信息。然后，输出的编码被传递给下一个编码器作为其输入。每个编码器由一个自我注意机制和一个前馈神经网络组成。
 
@@ -150,7 +150,7 @@
 
         微调可以在整个神经网络上进行，也可以只对其层的一个子集进行。一般来说，它涉及引入一组新的权重，将语言模型的最后一层与下游任务的输出相连接。语言模型的原始权重被冻结：
 
-        ![Fine-tuning](pic/LLM-Fine-tuning.jpg)
+        ![Fine-tuning](large-language-models-pic/LLM-Fine-tuning.jpg)
 
         微调通常是通过监督学习来完成的，其中与任务相关的标记数据集要小得多。其他方法也经常用于微调，如弱监督下的学习和强化学习。
 
@@ -162,7 +162,7 @@
 
         这种利用LLM能力的范式也被称为提示工程。它通常通过将一个或多个任务转换为基于提示的数据集并通过基于提示的学习来训练语言模型：
 
-        ![prompting](pic/LLM-Prompting.jpg)
+        ![prompting](large-language-models-pic/LLM-Prompting.jpg)
 
         [Few-shot prompting](https://en.wikipedia.org/wiki/In-context_learning_(natural_language_processing))是一种提示技术，它允许模型在尝试任务之前处理例子。它包括某些问题和解决方案对的例子，被称为镜头。这也被称为语境中学习，最初是作为微调的替代方案提出的。
 
@@ -174,7 +174,7 @@
 
         有各种指导员调整的技术，例如，ChatGPT和Sparrow等流行模型所使用的人类反馈强化学习（[RLHF](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback)）。它涉及对人类产生的提示和反应对的数据集进行监督下的微调：
 
-        ![Instructor tuning](pic/LLM-RLHF.jpg)
+        ![Instructor tuning](large-language-models-pic/LLM-RLHF.jpg)
 
         在RLHF中，奖励函数是基于人类偏好的数据集而学习的。此外，奖励函数被用来通过优化算法使用强化学习来优化代理的政策。人类的反馈是通过要求人类对代理人的行为实例进行排名来收集的。
 
@@ -190,7 +190,7 @@
 
         谷歌一直处于这项研究的前沿，其LLM如2018年发布的双向编码器表示法（[BERT](https://arxiv.org/abs/1810.04805)）和2021年发布的对话应用的语言模型（[LaMDA](https://blog.google/technology/ai/lamda/)）：
 
-        ![LLM-Popular](pic/LLM-Popular-LLMs-Available.jpg)
+        ![LLM-Popular](large-language-models-pic/LLM-Popular-LLMs-Available.jpg)
 
         [OpenAI](https://openai.com/)是另一个引领人工智能研究的组织，其LLMs如2018年发布的生成性预训练变形器（[GPT](https://paperswithcode.com/method/gpt)）。它在2019年进一步发布了GPT-2，2020年发布了GPT-3，2023年发布了GPT-4。2022年，它发布了[ChatGPT](https://openai.com/blog/chatgpt)，这是一个建立在GPT-3.5和GPT-4y之上的AI聊天机器人。
 

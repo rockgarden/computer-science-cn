@@ -26,7 +26,7 @@
 
     使用注意机制（更确切地说，是自我注意）的模型被称为 "转换器"。它们没有任何递归或卷积成分。尽管如此，它们在各种 NLP 任务（包括机器翻译、分类、生成等）中表现出了最先进的性能。2017 年提出的变换器模型架构如下：
 
-    ![变换器](pic/gpt/transformer.png)
+    ![变换器](pic/chatgpt-model/transformer.png)
 
     1. 变换器类型
 
@@ -54,7 +54,7 @@
 
         ChatGPT 采用了与最初的 GPT 模型类似的架构，即基于transformer架构。它使用一个带有自注意机制的transformer解码器块。与 GPT-3 一样，它有 96 个注意力块，每个块包含 96 个注意力头，共有 1750 亿个参数：
 
-        ![ChatGPT架构](pic/gpt/chatgpt_arh-666x1024.png)
+        ![ChatGPT架构](pic/chatgpt-model/chatgpt_arh-666x1024.png)
 
     2. ChatGPT 使用嵌入吗？
 
@@ -73,7 +73,7 @@
 
         最后，上下文矩阵乘以标记嵌入矩阵，再加上位置嵌入。模型会在训练过程中学习嵌入矩阵和位置嵌入矩阵，嵌入向量的维度为 12288：
 
-        ![ChatGPT嵌入](pic/gpt/chatgpt_embedding.png)
+        ![ChatGPT嵌入](pic/chatgpt-model/chatgpt_embedding.png)
 
     3. ChatGPT 的注意力机制是什么？
 
@@ -91,7 +91,7 @@
 
         第一次迭代后，输出令牌会被添加回输入提示，这个过程会一直重复，直到输出令牌与结束令牌相对应为止：
 
-        ![ChatGPT标记](pic/gpt/chatgpt_token.png)
+        ![ChatGPT标记](pic/chatgpt-model/chatgpt_token.png)
 
 5. ChatGPT 是如何训练的？
 
@@ -118,7 +118,7 @@
 
         在最后一步中，近端策略优化（Proximal Policy Optimization, PPO）算法被用作强化学习代理，以最大化从奖励模型中获得的奖励。从本质上讲，第一步中的模型被用来生成对用户提示的回应。每次回复后，奖励模型都会对回复进行评估，并给出一个奖励分数。然后对 PPO 模型进行训练，通过学习过程最大化这些奖励：
 
-        ![ChatGPT微调](pic/gpt/chatgpt_finetuning.png)
+        ![ChatGPT微调](pic/chatgpt-model/chatgpt_finetuning.png)
 
 6. 结论
 

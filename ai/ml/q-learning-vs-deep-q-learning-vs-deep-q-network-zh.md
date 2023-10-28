@@ -1,6 +1,6 @@
 # Q-Learning vs. Deep Q-Learning vs. Deep Q-Network
 
-<https://www.baeldung.com/cs/q-learning-vs-deep-q-learning-vs-deep-q-network>
+[强化学习](https://www.baeldung.com/cs/tag/reinforcement-learning)
 
 1. 前言
 
@@ -118,8 +118,34 @@
 
     下表概述了Q-learning、Deep Q-learning和Deep Q-network之间的区别：
 
-    ![Differences-Between](pic/d27e1a72e0ad4607225e9fd22602f7ae_l3.svg)
+    |  | Q-learning | Deep Q-learning| Deep Q-network |
+    |------------|-----------------|--------------------------|---------------------------------|
+    | 方法         | 使用 Q 表进行表格式学习   | 利用神经网络进行函数逼近             | 利用神经网络进行函数逼近                    |
+    | 输入         | (状态、动作）对        | 原始状态输入                   | 原始状态输入                          |
+    | 输出         | 每对（状态、动作）的 Q 值  | 每对（状态、动作）的 Q 值           | 每对（状态、动作）的 Q 值                  |
+    | 训练数据       | Q 表条目           | 经验 回放缓冲区                 | 经验 回放缓冲区                        |
+    | 训练时间       | 快速              | 速度慢                      | 速度慢                             |
+    | 复杂性        | 受限于状态和行动的数量     | 由于使用了神经网络，因此更为复杂         | 由于使用了神经网络，因此更为复杂                |
+    | 泛化         | 仅限于 Q 表中的状态     | 可泛化至未知状态                 | 可泛化至未知状态                        |
+    | 可扩展性       | 难以处理较大的状态和动作空间  | 能很好地处理大空间                | 能很好地处理大空间                       |
+    | 稳定性        | 容易过度拟合          | 比 Q-learning 更稳定，但仍可能不稳定 | 比 Q-learning 和深度 Q-learning 更稳定 |
+
+    |             | Q-learning                                   | Deep Q-learning                                        | Deep Q-network                                  |
+    |----------------|----------------------------------------------|--------------------------------------------------------|-------------------------------------------------|
+    | Approach       | Tabular learning using Q-table               | Function approximation with neural networks            | Function approximation with neural networks     |
+    | Input          | (state, action) pairs                        | Raw State input                                        | Raw State input                                 |
+    | Output         | Q-values for each (state, action) pair       | Q-values for each (state, action) pair                 | Q-values for each (state, action) pair          |
+    | Training data  | Q-table entries                              | Experience Replay buffer                               | Experience Replay buffer                        |
+    | Training time  | Fast                                         | Slow                                                   | Slow                                            |
+    | Complexity     | Limited by the number of states and actions  | More complex due to the use of neural networks         | More complex due to the use of neural networks  |
+    | Generalization | Limited to states in Q-table                 | Can generalize to unseen states                        | Can generalize to unseen states                 |
+    | Scalability    | Struggles with large state and action spaces | Handles large spaces well                              | Handles large spaces well                       |
+    | Stability      | Prone to overfitting                         | More stable than Q-learning, but can still be unstable | More stable than Q-learning and deep Q-learning |
 
 6. 结论
 
     在这篇简短的文章中，我们探讨了强化学习的概述，包括其定义和目的。此外，我们还深入研究了一些重要的强化学习算法，即Q-learning、Deep Q-learning和Deep Q-network，概述了它们的基本概念和在决策过程中的作用。
+
+## 相关文章
+
+- [ ] [Q-Learning vs. Deep Q-Learning vs. Deep Q-Network](https://www.baeldung.com/cs/q-learning-vs-deep-q-learning-vs-deep-q-network)
