@@ -1,5 +1,9 @@
 # 什么是数据湖？
 
+[数据科学](https://www.baeldung.com/cs/category/ai/data-science) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
+
+[数据库](https://www.baeldung.com/cs/tag/databases)
+
 1. 简介
     在本教程中，我们将讨论数据湖，这是一个相对较新的概念，它利用了大数据技术的优势，并将其与自助服务的灵活性相结合。我们将主要讨论其基本组成部分和架构、优点和缺点。我们还将介绍数据湖与数据仓库的主要区别。
 2. 数据湖概述
@@ -76,3 +80,5 @@
 7. 结论
 
     本文讨论了数据湖。数据湖是一个可以存储大量结构化、半结构化和非结构化数据的存储库。构建数据湖的主要目的是为数据科学家和分析师提供数据的复古视图。
+
+[What Is a Data Lake?](https://www.baeldung.com/cs/data-lake-introduction)

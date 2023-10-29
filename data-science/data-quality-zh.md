@@ -1,6 +1,6 @@
 # 数据质量解释
 
-<https://www.baeldung.com/cs/data-quality>
+[数据科学](https://www.baeldung.com/cs/category/ai/data-science) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
 1. 简介
 
@@ -74,3 +74,5 @@
 
     在本文中，我们介绍了数据在当今世界的重要性。我们解释了什么是数据质量、数据质量的要素以及如何改进一般数据。
     在当今世界，数据驱动着选择、创新和洞察力。确保数据的准确性、完整性和一致性非常重要。在信息快速增长的时代，采用数据质量规则有助于人们和企业充分利用数据。
+
+[Data Quality Explained](https://www.baeldung.com/cs/data-quality)

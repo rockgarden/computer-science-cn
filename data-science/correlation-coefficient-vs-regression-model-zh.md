@@ -1,6 +1,8 @@
 # 统计学相关与回归
 
-[Statistics: Correlation vs. Regression](https://www.baeldung.com/cs/correlation-coefficient-vs-regression-model)
+[数据科学](https://www.baeldung.com/cs/category/ai/data-science)
+
+[概率与统计](https://www.baeldung.com/cs/tag/probability-and-statistics)
 
 1. 引言
 
@@ -118,3 +120,5 @@
     相关系数是一个数字，表示两个变量之间的关系有多密切。相比之下，回归则是用一个实际的等式来描述这种关系，我们可以用它来估算因变量的值。
 
     我们应该记住，这些都是可以一起使用的工具。一旦我们开始处理一些数据，我们可以先计算相关系数。如果相关系数很高，我们就可以投入更多时间对数据进行线性模型拟合。
+
+[Statistics: Correlation vs. Regression](https://www.baeldung.com/cs/correlation-coefficient-vs-regression-model)

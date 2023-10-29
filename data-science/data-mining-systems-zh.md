@@ -1,6 +1,6 @@
 # 数据挖掘系统的分类
 
-[Classification of Data Mining Systems](https://www.baeldung.com/cs/data-mining-systems)
+[数据科学](https://www.baeldung.com/cs/category/ai/data-science)
 
 1. 概述
 
@@ -61,3 +61,5 @@
 3. 结论
 
     本文讨论了基于不同标准的数据挖掘系统分类。各组织可通过了解这些分类，选择最适合其特定需求和目标的数据挖掘技术。
+
+[Classification of Data Mining Systems](https://www.baeldung.com/cs/data-mining-systems)

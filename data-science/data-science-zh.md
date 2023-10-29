@@ -1,6 +1,6 @@
 # 什么是数据科学？
 
-[What Is Data Science?](https://www.baeldung.com/cs/data-science)
+[数据科学](https://www.baeldung.com/cs/category/ai/data-science)
 
 1. 概述
 
@@ -184,6 +184,8 @@
 
 5. 结论
 
-数据科学应用于各个行业和领域，包括金融、医疗保健、市场营销、社会科学、网络安全等。在当今数据驱动的世界中，数据科学对于获得竞争优势至关重要。
+    数据科学应用于各个行业和领域，包括金融、医疗保健、市场营销、社会科学、网络安全等。在当今数据驱动的世界中，数据科学对于获得竞争优势至关重要。
 
-在本教程中，我们首先介绍了数据科学的定义。然后，我们发现了数据科学的不同方面。
+    在本教程中，我们首先介绍了数据科学的定义。然后，我们发现了数据科学的不同方面。
+
+[What Is Data Science?](https://www.baeldung.com/cs/data-science)

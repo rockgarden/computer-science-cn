@@ -1,6 +1,8 @@
 # 置信区间
 
-[Confidence Intervals](https://www.baeldung.com/cs/confidence-intervals-statistics)
+[数据科学](https://www.baeldung.com/cs/category/ai/data-science) [数学与逻辑](https://www.baeldung.com/cs/category/core-concepts/math-logic)
+
+[概率与统计](https://www.baeldung.com/cs/tag/probability-and-statistics)
 
 1. 导言
 
@@ -138,3 +140,5 @@
 6. 结论
 
     在本文中，我们谈到了置信区间。它们量化了不确定性，但很容易被误解。置信度表示包含实际值的区间的长期频率，而不是我们的特定区间包含实际值的概率。
+
+[Confidence Intervals](https://www.baeldung.com/cs/confidence-intervals-statistics)
