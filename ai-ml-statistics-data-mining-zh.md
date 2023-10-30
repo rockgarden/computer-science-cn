@@ -1,5 +1,9 @@
 # 人工智能、机器学习、统计和数据挖掘之间的区别是什么？
 
+[数据科学](https://www.baeldung.com/cs/category/ai/data-science) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
+
+[概率与统计](https://www.baeldung.com/cs/tag/probability-and-statistics)
+
 1. 简介
 
     在本教程中，我们将讨论人工智能、[机器学习](https://www.baeldung.com/cs/ml-fundamentals)、统计学和数据挖掘之间的区别。

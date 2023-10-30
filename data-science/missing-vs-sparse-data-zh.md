@@ -1,6 +1,6 @@
 # 缺失数据与稀疏数据的区别
 
-[Differences Between Missing Data and Sparse Data](https://www.baeldung.com/cs/missing-vs-sparse-data)
+[数据科学](https://www.baeldung.com/cs/category/ai/data-science) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
 1. 简介
 
@@ -71,3 +71,5 @@
 5. 结论
 
     在本教程中，我们回顾了缺失数据和稀疏数据。缺失数据是数据集中不存在的未知数据，而稀疏数据通常是已知的，但很少存在。
+
+[Differences Between Missing Data and Sparse Data](https://www.baeldung.com/cs/missing-vs-sparse-data)
