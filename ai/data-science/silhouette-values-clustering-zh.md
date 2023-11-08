@@ -4,7 +4,7 @@
 
 1. 简介
 
-    在本教程中，我们将介绍如何在[聚类分析](https://www.baeldung.com/cs/clustering-unknown-number)中使用剪影图。
+    在本教程中，我们将介绍如何在[聚类分析]中使用剪影图。
 
     [聚类分析](https://www.baeldung.com/cs/ml-classification-vs-clustering)是无监督学习方法之一。首先，我们将解释剪影值的衡量标准以及如何计算和解释剪影值。然后，我们将展示如何使用平均剪影值来确定聚类的数量。
 
