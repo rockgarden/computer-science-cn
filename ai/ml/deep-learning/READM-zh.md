@@ -2,18 +2,18 @@
 
 深度学习是一种利用神经网络进行机器学习的技术。了解训练、优化和使用多层神经网络的各种技术。
 
->> [饱和非线性](saturating-non-linearities-zh.md)
+- [饱和非线性](saturating-non-linearities-zh.md)
 >> 人工智能图像生成器如何工作？
 >> 利用LSTM防止梯度消失问题
->> [机器学习与深度学习](machine-learning-vs-deep-learning-zh.md)
+- [机器学习与深度学习](machine-learning-vs-deep-learning-zh.md)
 >> 图神经网络简介
 >> 深度伪造简介
 >> 强化学习中的确定性策略与随机策略
->> [大型语言模型简介](large-language-models-zh.md)
+- [大型语言模型简介](large-language-models-zh.md)
 >> Softmax 中的温度是什么，为什么要使用温度？
 >> 什么是不可训练参数？
 >> Epoch or Episode： 理解深度强化学习中的术语
->> [Q-Learning vs. Deep Q-Learning vs. Deep Q-Network](../ml/q-learning-vs-deep-q-learning-vs-deep-q-network-zh.md)
+- [Q-Learning vs. Deep Q-Learning vs. Deep Q-Network](../ml/q-learning-vs-deep-q-learning-vs-deep-q-network-zh.md)
 >> 什么是端到端深度学习？
 >> 连体网络如何在图像识别中发挥作用？
 >> 深度神经网络：填充
@@ -35,7 +35,7 @@
 >> 预训练神经网络意味着什么？
 >> 神经网络：什么是权重衰减损失？
 >> 神经网络：Conv 层和 FC 层的区别
->> 究竟什么是N符？
+- [究竟什么是N-Gram？](n-gram-zh.md)
 >> 多层感知器vs.深度神经网络
 >> 无模型强化学习与基于模型的强化学习
 >> 0-1损失函数解释
@@ -43,13 +43,13 @@
 >> 交叉验证：交叉验证：K-折叠 vs. 一票否决
 >> 非策略与策略强化学习
 >> 神经网络反向传播中的偏差更新
->> 自然语言处理中的递归与递归神经网络
+- [自然语言处理中的递归与递归神经网络](networks-in-nlp-zh.md)
 >> 什么是神经网络中的 "瓶颈"？
 >> 卷积神经网络与普通神经网络
 >> 物体检测中的平均精度
 >> 神经网络中的隐藏层
->> [监督学习和非监督学习的真实案例](examples-supervised-unsupervised-learning-zh.md)
->> [遗传算法在现实世界中的应用](genetic-algorithms-applications-zh.md)
+- [监督学习和非监督学习的真实案例](examples-supervised-unsupervised-learning-zh.md)
+- [遗传算法在现实世界中的应用](genetic-algorithms-applications-zh.md)
 >> 变异自动编码器中的重参数化技巧
 >> 什么是机器学习中的归纳偏差？
 >> 深度学习中的潜空间
@@ -71,7 +71,7 @@
 概率与统计
 >> 文本分类的特征选择和缩减
 >> 为什么迷你批量比包含所有训练数据的单一"批量"更好？
->> 如何创建智能聊天机器人？
+- [如何创建智能聊天机器人？](smart-chatbots-zh.md)
 >> 如何计算 CNN 的感知场大小？
 >> k 近邻和高维数据
 >> 在 SVM 中使用硬边际与软边际
@@ -98,10 +98,10 @@
 
 ## Deep Learning
 
->> Saturating Non-Linearities
+- [Saturating Non-Linearities](https://www.baeldung.com/cs/saturating-non-linearities)
 >> How Do AI Image Generators Work?
 >> Prevent the Vanishing Gradient Problem with LSTM
->> [Machine Learning vs. Deep Learning](https://www.baeldung.com/cs/machine-learning-vs-deep-learning)
+- [Machine Learning vs. Deep Learning](https://www.baeldung.com/cs/machine-learning-vs-deep-learning)
 >> An Introduction to Graph Neural Networks
 >> An Introduction to Deepfakes
 >> Deterministic vs. Stochastic Policies in Reinforcement Learning
@@ -131,7 +131,7 @@ Probability and Statistics
 >> What Does Pre-training a Neural Network Mean?
 >> Neural Networks: What Is Weight Decay Loss?
 >> Neural Networks: Difference Between Conv and FC Layers
->> What Exactly Is an N-Gram?
+- [What Exactly Is an N-Gram?](https://www.baeldung.com/cs/n-gram)
 >> Multi-Layer Perceptron vs. Deep Neural Network
 >> Model-free vs. Model-based Reinforcement Learning
 >> 0-1 Loss Function Explained
@@ -139,13 +139,13 @@ Probability and Statistics
 >> Cross-Validation: K-Fold vs. Leave-One-Out
 >> Off-policy vs. On-policy Reinforcement Learning
 >> Bias Update in Neural Network Backpropagation
->> Recurrent vs. Recursive Neural Networks in Natural Language Processing
+- [Recurrent vs. Recursive Neural Networks in Natural Language Processing](https://www.baeldung.com/cs/networks-in-nlp)
 >> What Are “Bottlenecks” in Neural Networks?
 >> Convolutional Neural Network vs. Regular Neural Network
 >> Mean Average Precision in Object Detection
 >> Hidden Layers in a Neural Network
->> [Real-Life Examples of Supervised Learning and Unsupervised Learning](https://www.baeldung.com/cs/examples-supervised-unsupervised-learning)
->> [Real-World Uses for Genetic Algorithms](https://www.baeldung.com/cs/genetic-algorithms-applications)
+- [Real-Life Examples of Supervised Learning and Unsupervised Learning](https://www.baeldung.com/cs/examples-supervised-unsupervised-learning)
+- [Real-World Uses for Genetic Algorithms](https://www.baeldung.com/cs/genetic-algorithms-applications)
 >> The Reparameterization Trick in Variational Autoencoders
 >> What Is Inductive Bias in Machine Learning?
 >> Latent Space in Deep Learning
@@ -167,7 +167,7 @@ Image Processing
 Probability and Statistics
 >> Feature Selection and Reduction for Text Classification
 >> Why Mini-Batch Size Is Better Than One Single “Batch” With All Training Data
->> How to Create a Smart Chatbot?
+- [How to Create a Smart Chatbot?](https://www.baeldung.com/cs/smart-chatbots)
 >> How to Calculate Receptive Field Size in CNN
 >> k-Nearest Neighbors and High Dimensional Data
 >> Using a Hard Margin vs. Soft Margin in SVM
