@@ -66,7 +66,7 @@
 >> 神经网络中的线性可分离数据
 >> 使用 GAN 进行数据扩充
 >> 学习率与批量大小的关系
->> Word2vec 单词嵌入操作： 添加、串联还是平均单词向量？
+- [Word2vec单词嵌入操作：添加、串联还是平均单词向量？](word2vec-word-embeddings-zh.md)
 >> 异常值检测和处理
 概率与统计
 >> 文本分类的特征选择和缩减
@@ -162,7 +162,7 @@ Image Processing
 >> Linearly Separable Data in Neural Networks
 >> Using GANs for Data Augmentation
 >> Relation Between Learning Rate and Batch Size
->> Word2vec Word Embedding Operations: Add, Concatenate or Average Word Vectors?
+- [Word2vec Word Embedding Operations: Add, Concatenate or Average Word Vectors?](https://www.baeldung.com/cs/word2vec-word-embeddings)
 >> Outlier Detection and Handling
 Probability and Statistics
 >> Feature Selection and Reduction for Text Classification
