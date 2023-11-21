@@ -1,4 +1,8 @@
-# 线性回归与 Logistic 回归
+# 线性回归与Logistic回归
+
+[数学与逻辑](https://www.baeldung.com/cs/category/core-concepts/math-logic) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
+
+[回归](https://www.baeldung.com/cs/tag/regression)
 
 1. 概述
 
@@ -24,7 +28,7 @@
         ![出现](pic/emergence-768x320-1.webp)
         还原论是一个强大的认识论工具，适合于[药物发现](https://www.ingentaconnect.com/content/ben/ctmc/2002/00000002/00000001/art00008)、[统计力学](https://www.sciencedirect.com/science/article/abs/pii/S0017931000003239)和[生物学的某些分支](https://link.springer.com/article/10.1007/BF00397062)的研究应用。还原论不适合研究复杂系统，如社会、[知识推理](http://www.actapress.com/Abstract.aspx?paperId=30932)的贝叶斯网络、[生物学的其他分支](https://link.springer.com/article/10.1007/s11084-005-5272-1)。
 
-        我们可以在[回归分析](https://www.baeldung.com/cs/machine-learning-intro#regression)下处理任何我们可以在还原论下框架的问题，但是如果我们不能做后者，那么我们也不能做前者。
+        我们可以在[回归分析](https://en.wikipedia.org/wiki/Regression_analysis)下处理任何我们可以在还原论下框架的问题，但是如果我们不能做后者，那么我们也不能做前者。
 
     2. 回归到底是什么？
 
