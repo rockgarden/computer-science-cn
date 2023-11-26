@@ -80,7 +80,7 @@
 
         机器学习中常用的模型类别包括：
 
-        - 回归模型，如[线性回归和逻辑回归](https://www.baeldung.com/cs/linear-vs-logistic-regression)
+        - 回归模型，如[线性回归和逻辑回归](/core-concepts/math-logic/linear-vs-logistic-regression-zh.md)
         - [支持向量机](https://www.baeldung.com/cs/ml-support-vector-machines)
         - [神经网络](https://www.baeldung.com/cs/neural-net-advantages-disadvantages)
 
