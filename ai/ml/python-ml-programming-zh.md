@@ -71,7 +71,7 @@
 
         让我们来看看四个关键的机器学习 Python 框架：[scikit-learn](https://scikit-learn.org/stable/)、[Keras](https://keras.io/)、[TensorFlow](https://www.tensorflow.org/) 和 [PyTorch](https://pytorch.org/)。
 
-        scikit-learn 或 sklearn 是最常用的机器学习 Python 库。它具有健壮性、可扩展性和扩展性。在分类、[回归](https://www.baeldung.com/cs/normalization-vs-standardization)、[聚类](https://www.baeldung.com/cs/dbscan-algorithm)和[降维](https://www.baeldung.com/cs/feature-selection-reduction-for-text-classification)任务方面，我们可以获得许多久经考验、有据可查的工具。
+        scikit-learn 或 sklearn 是最常用的机器学习 Python 库。它具有健壮性、可扩展性和扩展性。在分类、[回归](normalization-vs-standardization-zh.md)、[聚类](https://www.baeldung.com/cs/dbscan-algorithm)和[降维](https://www.baeldung.com/cs/feature-selection-reduction-for-text-classification)任务方面，我们可以获得许多久经考验、有据可查的工具。
 
         TensorFlow 是一个开源的完整平台，我们可以用它来完成多种机器学习任务。谷歌开发了它，并于 2015 年将其公开。它为构建和训练深度学习中的自定义模型提供了丰富的抽象。TensorFlow 拥有一个由社区资源、库和工具组成的充满活力的生态系统，可用于构建和部署可快速扩展的机器学习应用程序。
 
