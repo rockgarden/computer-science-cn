@@ -215,7 +215,3 @@
 6. 总结
 
     在本教程中，我们讨论了语言模型和LLMs。我们回顾了创建LLM背后的基本概念和构建模块。此外，我们还讨论了创建LLM的普遍架构以及当今一些流行的LLM。
-
-## 相关文章
-
-- [ ] [Introduction to Large Language Models](https://www.baeldung.com/cs/large-language-models)

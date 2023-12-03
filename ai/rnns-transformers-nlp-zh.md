@@ -44,9 +44,9 @@
 
         因此，人们开始使用采用[特殊关注机制](https://www.baeldung.com/cs/nlp-encoder-decoder-models#attention-mechanism)的 Transformer。Transformer 是一种最先进的模型，被广泛应用于 NLP 和计算机视觉领域。
 
-3. 什么是变形金刚？
+3. 什么是Transformer？
 
-    [Transformer](https://www.baeldung.com/cs/large-language-models#5-arrival-of-transformer-model) 是 Vaswani 等人在开创性论文《[注意力就是你所需要的一切](https://arxiv.org/abs/1706.03762)》中提出的一种神经网络架构。与 RNN 不同，Transformer 不依赖于递归，而是依靠自我注意来运行。
+    [Transformer](/ai/ml/deep-learning/large-language-models-zh.md) 是 Vaswani 等人在开创性论文《[注意力就是你所需要的一切](https://arxiv.org/abs/1706.03762)》中提出的一种神经网络架构。与 RNN 不同，Transformer 不依赖于递归，而是依靠自我注意来运行。
 
     自我注意允许模型在进行预测时权衡不同输入标记的重要性，使其能够捕捉长程依赖关系，而无需进行顺序处理。变压器由编码器层和解码器层组成，采用多头自注意机制和前馈神经网络。
 
@@ -54,7 +54,7 @@
 
     ![attention_research_1](pic/attention_research_1.webp)
 
-    [变形器](https://www.baeldung.com/cs/chatgpt-model#1-types-of-transformers)有多种类型。在 NLP 领域出现了两种有影响力的模型：[BERT](https://www.baeldung.com/cs/transformer-text-embeddings#bert)（来自变换器的双向编码器表示）和 [GPT](https://www.baeldung.com/cs/chatgpt-model)（生成式预训练变换器）。BERT 应用了变换器的编码器。与变换器类似，GPT 由编码器和解码器组成。这些模型突破了语言理解和生成的界限，展示了大规模预训练和迁移学习的威力。
+    变形器有多种类型。在 NLP 领域出现了两种有影响力的模型：[BERT](https://www.baeldung.com/cs/transformer-text-embeddings#bert)（来自变换器的双向编码器表示）和 [GPT](/ai/chatgpt-model-zh.md)（生成式预训练变换器）。BERT 应用了变换器的编码器。与变换器类似，GPT 由编码器和解码器组成。这些模型突破了语言理解和生成的界限，展示了大规模预训练和迁移学习的威力。
 
 4. RNN 与变压器的区别
 

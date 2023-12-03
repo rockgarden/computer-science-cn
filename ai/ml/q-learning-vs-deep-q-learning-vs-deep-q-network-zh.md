@@ -148,6 +148,3 @@
 
     在这篇简短的文章中，我们探讨了强化学习的概述，包括其定义和目的。此外，我们还深入研究了一些重要的强化学习算法，即Q-learning、Deep Q-learning和Deep Q-network，概述了它们的基本概念和在决策过程中的作用。
 
-## 相关文章
-
-- [ ] [Q-Learning vs. Deep Q-Learning vs. Deep Q-Network](https://www.baeldung.com/cs/q-learning-vs-deep-q-learning-vs-deep-q-network)
