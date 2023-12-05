@@ -21,10 +21,10 @@
 - [深度神经网络：填充](deep-neural-networks-padding-zh.md)
 - [单次检测器（SSD）](../../computer-vision/ssd-zh.md)
 - [什么是神经网络中的Maxout？](maxout-neural-networks-zh.md)
->> 循环神经网络
->> 神经网络中的嵌入层是什么？
->> 为什么使用替代损失？
->> 生成对抗网络：判别器损失和生成器损失
+- [循环神经网络](recurrent-neural-networks-zh.md)
+- [神经网络中的嵌入层是什么？](neural-nets-embedding-layers-zh.md)
+- [为什么使用替代损失？](surrogate-loss-zh.md)
+- [生成对抗网络：判别器损失和生成器损失](gan-loss-zh.md)
 >> 神经网络中的主干是什么意思？
 >> 卷积网络中的通道是什么？
 >> 偏差与误差的区别
@@ -118,10 +118,10 @@
 - [Deep Neural Networks: Padding](https://www.baeldung.com/cs/deep-neural-networks-padding)
 - [Single Shot Detectors (SSDs)](https://www.baeldung.com/cs/ssd)
 - [What Is Maxout in a Neural Network?](https://www.baeldung.com/cs/maxout-neural-networks)
->> Recurrent Neural Networks
->> What Are Embedding Layers in Neural Networks?
->> Why Use a Surrogate Loss
->> Generative Adversarial Networks: Discriminator’s Loss and Generator’s Loss
+- [Recurrent Neural Networks](https://www.baeldung.com/cs/recurrent-neural-networks)
+- [What Are Embedding Layers in Neural Networks?](https://www.baeldung.com/cs/neural-nets-embedding-layers)
+- [Why Use a Surrogate Loss](https://www.baeldung.com/cs/surrogate-loss)
+- [Generative Adversarial Networks: Discriminator’s Loss and Generator’s Loss](https://www.baeldung.com/cs/gan-loss)
 >> What Does Backbone Mean in Neural Networks?
 >> What Are Channels in Convolutional Networks?
 >> Differences Between Bias and Error
