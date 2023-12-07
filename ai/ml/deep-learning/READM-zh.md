@@ -25,11 +25,11 @@
 - [神经网络中的嵌入层是什么？](neural-nets-embedding-layers-zh.md)
 - [为什么使用替代损失？](surrogate-loss-zh.md)
 - [生成对抗网络：判别器损失和生成器损失](gan-loss-zh.md)
->> 神经网络中的主干是什么意思？
->> 卷积网络中的通道是什么？
->> 偏差与误差的区别
->> 实例分割与语义分割
->> 在线学习与离线学习
+- [神经网络中的主干是什么意思？](neural-network-backbone-zh.md)
+- [卷积网络中的通道是什么？](cnn-channels-zh.md)
+- [偏差与误差的区别](bias-vs-error-zh.md)
+- [实例分割与语义分割](../../computer-vision/instance-semantic-segmentation-cnn-zh.md)
+- [在线学习与离线学习](online-vs-offline-learning-zh.md)
 >> 数据扩充
 >> 随机样本共识解释
 概率与统计
@@ -122,14 +122,13 @@
 - [What Are Embedding Layers in Neural Networks?](https://www.baeldung.com/cs/neural-nets-embedding-layers)
 - [Why Use a Surrogate Loss](https://www.baeldung.com/cs/surrogate-loss)
 - [Generative Adversarial Networks: Discriminator’s Loss and Generator’s Loss](https://www.baeldung.com/cs/gan-loss)
->> What Does Backbone Mean in Neural Networks?
->> What Are Channels in Convolutional Networks?
->> Differences Between Bias and Error
->> Instance Segmentation vs. Semantic Segmentation
->> Online Learning vs. Offline Learning
+- [What Does Backbone Mean in Neural Networks?](https://www.baeldung.com/cs/neural-network-backbone)
+- [What Are Channels in Convolutional Networks?](https://www.baeldung.com/cs/cnn-channels)
+- [Differences Between Bias and Error](https://www.baeldung.com/cs/bias-vs-error)
+- Instance Segmentation vs. Semantic Segmentation
+- [Online Learning vs. Offline Learning](https://www.baeldung.com/cs/online-vs-offline-learning)
 >> Data Augmentation
 >> Random Sample Consensus Explained
-Probability and Statistics
 >> What Does Pre-training a Neural Network Mean?
 >> Neural Networks: What Is Weight Decay Loss?
 >> Neural Networks: Difference Between Conv and FC Layers

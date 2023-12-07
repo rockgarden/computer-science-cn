@@ -43,7 +43,7 @@ Neural Networks (19)Image Processing (11)Object Detection (11)Convolutional Neur
 >> Computer Vision: Stereo 3D Vision
 >> What Are Image Histograms?
 >> Computer Vision: Popular Datasets
->> Instance Segmentation vs. Semantic Segmentation
+- [实例分割与语义分割](instance-semantic-segmentation-cnn-zh.md) [Instance Segmentation vs. Semantic Segmentation](https://www.baeldung.com/cs/instance-semantic-segmentation-cnn)
 >> How to Handle Large Images to Train CNNs?
 >> Object Recognition Tasks and Their Differences
 >> What Is “Energy” in Image Processing?
