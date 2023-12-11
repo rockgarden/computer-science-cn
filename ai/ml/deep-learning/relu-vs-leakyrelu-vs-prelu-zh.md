@@ -38,7 +38,7 @@
 
 3. Sigmoid 和 Tanh 激活函数的局限性
 
-    在训练模型时，sigmoid 和 tanh 激活函数会遇到梯度消失和梯度爆炸的问题（尤其是在[隐藏层](https://www.baeldung.com/cs/hidden-layers-neural-network)）。
+    在训练模型时，sigmoid 和 tanh 激活函数会遇到梯度消失和梯度爆炸的问题（尤其是在隐藏层）。
 
     1. 梯度问题
 

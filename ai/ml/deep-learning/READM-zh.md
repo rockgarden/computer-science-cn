@@ -30,17 +30,16 @@
 - [偏差与误差的区别](bias-vs-error-zh.md)
 - [实例分割与语义分割](../../computer-vision/instance-semantic-segmentation-cnn-zh.md)
 - [在线学习与离线学习](online-vs-offline-learning-zh.md)
->> 数据扩充
->> 随机样本共识解释
-概率与统计
->> 预训练神经网络意味着什么？
->> 神经网络：什么是权重衰减损失？
->> 神经网络：Conv 层和 FC 层的区别
+- [数据扩充](ml-data-augmentation-zh.md)
+- [随机样本共识解释](ransac-zh.md)
+- [预训练神经网络意味着什么？](neural-network-pre-training-zh.md)
+- [神经网络：什么是权重衰减损失？](neural-networks-weight-decay-loss-zh.md)
+- [神经网络：Conv层和FC层的区别](neural-networks-conv-fc-layers-zh.md)
 - [究竟什么是N-Gram？](n-gram-zh.md)
 - [多层感知器vs.深度神经网络](mlp-vs-dnn-zh.md)
->> 无模型强化学习与基于模型的强化学习
->> 0-1损失函数解释
->> 反向传播与前馈网络的区别
+- [无模型强化学习与基于模型的强化学习](ai-model-free-vs-model-based-zh.md)
+- [0-1损失函数解释](ai-0-1-loss-function-zh.md)
+- [反向传播与前馈网络的区别](neural-networks-backprop-vs-feedforward-zh.md)
 >> 交叉验证：交叉验证：K-折叠 vs. 一票否决
 >> 非策略与策略强化学习
 >> 神经网络反向传播中的偏差更新
@@ -69,7 +68,6 @@
 >> 学习率与批量大小的关系
 - [Word2vec单词嵌入操作：添加、串联还是平均单词向量？](word2vec-word-embeddings-zh.md)
 >> 异常值检测和处理
-概率与统计
 >> 文本分类的特征选择和缩减
 >> 为什么迷你批量比包含所有训练数据的单一"批量"更好？
 - [如何创建智能聊天机器人？](smart-chatbots-zh.md)
@@ -80,7 +78,7 @@
 >> 如何将文本序列转换为向量
 >> 实例归一化 vs 批量归一化
 >> SVM 中精度与支持向量数量之间的权衡
->> 开源神经网络库
+- [开源神经网络库](ml-open-source-libraries-zh.md)
 >> 词嵌入： CBOW vs Skip-Gram
 >> 自然语言处理的编码器-解码器模型
 >> 神经网络中的纪元
@@ -127,16 +125,16 @@
 - [Differences Between Bias and Error](https://www.baeldung.com/cs/bias-vs-error)
 - Instance Segmentation vs. Semantic Segmentation
 - [Online Learning vs. Offline Learning](https://www.baeldung.com/cs/online-vs-offline-learning)
->> Data Augmentation
->> Random Sample Consensus Explained
->> What Does Pre-training a Neural Network Mean?
->> Neural Networks: What Is Weight Decay Loss?
->> Neural Networks: Difference Between Conv and FC Layers
+- [Data Augmentation](https://www.baeldung.com/cs/ml-data-augmentation)
+- [Random Sample Consensus Explained](https://www.baeldung.com/cs/ransac)
+- [What Does Pre-training a Neural Network Mean?](https://www.baeldung.com/cs/neural-network-pre-training)
+- [Neural Networks: What Is Weight Decay Loss?](https://www.baeldung.com/cs/neural-networks-weight-decay-loss)
+- [Neural Networks: Difference Between Conv and FC Layers](https://www.baeldung.com/cs/neural-networks-conv-fc-layers)
 - [What Exactly Is an N-Gram?](https://www.baeldung.com/cs/n-gram)
 - [Multi-Layer Perceptron vs. Deep Neural Network](https://www.baeldung.com/cs/mlp-vs-dnn)
->> Model-free vs. Model-based Reinforcement Learning
->> 0-1 Loss Function Explained
->> Differences Between Backpropagation and Feedforward Networks
+- [Model-free vs. Model-based Reinforcement Learning](https://www.baeldung.com/cs/ai-model-free-vs-model-based)
+- [0-1 Loss Function Explained](https://www.baeldung.com/cs/ai-0-1-loss-function)
+- [Differences Between Backpropagation and Feedforward Networks](https://www.baeldung.com/cs/neural-networks-backprop-vs-feedforward)
 >> Cross-Validation: K-Fold vs. Leave-One-Out
 >> Off-policy vs. On-policy Reinforcement Learning
 >> Bias Update in Neural Network Backpropagation
@@ -176,7 +174,7 @@ Probability and Statistics
 >> How To Convert a Text Sequence to a Vector
 >> Instance vs Batch Normalization
 >> Trade-offs Between Accuracy and the Number of Support Vectors in SVMs
->> Open Source Neural Network Libraries
+- [Open Source Neural Network Libraries](https://www.baeldung.com/cs/ml-open-source-libraries)
 >> Word Embeddings: CBOW vs Skip-Gram
 >> Encoder-Decoder Models for Natural Language Processing
 >> Epoch in Neural Networks
