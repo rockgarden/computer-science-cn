@@ -40,7 +40,7 @@
 - [无模型强化学习与基于模型的强化学习](ai-model-free-vs-model-based-zh.md)
 - [0-1损失函数解释](ai-0-1-loss-function-zh.md)
 - [反向传播与前馈网络的区别](neural-networks-backprop-vs-feedforward-zh.md)
->> 交叉验证：交叉验证：K-折叠 vs. 一票否决
+- [交叉验证：K-折叠vs.一票否决](cross-validation-k-fold-loo-zh.md)
 >> 非策略与策略强化学习
 >> 神经网络反向传播中的偏差更新
 - [自然语言处理中的递归与递归神经网络](networks-in-nlp-zh.md)
@@ -135,7 +135,7 @@
 - [Model-free vs. Model-based Reinforcement Learning](https://www.baeldung.com/cs/ai-model-free-vs-model-based)
 - [0-1 Loss Function Explained](https://www.baeldung.com/cs/ai-0-1-loss-function)
 - [Differences Between Backpropagation and Feedforward Networks](https://www.baeldung.com/cs/neural-networks-backprop-vs-feedforward)
->> Cross-Validation: K-Fold vs. Leave-One-Out
+- [Cross-Validation: K-Fold vs. Leave-One-Out](https://www.baeldung.com/cs/cross-validation-k-fold-loo)
 >> Off-policy vs. On-policy Reinforcement Learning
 >> Bias Update in Neural Network Backpropagation
 - [Recurrent vs. Recursive Neural Networks in Natural Language Processing](https://www.baeldung.com/cs/networks-in-nlp)
