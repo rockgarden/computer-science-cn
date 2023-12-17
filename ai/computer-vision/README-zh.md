@@ -53,8 +53,8 @@ Neural Networks (19)Image Processing (11)Object Detection (11)Convolutional Neur
 >> Disparity Map in Stereo Vision
 >> Algorithm for Handwriting Recognition
 >> Intersection Over Union for Object Detection
->> Mean Average Precision in Object Detection
->> The Reparameterization Trick in Variational Autoencoders
+- [物体检测的平均精度](ml-map-object-detection-zh.md) [Mean Average Precision in Object Detection](https://www.baeldung.com/cs/ml-map-object-detection)
+- [变分自动编码器中的重参数化技巧](vae-reparameterization-zh.md) [The Reparameterization Trick in Variational Autoencoders](https://www.baeldung.com/cs/vae-reparameterization)
 >> Applications of Generative Models
 >> Calculate the Output Size of a Convolutional Layer
 >> Using GANs for Data Augmentation

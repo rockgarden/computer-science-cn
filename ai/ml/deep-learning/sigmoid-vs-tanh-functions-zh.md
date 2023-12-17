@@ -97,5 +97,3 @@
 8. 结论
 
     在本教程中，我们讨论了 tanh 和 sigmoid 这两个激活函数。首先，我们介绍了这两个术语，然后通过一个例子对这两个函数进行了描述和比较。
-
-[Activation Functions: Sigmoid vs Tanh](https://www.baeldung.com/cs/sigmoid-vs-tanh-functions)

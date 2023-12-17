@@ -41,25 +41,24 @@
 - [0-1损失函数解释](ai-0-1-loss-function-zh.md)
 - [反向传播与前馈网络的区别](neural-networks-backprop-vs-feedforward-zh.md)
 - [交叉验证：K-折叠vs.一票否决](cross-validation-k-fold-loo-zh.md)
->> 非策略与策略强化学习
->> 神经网络反向传播中的偏差更新
+- [非策略与策略强化学习](off-policy-vs-on-policy-zh.md)
+- [神经网络反向传播中的偏差更新](deep-learning-bias-backpropagation-zh.md)
 - [自然语言处理中的递归与递归神经网络](networks-in-nlp-zh.md)
->> 什么是神经网络中的 "瓶颈"？
->> 卷积神经网络与普通神经网络
->> 物体检测中的平均精度
+- [什么是神经网络中的"瓶颈"？](neural-network-bottleneck-zh.md)
+- [卷积神经网络与普通神经网络](convolutional-vs-regular-nn-zh.md)
+- [物体检测中的平均精度](../../computer-vision/ml-map-object-detection-zh.md)
 - [神经网络中的隐藏层](hidden-layers-neural-network-zh.md)
 - [监督学习和非监督学习的真实案例](examples-supervised-unsupervised-learning-zh.md)
 - [遗传算法在现实世界中的应用](genetic-algorithms-applications-zh.md)
->> 变异自动编码器中的重参数化技巧
->> 什么是机器学习中的归纳偏差？
->> 深度学习中的潜空间
->> 自编码器详解
->> 激活函数：Sigmoid vs Tanh
->> 对比学习简介
+- [变异自动编码器中的重参数化技巧](../../computer-vision/vae-reparameterization-zh.md)
+- [什么是机器学习中的归纳偏差？](ml-inductive-bias-zh.md)
+- [深度学习中的潜空间](dl-latent-space-zh.md)
+- [自编码器详解](autoencoders-explained-zh.md)
+- [激活函数：Sigmoid vs Tanh](sigmoid-vs-tanh-functions-zh.md)
+- [对比学习简介](contrastive-learning-zh.md)
 >> 机器学习中内核背后的直觉
 >> 图像比较算法
->> 图像处理： 遮挡
-图像处理
+>> 图像处理：遮挡
 >> 生成模型的应用
 >> 计算卷积层的输出大小
 - [生成对抗网络简介](generative-adversarial-networks-zh.md)
@@ -136,25 +135,24 @@
 - [0-1 Loss Function Explained](https://www.baeldung.com/cs/ai-0-1-loss-function)
 - [Differences Between Backpropagation and Feedforward Networks](https://www.baeldung.com/cs/neural-networks-backprop-vs-feedforward)
 - [Cross-Validation: K-Fold vs. Leave-One-Out](https://www.baeldung.com/cs/cross-validation-k-fold-loo)
->> Off-policy vs. On-policy Reinforcement Learning
->> Bias Update in Neural Network Backpropagation
+- [Off-policy vs. On-policy Reinforcement Learning](https://www.baeldung.com/cs/off-policy-vs-on-policy)
+- [Bias Update in Neural Network Backpropagation](https://www.baeldung.com/cs/deep-learning-bias-backpropagation)
 - [Recurrent vs. Recursive Neural Networks in Natural Language Processing](https://www.baeldung.com/cs/networks-in-nlp)
->> What Are “Bottlenecks” in Neural Networks?
->> Convolutional Neural Network vs. Regular Neural Network
->> Mean Average Precision in Object Detection
+- [What Are “Bottlenecks” in Neural Networks?](https://www.baeldung.com/cs/neural-network-bottleneck)
+- [Convolutional Neural Network vs. Regular Neural Network](https://www.baeldung.com/cs/convolutional-vs-regular-nn)
+- [Mean Average Precision in Object Detection](../../computer-vision/README-zh.md)
 - [Hidden Layers in a Neural Network](https://www.baeldung.com/cs/hidden-layers-neural-network)
 - [Real-Life Examples of Supervised Learning and Unsupervised Learning](https://www.baeldung.com/cs/examples-supervised-unsupervised-learning)
 - [Real-World Uses for Genetic Algorithms](https://www.baeldung.com/cs/genetic-algorithms-applications)
->> The Reparameterization Trick in Variational Autoencoders
->> What Is Inductive Bias in Machine Learning?
->> Latent Space in Deep Learning
->> Autoencoders Explained
->> Activation Functions: Sigmoid vs Tanh
->> An Introduction to Contrastive Learning
+- [The Reparameterization Trick in Variational Autoencoders](../../computer-vision/README-zh.md)
+- [What Is Inductive Bias in Machine Learning?](https://www.baeldung.com/cs/ml-inductive-bias)
+- [Latent Space in Deep Learning](https://www.baeldung.com/cs/dl-latent-space)
+- [Autoencoders Explained](https://www.baeldung.com/cs/autoencoders-explained)
+- [Activation Functions: Sigmoid vs Tanh](https://www.baeldung.com/cs/sigmoid-vs-tanh-functions)
+- [An Introduction to Contrastive Learning](https://www.baeldung.com/cs/contrastive-learning)
 >> Intuition Behind Kernels in Machine Learning
 >> Algorithms for Image Comparison
 >> Image Processing: Occlusions
-Image Processing
 >> Applications of Generative Models
 >> Calculate the Output Size of a Convolutional Layer
 - [An Introduction to Generative Adversarial Networks](https://www.baeldung.com/cs/generative-adversarial-networks)
