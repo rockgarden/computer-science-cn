@@ -3,8 +3,9 @@
 深度学习是一种利用神经网络进行机器学习的技术。了解训练、优化和使用多层神经网络的各种技术。
 
 - [卷积神经网络简介](/ai/ai-convolutional-neural-networks-zh.md)
->> GELU 解释
->> 什么是噪声对比估计损失？
+- [Softmax 对 Log Softmax](softmax-vs-log-softmax-zh.md)
+- [GELU 解释](gelu-activation-function-zh.md)
+- [什么是噪声对比估计损失？](pic/noise-contrastive-estimation-loss-zh.md)
 - [ReLU vs. LeakyReLU vs. PReLU](relu-vs-leakyrelu-vs-prelu-zh.md)
 - [饱和非线性](saturating-non-linearities-zh.md)
 - [人工智能图像生成器如何工作？](ai-image-generation-gans-dalle-zh.md)
@@ -99,8 +100,9 @@
 ## Deep Learning
 
 - [Introduction to Convolutional Neural Networks](https://www.baeldung.com/cs/ai-convolutional-neural-networks)
->> GELU Explained
->> What Is Noise Contrastive Estimation Loss?
+- [Softmax vs. Log Softmax](https://www.baeldung.com/cs/softmax-vs-log-softmax)
+- [GELU Explained](https://www.baeldung.com/cs/gelu-activation-function)
+- [What Is Noise Contrastive Estimation Loss?](https://www.baeldung.com/cs/noise-contrastive-estimation-loss)
 - [ReLU vs. LeakyReLU vs. PReLU](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu)
 - [Saturating Non-Linearities](https://www.baeldung.com/cs/saturating-non-linearities)
 - [How Do AI Image Generators Work?](https://www.baeldung.com/cs/ai-image-generation-gans-dalle)
