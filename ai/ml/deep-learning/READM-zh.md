@@ -3,6 +3,8 @@
 深度学习是一种利用神经网络进行机器学习的技术。了解训练、优化和使用多层神经网络的各种技术。
 
 - [卷积神经网络简介](/ai/ai-convolutional-neural-networks-zh.md)
+>> GELU 解释
+>> 什么是噪声对比估计损失？
 - [ReLU vs. LeakyReLU vs. PReLU](relu-vs-leakyrelu-vs-prelu-zh.md)
 - [饱和非线性](saturating-non-linearities-zh.md)
 - [人工智能图像生成器如何工作？](ai-image-generation-gans-dalle-zh.md)
@@ -56,22 +58,22 @@
 - [自编码器详解](autoencoders-explained-zh.md)
 - [激活函数：Sigmoid vs Tanh](sigmoid-vs-tanh-functions-zh.md)
 - [对比学习简介](contrastive-learning-zh.md)
->> 机器学习中内核背后的直觉
->> 图像比较算法
->> 图像处理：遮挡
->> 生成模型的应用
->> 计算卷积层的输出大小
+- [机器学习中内核背后的直觉](intuition-behind-kernels-in-machine-learning-zh.md)
+- [图像比较算法](image-comparison-algorithm-zh.md)
+- [图像处理：遮挡](image-processing-occlusions-zh.md)
+- [生成模型的应用](../../computer-vision/applications-of-generative-models-zh.md)
+- [计算卷积层的输出大小](../../computer-vision/convolutional-layer-size-zh.md)
 - [生成对抗网络简介](generative-adversarial-networks-zh.md)
->> 神经网络中的线性可分离数据
->> 使用 GAN 进行数据扩充
->> 学习率与批量大小的关系
+- [神经网络中的线性可分离数据](nn-linearly-separable-data-zh.md)
+- [使用GAN进行数据扩充]((../../computer-vision/convolutional-layer-size-zh.md))
+- [学习率与批量大小的关系](learning-rate-batch-size-zh.md)
 - [Word2vec单词嵌入操作：添加、串联还是平均单词向量？](word2vec-word-embeddings-zh.md)
->> 异常值检测和处理
->> 文本分类的特征选择和缩减
->> 为什么迷你批量比包含所有训练数据的单一"批量"更好？
+- [异常值检测和处理](ml-outlier-detection-handling-zh.md)
+- [文本分类的特征选择和缩减](feature-selection-reduction-for-text-classification-zh.md)
+- [为什么迷你批量比包含所有训练数据的单一"批量"更好？](mini-batch-vs-single-batch-training-data-zh.md)
 - [如何创建智能聊天机器人？](smart-chatbots-zh.md)
->> 如何计算 CNN 的感知场大小？
->> k 近邻和高维数据
+- [如何计算CNN的感知场大小？](cnn-receptive-field-size-zh.md)
+- [k近邻和高维数据](k-nearest-neighbors-zh.md)
 >> 在 SVM 中使用硬边际与软边际
 >> 强化学习中的值迭代与策略迭代
 >> 如何将文本序列转换为向量
@@ -97,6 +99,8 @@
 ## Deep Learning
 
 - [Introduction to Convolutional Neural Networks](https://www.baeldung.com/cs/ai-convolutional-neural-networks)
+>> GELU Explained
+>> What Is Noise Contrastive Estimation Loss?
 - [ReLU vs. LeakyReLU vs. PReLU](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu)
 - [Saturating Non-Linearities](https://www.baeldung.com/cs/saturating-non-linearities)
 - [How Do AI Image Generators Work?](https://www.baeldung.com/cs/ai-image-generation-gans-dalle)
@@ -150,23 +154,23 @@
 - [Autoencoders Explained](https://www.baeldung.com/cs/autoencoders-explained)
 - [Activation Functions: Sigmoid vs Tanh](https://www.baeldung.com/cs/sigmoid-vs-tanh-functions)
 - [An Introduction to Contrastive Learning](https://www.baeldung.com/cs/contrastive-learning)
->> Intuition Behind Kernels in Machine Learning
->> Algorithms for Image Comparison
->> Image Processing: Occlusions
->> Applications of Generative Models
->> Calculate the Output Size of a Convolutional Layer
+- [Intuition Behind Kernels in Machine Learning](https://www.baeldung.com/cs/intuition-behind-kernels-in-machine-learning)
+- [Algorithms for Image Comparison](https://www.baeldung.com/cs/image-comparison-algorithm)
+- [Image Processing: Occlusions](https://www.baeldung.com/cs/image-processing-occlusions)
+- [Applications of Generative Models](../../computer-vision/README-zh.md)
+- [Calculate the Output Size of a Convolutional Layer](../../computer-vision/README-zh.md)
 - [An Introduction to Generative Adversarial Networks](https://www.baeldung.com/cs/generative-adversarial-networks)
->> Linearly Separable Data in Neural Networks
->> Using GANs for Data Augmentation
->> Relation Between Learning Rate and Batch Size
+- [Linearly Separable Data in Neural Networks](https://www.baeldung.com/cs/nn-linearly-separable-data)
+- [Using GANs for Data Augmentation](../../computer-vision/README-zh.md)
+- [Relation Between Learning Rate and Batch Size](https://www.baeldung.com/cs/learning-rate-batch-size)
 - [Word2vec Word Embedding Operations: Add, Concatenate or Average Word Vectors?](https://www.baeldung.com/cs/word2vec-word-embeddings)
->> Outlier Detection and Handling
+- [Outlier Detection and Handling](https://www.baeldung.com/cs/ml-outlier-detection-handling)
 Probability and Statistics
->> Feature Selection and Reduction for Text Classification
->> Why Mini-Batch Size Is Better Than One Single “Batch” With All Training Data
+- [Feature Selection and Reduction for Text Classification](https://www.baeldung.com/cs/feature-selection-reduction-for-text-classification)
+- [Why Mini-Batch Size Is Better Than One Single “Batch” With All Training Data](https://www.baeldung.com/cs/mini-batch-vs-single-batch-training-data)
 - [How to Create a Smart Chatbot?](https://www.baeldung.com/cs/smart-chatbots)
->> How to Calculate Receptive Field Size in CNN
->> k-Nearest Neighbors and High Dimensional Data
+- [How to Calculate Receptive Field Size in CNN](https://www.baeldung.com/cs/cnn-receptive-field-size)
+- [k-Nearest Neighbors and High Dimensional Data](https://www.baeldung.com/cs/k-nearest-neighbors)
 >> Using a Hard Margin vs. Soft Margin in SVM
 >> Value Iteration vs. Policy Iteration in Reinforcement Learning
 >> How To Convert a Text Sequence to a Vector
