@@ -75,11 +75,11 @@
 - [如何创建智能聊天机器人？](smart-chatbots-zh.md)
 - [如何计算CNN的感知场大小？](cnn-receptive-field-size-zh.md)
 - [k近邻和高维数据](k-nearest-neighbors-zh.md)
->> 在 SVM 中使用硬边际与软边际
->> 强化学习中的值迭代与策略迭代
->> 如何将文本序列转换为向量
->> 实例归一化 vs 批量归一化
->> SVM 中精度与支持向量数量之间的权衡
+- [在SVM中使用硬边际与软边际](svm-hard-margin-vs-soft-margin-zh.md)
+- [强化学习中的值迭代与策略迭代](ml-value-iteration-vs-policy-iteration-zh.md)
+- [如何将文本序列转换为向量](text-sequence-to-vector-zh.md)
+- [实例归一化vs批量归一化](instance-vs-batch-normalization-zh.md)
+- [SVM中精度与支持向量数量之间的权衡](ml-accuracy-vs-number-of-support-vectors-svm-zh.md)
 - [开源神经网络库](ml-open-source-libraries-zh.md)
 >> 词嵌入： CBOW vs Skip-Gram
 >> 自然语言处理的编码器-解码器模型
@@ -173,11 +173,11 @@ Probability and Statistics
 - [How to Create a Smart Chatbot?](https://www.baeldung.com/cs/smart-chatbots)
 - [How to Calculate Receptive Field Size in CNN](https://www.baeldung.com/cs/cnn-receptive-field-size)
 - [k-Nearest Neighbors and High Dimensional Data](https://www.baeldung.com/cs/k-nearest-neighbors)
->> Using a Hard Margin vs. Soft Margin in SVM
->> Value Iteration vs. Policy Iteration in Reinforcement Learning
->> How To Convert a Text Sequence to a Vector
->> Instance vs Batch Normalization
->> Trade-offs Between Accuracy and the Number of Support Vectors in SVMs
+- [Using a Hard Margin vs. Soft Margin in SVM](https://www.baeldung.com/cs/svm-hard-margin-vs-soft-margin)
+- [Value Iteration vs. Policy Iteration in Reinforcement Learning](https://www.baeldung.com/cs/ml-value-iteration-vs-policy-iteration)
+- [How To Convert a Text Sequence to a Vector](https://www.baeldung.com/cs/text-sequence-to-vector)
+- [Instance vs Batch Normalization](https://www.baeldung.com/cs/instance-vs-batch-normalization)
+- [Trade-offs Between Accuracy and the Number of Support Vectors in SVMs](https://www.baeldung.com/cs/ml-accuracy-vs-number-of-support-vectors-svm)
 - [Open Source Neural Network Libraries](https://www.baeldung.com/cs/ml-open-source-libraries)
 >> Word Embeddings: CBOW vs Skip-Gram
 >> Encoder-Decoder Models for Natural Language Processing
