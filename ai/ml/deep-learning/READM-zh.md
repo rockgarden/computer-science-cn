@@ -81,21 +81,20 @@
 - [实例归一化vs批量归一化](instance-vs-batch-normalization-zh.md)
 - [SVM中精度与支持向量数量之间的权衡](ml-accuracy-vs-number-of-support-vectors-svm-zh.md)
 - [开源神经网络库](ml-open-source-libraries-zh.md)
->> 词嵌入： CBOW vs Skip-Gram
->> 自然语言处理的编码器-解码器模型
->> 神经网络中的纪元
->> 神经网络中权重的随机初始化
->> 卷积神经网络中的批量归一化
->> 神经网络与 SVM 相比的优缺点
->> 神经网络架构： 选择隐藏层的数量和大小的标准
->> 情感分析的训练数据
->> 多类分类的 F-1 分数
->> 什么是强化学习中的策略？
->> 梯度下降和梯度上升有什么区别？
->> 人工神经网络输入归一化
->> 卷积神经网络简介
->> 神经网络中的偏差
->> 理解CNN中的维度
+- [词嵌入：CBOWvsSkip-Gram](word-embeddings-cbow-vs-skip-gram-zh.md)
+- [自然语言处理的编码器-解码器模型](nlp-encoder-decoder-models-zh.md)
+- [神经网络中的纪元](epoch-neural-networks-zh.md)
+- [神经网络中权重的随机初始化](ml-neural-network-weights-zh.md)
+- [卷积神经网络中的批量归一化](batch-normalization-cnn-zh.md)
+- [神经网络与SVM相比的优缺点](ml-ann-vs-svm-zh.md)
+- [神经网络架构：选择隐藏层的数量和大小的标准](neural-networks-hidden-layers-criteria-zh.md)
+- [情感分析的训练数据](sentiment-analysis-training-data-zh.md)
+- [多类分类的F-1分数](multi-class-f1-score-zh.md)
+- [什么是强化学习中的策略？](ml-policy-reinforcement-learning-zh.md)
+- [梯度下降和梯度上升有什么区别？](gradient-descent-vs-ascent-zh.md)
+- [人工神经网络输入归一化](normalizing-inputs-artificial-neural-network-zh.md)
+- [神经网络中的偏差](neural-networks-bias-zh.md)
+- [理解CNN中的维度](ml-understanding-dimensions-cnn-zh.md)
 
 ## Deep Learning
 
@@ -179,18 +178,17 @@ Probability and Statistics
 - [Instance vs Batch Normalization](https://www.baeldung.com/cs/instance-vs-batch-normalization)
 - [Trade-offs Between Accuracy and the Number of Support Vectors in SVMs](https://www.baeldung.com/cs/ml-accuracy-vs-number-of-support-vectors-svm)
 - [Open Source Neural Network Libraries](https://www.baeldung.com/cs/ml-open-source-libraries)
->> Word Embeddings: CBOW vs Skip-Gram
->> Encoder-Decoder Models for Natural Language Processing
->> Epoch in Neural Networks
->> Random Initialization of Weights in a Neural Network
->> Batch Normalization in Convolutional Neural Networks
->> Advantages and Disadvantages of Neural Networks Against SVMs
->> Neural Network Architecture: Criteria for Choosing the Number and Size of Hidden Layers
->> Training Data for Sentiment Analysis
->> F-1 Score for Multi-Class Classification
->> What Is a Policy in Reinforcement Learning?
->> What Is the Difference Between Gradient Descent and Gradient Ascent?
->> Normalizing Inputs for an Artificial Neural Network
->> Introduction to Convolutional Neural Networks
->> Bias in Neural Networks
->> Understanding Dimensions in CNNs
+- [Word Embeddings: CBOW vs Skip-Gram](https://www.baeldung.com/cs/word-embeddings-cbow-vs-skip-gram)
+- [Encoder-Decoder Models for Natural Language Processing](https://www.baeldung.com/cs/nlp-encoder-decoder-models)
+- [Epoch in Neural Networks](https://www.baeldung.com/cs/epoch-neural-networks)
+- [Random Initialization of Weights in a Neural Network](https://www.baeldung.com/cs/ml-neural-network-weights)
+- [Batch Normalization in Convolutional Neural Networks](https://www.baeldung.com/cs/batch-normalization-cnn)
+- [Advantages and Disadvantages of Neural Networks Against SVMs](https://www.baeldung.com/cs/ml-ann-vs-svm)
+- [Neural Network Architecture: Criteria for Choosing the Number and Size of Hidden Layers](https://www.baeldung.com/cs/neural-networks-hidden-layers-criteria)
+- [Training Data for Sentiment Analysis](https://www.baeldung.com/cs/sentiment-analysis-training-data)
+- [F-1 Score for Multi-Class Classification](https://www.baeldung.com/cs/multi-class-f1-score)
+- [What Is a Policy in Reinforcement Learning?](https://www.baeldung.com/cs/ml-policy-reinforcement-learning)
+- [What Is the Difference Between Gradient Descent and Gradient Ascent?](https://www.baeldung.com/cs/gradient-descent-vs-ascent)
+- [Normalizing Inputs for an Artificial Neural Network](https://www.baeldung.com/cs/normalizing-inputs-artificial-neural-network)
+- [Bias in Neural Networks](https://www.baeldung.com/cs/neural-networks-bias)
+- [Understanding Dimensions in CNNs](https://www.baeldung.com/cs/ml-understanding-dimensions-cnn)
