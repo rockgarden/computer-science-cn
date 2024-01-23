@@ -140,5 +140,3 @@
 6. 结论
 
     在本文中，我们谈到了置信区间。它们量化了不确定性，但很容易被误解。置信度表示包含实际值的区间的长期频率，而不是我们的特定区间包含实际值的概率。
-
-[Confidence Intervals](https://www.baeldung.com/cs/confidence-intervals-statistics)
