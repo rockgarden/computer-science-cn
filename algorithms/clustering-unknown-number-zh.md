@@ -103,5 +103,3 @@
     我们举例说明了在不知道有多少个聚类的情况下可以使用的算法类型。一旦确定有多少个聚类，我们就可以使用[K-Means聚类算法](https://www.baeldung.com/java-k-means-clustering-algorithm)来更深入地了解我们的数据。
 
     聚类只是数据分析的一种探索性算法。数据探索只是数据科学过程中的一个步骤。要深入了解有助于整个过程的工具，请查看我们的 [Spark MLlib](https://www.baeldung.com/spark-mlib-machine-learning) 指南。
-
-- [ ] [Clustering Into an Unknown Number of Clusters](https://www.baeldung.com/cs/clustering-unknown-number)

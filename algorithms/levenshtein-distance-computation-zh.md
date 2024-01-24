@@ -169,5 +169,3 @@
     我们看到，最坏情况下的复杂度是四次方的，因此，可能的优化问题对于我们提供可用的实现至关重要。
 
     最后，我们注意到，除了一些直接降低计算成本的技术外，还可以使用不同的方法来解决议程上的任务。
-
-- [ ] [Levenshtein Distance Computation](https://www.baeldung.com/cs/levenshtein-distance-computation)

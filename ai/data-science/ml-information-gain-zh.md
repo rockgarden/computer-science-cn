@@ -1,6 +1,6 @@
 # 机器学习中的信息增益
 
-[机器学习](https://www.baeldung.com/cs/category/ai/ml) [数据科学](https://www.baeldung.com/cs/category/ai/data-science)
+[数据科学](https://www.baeldung.com/cs/category/ai/data-science) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
 [熵](https://www.baeldung.com/cs/tag/entropy)
 
@@ -150,5 +150,3 @@
 4. 结论
 
     在本文中，我们展示了如何计算信息增益。此外，我们还讨论了信息论中的熵及其与不确定性的联系。
-
-[Information Gain in Machine Learning](https://www.baeldung.com/cs/ml-information-gain#id2306625574)
