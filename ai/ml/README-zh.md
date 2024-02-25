@@ -15,21 +15,22 @@
 - [什么是噪声对比估计损失？](./deep-learning/noise-contrastive-estimation-loss-zh.md)
 - [ReLU vs. LeakyReLU vs. PReLU](./deep-learning/relu-vs-leakyrelu-vs-prelu-zh.md)
 - [如何计算分类器的VC维度？](vapnik-chervonenkis-dimension-computation-zh.md)
->> 如何处理逻辑回归中的缺失数据？
->> 如何用 SMOTE 处理不平衡数据？
->> 如何绘制 Logistic 回归的决策边界？
->> 交叉熵和 KL Divergence 有什么区别？
->> 什么是 Hopfield 网络？
->> 神经网络： 阶梯卷积
->> 与标准 PCA 相比，核 PCA 有哪些优势？
->> 人工智能图像生成器如何工作？
->> 什么是 TinyML？
->> 用于聚类的 GMM
+- [如何处理逻辑回归中的缺失数据？](logistic-regression-missing-data-zh.md)
+- [如何用 SMOTE 处理不平衡数据？](synthetic-minority-oversampling-technique-zh.md)
+- [如何绘制 Logistic 回归的决策边界？](draw-logistic-regression-decision-boundary-zh.md)
+- [交叉熵和 KL Divergence 有什么区别？](cross-entropy-vs-kullback-leibler-divergence-zh.md)
+- [饱和非线性](./deep-learning/saturating-non-linearities-zh.md)
+- [什么是 Hopfield 网络？](hopfield-network-zh.md)
+- [神经网络：阶梯卷积](neural-nets-strided-convolutions-zh.md)
+- [与标准 PCA 相比，核 PCA 有哪些优势？](kernel-principal-component-analysis-zh.md)
+- [人工智能图像生成器如何工作？](./deep-learning/ai-image-generation-gans-dalle-zh.md)
+- [什么是TinyML？](tinyml-zh.md)
+>> 用于聚类的GMM
 >> 数据质量解释
 >> 统计在机器学习中的重要性
 >> 如何提前停止？
 >> 高斯混合模型
->> 机器学习的 Python
+>> 机器学习的Python
 >> 什么是奇异值分解？
 >> 机器学习中的装袋、提升和堆叠
 >> 尖峰神经网络简介
@@ -232,16 +233,16 @@
 - What Is Noise Contrastive Estimation Loss?
 - ReLU vs. LeakyReLU vs. PReLU
 - [How to Calculate the VC-Dimension of a Classifier?](https://www.baeldung.com/cs/vapnik-chervonenkis-dimension-computation)
->> How to Handle Missing Data in Logistic Regression?
->> How to Handle Unbalanced Data With SMOTE?
->> How to Plot Logistic Regression’s Decision Boundary?
->> What’s the Difference Between Cross-Entropy and KL Divergence?
->> Saturating Non-Linearities
->> What Is A Hopfield Network?
->> Neural Networks: Strided Convolutions
->> What Are the Advantages of Kernel PCA Over Standard PCA?
->> How Do AI Image Generators Work?
->> What Is TinyML?
+- [How to Handle Missing Data in Logistic Regression?](https://www.baeldung.com/cs/logistic-regression-missing-data)
+- [How to Handle Unbalanced Data With SMOTE?](https://www.baeldung.com/cs/synthetic-minority-oversampling-technique)
+- [How to Plot Logistic Regression’s Decision Boundary?](https://www.baeldung.com/cs/draw-logistic-regression-decision-boundary)
+- [What’s the Difference Between Cross-Entropy and KL Divergence?](https://www.baeldung.com/cs/cross-entropy-vs-kullback-leibler-divergence)
+- Saturating Non-Linearities
+- [What Is A Hopfield Network?](https://www.baeldung.com/cs/hopfield-network)
+- [Neural Networks: Strided Convolutions](https://www.baeldung.com/cs/neural-nets-strided-convolutions)
+- [What Are the Advantages of Kernel PCA Over Standard PCA?](https://www.baeldung.com/cs/kernel-principal-component-analysis)
+- How Do AI Image Generators Work?
+- [What Is TinyML?](https://www.baeldung.com/cs/tinyml)
 >> GMMs for Clustering
 >> Data Quality Explained
 >> Importance of Statistics in Machine Learning
