@@ -1,8 +1,8 @@
 # 用于机器学习的 Python
 
-[机器学习](https://www.baeldung.com/cs/category/ai/ml) [编程](https://www.baeldung.com/cs/category/core-concepts/programming)
+[机器学习](README-zh.md) [编程](https://www.baeldung.com/cs/category/core-concepts/programming)
 
-[项目管理](https://www.baeldung.com/cs/tag/project-management)
+[项目管理](https://www.baeldung.com/cs/tag/project-management) [Python](https://www.baeldung.com/cs/tag/python)
 
 1. 简介
 
@@ -133,5 +133,3 @@
     本文将 Python 作为机器学习问题的核心编程语言进行了研究。
 
     最后，我们发现 Python 在实现机器学习算法方面优于其他语言，因为它简单、灵活、支持丰富的库，而且用户社区非常活跃。
-
-[Python for Machine Learning](https://www.baeldung.com/cs/python-ml-programming)

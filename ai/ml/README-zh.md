@@ -25,13 +25,13 @@
 - [与标准 PCA 相比，核 PCA 有哪些优势？](kernel-principal-component-analysis-zh.md)
 - [人工智能图像生成器如何工作？](./deep-learning/ai-image-generation-gans-dalle-zh.md)
 - [什么是TinyML？](tinyml-zh.md)
->> 用于聚类的GMM
->> 数据质量解释
->> 统计在机器学习中的重要性
->> 如何提前停止？
->> 高斯混合模型
->> 机器学习的Python
->> 什么是奇异值分解？
+- [用于聚类的GMM](gaussian-mixture-models-clustering-zh.md)
+- [数据质量解释](../data-science/data-quality-zh.md)
+- [统计在机器学习中的重要性](ml-statistics-significance-zh.md)
+- [如何提前停止？](early-stopping-regularization-zh.md)
+- [高斯混合模型](gaussian-mixture-models-zh.md)
+- [机器学习的Python](python-ml-programming-zh.md)
+- [什么是奇异值分解？](svd-matrices-zh.md)
 >> 机器学习中的装袋、提升和堆叠
 >> 尖峰神经网络简介
 >> K-均值算法的缺点
@@ -243,13 +243,13 @@
 - [What Are the Advantages of Kernel PCA Over Standard PCA?](https://www.baeldung.com/cs/kernel-principal-component-analysis)
 - How Do AI Image Generators Work?
 - [What Is TinyML?](https://www.baeldung.com/cs/tinyml)
->> GMMs for Clustering
->> Data Quality Explained
->> Importance of Statistics in Machine Learning
->> How to Do Early Stopping?
->> Gaussian Mixture Models
->> Python for Machine Learning
->> What Is Singular Value Decomposition?
+- [GMMs for Clustering](https://www.baeldung.com/cs/gaussian-mixture-models-clustering)
+- Data Quality Explained
+- [Importance of Statistics in Machine Learning](https://www.baeldung.com/cs/ml-statistics-significance)
+- [How to Do Early Stopping?](https://www.baeldung.com/cs/early-stopping-regularization)
+- [Gaussian Mixture Models](https://www.baeldung.com/cs/gaussian-mixture-models)
+- [Python for Machine Learning](https://www.baeldung.com/cs/python-ml-programming)
+- [What Is Singular Value Decomposition?](https://www.baeldung.com/cs/svd-matrices)
 >> Bagging, Boosting, and Stacking in Machine Learning
 >> Introduction to Spiking Neural Networks
 >> The Drawbacks of K-Means Algorithm

@@ -42,7 +42,7 @@
 
         \[\begin{equation*} t = \dfrac{\overline{x} - \mu}{\dfrac{s}{\sqrt{n}}} \end{equation*}\]
 
-        其中，t、$\overline{x}$、$\mu$、s、n 分别表示 t 分数、样本平均数、[零假设](https://www.baeldung.com/cs/ml-statistics-significance)下的假设总体平均数、样本标准差和样本量。
+        其中，t、$\overline{x}$、$\mu$、s、n 分别表示 t 分数、样本平均数、零假设下的假设总体平均数、样本标准差和样本量。
 
     2. 解释 t 分数
 
