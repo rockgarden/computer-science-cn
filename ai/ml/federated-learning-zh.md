@@ -2,7 +2,7 @@
 
 [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
-[培训](https://www.baeldung.com/cs/tag/training)
+[训练](https://www.baeldung.com/cs/tag/training)
 
 1. 简介
 

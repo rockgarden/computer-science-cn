@@ -32,8 +32,8 @@
 - [高斯混合模型](gaussian-mixture-models-zh.md)
 - [机器学习的Python](python-ml-programming-zh.md)
 - [什么是奇异值分解？](svd-matrices-zh.md)
->> 机器学习中的装袋、提升和堆叠
->> 尖峰神经网络简介
+- [机器学习中的装袋、提升和堆叠](bagging-boosting-stacking-ml-ensemble-models-zh.md)
+- [尖峰神经网络简介](spiking-neural-networks-zh.md)
 >> K-均值算法的缺点
 >> 从 RNN 到变形器
 >> 机器学习： 分析学习
@@ -218,7 +218,7 @@
 >> 特征缩放
 >> 监督学习、半监督学习、无监督学习和强化学习简介
 
-## Machine Learning
+## [Machine Learning](https://www.baeldung.com/cs/category/core-concepts/data-structures)
 
 - [Support Vector Machines (SVM)](https://www.baeldung.com/cs/ml-support-vector-machines)
 - Introduction to Convolutional Neural Networks
@@ -250,8 +250,8 @@
 - [Gaussian Mixture Models](https://www.baeldung.com/cs/gaussian-mixture-models)
 - [Python for Machine Learning](https://www.baeldung.com/cs/python-ml-programming)
 - [What Is Singular Value Decomposition?](https://www.baeldung.com/cs/svd-matrices)
->> Bagging, Boosting, and Stacking in Machine Learning
->> Introduction to Spiking Neural Networks
+- [Bagging, Boosting, and Stacking in Machine Learning](https://www.baeldung.com/cs/bagging-boosting-stacking-ml-ensemble-models)
+- [Introduction to Spiking Neural Networks](https://www.baeldung.com/cs/spiking-neural-networks)
 >> The Drawbacks of K-Means Algorithm
 >> From RNNs to Transformers
 >> Machine Learning: Analytical Learning

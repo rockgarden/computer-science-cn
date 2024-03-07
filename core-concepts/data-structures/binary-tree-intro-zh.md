@@ -1,6 +1,6 @@
 # 二叉树数据结构简介
 
-[数据结构](https://www.baeldung.com/cs/category/data-structures) [树](https://www.baeldung.com/cs/category/graph-theory/trees)
+[数据结构](README-zh.md) [树](https://www.baeldung.com/cs/category/graph-theory/trees)
 
 [二叉树](https://www.baeldung.com/cs/tag/binary-tree)
 
@@ -39,12 +39,12 @@
 
     在本节中，我们将讨论六种二叉树类型，并通过图解对每种类型进行描述。
 
-    1. 完全二叉树
+    1. 完整二叉树
 
         当二叉树的每个内部节点都有 0 个或 2 个子节点时，我们就称它为全二叉树：
 
         ![全二叉树](pic/full_binary_tree.webp)
-    2. 完全二叉树
+    2. 完美二叉树
 
         完全二叉树是一种特殊的二叉树，其中所有叶节点都在同一层次，每个内部节点都有两个子节点：
 
@@ -71,7 +71,7 @@
         ![平衡二叉树](pic/balanced_binary_tree-1.webp)
 5. 应用
 
-    二叉树的概念还衍生出许多其他数据结构，如[二叉搜索树](https://www.baeldung.com/cs/binary-search-trees)、语法树、堆、哈希树、[红黑树](https://www.baeldung.com/cs/red-black-trees)、[二叉三叉树](https://www.baeldung.com/trie-java)、[AVL树](https://www.baeldung.com/java-avl-trees)、GGM 树、T 树和 Treap。
+    二叉树的概念还衍生出许多其他数据结构，如[二叉搜索树](binary-search-trees-zh.md)、语法树、堆、哈希树、[红黑树](https://www.baeldung.com/cs/red-black-trees)、[二叉三叉树](https://www.baeldung.com/trie-java)、[AVL树](https://www.baeldung.com/java-avl-trees)、GGM 树、T 树和 Treap。
 
     二叉树在现实生活中的其他应用包括二叉空间分区、[堆排序](https://www.baeldung.com/java-heap-sort)、哈夫曼编码、虚拟内存管理和索引。
 
@@ -81,4 +81,3 @@
 
     然后，我们结合示例讨论了六种二叉树类型。最后，我们列出了二叉树的各种应用。
 
-[Introduction to the Binary Tree Data Structure](https://www.baeldung.com/cs/binary-tree-intro)

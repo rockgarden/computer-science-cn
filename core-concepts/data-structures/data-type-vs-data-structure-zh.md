@@ -1,6 +1,6 @@
 # 数据类型与数据结构的区别
 
-[Differences Between a Data Type and a Data Structure](https://www.baeldung.com/cs/data-type-vs-data-structure)
+[数据结构](README-zh.md)
 
 1. 简介
 
