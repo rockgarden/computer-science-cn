@@ -1,5 +1,7 @@
 # 图形着色的建设性算法
 
+[算法](README-zh.md)
+
 1. 概述
 
     在本教程中，我们将介绍解决图形[着色问题](https://www.baeldung.com/cs/graphs-vertex-colouring)的著名算法。首先，我们将定义该问题并举例说明。然后，我们将展示贪婪方法和 DSatur 方法，并讨论它们的最优性。

@@ -1,6 +1,6 @@
 # 分支与边界算法
 
-[算法](https://www.baeldung.com/cs/category/algorithms)
+[算法](README-zh.md)
 
 1. 概述
 

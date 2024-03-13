@@ -4,8 +4,9 @@
 
 - [二叉树数据结构简介](binary-tree-intro-zh.md)
 - [标量和原始数据类型之间的差异](scalars-vs-primitive-data-types-zh.md)
->>消息队列简介
->> 二项式堆
+- [消息队列简介](message-queues-zh.md)
+- [二项式堆](binomial-heaps-zh.md)
+
 >>数据结构：随机搜索树（RST）
 >>内存堆和堆是什么以及在哪里？
 >> Ukkonen的后缀树算法
@@ -24,8 +25,10 @@
 >>堆栈的数组实现
 >> 圆形缓冲区
 >>哈希-线性探测
+
 - [数据类型和数据结构之间的差异](data-type-vs-data-structure-zh.md)
->>字典的最佳数据结构
+- [字典的最佳数据结构](language-dictionary-data-structure-zh.md)
+
 >>了解芬威克树（Binary Indexed Tree）
 >>哪个更快-哈希查找还是二进制搜索？
 >>树顺序和学位的区别
@@ -35,10 +38,18 @@
 >>了解哈希表
 >>哈希表与Trie（前缀树）
 >>红黑树与AVL树
+
+- [二进制搜索树的快速指南](binary-search-trees-zh.md)
+
 >>二叉树与二进制搜索树
->>红黑树的应用
+
+- [ ] [红黑树简介](red-black-trees-zh.md)
+- [红黑树的应用](red-black-trees-applications-zh.md)
+
 >> B树数据结构
->>平衡的树木
+
+- [平衡的树](balanced-trees-zh.md)
+
 >>树与图形数据结构
 >>跳过列表数据结构
 >>从列表到森林
@@ -69,11 +80,9 @@
 >>一棵树上两个节点的最低共同祖先
 >>自平衡二进制搜索树
 >>定向非循环图的拓扑类型
->>红黑树简介
 >>树木结构之间的差异
 >>有向图和无向图有什么区别
 >>队列类型
-- [二进制搜索树的快速指南](binary-search-trees-zh.md)
 >>使用两个队列实现堆栈
 >>尝试（前缀树）
 >>B树和B+树的区别
@@ -85,8 +94,9 @@
 
 - [Introduction to the Binary Tree Data Structure](https://www.baeldung.com/cs/binary-tree-intro)
 - [Differences Between Scalars and Primitive Data Types](https://www.baeldung.com/cs/scalars-vs-primitive-data-types)
->> Introduction to Message Queues
->> Binomial Heaps
+- [Introduction to Message Queues](https://www.baeldung.com/cs/message-queues)
+- [Binomial Heaps](https://www.baeldung.com/cs/binomial-heaps)
+
 >> Data Structures: Randomized Search Trees (RSTs)
 >> What and Where Are the Memory Stack and Heap?
 >> Ukkonen’s Suffix Tree Algorithm
@@ -105,8 +115,10 @@
 >> Array Implementation of Stacks
 >> Circular Buffer
 >> Hashing – Linear Probing
+
 - [Differences Between a Data Type and a Data Structure](https://www.baeldung.com/cs/data-type-vs-data-structure)
->> Best Data Structure for Dictionaries
+- [Best Data Structure for Dictionaries](https://www.baeldung.com/cs/language-dictionary-data-structure)
+
 >> Understanding Fenwick Tree (Binary Indexed Tree)
 >> Which Is Faster – Hash Lookup or Binary Search?
 >> Difference Between Tree Order and Degree
@@ -117,9 +129,11 @@
 >> Hash Table vs. Trie (Prefix Tree)
 >> Red-Black Tree vs. AVL Tree
 >> Binary Tree vs. Binary Search Tree
->> Applications of Red-Black Trees
+>> [Applications of Red-Black Trees](https://www.baeldung.com/cs/red-black-trees-applications)
 >> B-tree Data Structure
->> Balanced Trees
+
+- [Balanced Trees](https://www.baeldung.com/cs/balanced-trees)
+
 >> Tree vs Graph Data Structure
 >> The Skip List Data Structure
 >> From Lists to Forests
@@ -150,11 +164,15 @@
 >> Lowest Common Ancestor of Two Nodes in a Tree
 >> Self-Balancing Binary Search Trees
 >> Topological Sort of Directed Acyclic Graph
->> Introduction to Red-Black Trees
+
+- [Introduction to Red-Black Trees](https://www.baeldung.com/cs/red-black-trees)
+
 >> Differences Between Tree Structures
 >> What Is the Difference Between a Directed and an Undirected Graph
 >> Types of Queues
+
 - [A Quick Guide to Binary Search Trees](https://www.baeldung.com/cs/binary-search-trees)
+
 >> Implement Stack Using Two Queues
 >> Tries (Prefix Trees)
 >> The Difference Between B-trees and B+trees

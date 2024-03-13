@@ -1,6 +1,6 @@
 # 莱文斯坦距离计算
 
-[算法](https://www.baeldung.com/cs/category/algorithms) [数据科学](https://www.baeldung.com/cs/category/ai/data-science)
+[算法](README-zh.md) [数据科学](https://www.baeldung.com/cs/category/ai/data-science)
 
 1. 简介
 

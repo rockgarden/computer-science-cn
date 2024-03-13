@@ -1,6 +1,6 @@
 # 梯度下降算法背后的直觉
 
-[算法](https://www.baeldung.com/cs/category/algorithms) [核心概念](https://www.baeldung.com/cs/category/core-concepts)
+[算法](README-zh.md) [核心概念](https://www.baeldung.com/cs/category/core-concepts)
 
 [优化](https://www.baeldung.com/cs/tag/optimization)
 

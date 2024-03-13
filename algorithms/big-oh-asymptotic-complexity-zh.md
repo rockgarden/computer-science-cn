@@ -1,6 +1,6 @@
 # 网络安全和字符串搜索中的暴力算法
 
-<https://www.baeldung.com/cs/brute-force-cybersecurity-string-search>
+[算法](README-zh.md)
 
 1. 概述
 

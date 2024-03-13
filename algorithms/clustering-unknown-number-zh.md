@@ -1,6 +1,6 @@
 # 向未知数量的群集聚类
 
-[算法](https://www.baeldung.com/cs/category/algorithms) [数据科学](https://www.baeldung.com/cs/category/ai/data-science)
+[算法](README-zh.md) [数据科学](https://www.baeldung.com/cs/category/ai/data-science)
 
 [聚类](https://www.baeldung.com/cs/tag/clustering)
 
