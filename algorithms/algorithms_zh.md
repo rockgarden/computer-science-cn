@@ -5,9 +5,7 @@
 阵列（34）元启发式（27）二叉树（22）优化（21）弦乐（14）戴克斯特拉（14）DFS（12）几何（12）动态编程（12）自然语言处理（11）快速索要（10）BFS（9）合并排序（9）概率和统计（8）哈希（8）链接列表（8）堆（7）游戏算法（6）NP-完整（6）矩阵（5）压缩（4）堆排序（4）普里姆（4）密码学（3）神经网络（2）组合学（2）日程安排（2）图像处理（2）正式语言（2）克鲁斯卡尔（2）非循环图（2）循环图（2）
 
 >> 普里姆算法
-参考文献
 >> Dijkstra 算法概述
-参考文献
 >> 差分进化算法
 >> 蝙蝠算法
 >> 可接受启发式算法能确保最优解吗？
@@ -15,14 +13,12 @@
 >> 欧拉电路和路径： 弗勒里算法
 >> 遗传算法中的部分映射交叉
 >> 如何在整盘棋中对棋盘状态进行编码？
-游戏算法
 >> 如何制作学校时间表？
 >> 将光频转换为 RGB
 >> 插值搜索
 >> MPEG-4 压缩是如何工作的？
 >> 如何测量排序？
 >> 电脑游戏地图的程序生成
-游戏算法
 >> 了解蒙特卡罗模拟
 >> 二进制搜索的复杂性
 >> 亚马逊推荐系统如何工作？
@@ -41,7 +37,6 @@
 >> 耐心排序算法
 >> 布雷森纳姆线算法
 >> 正则表达式匹配没有特定单词的文本
-形式语言
 >> Ukkonen 的后缀树算法
 >> 在地图上计算路线的算法
 >> 埃尔加马尔加密算法
@@ -49,22 +44,18 @@
 >> JPEG 压缩解析
 >> 模拟退火解释
 >> 查找前 10 个搜索词
-哈希算法
 >> 全对最短路径： 约翰逊算法
 >> 哈维尔-哈基米算法
 >> 蝙蝠算法
 >> 二叉树的级阶遍历
 >> 短文本串的高效压缩算法
 >> 散列--分离链
-散列
 >> 布谷鸟散列
-散列
 >> 黏菌算法
 >> 遗传算法： 一阶交叉
 >> 什么是循环复杂性？
 >> 从递归到迭代 - 因式函数示例
 >> 检查数组中任意两个数的和是否与给定的数相匹配
-散列
 >> 布谷鸟搜索算法
 >> 稳定婚姻问题
 >> 排程： 最早截止时间优先
@@ -75,7 +66,6 @@
 >> 重新排列数组，把负数元素放在正数元素之前
 >> 多目标算法和帕累托前沿的定义
 >> 如何将有限自动机转换为正则表达式？
-形式语言
 >> 萤火虫算法
 >> 跳转列表与二叉搜索树的比较
 >> 同构树
@@ -128,7 +118,6 @@
 >> 餐饮哲学家
 >> 非重复随机数生成器
 >> 哈希查找和二进制搜索哪个更快？
-散列
 >> 如何在两个排序数组中查找共同元素
 >> MapReduce 算法
 >> 如何计算颜色的相似度
@@ -141,9 +130,7 @@
 >> 什么是马尔可夫链蒙特卡罗？
 >> 高效排序关联列表
 >> 了解散列表
-散列
 >> 蚂蚁雄狮优化
-
 >> 如何查找到达数组末尾的最小跳转次数
 >> 如何求数组中元素间的最小差值
 >> 蜻蜓算法
@@ -181,13 +168,11 @@
 >> 启发式与算法的区别
 >> 圆线段碰撞检测算法
 >> 最小值算法
-游戏算法
 >> 阿克拉-巴兹法
 >> 寻找路径的双向搜索
 >> 计算数据包的总传输时间
 >> 如何解决约束满足问题
 >> Expectimax 搜索算法
-游戏算法
 >> 草蜢优化算法
 >> 寻找 L 左可见块和 R 右可见块的块的排列方式
 >> Dijkstra vs. A* - 寻路
@@ -197,7 +182,6 @@
 >> 均匀成本搜索 vs. 最佳优先搜索
 >> 有信息搜索与无信息搜索算法
 >> 寻找所有井字游戏获胜组合
-游戏算法
 >> 在 DFS、BFS 和 Dijkstra 算法中追踪路径
 >> 光束搜索算法
 >> 迭代深化与深度优先搜索
@@ -278,7 +262,6 @@
 
 >> 旅行推销员问题--动态编程方法
 >> 哈希算法和加密算法的根本区别
-散列
 >> 矩阵乘法算法的时间复杂性
 >> 堆与二叉搜索树
 >> 数组中的反转计数
@@ -354,7 +337,6 @@
 >> 最小生成树与最短路径树
 >> Knuth-Morris-Pratt 算法
 >> 游戏 2048 的最佳算法是什么？
-游戏算法
 >> BFS 算法和 Dijkstra 算法的区别
 >> 无向图中的循环
 >> 贪婪方法与动态编程
@@ -516,7 +498,6 @@ Hashing
 >> What Is Markov Chain Monte Carlo?
 >> Efficiently Sorting Linked Lists
 >> Understanding Hash Tables
-Hashing
 >> Ant Lion Optimization
 >> Finding the Minimum Number of Jumps to Reach the End of an Array
 >> How to Find the Minimum Difference Between Elements in an Array
@@ -555,13 +536,11 @@ Hashing
 >> The Difference Between a Heuristic and an Algorithm
 >> Circle Line-Segment Collision Detection Algorithm
 >> Minimax Algorithm
-Gameplay Algorithms
 >> The Akra-Bazzi Method
 >> Bidirectional Search for Path Finding
 >> Calculating Total Transmission Time of a Packet
 >> How to Solve Constraint Satisfaction Problems
 >> Expectimax Search Algorithm
-Gameplay Algorithms
 >> Grasshopper Optimization Algorithm
 >> Finding Arrangements of Blocks With L Left Visible Blocks and R Right Visible Blocks
 >> Dijkstra vs. A* – Pathfinding
@@ -571,7 +550,6 @@ Gameplay Algorithms
 >> Uniform-Cost Search vs. Best-First Search
 >> The Informed vs. Uninformed Search Algorithms
 >> Finding All Tic-Tac-Toe Winning Combinations
-Gameplay Algorithms
 >> Tracing the Path in DFS, BFS, and Dijkstra’s Algorithm
 >> Beam Search Algorithm
 >> Iterative Deepening vs. Depth-First Search
