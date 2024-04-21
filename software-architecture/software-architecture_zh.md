@@ -83,10 +83,14 @@
 
 >> 分层架构
 >> 无服务器架构简介
->> 分布式系统与分布式计算？
+
+- [分布式系统与分布式计算？](distributed-system-vs-distributed-computing_zh.md)
+
 >> REST 架构
 >> 运行时与编译时
->> 微服务与交叉关注点
+
+- [微服务与交叉关注点](microservices-cross-cutting-concerns_zh.md)
+
 >> 微服务架构中的数据库设计
 >> 层与层之间的区别
 >> 微服务中的传奇模式
@@ -174,10 +178,14 @@ Design Patterns (13)Databases (12)Distributed Systems and Programming (10)Cloud 
 
 >> Layered Architecture
 >> Introduction to Serverless Architecture
->> Distributed System vs. Distributed Computing?
+
+- Distributed System vs. Distributed Computing?
+
 >> The REST Architecture
 >> Runtime vs. Compile Time
->> Microservices and Cross-Cutting Concerns
+
+- Microservices and Cross-Cutting Concerns
+
 >> Database Design in a Microservices Architecture
 >> Difference Between Layers and Tiers
 >> Saga Pattern in Microservices
