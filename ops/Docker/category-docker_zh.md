@@ -115,11 +115,7 @@ Docker Container (40)Docker Compose (23)Docker Image (19)Dockerfile (15)Docker C
 
 ## [Docker](https://www.baeldung.com/ops/category/docker)
 
-Docker is a tool that allows developers to deliver applications in containers. Explore the guides below to learn the basics of container management as well as some advanced topics.
-
-Docker Container (40)Docker Compose (23)Docker Image (19)Dockerfile (15)Docker Commands (9)Environment Variables (4)Kafka (3)Database (3)Docker Registry (3)Docker (2)
 >> Introduction to Docker Compose
-reference
 >> Auto-Update Docker Containers for Latest Base Images
 >> Helm Repositories and How to Delete All Releases
 >> Serving Docker Container Service Through HTTPS

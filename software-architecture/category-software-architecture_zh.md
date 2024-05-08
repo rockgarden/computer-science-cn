@@ -16,7 +16,9 @@
 >> 什么是 JSONP？
 >> 数据访问层解析
 >> 什么是分片？
->> 什么是数据管道？
+
+- [什么是数据管道？](data-pipelines_zh.md)
+
 >> 存储库和服务的区别？
 >> 基础架构即代码
 >> 什么是软件构建？
@@ -111,7 +113,9 @@ Design Patterns (13)Databases (12)Distributed Systems and Programming (10)Cloud 
 >> What Is JSONP?
 >> Data Access Layer Explained
 >> What Is Sharding?
->> What Are Data Pipelines?
+
+- What Are Data Pipelines?
+
 >> Differences Between Repository and Service?
 >> Infrastracture as a Code
 >> What Is a Software Build?
