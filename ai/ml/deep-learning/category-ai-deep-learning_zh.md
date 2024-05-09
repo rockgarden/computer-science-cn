@@ -96,7 +96,7 @@
 - [神经网络中的偏差](neural-networks-bias-zh.md)
 - [理解CNN中的维度](ml-understanding-dimensions-cnn-zh.md)
 
-## Deep Learning
+## [Deep Learning](https://www.baeldung.com/cs/category/ai/deep-learning)
 
 - [Introduction to Convolutional Neural Networks](https://www.baeldung.com/cs/ai-convolutional-neural-networks)
 - [Softmax vs. Log Softmax](https://www.baeldung.com/cs/softmax-vs-log-softmax)
@@ -166,7 +166,6 @@
 - [Relation Between Learning Rate and Batch Size](https://www.baeldung.com/cs/learning-rate-batch-size)
 - [Word2vec Word Embedding Operations: Add, Concatenate or Average Word Vectors?](https://www.baeldung.com/cs/word2vec-word-embeddings)
 - [Outlier Detection and Handling](https://www.baeldung.com/cs/ml-outlier-detection-handling)
-Probability and Statistics
 - [Feature Selection and Reduction for Text Classification](https://www.baeldung.com/cs/feature-selection-reduction-for-text-classification)
 - [Why Mini-Batch Size Is Better Than One Single “Batch” With All Training Data](https://www.baeldung.com/cs/mini-batch-vs-single-batch-training-data)
 - [How to Create a Smart Chatbot?](https://www.baeldung.com/cs/smart-chatbots)

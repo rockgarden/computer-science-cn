@@ -32,8 +32,12 @@
 - [高斯混合模型](gaussian-mixture-models-zh.md)
 - [机器学习的Python](python-ml-programming-zh.md)
 - [什么是奇异值分解？](svd-matrices-zh.md)
+
+- [集合学习](ensemble-learning_zh.md)
 - [机器学习中的装袋、提升和堆叠](bagging-boosting-stacking-ml-ensemble-models-zh.md)
+
 - [尖峰神经网络简介](spiking-neural-networks-zh.md)
+
 >> K-均值算法的缺点
 >> 从 RNN 到变形器
 >> 机器学习： 分析学习
@@ -143,7 +147,6 @@
 >> Word2vec 单词嵌入操作： 添加、串联还是平均单词向量？
 >> 机器学习中的漂移、异常和新颖性
 >> 马尔可夫决策过程： 值迭代是如何工作的？
->> 集合学习
 >> 决策树 vs. Naive Bayes 分类器
 >> 机器学习中的准确率 vs AUC
 >> 贝叶斯网络
@@ -174,7 +177,9 @@
 >> 实例规范化与批量规范化
 >> SVM 中精度与支持向量数量之间的权衡
 >> 开放源码神经网络库
+
 - [变换器文本嵌入](transformer-text-embeddings-zh.md)
+
 >> 生成算法与判别算法
 >> SVM 中为什么要进行特征缩放？
 >> 线性回归中的归一化与标准化
@@ -218,7 +223,7 @@
 >> 特征缩放
 >> 监督学习、半监督学习、无监督学习和强化学习简介
 
-## [Machine Learning](https://www.baeldung.com/cs/category/core-concepts/data-structures)
+## [Machine Learning](https://www.baeldung.com/cs/category/ai/ml)
 
 - [Support Vector Machines (SVM)](https://www.baeldung.com/cs/ml-support-vector-machines)
 - Introduction to Convolutional Neural Networks
@@ -242,7 +247,7 @@
 - [Neural Networks: Strided Convolutions](https://www.baeldung.com/cs/neural-nets-strided-convolutions)
 - [What Are the Advantages of Kernel PCA Over Standard PCA?](https://www.baeldung.com/cs/kernel-principal-component-analysis)
 - How Do AI Image Generators Work?
-- [What Is TinyML?](https://www.baeldung.com/cs/tinyml)
+- [What Is TinyML?]
 - [GMMs for Clustering](https://www.baeldung.com/cs/gaussian-mixture-models-clustering)
 - Data Quality Explained
 - [Importance of Statistics in Machine Learning](https://www.baeldung.com/cs/ml-statistics-significance)
@@ -252,6 +257,7 @@
 - [What Is Singular Value Decomposition?](https://www.baeldung.com/cs/svd-matrices)
 - [Bagging, Boosting, and Stacking in Machine Learning](https://www.baeldung.com/cs/bagging-boosting-stacking-ml-ensemble-models)
 - [Introduction to Spiking Neural Networks](https://www.baeldung.com/cs/spiking-neural-networks)
+
 >> The Drawbacks of K-Means Algorithm
 >> From RNNs to Transformers
 >> Machine Learning: Analytical Learning
@@ -362,7 +368,9 @@ Gameplay Algorithms
 >> Word2vec Word Embedding Operations: Add, Concatenate or Average Word Vectors?
 >> Drift, Anomaly, and Novelty in Machine Learning
 >> Markov Decision Process: How Does Value Iteration Work?
->> Ensemble Learning
+
+- Ensemble Learning
+
 >> Decision Tree vs. Naive Bayes Classifier
 >> Accuracy vs AUC in Machine Learning
 >> Bayesian Networks
