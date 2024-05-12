@@ -179,7 +179,9 @@
 >> 一热编码解释
 >> 启动网络简介
 >> 机器学习中的特征选择
->> 认知计算与人工智能
+
+- [认知计算与人工智能](./cognitive-computing-vs-ai_zh.md)
+
 >> 计算机视觉中的翻译不变性和等差数列
 >> 神经网络和深度信念网络
 >> 迁移学习与元学习的区别
@@ -244,7 +246,6 @@
 >> 无模型与基于模型的强化学习
 >> 0-1 损失函数解释
 >> 马尔科夫链是什么？
-
 >> Epoch、Batch 和 Mini-batch 之间的区别
 >> 缺失数据和稀疏数据的区别
 >> 反向传播网络和前馈网络的区别
@@ -286,7 +287,9 @@
 >> 计算卷积层的输出大小
 >> 曲线拟合简介
 >> 用于分类的 K-Means
->> ML：训练、验证和测试
+
+- ML：训练、验证和测试
+
 >> 隐马尔可夫模型简介
 >> Q-Learning vs. SARSA
 >> SGD 与反向传播的区别
@@ -422,7 +425,9 @@ ML
 >> Linear Regression vs. Logistic Regression
 >> A Simple Explanation of Naive Bayes Classification
 >> PCA: Principal Component Analysis
->> Introduction to Supervised, Semi-supervised, Unsupervised and Reinforcement Learning
+
+- Introduction to Supervised, Semi-supervised, Unsupervised and Reinforcement Learning
+
 >> Training and Validation Loss in Deep Learning
 >> Multiclass Classification Using Support Vector Machines
 >> Machine Learning: Active Learning
@@ -582,7 +587,9 @@ ML
 >> One-Hot Encoding Explained
 >> Introduction to Inception Networks
 >> Feature Selection in Machine Learning
->> Cognitive Computing vs. Artificial Intelligence
+
+- Cognitive Computing vs. Artificial Intelligence
+
 >> Translation Invariance and Equivariance in Computer Vision
 >> Neural Network and Deep Belief Network
 >> Differences Between Transfer Learning and Meta-Learning
@@ -688,7 +695,9 @@ ML
 >> Calculate the Output Size of a Convolutional Layer
 >> Introduction to Curve Fitting
 >> K-Means for Classification
->> ML: Train, Validate, and Test
+
+- ML: Train, Validate, and Test
+
 >> An Introduction to the Hidden Markov Model
 >> Q-Learning vs. SARSA
 >> Differences Between SGD and Backpropagation
@@ -788,7 +797,9 @@ ML
 >> Bias in Neural Networks
 >> How to Compute the Similarity Between Two Text Documents?
 >> How to Build a Knowledge Graph?
->> Difference Between a Feature and a Label
+
+- Difference Between a Feature and a Label
+
 >> Big Data vs Data Mining
 >> Data Normalization Before or After Splitting a Data Set?
 >> What Is the Difference Between Labeled and Unlabeled Data?

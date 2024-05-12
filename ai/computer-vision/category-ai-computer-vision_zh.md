@@ -4,6 +4,16 @@
 
 Neural Networks (19)Image Processing (11)Object Detection (11)Convolutional Neural Networks (6)Geometry (4)Matrix (3)Training (3)Generative Adversarial Networks (3)
 
+- [物体检测的平均精度](ml-map-object-detection-zh.md)
+- [变分自动编码器中的重参数化技巧](vae-reparameterization-zh.md)
+- [生成模型的应用](applications-of-generative-models-zh.md)
+- [计算卷积层的输出大小](convolutional-layer-size-zh.md)
+- [使用GAN进行数据扩充](ml-gan-data-augmentation-zh.md)
+- [实例分割与语义分割](instance-semantic-segmentation-cnn-zh.md)
+- [标签数据与非标签数据有何不同？](./ml-labeled-vs-unlabeled-data-zh.md)
+
+## [Computer Vision](https://www.baeldung.com/cs/category/ai/computer-vision)
+
 >> What Is Bundle Adjustment?
 >> Focal Length and Intrinsic Camera Parameters
 >> How Does Face Recognition Work?
@@ -43,7 +53,9 @@ Neural Networks (19)Image Processing (11)Object Detection (11)Convolutional Neur
 >> Computer Vision: Stereo 3D Vision
 >> What Are Image Histograms?
 >> Computer Vision: Popular Datasets
-- [实例分割与语义分割](instance-semantic-segmentation-cnn-zh.md) [Instance Segmentation vs. Semantic Segmentation](https://www.baeldung.com/cs/instance-semantic-segmentation-cnn)
+
+- [Instance Segmentation vs. Semantic Segmentation](https://www.baeldung.com/cs/instance-semantic-segmentation-cnn)
+
 >> How to Handle Large Images to Train CNNs?
 >> Object Recognition Tasks and Their Differences
 >> What Is “Energy” in Image Processing?
@@ -53,10 +65,13 @@ Neural Networks (19)Image Processing (11)Object Detection (11)Convolutional Neur
 >> Disparity Map in Stereo Vision
 >> Algorithm for Handwriting Recognition
 >> Intersection Over Union for Object Detection
-- [物体检测的平均精度](ml-map-object-detection-zh.md) [Mean Average Precision in Object Detection](https://www.baeldung.com/cs/ml-map-object-detection)
-- [变分自动编码器中的重参数化技巧](vae-reparameterization-zh.md) [The Reparameterization Trick in Variational Autoencoders](https://www.baeldung.com/cs/vae-reparameterization)
-- [生成模型的应用](applications-of-generative-models-zh.md) [Applications of Generative Models](https://www.baeldung.com/cs/applications-of-generative-models)
-- [计算卷积层的输出大小](convolutional-layer-size-zh.md) [Calculate the Output Size of a Convolutional Layer](https://www.baeldung.com/cs/convolutional-layer-size)
-- [使用GAN进行数据扩充](ml-gan-data-augmentation-zh.md) [Using GANs for Data Augmentation](https://www.baeldung.com/cs/ml-gan-data-augmentation)
+
+- [Mean Average Precision in Object Detection](https://www.baeldung.com/cs/ml-map-object-detection)
+- [The Reparameterization Trick in Variational Autoencoders](https://www.baeldung.com/cs/vae-reparameterization)
+- [Applications of Generative Models](https://www.baeldung.com/cs/applications-of-generative-models)
+- [Calculate the Output Size of a Convolutional Layer](https://www.baeldung.com/cs/convolutional-layer-size)
+- [Using GANs for Data Augmentation](https://www.baeldung.com/cs/ml-gan-data-augmentation)
+
 >> How to Design Deep Convolutional Neural Networks?
->> What Is the Difference Between Labeled and Unlabeled Data?
+
+- What Is the Difference Between Labeled and Unlabeled Data?

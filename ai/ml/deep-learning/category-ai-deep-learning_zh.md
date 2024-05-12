@@ -100,6 +100,14 @@
 
 ## [Deep Learning](https://www.baeldung.com/cs/category/ai/deep-learning)
 
+>> An Introduction to Gemini by Google DeepMind
+>> Attention vs. Self-Attention
+>> GAN Implementation in PyTorch
+>> Padding in Python
+>> What Is Group Normalization?
+>> Comparison Between BERT and GPT-3 Architectures
+>> How to Use Model Temperature of GPT?
+
 - [Introduction to Convolutional Neural Networks](https://www.baeldung.com/cs/ai-convolutional-neural-networks)
 - [Softmax vs. Log Softmax](https://www.baeldung.com/cs/softmax-vs-log-softmax)
 - [GELU Explained](https://www.baeldung.com/cs/gelu-activation-function)
@@ -108,7 +116,7 @@
 - [Saturating Non-Linearities](https://www.baeldung.com/cs/saturating-non-linearities)
 - [How Do AI Image Generators Work?](https://www.baeldung.com/cs/ai-image-generation-gans-dalle)
 - [Prevent the Vanishing Gradient Problem with LSTM](https://www.baeldung.com/cs/lstm-vanishing-gradient-prevention)
-- [Machine Learning vs. Deep Learning](https://www.baeldung.com/cs/machine-learning-vs-deep-learning)
+- Machine Learning vs. Deep Learning
 - [An Introduction to Graph Neural Networks](https://www.baeldung.com/cs/ml-gnn)
 - [An Introduction to Deepfakes](https://www.baeldung.com/cs/deepfakes-ai)
 - [Deterministic vs. Stochastic Policies in Reinforcement Learning](https://www.baeldung.com/cs/rl-deterministic-vs-stochastic-policies)

@@ -2,6 +2,13 @@
 
 机器学习是一种让机器从数据中学习的技术。了解从数据集训练模型的各种技术。
 
+- [机器学习的基本概念](./ml-fundamentals_zh.md)
+- [ML：训练、验证和测试](./ml-train-validate-test_zh.md)
+
+- [特征和标签的区别](./feature-vs-label_zh.md)
+
+- [监督学习、半监督学习、无监督学习和强化学习简介](./machine-learning-intro-zh.md)
+
 - [支持向量机 (SVM)](ml-support-vector-machines-zh.md)
 - [卷积神经网络简介](/ai/ai-convolutional-neural-networks-zh.md)
 - [热身学习率意味着什么？](ml-lr-warm-up-zh.md)
@@ -135,7 +142,6 @@
 >> 激活函数： Sigmoid 与 Tanh
 >> 对比学习简介
 >> 梯度提升树 vs. 随机森林
->> 机器学习的基本概念
 >> 机器学习核背后的直觉
 >> 图像比较算法
 >> 图像处理： 遮挡
@@ -143,7 +149,6 @@
 >> 如何在神经网络中使用 K 折交叉验证？
 >> 生成式对抗网络简介
 >> K-Means 分类法
->> ML：训练、验证和测试
 >> Q-Learning vs. SARSA
 >> SGD 与反向传播的区别
 >> 神经网络中的线性可分离数据
@@ -224,11 +229,11 @@
 >> 线性回归与逻辑回归
 >> 神经网络中的偏差
 >> 如何计算两篇文本文档的相似度？
->> 特征和标签的区别
+
 >> 分割数据集之前还是之后的数据归一化？
 >> Naive Bayes 分类的简单解释
 >> 特征缩放
->> 监督学习、半监督学习、无监督学习和强化学习简介
+
 
 ## [Machine Learning](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -357,7 +362,9 @@ Gameplay Algorithms
 >> Activation Functions: Sigmoid vs Tanh
 >> An Introduction to Contrastive Learning
 >> Gradient Boosting Trees vs. Random Forests
->> Basic Concepts of Machine Learning
+
+- Basic Concepts of Machine Learning
+
 >> Intuition Behind Kernels in Machine Learning
 >> Algorithms for Image Comparison
 >> Image Processing: Occlusions
@@ -365,7 +372,9 @@ Gameplay Algorithms
 >> How to Use K-Fold Cross-Validation in a Neural Network?
 >> An Introduction to Generative Adversarial Networks
 >> K-Means for Classification
->> ML: Train, Validate, and Test
+
+- ML: Train, Validate, and Test
+
 >> Q-Learning vs. SARSA
 >> Differences Between SGD and Backpropagation
 >> Linearly Separable Data in Neural Networks
@@ -449,8 +458,11 @@ Gameplay Algorithms
 >> Linear Regression vs. Logistic Regression
 >> Bias in Neural Networks
 >> How to Compute the Similarity Between Two Text Documents?
->> Difference Between a Feature and a Label
+
+- Difference Between a Feature and a Label
+
 >> Data Normalization Before or After Splitting a Data Set?
 >> A Simple Explanation of Naive Bayes Classification
 >> Feature Scaling
->> Introduction to Supervised, Semi-supervised, Unsupervised and Reinforcement Learning
+
+- Introduction to Supervised, Semi-supervised, Unsupervised and Reinforcement Learning

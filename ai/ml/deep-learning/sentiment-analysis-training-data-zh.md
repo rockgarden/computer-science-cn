@@ -122,7 +122,7 @@
         - 每个标记的出现次数
         - 包含极化值的标签
 
-        正面评论和负面评论两个类别各拥有 1000 个元素。此外，还有 3685 条关于 DVD 的评论和 5945 条关于厨房用具的评论等[未标记数据](https://www.baeldung.com/cs/ml-labeled-vs-unlabeled-data#1-unlabeled-data)。使用未标记数据有助于比较不同模型对以前未见数据的预测。
+        正面评论和负面评论两个类别各拥有 1000 个元素。此外，还有 3685 条关于 DVD 的评论和 5945 条关于厨房用具的评论等[未标记数据]。使用未标记数据有助于比较不同模型对以前未见数据的预测。
 
         该数据集已在情感分析文献中得到广泛应用。其中，[情感-主题联合模型](https://oro.open.ac.uk/28546/1/Automatically_Extracting_Polarity_Bearing_Topics.pdf)被证明有助于学习预测评论情感内涵的因素。[Naive Bayesian模型和顺序最小优化](https://link.springer.com/article/10.1186/s40537-018-0152-5)也成功地对该数据集中的文本进行了分类。
 

@@ -1,6 +1,6 @@
-# 标签数据与非标签数据有何不同？
+# [标签数据与非标签数据有何不同？](https://www.baeldung.com/cs/ml-labeled-vs-unlabeled-data)
 
-[计算机视觉](https://www.baeldung.com/cs/category/ai/computer-vision)
+[计算机视觉]
 
 1. 概述
 
@@ -12,7 +12,7 @@
 
 2. 关于数据、信息和知识
 
-    我们将首先讨论一个关于如何构建通用人工智能系统的基本想法，并看看我们是否能从这个想法中推导出为该系统的某些数据贴标签的必要性。如果我们能做到这一点，那么我们就可以说，标注数据和未标注数据之间的区别并不是源于我们执行的具体任务。而是源于该系统架构的[贝叶斯先验](https://www.baeldung.com/cs/naive-bayes-classification#bayes-theorem)。
+    我们将首先讨论一个关于如何构建通用人工智能系统的基本想法，并看看我们是否能从这个想法中推导出为该系统的某些数据贴标签的必要性。如果我们能做到这一点，那么我们就可以说，标注数据和未标注数据之间的区别并不是源于我们执行的具体任务。而是源于该系统架构的[贝叶斯先验]。
 
     1. 机器学习系统的概念架构
 
@@ -198,5 +198,3 @@
     我们还看到了如何从机器学习系统架构的基本原理中推导出有标签数据和无标签数据之间的区别。有标签数据是根据对世界运行方式的假设而形成的数据。
 
     我们终于看到了选择二者的标准。这些标准主要包括任务的类型和目标，以及标记数据的可用性。
-
-[What Is the Difference Between Labeled and Unlabeled Data?](https://www.baeldung.com/cs/ml-labeled-vs-unlabeled-data)

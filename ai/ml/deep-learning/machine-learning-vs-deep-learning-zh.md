@@ -1,8 +1,4 @@
-# 机器学习与深度学习
-
-[深度学习](https://www.baeldung.com/cs/category/ai/deep-learning)
-
-[神经网络](https://www.baeldung.com/cs/tag/neural-networks)
+# [机器学习与深度学习](https://www.baeldung.com/cs/machine-learning-vs-deep-learning)
 
 1. 简介
 
@@ -10,9 +6,9 @@
 
 2. 机器学习和深度学习简述
 
-    机器学习是[人工智能](https://www.baeldung.com/cs/cognitive-computing-vs-ai)中的一个领域，其重点是教会计算机从示例（数据）中学习，并根据学习结果做出决策或预测。
+    机器学习是人工智能中的一个领域，其重点是教会计算机从示例（数据）中学习，并根据学习结果做出决策或预测。
 
-    [机器学习](https://www.baeldung.com/cs/ml-fundamentals)使用统计模型和算法从示例（数据）中学习。机器学习应用于语音识别、图像分割和推荐系统等多个领域。
+    机器学习使用统计模型和算法从示例（数据）中学习。机器学习应用于语音识别、图像分割和推荐系统等多个领域。
 
     另一方面，深度学习是机器学习的一个子领域，它使用具有许多隐藏层的[人工神经网络](https://www.baeldung.com/cs/normalizing-inputs-artificial-neural-network)。
 
@@ -22,7 +18,7 @@
 
     不过，这样做的代价是需要更长的训练时间和更大的数据集。机器学习算法可以很好地完成更简单的任务，而深度学习对这些任务来说可能是矫枉过正。
 
-    机器学习算法需要人工[特征工程](https://www.baeldung.com/cs/ml-feature-importance)，即从数据中选择和提取相关特征。相比之下，深度学习不需要特征工程，因为它可以自动从数据中学习特征：
+    机器学习算法需要人工[特征工程]，即从数据中选择和提取相关特征。相比之下，深度学习不需要特征工程，因为它可以自动从数据中学习特征：
 
     ![机器学习和深度学习在特征提取方面的简单区别](pic/Machine-Learning-vs-Deep-Learning1.png)
     在这里，深度学习和机器学习之间的选择取决于具体任务和可用资源，包括数据、时间和计算能力。

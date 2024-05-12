@@ -1,8 +1,4 @@
-# 监督学习、半监督学习、无监督学习和强化学习简介
-
-[机器学习](https://www.baeldung.com/cs/category/ai/ml)
-
-[强化学习](https://www.baeldung.com/cs/tag/reinforcement-learning)
+# [监督学习、半监督学习、无监督学习和强化学习简介](https://www.baeldung.com/cs/machine-learning-intro)
 
 1. 概述
 
@@ -158,5 +154,3 @@
 7. 结论
 
     总之，我们已经发现了应用机器学习的多种技术。我们现在知道这些技术有不同的风格，但都有一个共同点：它们总是由数学和统计技术组成。
-
-SEE: [Introduction to Supervised, Semi-supervised, Unsupervised and Reinforcement Learning](https://www.baeldung.com/cs/machine-learning-intro)
