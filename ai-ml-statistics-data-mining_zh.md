@@ -1,4 +1,4 @@
-# 人工智能、机器学习、统计和数据挖掘之间的区别是什么？
+# [人工智能、机器学习、统计和数据挖掘之间的区别是什么？](https://www.baeldung.com/cs/ai-ml-statistics-data-mining)
 
 [数据科学](https://www.baeldung.com/cs/category/ai/data-science) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -109,7 +109,3 @@
 6. 结论
 
     在这篇文章中，我们谈到了人工智能、机器学习、统计和数据挖掘。对于这四个领域之间的界限，目前还没有达成共识。特别是，有些人认为后三者是同一学科的变化。然而，虽然界限模糊，但我们可以发现它们的区别。
-
-## 相关文章
-
-- [ ] [What Is the Difference Between Artificial Intelligence, Machine Learning, Statistics, and Data Mining?](https://www.baeldung.com/cs/ai-ml-statistics-data-mining)

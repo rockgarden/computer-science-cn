@@ -2,6 +2,8 @@
 
 深度学习是一种利用神经网络进行机器学习的技术。了解训练、优化和使用多层神经网络的各种技术。
 
+- [机器学习与深度学习](machine-learning-vs-deep-learning-zh.md)
+
 - [卷积神经网络简介](/ai/ai-convolutional-neural-networks-zh.md)
 - [Softmax 对 Log Softmax](softmax-vs-log-softmax-zh.md)
 - [GELU 解释](gelu-activation-function-zh.md)
@@ -10,7 +12,7 @@
 - [饱和非线性](saturating-non-linearities-zh.md)
 - [人工智能图像生成器如何工作？](ai-image-generation-gans-dalle-zh.md)
 - [利用LSTM防止梯度消失问题](lstm-vanishing-gradient-prevention-zh.md)
-- [机器学习与深度学习](machine-learning-vs-deep-learning-zh.md)
+
 - [图神经网络简介](ml-gnn-zh.md)
 - [深度伪造简介](deepfakes-ai-zh.md)
 - [强化学习中的确定性策略与随机策略](rl-deterministic-vs-stochastic-policies-zh.md)
@@ -43,7 +45,7 @@
 - [无模型强化学习与基于模型的强化学习](ai-model-free-vs-model-based-zh.md)
 - [0-1损失函数解释](ai-0-1-loss-function-zh.md)
 - [反向传播与前馈网络的区别](neural-networks-backprop-vs-feedforward-zh.md)
-- [交叉验证：K-折叠vs.一票否决](cross-validation-k-fold-loo-zh.md)
+- [交叉验证：K-Fold vs. 一票否决](cross-validation-k-fold-loo-zh.md)
 - [非策略与策略强化学习](off-policy-vs-on-policy-zh.md)
 - [神经网络反向传播中的偏差更新](deep-learning-bias-backpropagation-zh.md)
 - [自然语言处理中的递归与递归神经网络](networks-in-nlp-zh.md)

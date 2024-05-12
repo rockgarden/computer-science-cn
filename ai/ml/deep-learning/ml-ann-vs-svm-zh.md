@@ -18,7 +18,7 @@
 
     1. 它们不能完全互换
 
-        在关于[支持向量机和神经网络](https://www.baeldung.com/cs/svm-vs-neural-network)的区别的文章中，我们讨论了这两种[机器学习](https://www.baeldung.com/cs/machine-learning-how-to-start)模型的架构是如何构建的。在这里，我们将重点讨论这两种模型在解决具体机器学习任务时的具体优缺点的识别和测试。
+        在关于[支持向量机和神经网络](https://www.baeldung.com/cs/svm-vs-neural-network)的区别的文章中，我们讨论了这两种机器学习模型的架构是如何构建的。在这里，我们将重点讨论这两种模型在解决具体机器学习任务时的具体优缺点的识别和测试。
 
         一般来说，在有关机器学习的文献中，[前馈神经网络](https://www.baeldung.com/cs/ml-linear-activation-functions#structure-of-feed-forward-neural-networks)和[支持向量机](https://www.baeldung.com/cs/ml-support-vector-machines)几乎可以互换使用。不过，在更高级的层面上，我们可以说确实存在一些重要的差异。
 

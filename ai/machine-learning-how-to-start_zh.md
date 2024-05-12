@@ -1,4 +1,4 @@
-# 学习机器学习有哪些先决条件？
+# [学习机器学习有哪些先决条件？](https://www.baeldung.com/cs/machine-learning-how-to-start)
 
 1. 概述
 
@@ -183,7 +183,3 @@
     在本文中，我们已经了解了通常与机器学习相关的三个不同分支--即数据科学、机器学习工程和人工智能--之间的联系和区别。
 
     我们还了解了机器学习研究的共同先决条件。与此同时，我们还找出了它们与专家的关系的原因。
-
-## 相关文章
-
-- [x] [What Are the Prerequisites for Studying Machine Learning?](https://www.baeldung.com/cs/machine-learning-how-to-start)

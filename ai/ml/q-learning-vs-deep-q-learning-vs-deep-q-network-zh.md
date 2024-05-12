@@ -6,7 +6,7 @@
 
 1. 前言
 
-    由于强化学习（[RL](https://www.baeldung.com/cs/reinforcement-learning-neural-network)）在博弈论、运筹学、[组合优化](https://www.baeldung.com/cs/combinatorial-optimization-problems-methods)、[信息论](https://www.baeldung.com/cs/information-theory)、基于仿真的优化、控制论和[统计学](https://www.baeldung.com/cs/ai-ml-statistics-data-mining)等多个领域的成功应用，它最近受到了广泛关注。
+    由于强化学习（[RL](https://www.baeldung.com/cs/reinforcement-learning-neural-network)）在博弈论、运筹学、[组合优化](https://www.baeldung.com/cs/combinatorial-optimization-problems-methods)、[信息论](https://www.baeldung.com/cs/information-theory)、基于仿真的优化、控制论和[统计学]等多个领域的成功应用，它最近受到了广泛关注。
 
     在本教程中，我们将探讨强化学习、[Q-learning](https://www.baeldung.com/cs/q-learning-vs-sarsa)、[深度Q-learning](https://www.baeldung.com/cs/reinforcement-learning-neural-network)与深度Q-network的概念，以及它们之间的关系。
 

@@ -26,8 +26,11 @@
 - [人工智能图像生成器如何工作？](./deep-learning/ai-image-generation-gans-dalle-zh.md)
 - [什么是TinyML？](tinyml-zh.md)
 - [用于聚类的GMM](gaussian-mixture-models-clustering-zh.md)
+
 - [数据质量解释](../data-science/data-quality-zh.md)
+
 - [统计在机器学习中的重要性](ml-statistics-significance-zh.md)
+
 - [如何提前停止？](early-stopping-regularization-zh.md)
 - [高斯混合模型](gaussian-mixture-models-zh.md)
 - [机器学习的Python](python-ml-programming-zh.md)
@@ -40,7 +43,9 @@
 
 >> K-均值算法的缺点
 >> 从 RNN 到变形器
->> 机器学习： 分析学习
+
+- [机器学习：主动学习](ml-active-learning_zh.md)
+
 >> 支持向量机中的 C 参数
 >> 什么是温度，为什么要在 Softmax 中使用温度？
 >> 自组织图如何工作？
@@ -104,13 +109,15 @@
 >> 规模不变特征变换
 >> 什么是回归器？
 >> 多层感知器与深度神经网络
->> 机器学习： 什么是消融研究？
+>> 机器学习：什么是消融研究？
 >> 剪影图
 >> 决策树中的节点杂质
 >> 0-1 损失函数解释
 >> 缺失数据和稀疏数据的区别
 >> 反向传播网络和前馈网络的区别
->> 交叉验证： 交叉验证：K-Fold vs. 一票否决
+
+- 深度学习：交叉验证：K-Fold vs. 一票否决
+
 >> 非政策强化学习与政策强化学习
 >> 比较 Naïve Bayes 和 SVM 在文本分类中的应用
 >> 自然语言处理中的递归神经网络与递归神经网络
@@ -225,6 +232,7 @@
 
 ## [Machine Learning](https://www.baeldung.com/cs/category/ai/ml)
 
+- Cross-Validation: K-Fold vs. Leave-One-Out
 - [Support Vector Machines (SVM)](https://www.baeldung.com/cs/ml-support-vector-machines)
 - Introduction to Convolutional Neural Networks
 - [What Does Learning Rate Warm-up Mean?](https://www.baeldung.com/cs/ml-lr-warm-up)
@@ -331,7 +339,7 @@ Gameplay Algorithms
 >> 0-1 Loss Function Explained
 >> Differences Between Missing Data and Sparse Data
 >> Differences Between Backpropagation and Feedforward Networks
->> Cross-Validation: K-Fold vs. Leave-One-Out
+
 >> Off-policy vs. On-policy Reinforcement Learning
 >> Comparing Naïve Bayes and SVM for Text Classification
 >> Recurrent vs. Recursive Neural Networks in Natural Language Processing

@@ -1,4 +1,4 @@
-# 熵的计算机科学定义
+# [熵的计算机科学定义](https://www.baeldung.com/cs/cs-entropy-definition)
 
 1. 简介
 
@@ -376,7 +376,3 @@
     在本教程中，我们概述了熵的概念及其在计算机科学不同分支中使用的意义。鉴于信息论的历史发展，对熵的分析不能忽略热力学熵的含义。
 
     本专题涉及面广，当然无法在一篇文章中详尽论述。不过，文中涉及的主题可以为进一步深入探讨提供思路。
-
-## 相关文章
-
-- [ ] [Computer Science Definition of Entropy](https://www.baeldung.com/cs/cs-entropy-definition#magicparlabel-8508)

@@ -1,4 +1,4 @@
-# 卷积神经网络简介
+# [卷积神经网络简介](https://www.baeldung.com/cs/ai-convolutional-neural-networks)
 
 1. 概述
 
@@ -46,7 +46,7 @@
 
     1. CNN 解决的问题
 
-        按照我们介绍机器学习相关主题文章的传统，在开始学习卷积神经网络（以下简称 CNN）时，我们也将对这种[机器学习](https://www.baeldung.com/cs/machine-learning-how-to-start)模型中蕴含的[先验或隐含知识](https://www.baeldung.com/cs/ml-labeled-vs-unlabeled-data#1-conceptual-architecture-of-machine-learning-systems)进行少量分析。最好的解释就是问自己一个问题：
+        按照我们介绍机器学习相关主题文章的传统，在开始学习卷积神经网络（以下简称 CNN）时，我们也将对这种机器学习模型中蕴含的[先验或隐含知识](https://www.baeldung.com/cs/ml-labeled-vs-unlabeled-data#1-conceptual-architecture-of-machine-learning-systems)进行少量分析。最好的解释就是问自己一个问题：
 
         - "为什么我们不简单地使用前馈神经网络进行图像分类？
 
@@ -58,7 +58,7 @@
 
         为训练神经网络而减少数据集[噪音](https://www.baeldung.com/cs/cs-entropy-definition#magicparlabel-8564)的尝试被称为[正则化](https://en.wikipedia.org/wiki/Regularization_(mathematics))。[卷积](https://www.baeldung.com/kotlin-supervised-learning#building-ann)是正则化的一种特殊类型，它利用了[特征](https://www.baeldung.com/cs/feature-vs-label)或观测值的线性依赖性。这反过来又能让我们减少噪声，恢复与特征线性独立性先验假设的一致性，我们很快就会看到这一点。
 
-        从广义上讲，[正则化](https://www.baeldung.com/deeplearning4j#2-setting-network-parameters)包括将数据集的[特征映射](https://www.baeldung.com/kotlin-data-objects)到具有[较低熵](https://www.baeldung.com/cs/cs-entropy-definition)的新特征上。从形式上来说，这意味着我们将特征$X \to X\prime$，这样，如果 H(X) 是 X 的熵，那么 $H(X) \leq H(X\prime)$。这样我们就可以学习一个新的目标函数 $g：f(X) \to g(X\prime)$，它不容易过度拟合：
+        从广义上讲，[正则化](https://www.baeldung.com/deeplearning4j#2-setting-network-parameters)包括将数据集的[特征映射](https://www.baeldung.com/kotlin-data-objects)到具有较低熵的新特征上。从形式上来说，这意味着我们将特征$X \to X\prime$，这样，如果 H(X) 是 X 的熵，那么 $H(X) \leq H(X\prime)$。这样我们就可以学习一个新的目标函数 $g：f(X) \to g(X\prime)$，它不容易过度拟合：
 
         ![2-3](pic/2-3.png)
 
@@ -196,7 +196,3 @@
     我们首先研究了 CNN 所要解决的输入特征的维度和线性独立性问题。然后，我们研究了卷积这一数学运算，因为这是 CNN 的最大特点。在此背景下，我们还研究了在一些非常常见的卷积任务中，我们可以使用哪些典型的内核。
 
     最后，我们研究了 CNN 卷积层以外的其他特征。我们特别了解了什么是池化层和剔除层，以及它们的功能。
-
-## 相关文章
-
-- [ ] [Introduction to Convolutional Neural Networks](https://www.baeldung.com/cs/ai-convolutional-neural-networks)
