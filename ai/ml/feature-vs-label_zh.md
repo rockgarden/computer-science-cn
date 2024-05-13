@@ -133,7 +133,7 @@
 
     2. 作为贝叶斯先验的标签
 
-        这一论点表明，将变量视为标签的决定并不包含在数据集中。相反，它包含在我们对特定现象[的贝叶斯先验知识](https://www.baeldung.com/cs/naive-bayes-classification#2-no-predictions-without-prior-knowledge)中。如果我们认为某个变量会影响另一个变量，那么我们就可以把第二个变量当作第一个变量的标签。
+        这一论点表明，将变量视为标签的决定并不包含在数据集中。相反，它包含在我们对特定现象的[贝叶斯先验知识](https://www.baeldung.com/cs/naive-bayes-classification#2-no-predictions-without-prior-knowledge)中。如果我们认为某个变量会影响另一个变量，那么我们就可以把第二个变量当作第一个变量的标签。
 
         假设我们正在解决自动驾驶汽车的物体识别问题，并在这些贴有标签的图像上对它们进行训练：
 

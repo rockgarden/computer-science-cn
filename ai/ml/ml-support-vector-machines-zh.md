@@ -20,7 +20,7 @@
 
         正如导言中所预料的那样，我们将通过研究机器学习中的决策边界识别问题来开始关于支持向量机（以下简称 SVM）的讨论。这样，我们将在机器学习模型的介绍性文章中概述任何给定模型所包含的[先验知识类型](https://www.baeldung.com/cs/ml-labeled-vs-unlabeled-data#on-data-information-and-knowledge)。
 
-        机器学习的典型任务之一是[监督学习模型](https://www.baeldung.com/cs/machine-learning-intro#supervised)的[分类](https://www.baeldung.com/cs/naive-bayes-classification)任务。执行这些任务的算法有很多，每种算法都有自己的细微差别。在我们网站上的其他教程中，我们已经学习了[分类的逻辑回归](https://www.baeldung.com/java-logistic-regression)、[神经网络中的软最大值](https://www.baeldung.com/cs/ml-nonlinear-activation-functions#3-softmax)和[天真贝叶斯分类器](https://www.baeldung.com/cs/naive-bayes-classification)，如果需要，我们可以参考这些教程进行复习。
+        机器学习的典型任务之一是[监督学习模型](https://www.baeldung.com/cs/machine-learning-intro#supervised)的分类任务。执行这些任务的算法有很多，每种算法都有自己的细微差别。在我们网站上的其他教程中，我们已经学习了[分类的逻辑回归](https://www.baeldung.com/java-logistic-regression)、[神经网络中的软最大值](https://www.baeldung.com/cs/ml-nonlinear-activation-functions#3-softmax)和[天真贝叶斯分类器]，如果需要，我们可以参考这些教程进行复习。
 
         机器学习分类背后的理念是，可以将世界或向量空间划分为具有不同可识别特征的区域。在此过程中，我们假定世界具有复杂性，与该世界的不同子集相对应，且互不重叠。因此，世界可以划分为不同的区域，由不同类别的事物组成，每个区域都有自己的元素：
 

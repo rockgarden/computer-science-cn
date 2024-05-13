@@ -1,4 +1,4 @@
-# 直觉贝叶斯分类法的简单解释
+# [直觉贝叶斯分类法的简单解释](https://www.baeldung.com/cs/naive-bayes-classification)
 
 [机器学习](https://www.baeldung.com/cs/category/ai/ml) [数学与逻辑](https://www.baeldung.com/cs/category/core-concepts/math-logic)
 [奈维贝叶斯](https://www.baeldung.com/cs/tag/naive-bayes) [概率与统计](https://www.baeldung.com/cs/tag/probability-and-statistics)
@@ -179,5 +179,3 @@
     同时，这也意味着对先验知识的绝对自信会阻碍我们学习新知识。
 
     因此，前进的道路是中庸之道。在中庸之道中，我们会根据支持或反驳我们知识的新证据来更新我们的知识。
-
-[A Simple Explanation of Naive Bayes Classification](https://www.baeldung.com/cs/naive-bayes-classification#bayes-theorem)

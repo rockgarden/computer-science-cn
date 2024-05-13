@@ -6,6 +6,10 @@
 - [ML：训练、验证和测试](./ml-train-validate-test_zh.md)
 
 - [特征和标签的区别](./feature-vs-label_zh.md)
+- [机器学习中的特征、参数和类](./features-parameters-classes-ml_zh.md)
+- [什么是机器学习中的重要特征](./ml-feature-importance-zh.md)
+
+- [直觉贝叶斯分类法的简单解释](../../core-concepts/math-logic/naive-bayes-classification_zh.md)
 
 - [监督学习、半监督学习、无监督学习和强化学习简介](./machine-learning-intro-zh.md)
 
@@ -101,7 +105,6 @@
 >> 偏差和误差的区别
 >> 在线学习与离线学习
 >> 什么是一类 SVM 及其工作原理？
->> 什么是机器学习中的特征重要性？
 >> 数据扩充
 >> 什么是神经网络微调？
 >> 随机森林与极随机化树
@@ -154,7 +157,7 @@
 >> 神经网络中的线性可分离数据
 >> 随机森林中树的深度和数量的影响
 >> 双向和单向 LSTM 的区别
->> 机器学习中的特征、参数和类
+
 >> 学习率与批量大小的关系
 >> Word2vec 单词嵌入操作： 添加、串联还是平均单词向量？
 >> 机器学习中的漂移、异常和新颖性
@@ -229,11 +232,8 @@
 >> 线性回归与逻辑回归
 >> 神经网络中的偏差
 >> 如何计算两篇文本文档的相似度？
-
 >> 分割数据集之前还是之后的数据归一化？
->> Naive Bayes 分类的简单解释
 >> 特征缩放
-
 
 ## [Machine Learning](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -322,7 +322,9 @@
 >> Differences Between Bias and Error
 >> Online Learning vs. Offline Learning
 >> What Is One Class SVM and How Does It Work?
->> What Is Feature Importance in Machine Learning?
+
+- What Is Feature Importance in Machine Learning?
+
 >> Data Augmentation
 >> What Is Fine-Tuning in Neural Networks?
 >> Random Forest vs. Extremely Randomized Trees
@@ -344,7 +346,6 @@ Gameplay Algorithms
 >> 0-1 Loss Function Explained
 >> Differences Between Missing Data and Sparse Data
 >> Differences Between Backpropagation and Feedforward Networks
-
 >> Off-policy vs. On-policy Reinforcement Learning
 >> Comparing Naïve Bayes and SVM for Text Classification
 >> Recurrent vs. Recursive Neural Networks in Natural Language Processing
@@ -380,7 +381,9 @@ Gameplay Algorithms
 >> Linearly Separable Data in Neural Networks
 >> The Effects of the Depth and Number of Trees in a Random Forest
 >> Differences Between Bidirectional and Unidirectional LSTM
->> Features, Parameters and Classes in Machine Learning
+
+- Features, Parameters and Classes in Machine Learning
+
 >> Relation Between Learning Rate and Batch Size
 >> Word2vec Word Embedding Operations: Add, Concatenate or Average Word Vectors?
 >> Drift, Anomaly, and Novelty in Machine Learning
@@ -462,7 +465,9 @@ Gameplay Algorithms
 - Difference Between a Feature and a Label
 
 >> Data Normalization Before or After Splitting a Data Set?
->> A Simple Explanation of Naive Bayes Classification
+
+- A Simple Explanation of Naive Bayes Classification
+
 >> Feature Scaling
 
 - Introduction to Supervised, Semi-supervised, Unsupervised and Reinforcement Learning

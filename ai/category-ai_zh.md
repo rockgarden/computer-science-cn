@@ -628,7 +628,9 @@ ML
 
 >> Online Learning vs. Offline Learning
 >> What Is One Class SVM and How Does It Work?
->> What Is Feature Importance in Machine Learning?
+
+- What Is Feature Importance in Machine Learning?
+
 >> Data Augmentation
 >> What Is Fine-Tuning in Neural Networks?
 >> Random Forest vs. Extremely Randomized Trees
@@ -705,7 +707,9 @@ ML
 >> The Effects of the Depth and Number of Trees in a Random Forest
 >> Using GANs for Data Augmentation
 >> Differences Between Bidirectional and Unidirectional LSTM
->> Features, Parameters and Classes in Machine Learning
+
+- Features, Parameters and Classes in Machine Learning
+
 >> Relation Between Learning Rate and Batch Size
 >> Word2vec Word Embedding Operations: Add, Concatenate or Average Word Vectors?
 >> Drift, Anomaly, and Novelty in Machine Learning

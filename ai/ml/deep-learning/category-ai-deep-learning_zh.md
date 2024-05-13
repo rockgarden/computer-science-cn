@@ -98,9 +98,12 @@
 - [神经网络中的偏差](neural-networks-bias-zh.md)
 - [理解CNN中的维度](ml-understanding-dimensions-cnn-zh.md)
 
+- [谷歌 DeepMind 双子座简介](./gemini-google-deepmind_zh.md)
+
 ## [Deep Learning](https://www.baeldung.com/cs/category/ai/deep-learning)
 
->> An Introduction to Gemini by Google DeepMind
+- An Introduction to Gemini by Google DeepMind
+
 >> Attention vs. Self-Attention
 >> GAN Implementation in PyTorch
 >> Padding in Python

@@ -1,4 +1,4 @@
-# 什么是机器学习中的重要特征？
+# [什么是机器学习中的重要特征？](https://www.baeldung.com/cs/ml-feature-importance)
 
 [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -7,6 +7,8 @@
 1. 简介
 
     机器学习（ML）是计算机科学和人工智能的一个分支，它允许计算机程序在没有明确编程的情况下进行学习。简而言之，机器学习包括一系列基于统计技术的算法，这些算法可以从数据中学习，从而做出一些决策或预测。
+
+    ![Rendered by QuickLaTeX.com](pic/2024-05-13%2021.36.20.png)
 
     输入数据通常由一组输入特征或变量组成。当 ML 模型输出预测结果时，它更依赖于某些特征而不是其他特征。因此，有些特征对模型更重要，有些则不那么重要。
 
@@ -74,5 +76,3 @@
 6. 结论
 
     在本文中，我们解释了 ML 中的术语特征。此外，我们还介绍了特征重要性以及一些类型的特征重要性方法。总之，特征重要性是一种常用的技术，因为它可以让我们了解有关 ML 模型的大量新信息，并据此决定建模的下一步。
-
-[What Is Feature Importance in Machine Learning?](https://www.baeldung.com/cs/ml-feature-importance)
