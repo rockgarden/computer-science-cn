@@ -22,7 +22,7 @@
     - 词频-反文档频率（[TF-IDF](https://www.baeldung.com/cs/text-sequence-to-vector#4-tf-idf-score-strategy)）
     - Word2vec
     - 词表示的全局向量（GloVe）
-    - 来自变换器的双向编码器表示法（[BERT](https://www.baeldung.com/cs/transformer-text-embeddings#bert)）
+    - 来自变换器的双向编码器表示法（BERT）
 
     在本文中，我们将只使用 word2vec 方法。
 

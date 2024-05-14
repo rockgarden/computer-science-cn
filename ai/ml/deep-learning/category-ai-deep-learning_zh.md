@@ -3,6 +3,7 @@
 深度学习是一种利用神经网络进行机器学习的技术。了解训练、优化和使用多层神经网络的各种技术。
 
 - [机器学习与深度学习](machine-learning-vs-deep-learning-zh.md)
+- [开源神经网络库](ml-open-source-libraries_zh.md)
 
 - [卷积神经网络简介](/ai/ai-convolutional-neural-networks-zh.md)
 - [Softmax 对 Log Softmax](softmax-vs-log-softmax-zh.md)
@@ -16,7 +17,7 @@
 - [图神经网络简介](ml-gnn-zh.md)
 - [深度伪造简介](deepfakes-ai-zh.md)
 - [强化学习中的确定性策略与随机策略](rl-deterministic-vs-stochastic-policies-zh.md)
-- [大型语言模型简介](large-language-models-zh.md)
+
 - [Softmax中的温度是什么，为什么要使用温度？](softmax-temperature-zh.md)
 - [什么是不可训练参数？](non-trainable-parameter-zh.md)
 - [Epoch or Episode：理解深度强化学习中的术语](epoch-vs-episode-reinforcement-learning-zh.md)
@@ -82,7 +83,7 @@
 - [如何将文本序列转换为向量](text-sequence-to-vector-zh.md)
 - [实例归一化vs批量归一化](instance-vs-batch-normalization-zh.md)
 - [SVM中精度与支持向量数量之间的权衡](ml-accuracy-vs-number-of-support-vectors-svm-zh.md)
-- [开源神经网络库](ml-open-source-libraries-zh.md)
+
 - [词嵌入：CBOWvsSkip-Gram](word-embeddings-cbow-vs-skip-gram-zh.md)
 - [自然语言处理的编码器-解码器模型](nlp-encoder-decoder-models-zh.md)
 - [神经网络中的纪元](epoch-neural-networks-zh.md)
@@ -98,7 +99,10 @@
 - [神经网络中的偏差](neural-networks-bias-zh.md)
 - [理解CNN中的维度](ml-understanding-dimensions-cnn-zh.md)
 
+- [大型语言模型简介](large-language-models-zh.md)
 - [谷歌 DeepMind 双子座简介](./gemini-google-deepmind_zh.md)
+- [ChatGPT 如何工作？](../../chatgpt-model_zh.md)
+- [BERT 与 GPT-3 架构的比较](./bert-vs-gpt-3-architecture_zh.md)
 
 ## [Deep Learning](https://www.baeldung.com/cs/category/ai/deep-learning)
 
@@ -108,7 +112,9 @@
 >> GAN Implementation in PyTorch
 >> Padding in Python
 >> What Is Group Normalization?
->> Comparison Between BERT and GPT-3 Architectures
+
+- Comparison Between BERT and GPT-3 Architectures
+
 >> How to Use Model Temperature of GPT?
 
 - [Introduction to Convolutional Neural Networks](https://www.baeldung.com/cs/ai-convolutional-neural-networks)

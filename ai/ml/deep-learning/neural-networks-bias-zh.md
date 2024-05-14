@@ -159,7 +159,7 @@
 
         事实证明，无论神经网络的结构和激活函数如何，在激活函数中引入偏置项都有好处。例如，在各种常见的机器学习任务中，引入一个小偏置项已被证明能提高递归神经网络的[性能](https://arxiv.org/abs/1504.00941)。不过，即使激活函数发生变化，这种优势依然存在。
 
-        即使是线性单元的更复杂形式，如最近在 [BERT](https://www.baeldung.com/cs/transformer-text-embeddings#bert) 中出现的 [GeLU](https://arxiv.org/abs/1606.08415)，也能从非零偏置项中获益。例如，如果我们对 x 进行了标准化，使其[映射到正态分布](https://www.baeldung.com/cs/normalize-table-features#3-normalization-by-standard-deviation)，那么我们应该预计大约 0.1% 的观测值会低于-3。如果是这种情况，对于这些值，相应的 $y = \text{GELU}(x)$ 可能会非常接近零：
+        即使是线性单元的更复杂形式，如最近在 BERT 中出现的 [GeLU](https://arxiv.org/abs/1606.08415)，也能从非零偏置项中获益。例如，如果我们对 x 进行了标准化，使其[映射到正态分布](https://www.baeldung.com/cs/normalize-table-features#3-normalization-by-standard-deviation)，那么我们应该预计大约 0.1% 的观测值会低于-3。如果是这种情况，对于这些值，相应的 $y = \text{GELU}(x)$ 可能会非常接近零：
 
         ![gelu1](pic/gelu1.webp)
 

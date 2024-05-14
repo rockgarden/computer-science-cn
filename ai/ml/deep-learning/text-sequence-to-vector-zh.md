@@ -202,7 +202,7 @@
 
     目前使用最广泛的模型之一是 BERT，即 "来自变换器的双向编码器表示"（Bidirectional Encoder Representations from Transformer）编码器模型。
 
-    正如[这里](https://www.baeldung.com/cs/transformer-text-embeddings)所解释的，BERT 本身为整个序列和序列中的每个标记生成一个向量。序列由标记 `[CLS]` 表示，这是输入开头所需的特殊标记。
+    正如[这里](../transformer-text-embeddings_zh.md)所解释的，BERT 本身为整个序列和序列中的每个标记生成一个向量。序列由标记 `[CLS]` 表示，这是输入开头所需的特殊标记。
 
     在下图中，我们可以看到所有的输入标记向量，其中第一个 `[CLS]` 代表整个序列：
 
@@ -244,7 +244,7 @@
 
     这是由谷歌开发的一种技术，其中包括两种可能的句子表征学习模型，这两种模型都是为多任务学习而设计的。
 
-    第一个只是一个 [Transformer](https://www.baeldung.com/cs/transformer-text-embeddings) 模型编码器：
+    第一个只是一个 Transformer 模型编码器：
 
     ![通用1-1](pic/universal_1-1.webp)
 

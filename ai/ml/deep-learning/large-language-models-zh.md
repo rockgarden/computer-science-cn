@@ -120,7 +120,7 @@
 
         具有注意机制的RNN模型的性能有了明显的改善。然而，递归模型就其性质而言，很难进行扩展。但是，自我注意机制很快就被证明是相当强大的，以至于它甚至不需要递归的顺序处理!
 
-        谷歌大脑团队在2017年推出的[转化器](https://arxiv.org/abs/1706.03762)也许是LLM历史上最重要的拐点之一。[变换器](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))是一种深度学习模型，它采用自我关注机制，一次性处理整个输入：
+        谷歌大脑团队在2017年推出的转化器也许是LLM历史上最重要的拐点之一。[变换器](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))是一种深度学习模型，它采用自我关注机制，一次性处理整个输入：
 
         ![转化器](large-language-models-pic/Neural-Network-Architecture-Transformer-Attention.jpg)
 

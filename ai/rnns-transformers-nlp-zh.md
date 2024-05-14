@@ -54,7 +54,7 @@
 
     ![attention_research_1](pic/attention_research_1.webp)
 
-    变形器有多种类型。在 NLP 领域出现了两种有影响力的模型：[BERT](https://www.baeldung.com/cs/transformer-text-embeddings#bert)（来自变换器的双向编码器表示）和 [GPT](/ai/chatgpt-model-zh.md)（生成式预训练变换器）。BERT 应用了变换器的编码器。与变换器类似，GPT 由编码器和解码器组成。这些模型突破了语言理解和生成的界限，展示了大规模预训练和迁移学习的威力。
+    变形器有多种类型。在 NLP 领域出现了两种有影响力的模型：BERT（来自变换器的双向编码器表示）和 [GPT](/ai/chatgpt-model-zh.md)（生成式预训练变换器）。BERT 应用了变换器的编码器。与变换器类似，GPT 由编码器和解码器组成。这些模型突破了语言理解和生成的界限，展示了大规模预训练和迁移学习的威力。
 
 4. RNN 与变压器的区别
 

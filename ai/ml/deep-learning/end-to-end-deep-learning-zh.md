@@ -73,7 +73,7 @@
 
     尽管端到端深度学习有很多好处，但它也带来了一些我们应该考虑的关键挑战。
 
-    其中最重要的是需要大量的训练数据。具体来说，端到端深度学习最常见的架构是各种类型的神经网络（如 [RNNs](https://www.baeldung.com/cs/recurrent-neural-networks)、[CNNs](https://www.baeldung.com/cs/ai-convolutional-neural-networks) 和 [Transformers](https://www.baeldung.com/cs/attention-mechanism-transformers)）。这些网络需要大量数据才能从原始输入数据中学习到有用的特征。
+    其中最重要的是需要大量的训练数据。具体来说，端到端深度学习最常见的架构是各种类型的神经网络（如 [RNNs](https://www.baeldung.com/cs/recurrent-neural-networks)、[CNNs](https://www.baeldung.com/cs/ai-convolutional-neural-networks) 和 [Transformers]）。这些网络需要大量数据才能从原始输入数据中学习到有用的特征。
 
     在语音和视觉等领域，这些数据可能很容易获得，而且成本低廉。然而，在癌症诊断等任务中，我们必须处理医疗数据，获取数据可能是一项非常具有挑战性且昂贵的任务。因此，可用数据有限，端到端深度学习就更具挑战性。
 

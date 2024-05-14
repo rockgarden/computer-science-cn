@@ -1,4 +1,4 @@
-# ChatGPT 如何工作？
+# [ChatGPT 如何工作？](https://www.baeldung.com/cs/chatgpt-model)
 
 1. 简介
 
@@ -34,7 +34,7 @@
 
         因此，我们可以将变压器型号分为以下几类：
 
-        - 纯编码器转换器--适用于需要理解输入内容的任务，如句子分类和命名实体识别。一些流行的模型包括 [BERT](https://www.baeldung.com/cs/transformer-text-embeddings#bert)、RoBERTa 和 DistilBERT。
+        - 纯编码器转换器--适用于需要理解输入内容的任务，如句子分类和命名实体识别。一些流行的模型包括 BERT、RoBERTa 和 DistilBERT。
         - 纯解码器转换器--适用于生成任务，如文本生成。一些常用的模型有 GPT、LLaMA 和 Falcon
         - 编码器-解码器转换器--适用于需要输入的生成任务，如翻译或摘要。流行的编码器-解码器模型有 BART、T5 和 UL2。
 
@@ -125,7 +125,3 @@
     在本文中，我们详细介绍了 ChatGPT 的工作原理。这是一个令人印象深刻的语言模型，它利用了变压器的力量和其他一些技术。它结合了预训练和微调的优势，从而实现了与人类进行类似对话的卓越能力。
 
     像 ChatGPT 这样的语言模型前景广阔，具有巨大的发展和进步潜力。通过负责任的部署和持续的道德考量，语言模型将在各行各业的转型中发挥重要作用，并彻底改变我们与人工智能系统的交互方式。
-
-## 相关文章
-
-- [ ] [How Does ChatGPT Work?](https://www.baeldung.com/cs/chatgpt-model)

@@ -74,7 +74,7 @@
 
     1. 文本嵌入
 
-        文本嵌入可能是最常见的嵌入类型。这要归功于[转换器](https://www.baeldung.com/cs/transformer-text-embeddings#what-are-transformers)和语言模型的普及。
+        文本嵌入可能是最常见的嵌入类型。这要归功于 转换器(transformers) 和语言模型的普及。
 
         语言模型的一个例子是由 OpenAI 团队制作的 ChatGPT。简而言之，它采用 GPT-3 架构，由两个主要部分组成：[编码器和解码器](https://www.baeldung.com/cs/nlp-encoder-decoder-models)。当然，编码器部分会将输入文本转换为嵌入向量，解码器部分则利用嵌入向量生成答案并将其转换回文本输出。
 

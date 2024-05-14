@@ -191,9 +191,9 @@
 >> 如何将文本序列转换为向量
 >> 实例规范化与批量规范化
 >> SVM 中精度与支持向量数量之间的权衡
->> 开放源码神经网络库
 
-- [变换器文本嵌入](transformer-text-embeddings-zh.md)
+- 开放源码神经网络库
+- [变换器文本嵌入](transformer-text-embeddings_zh.md)
 
 >> 生成算法与判别算法
 >> SVM 中为什么要进行特征缩放？
@@ -333,7 +333,6 @@
 >> What Does Pre-training a Neural Network Mean?
 >> Neural Networks: What Is Weight Decay Loss?
 >> Win Gomoku with Threat Space Search
-Gameplay Algorithms
 >> Neural Networks: Difference Between Conv and FC Layers
 >> Neural Networks: Binary vs. Discrete vs. Continuous Inputs
 >> Differences Between Gradient, Stochastic and Mini Batch Gradient Descent
@@ -420,9 +419,9 @@ Gameplay Algorithms
 >> How To Convert a Text Sequence to a Vector
 >> Instance vs Batch Normalization
 >> Trade-offs Between Accuracy and the Number of Support Vectors in SVMs
->> Open Source Neural Network Libraries
 
-- [Transformer Text Embeddings](https://www.baeldung.com/cs/transformer-text-embeddings#what-are-transformers)
+- Open Source Neural Network Libraries
+- Transformer Text Embeddings
 
 >> Generative vs. Discriminative Algorithms
 >> Why Feature Scaling in SVM?

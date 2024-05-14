@@ -4,11 +4,14 @@
 
 神经网络 (114)Training (76)Natural Language Processing (38)Probability and Statistics (24)Image Processing (17)Reinforcement Learning (17)SVM (16)Convolutional Neural Networks (16)Regression (11)Object Detection (11)Generative 逆向网络 (9)决策树 (8)测试 (8)Python (7)几何 (7)注意力 (7)聚类 (7)优化 (7)PCA (6)随机森林 (6)元搜索 (6)矩阵 (5)奈维贝叶斯 (4)word2vec (4)数据库 (3)马尔可夫链 (3)交叉验证 (3)字符串 (3)算法 (3)算法 (3)算法 (3) 验证 (3)字符串 (3)项目管理 (2)游戏算法 (2)流行 (2)熵 (2)
 
+- [认知计算与人工智能](./cognitive-computing-vs-ai_zh.md)
 - [学习机器学习的先决条件是什么？](machine-learning-how-to-start_zh.md)
 
 >> 计算机视觉与图像处理的区别
 >> 物体识别任务及其区别
->> 变形模型中的注意机制
+
+- [变形模型中的注意机制](./attention-mechanism-transformers_zh.md)
+
 >> 交叉验证： K-折叠与一一排除
 >> 马尔科夫链与隐马尔科夫模型有何不同？
 >> 决策树与随机森林
@@ -94,7 +97,9 @@
 >> K-Means 算法的缺点
 >> 从 RNN 到变形器
 >> 什么是数据科学？
->> ChatGPT 如何工作？
+
+- ChatGPT 如何工作？
+
 >> 机器学习： 分析学习
 >> 统计学： 相关与回归
 >> 支持向量机中的 C 参数
@@ -179,9 +184,6 @@
 >> 一热编码解释
 >> 启动网络简介
 >> 机器学习中的特征选择
-
-- [认知计算与人工智能](./cognitive-computing-vs-ai_zh.md)
-
 >> 计算机视觉中的翻译不变性和等差数列
 >> 神经网络和深度信念网络
 >> 迁移学习与元学习的区别
@@ -337,8 +339,10 @@
 >> 如何将文本序列转换为向量
 >> 实例归一化 vs 批量归一化
 >> SVM 中精度与支持向量数量之间的权衡
->> 开放源代码神经网络库
->> 变换器文本嵌入
+
+- 开放源代码神经网络库
+- 变换器文本嵌入
+
 >> 生成算法与判别算法
 >> 两个短语的语义相似性
 >> SVM 中为什么要进行特征缩放？
@@ -356,7 +360,6 @@
 >> 弱监督学习
 >> 机器学习模型的损失和准确率的解释
 >> 分割数据集
-
 >> 用于自然语言处理的编码器-解码器模型
 >> 解决 K 臂强盗问题
 >> 神经网络中的纪元
@@ -410,10 +413,8 @@
 
 >> Differences Between Computer Vision and Image Processing
 >> Object Recognition Tasks and Their Differences
->> Attention Mechanism in the Transformers Model
 
-ML
-
+- Attention Mechanism in the Transformers Model
 - Cross-Validation: K-Fold vs. Leave-One-Out
 
 >> What Is the Difference Between Markov Chains and Hidden Markov Models?
@@ -453,7 +454,9 @@ ML
 >> What Is Group Normalization?
 >> What Is Retrieval-Augmented Generation (RAG)?
 >> How to Perform Linear Discriminant Analysis?
->> Comparison Between BERT and GPT-3 Architectures
+
+- Comparison Between BERT and GPT-3 Architectures
+
 >> How to Use Model Temperature of GPT?
 >> How to Select the Type of Kernel for a SVM?
 >> An Introduction to Focal Loss
@@ -502,7 +505,9 @@ ML
 >> The Drawbacks of K-Means Algorithm
 >> From RNNs to Transformers
 >> What Is Data Science?
->> How Does ChatGPT Work?
+
+- How Does ChatGPT Work?
+
 >> Machine Learning: Analytical Learning
 >> Statistics: Correlation vs. Regression
 >> The C Parameter in Support Vector Machines
@@ -512,7 +517,9 @@ ML
 >> How Does Face Recognition Work?
 >> Software Engineering vs. Data Science
 >> Deterministic vs. Stochastic Policies in Reinforcement Learning
->> Introduction to Large Language Models
+
+- Introduction to Large Language Models
+
 >> What Is and Why Use Temperature in Softmax?
 >> How Do Self-Organizing Maps Work?
 >> Optical Flow: Lucas-Kanade Method
@@ -749,8 +756,10 @@ ML
 >> How To Convert a Text Sequence to a Vector
 >> Instance vs Batch Normalization
 >> Trade-offs Between Accuracy and the Number of Support Vectors in SVMs
->> Open Source Neural Network Libraries
->> Transformer Text Embeddings
+
+- Open Source Neural Network Libraries
+- Transformer Text Embeddings
+
 >> Generative vs. Discriminative Algorithms
 >> Semantic Similarity of Two Phrases
 >> Why Feature Scaling in SVM?
