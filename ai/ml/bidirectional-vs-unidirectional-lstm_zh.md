@@ -1,4 +1,4 @@
-# 双向和单向 LSTM 的区别
+# [双向和单向 LSTM 的区别](https://www.baeldung.com/cs/bidirectional-vs-unidirectional-lstm)
 
 [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -17,8 +17,9 @@
     神经网络有很多种类型，但大致可分为三大类：
 
     - [前馈神经网络](https://www.baeldung.com/cs/neural-net-advantages-disadvantages#neural-networks)
-    - [卷积神经网络](https://www.baeldung.com/cs/ai-convolutional-neural-networks)
+    - 卷积神经网络
     - [递归神经网络](https://www.baeldung.com/cs/nlp-encoder-decoder-models#2-basic-rnn-units)
+
     在大多数情况下，它们之间的区别在于组成它们的神经元类型，以及信息如何在网络中流动。
 
     在本教程中，我们将只讨论递归神经网络，尤其是 LSTM。
@@ -46,6 +47,7 @@
     - 遗忘门(forget gate) - 控制记忆单元从上一步的记忆单元接收多少信息
     - 更新（输入）门(update (input) gate) - 决定是否更新存储单元。此外，它还控制当前存储单元从潜在的新存储单元接收多少信息。
     - 输出门(output gate) - 控制下一个隐藏状态的值
+
     在数学上，我们将 LSTM 模块定义为
 
     \[\begin{align*} &\Gamma_{u} = \sigma(W_{uu}a^{<t-1>} + W_{ux}x^{<t>} + b_{u})\\ &\Gamma_{f} = \sigma(W_{ff}a^{<t-1>} + W_{fx}x^{<t>} + b_{f})\\ &\Gamma_{o} = \sigma(W_{oo}a^{<t-1>} + W_{ox}x^{<t>} + b_{o})\\ &\hat{c}^{<t>} = tanh(W_{cc}a^{<t-1>} + W_{cx}x^{<t>} + b_{c})\\ &c^{<t>} = \Gamma_{u}\odot \hat{c}^{<t>} + \Gamma_{f}\odot c^{<t-1>}\\ &a^{<t>} = \Gamma_{o}\odot \tanh(c^{<t>}), \end{align*}\]
@@ -88,5 +90,3 @@
 6. 结论
 
     本文介绍了一种名为 BiLSTM 的循环神经网络。在介绍了神经网络之后，我们深入解释了单向和双向 LSTM 算法。除了这些方法在算法上的差异外，我们还提到了它们在应用上的主要区别。
-
-- [ ] [Differences Between Bidirectional and Unidirectional LSTM](https://www.baeldung.com/cs/bidirectional-vs-unidirectional-lstm)

@@ -32,7 +32,7 @@
 
         衡量机器学习模型复杂性的一个典型指标是其参数 $\Theta$ 的维度 $|\Theta|$。这是因为[反向传播的计算成本](https://www.baeldung.com/cs/ml-nonlinear-activation-functions)，尤其是[非线性激活函数](https://www.baeldung.com/cs/ml-linear-activation-functions)的计算成本，即使$|\theta|$的增幅很小，也会迅速增加。
 
-        这导致了一个问题，我们称之为神经网络的[维度诅咒](https://www.baeldung.com/cs/ml-relu-dropout-layers#the-curse-of-dimensionality-in-cnns)。一些网络架构，如[卷积神经网络](https://www.baeldung.com/cs/ai-convolutional-neural-networks#neural-networks-and-their-curses)，通过利用[输入特征的线性依赖性](https://www.baeldung.com/cs/ml-understanding-dimensions-cnn)来专门解决这个问题。而其他一些网络，如用于[回归的神经网络](https://www.baeldung.com/kotlin-supervised-learning#linear-regression)，则无法利用这一优势。
+        这导致了一个问题，我们称之为神经网络的[维度诅咒](https://www.baeldung.com/cs/ml-relu-dropout-layers#the-curse-of-dimensionality-in-cnns)。一些网络架构，如卷积神经网络，通过利用[输入特征的线性依赖性](https://www.baeldung.com/cs/ml-understanding-dimensions-cnn)来专门解决这个问题。而其他一些网络，如用于[回归的神经网络](https://www.baeldung.com/kotlin-supervised-learning#linear-regression)，则无法利用这一优势。
 
         正是在这种情况下，确定复杂度最低的神经网络尤为重要。只要一种架构能以最小的计算成本解决问题，我们就应该使用这种架构。在接下来的章节中，我们将首先了解我们可以对神经网络架构做出的理论预测。然后，如果理论推断失败，我们将研究一些启发式方法，以进一步推动我们的工作。
 

@@ -5,8 +5,9 @@
 - [机器学习与深度学习](machine-learning-vs-deep-learning-zh.md)
 - [开源神经网络库](ml-open-source-libraries_zh.md)
 
-- [卷积神经网络简介](/ai/ai-convolutional-neural-networks-zh.md)
+- [卷积神经网络简介](/ai/ai-convolutional-neural-networks_zh.md)
 - [Softmax 对 Log Softmax](softmax-vs-log-softmax-zh.md)
+- [关注与自我关注](./attention-self-badhanau-differences_zh.md)
 - [GELU 解释](gelu-activation-function-zh.md)
 - [什么是噪声对比估计损失？](pic/noise-contrastive-estimation-loss-zh.md)
 - [ReLU vs. LeakyReLU vs. PReLU](relu-vs-leakyrelu-vs-prelu-zh.md)
@@ -67,7 +68,7 @@
 - [图像处理：遮挡](image-processing-occlusions-zh.md)
 - [生成模型的应用](../../computer-vision/applications-of-generative-models-zh.md)
 - [计算卷积层的输出大小](../../computer-vision/convolutional-layer-size-zh.md)
-- [生成对抗网络简介](generative-adversarial-networks-zh.md)
+
 - [神经网络中的线性可分离数据](nn-linearly-separable-data-zh.md)
 - [使用GAN进行数据扩充]((../../computer-vision/convolutional-layer-size-zh.md))
 - [学习率与批量大小的关系](learning-rate-batch-size-zh.md)
@@ -85,17 +86,17 @@
 - [SVM中精度与支持向量数量之间的权衡](ml-accuracy-vs-number-of-support-vectors-svm-zh.md)
 
 - [词嵌入：CBOWvsSkip-Gram](word-embeddings-cbow-vs-skip-gram-zh.md)
-- [自然语言处理的编码器-解码器模型](nlp-encoder-decoder-models-zh.md)
+- [自然语言处理的编码器-解码器模型](nlp-encoder-decoder-models_zh.md)
 - [神经网络中的纪元](epoch-neural-networks-zh.md)
 - [神经网络中权重的随机初始化](ml-neural-network-weights-zh.md)
-- [卷积神经网络中的批量归一化](batch-normalization-cnn-zh.md)
+- [卷积神经网络中的批量归一化](batch-normalization-cnn_zh.md)
 - [神经网络与SVM相比的优缺点](ml-ann-vs-svm-zh.md)
 - [神经网络架构：选择隐藏层的数量和大小的标准](neural-networks-hidden-layers-criteria-zh.md)
 - [情感分析的训练数据](sentiment-analysis-training-data-zh.md)
 - [多类分类的F-1分数](multi-class-f1-score-zh.md)
 - [什么是强化学习中的策略？](ml-policy-reinforcement-learning-zh.md)
 - [梯度下降和梯度上升有什么区别？](gradient-descent-vs-ascent-zh.md)
-- [人工神经网络输入归一化](normalizing-inputs-artificial-neural-network-zh.md)
+- [人工神经网络输入归一化](normalizing-inputs-artificial-neural-network_zh.md)
 - [神经网络中的偏差](neural-networks-bias-zh.md)
 - [理解CNN中的维度](ml-understanding-dimensions-cnn-zh.md)
 
@@ -104,20 +105,20 @@
 - [ChatGPT 如何工作？](../../chatgpt-model_zh.md)
 - [BERT 与 GPT-3 架构的比较](./bert-vs-gpt-3-architecture_zh.md)
 
+- [生成对抗网络简介](generative-adversarial-networks_zh.md)
+- [PyTorch 中的 GAN 实现](./pytorch-generative-adversarial-networks_zh.md)
+- [Python 中的填充](./padding-deep-learning-python_zh.md)
+
 ## [Deep Learning](https://www.baeldung.com/cs/category/ai/deep-learning)
 
 - An Introduction to Gemini by Google DeepMind
-
->> Attention vs. Self-Attention
->> GAN Implementation in PyTorch
->> Padding in Python
->> What Is Group Normalization?
-
+- Attention vs. Self-Attention
+- GAN Implementation in PyTorch
+- Padding in Python
+- What Is Group Normalization?
 - Comparison Between BERT and GPT-3 Architectures
-
->> How to Use Model Temperature of GPT?
-
-- [Introduction to Convolutional Neural Networks](https://www.baeldung.com/cs/ai-convolutional-neural-networks)
+- How to Use Model Temperature of GPT?
+- Introduction to Convolutional Neural Networks
 - [Softmax vs. Log Softmax](https://www.baeldung.com/cs/softmax-vs-log-softmax)
 - [GELU Explained](https://www.baeldung.com/cs/gelu-activation-function)
 - [What Is Noise Contrastive Estimation Loss?](https://www.baeldung.com/cs/noise-contrastive-estimation-loss)
@@ -193,20 +194,20 @@
 - [Using a Hard Margin vs. Soft Margin in SVM](https://www.baeldung.com/cs/svm-hard-margin-vs-soft-margin)
 - [Value Iteration vs. Policy Iteration in Reinforcement Learning](https://www.baeldung.com/cs/ml-value-iteration-vs-policy-iteration)
 - [How To Convert a Text Sequence to a Vector](https://www.baeldung.com/cs/text-sequence-to-vector)
-- [Instance vs Batch Normalization](https://www.baeldung.com/cs/instance-vs-batch-normalization)
+- Instance vs Batch Normalization
 - [Trade-offs Between Accuracy and the Number of Support Vectors in SVMs](https://www.baeldung.com/cs/ml-accuracy-vs-number-of-support-vectors-svm)
 - [Open Source Neural Network Libraries](https://www.baeldung.com/cs/ml-open-source-libraries)
 - [Word Embeddings: CBOW vs Skip-Gram](https://www.baeldung.com/cs/word-embeddings-cbow-vs-skip-gram)
-- [Encoder-Decoder Models for Natural Language Processing](https://www.baeldung.com/cs/nlp-encoder-decoder-models)
+- Encoder-Decoder Models for Natural Language Processing
 - [Epoch in Neural Networks](https://www.baeldung.com/cs/epoch-neural-networks)
 - [Random Initialization of Weights in a Neural Network](https://www.baeldung.com/cs/ml-neural-network-weights)
-- [Batch Normalization in Convolutional Neural Networks](https://www.baeldung.com/cs/batch-normalization-cnn)
+- Batch Normalization in Convolutional Neural Networks
 - [Advantages and Disadvantages of Neural Networks Against SVMs](https://www.baeldung.com/cs/ml-ann-vs-svm)
 - [Neural Network Architecture: Criteria for Choosing the Number and Size of Hidden Layers](https://www.baeldung.com/cs/neural-networks-hidden-layers-criteria)
 - [Training Data for Sentiment Analysis](https://www.baeldung.com/cs/sentiment-analysis-training-data)
 - [F-1 Score for Multi-Class Classification](https://www.baeldung.com/cs/multi-class-f1-score)
 - [What Is a Policy in Reinforcement Learning?](https://www.baeldung.com/cs/ml-policy-reinforcement-learning)
 - [What Is the Difference Between Gradient Descent and Gradient Ascent?](https://www.baeldung.com/cs/gradient-descent-vs-ascent)
-- [Normalizing Inputs for an Artificial Neural Network](https://www.baeldung.com/cs/normalizing-inputs-artificial-neural-network)
+- Normalizing Inputs for an Artificial Neural Network
 - [Bias in Neural Networks](https://www.baeldung.com/cs/neural-networks-bias)
 - [Understanding Dimensions in CNNs](https://www.baeldung.com/cs/ml-understanding-dimensions-cnn)

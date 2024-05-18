@@ -6,11 +6,11 @@
 
 1. 简介
 
-    在本教程中，我们将讨论生成对抗网络（[GAN](generative-adversarial-networks-zh.md)），这是一种无监督深度学习方法。我们将主要介绍构成 GAN 的两个主要模型（生成器模型和判别器模型）的架构。我们还将通过[损失函数](https://www.baeldung.com/cs/ml-loss-accuracy)分析这两个模型之间的主导行为。
+    在本教程中，我们将讨论生成对抗网络（GAN），这是一种无监督深度学习方法。我们将主要介绍构成 GAN 的两个主要模型（生成器模型和判别器模型）的架构。我们还将通过[损失函数](https://www.baeldung.com/cs/ml-loss-accuracy)分析这两个模型之间的主导行为。
 
 2. 生成对抗网络
 
-    GAN 是一种机器学习框架，由 [Ian J. Goodfellow ](https://arxiv.org/pdf/1406.2661.pdf)于 2014 年首次提出。一般来说，GAN 的目的是学习数据的分布和模式，以便能够从原始数据集生成可用于现实场合的合成数据。论文作者提出了一种算法，其中同时训练的两个[神经网络](https://www.baeldung.com/cs/ai-convolutional-neural-networks)--生成器和判别器--相互竞争，形成对抗游戏。GAN 框架的结构如下：
+    GAN 是一种机器学习框架，由 [Ian J. Goodfellow](https://arxiv.org/pdf/1406.2661.pdf)于 2014 年首次提出。一般来说，GAN 的目的是学习数据的分布和模式，以便能够从原始数据集生成可用于现实场合的合成数据。论文作者提出了一种算法，其中同时训练的两个神经网络--生成器和判别器--相互竞争，形成对抗游戏。GAN 框架的结构如下：
 
     ![生成对抗网络](pic/gan_diagram.webp)
 

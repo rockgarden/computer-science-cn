@@ -24,7 +24,7 @@
 
     创建者使用各种技术来创建深度伪造，包括面部重现、唇语合成和声音克隆。
 
-    生成对抗网络（[GANs](https://www.baeldung.com/cs/generative-adversarial-networks)）是深度伪造创建中使用的主要技术之一。
+    生成对抗网络（GANs）是深度伪造创建中使用的主要技术之一。
 
     1. 生成式对抗网络（GANs）
 

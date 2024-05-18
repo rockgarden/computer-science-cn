@@ -17,7 +17,7 @@
     神经网络有多种类型，每种类型都有特定的特点和应用。大体上，我们可以将其分为三类：
 
     - [全连接神经网络（普通神经网络）](https://www.baeldung.com/cs/neural-net-advantages-disadvantages#neural-networks)
-    - [卷积神经网络](https://www.baeldung.com/cs/ai-convolutional-neural-networks)
+    - 卷积神经网络
     - [递归神经网络](https://www.baeldung.com/cs/nlp-encoder-decoder-models#2-basic-rnn-units)
 
     它们之间的主要区别在于组成它们的神经元类型以及信息如何在网络中流动。
@@ -76,7 +76,7 @@
 
         文本嵌入可能是最常见的嵌入类型。这要归功于 转换器(transformers) 和语言模型的普及。
 
-        语言模型的一个例子是由 OpenAI 团队制作的 ChatGPT。简而言之，它采用 GPT-3 架构，由两个主要部分组成：[编码器和解码器](https://www.baeldung.com/cs/nlp-encoder-decoder-models)。当然，编码器部分会将输入文本转换为嵌入向量，解码器部分则利用嵌入向量生成答案并将其转换回文本输出。
+        语言模型的一个例子是由 OpenAI 团队制作的 ChatGPT。简而言之，它采用 GPT-3 架构，由两个主要部分组成：编码器和解码器。当然，编码器部分会将输入文本转换为嵌入向量，解码器部分则利用嵌入向量生成答案并将其转换回文本输出。
 
         GPT-3 是一个同时具有编码器和解码器部分的转换器模型，而对于只有编码器部分的嵌入任务来说，更合适的转换器模型是 BERT。它是一个预先训练好的模型，可以编码字符、单词或句子等语言表征，因此我们可以将嵌入向量用于其他任务。
 

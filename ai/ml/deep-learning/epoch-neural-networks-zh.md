@@ -12,7 +12,7 @@
 
     神经网络是一种有监督的机器学习算法。我们可以训练神经网络来解决分类或回归问题。然而，利用神经网络解决机器学习问题有利有弊。
 
-    建立神经网络模型需要回答大量面向架构的问题。根据问题的复杂程度和可用数据，我们可以训练不同大小和深度的神经网络。此外，我们还需要[预处理输入特征](https://www.baeldung.com/cs/normalizing-inputs-artificial-neural-network)、[初始化权重](https://www.baeldung.com/cs/ml-neural-network-weights)、[添加偏置](https://www.baeldung.com/cs/neural-networks-bias)（如需要）以及选择合适的[激活函数](https://www.baeldung.com/cs/ml-nonlinear-activation-functions)。
+    建立神经网络模型需要回答大量面向架构的问题。根据问题的复杂程度和可用数据，我们可以训练不同大小和深度的神经网络。此外，我们还需要预处理输入特征、[初始化权重](https://www.baeldung.com/cs/ml-neural-network-weights)、[添加偏置](https://www.baeldung.com/cs/neural-networks-bias)（如需要）以及选择合适的[激活函数](https://www.baeldung.com/cs/ml-nonlinear-activation-functions)。
 
 3. 神经网络中的历时
 

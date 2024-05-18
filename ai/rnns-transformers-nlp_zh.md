@@ -1,4 +1,4 @@
-# 从 RNN 到 Transformers
+# [从 RNN 到 Transformers](https://www.baeldung.com/cs/rnns-transformers-nlp)
 
 1. 简介
 
@@ -18,7 +18,7 @@
 
     RNN 在捕捉序列中的短期依赖性方面尤为有效。然而，它们也存在梯度消失问题，即随着序列的发展，早期输入的影响会以指数形式减小，从而难以捕捉长期依赖关系。
 
-    [LSTM](https://www.baeldung.com/cs/nlp-encoder-decoder-models#3-lstm) 是一种特殊的 RNN 架构，可解决训练深度神经网络时出现的梯度消失问题。LSTM 利用存储单元和门选择性地存储和检索长序列信息，从而有效捕捉长期依赖关系。
+    LSTM是一种特殊的 RNN 架构，可解决训练深度神经网络时出现的梯度消失问题。LSTM 利用存储单元和门选择性地存储和检索长序列信息，从而有效捕捉长期依赖关系。
 
     下图展示了一个 LSTM 单元：
 
@@ -28,7 +28,7 @@
 
     1. 序列到序列模型
 
-        将 RNN/LSTM 应用于机器翻译和文本摘要等 NLP 任务时，我们会利用一种称为序列到序列模型（也称为[编码器-解码器模型](https://www.baeldung.com/cs/nlp-encoder-decoder-models)）的结构。顾名思义，它由两个主要部分组成：编码器和解码器。
+        将 RNN/LSTM 应用于机器翻译和文本摘要等 NLP 任务时，我们会利用一种称为序列到序列模型（也称为编码器-解码器模型）的结构。顾名思义，它由两个主要部分组成：编码器和解码器。
 
         编码器处理输入序列并将其编码为固定长度的表示，也称为上下文向量或潜空间表示。通常，网络的最终隐藏状态就是上下文向量，它概括了输入信息。
 
@@ -108,6 +108,3 @@
 
     总之，在 RNN/LSTM 和 Transformer 模型之间做出选择，最终取决于手头任务的具体要求，并在效率、准确性和可解释性之间取得平衡。
 
-## 相关文章
-
-- [ ] [From RNNs to Transformers](https://www.baeldung.com/cs/rnns-transformers-nlp)

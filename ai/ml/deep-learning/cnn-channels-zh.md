@@ -6,7 +6,7 @@
 
 1. 简介
 
-    在本教程中，我们将讨论卷积神经网络（[CNN](https://www.baeldung.com/cs/ai-convolutional-neural-networks)）的通道以及用于修改输入图像的不同技术。
+    在本教程中，我们将讨论卷积神经网络（CNN）的通道以及用于修改输入图像的不同技术。
 
     CNN 是一类人工神经网络（ANN），主要应用于[模式识别](https://www.baeldung.com/cs/pattern-recognition-time-series)、图像分析和处理等机器学习领域。
 
@@ -18,7 +18,7 @@
 
     二维卷积的定义和卷积的数学公式是
 
-    (1) \[\begin{equation*} \begin{aligned} y[m, n] = x[m, n] * h[m, n] = \sum_{j = - \infty}^{\infty} \sum_{i = - \infty}^{\infty} x[i, j] \cdot h[m-i, n-j] \end{aligned} \end{equation*}\]
+    (1) \[\begin{equation*} \begin{aligned} y[m, n] = x[m, n]* h[m, n] = \sum_{j = - \infty}^{\infty} \sum_{i = - \infty}^{\infty} x[i, j] \cdot h[m-i, n-j] \end{aligned} \end{equation*}\]
 
     其中，x、h、y、m 和 n 分别表示像素的矩形坐标、应用的滤波器、卷积的输出以及图像和滤波器的尺寸。
 

@@ -30,7 +30,7 @@
 
 3. 卷积层
 
-    卷积层是每个[卷积神经网络](https://www.baeldung.com/cs/ai-convolutional-neural-networks)的核心组成部分。在每一层中，我们都有一组可学习的滤波器。在前向传播过程中，我们将输入与每个滤波器进行卷积，产生该滤波器的输出激活图。因此，当输入图像中出现特定特征时，网络就会学习激活滤波器。下面，我们可以看到一个使用[Prewitt运算符](https://en.wikipedia.org/wiki/Prewitt_operator)的示例，这是一种用于边缘检测的清晰滤波器：
+    卷积层是每个卷积神经网络的核心组成部分。在每一层中，我们都有一组可学习的滤波器。在前向传播过程中，我们将输入与每个滤波器进行卷积，产生该滤波器的输出激活图。因此，当输入图像中出现特定特征时，网络就会学习激活滤波器。下面，我们可以看到一个使用[Prewitt运算符](https://en.wikipedia.org/wiki/Prewitt_operator)的示例，这是一种用于边缘检测的清晰滤波器：
 
     ![1卷积](pic/1_convolution.jpg)
 

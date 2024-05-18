@@ -14,7 +14,7 @@
 - [监督学习、半监督学习、无监督学习和强化学习简介](./machine-learning-intro-zh.md)
 
 - [支持向量机 (SVM)](ml-support-vector-machines-zh.md)
-- [卷积神经网络简介](/ai/ai-convolutional-neural-networks-zh.md)
+- 卷积神经网络简介
 - [热身学习率意味着什么？](ml-lr-warm-up-zh.md)
 - [什么是检索增强生成（RAG）](retrieval-augmented-generation-zh.md)
 - [如何进行线性判别分析？](lda-zh.md)
@@ -44,7 +44,7 @@
 
 - [如何提前停止？](early-stopping-regularization-zh.md)
 - [高斯混合模型](gaussian-mixture-models-zh.md)
-- [机器学习的Python](python-ml-programming-zh.md)
+
 - [什么是奇异值分解？](svd-matrices-zh.md)
 
 - [集合学习](ensemble-learning_zh.md)
@@ -52,9 +52,11 @@
 
 - [尖峰神经网络简介](spiking-neural-networks-zh.md)
 
->> K-均值算法的缺点
->> 从 RNN 到变形器
+- [机器学习的Python](python-ml-programming-zh.md)
 
+>> K-均值算法的缺点
+
+- [从 RNN 到变形器](../rnns-transformers-nlp_zh.md)
 - [机器学习：主动学习](ml-active-learning_zh.md)
 
 >> 支持向量机中的 C 参数
@@ -156,7 +158,8 @@
 >> SGD 与反向传播的区别
 >> 神经网络中的线性可分离数据
 >> 随机森林中树的深度和数量的影响
->> 双向和单向 LSTM 的区别
+
+- [双向和单向 LSTM 的区别](./bidirectional-vs-unidirectional-lstm_zh.md)
 
 >> 学习率与批量大小的关系
 >> Word2vec 单词嵌入操作： 添加、串联还是平均单词向量？
@@ -182,7 +185,6 @@
 >> 期望最大化（EM）技术的直观解释
 >> 时间序列中的模式识别
 >> 如何创建智能聊天机器人？
->> 开源人工智能引擎
 >> 随机森林的袋外误差
 >> 如何计算 CNN 的感受野大小
 >> k 近邻和高维数据
@@ -192,7 +194,9 @@
 >> 实例规范化与批量规范化
 >> SVM 中精度与支持向量数量之间的权衡
 
+- [开源人工智能引擎](./open-source-ai-engines_zh.md)
 - 开放源码神经网络库
+
 - [变换器文本嵌入](transformer-text-embeddings_zh.md)
 
 >> 生成算法与判别算法
@@ -272,7 +276,9 @@
 - [Introduction to Spiking Neural Networks](https://www.baeldung.com/cs/spiking-neural-networks)
 
 >> The Drawbacks of K-Means Algorithm
->> From RNNs to Transformers
+
+- From RNNs to Transformers
+
 >> Machine Learning: Analytical Learning
 >> The C Parameter in Support Vector Machines
 >> What Is and Why Use Temperature in Softmax?
@@ -379,7 +385,8 @@
 >> Differences Between SGD and Backpropagation
 >> Linearly Separable Data in Neural Networks
 >> The Effects of the Depth and Number of Trees in a Random Forest
->> Differences Between Bidirectional and Unidirectional LSTM
+
+- Differences Between Bidirectional and Unidirectional LSTM
 
 - Features, Parameters and Classes in Machine Learning
 
@@ -410,14 +417,18 @@
 >> Intuitive Explanation of the Expectation-Maximization (EM) Technique
 >> Pattern Recognition in Time Series
 >> How to Create a Smart Chatbot?
->> Open-Source AI Engines
+
+- Open-Source AI Engines
+
 >> Out-of-bag Error in Random Forests
 >> How to Calculate Receptive Field Size in CNN
 >> k-Nearest Neighbors and High Dimensional Data
 >> Using a Hard Margin vs. Soft Margin in SVM
 >> Value Iteration vs. Policy Iteration in Reinforcement Learning
 >> How To Convert a Text Sequence to a Vector
->> Instance vs Batch Normalization
+
+- Instance vs Batch Normalization
+
 >> Trade-offs Between Accuracy and the Number of Support Vectors in SVMs
 
 - Open Source Neural Network Libraries
@@ -453,7 +464,9 @@
 >> F-1 Score for Multi-Class Classification
 >> What Is a Policy in Reinforcement Learning?
 >> SVM Vs Neural Network
->> Normalizing Inputs for an Artificial Neural Network
+
+- Normalizing Inputs for an Artificial Neural Network
+
 >> What Is a Learning Curve in Machine Learning?
 >> Introduction to the Classification Model Evaluation
 >> Why Does the Cost Function of Logistic Regression Have a Logarithmic Expression?

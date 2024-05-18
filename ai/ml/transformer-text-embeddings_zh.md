@@ -14,7 +14,7 @@
 
     变换器是一种大型编码器-解码器模型，能够通过复杂的注意机制处理整个序列。
 
-    在变压器之前，最先进的架构是带有 [LSTM/GRU 的递归神经网络](https://www.baeldung.com/cs/nlp-encoder-decoder-models)。
+    在变压器之前，最先进的架构是带有 LSTM/GRU 的递归神经网络。
 
     然而，这些架构存在以下问题：
 

@@ -130,7 +130,7 @@
 
     6. 编码器-解码器结构
 
-        许多基于ANN的自然语言处理模型都是使用[编码器-解码器结构](https://www.baeldung.com/cs/nlp-encoder-decoder-models)建立的。例如，[seq2seq](https://en.wikipedia.org/wiki/Seq2seq)是一个最初由谷歌开发的算法系列。它通过使用RNN与LSTM或GRU将一个序列变成另一个序列。
+        许多基于ANN的自然语言处理模型都是使用编码器-解码器结构建立的。例如，[seq2seq](https://en.wikipedia.org/wiki/Seq2seq)是一个最初由谷歌开发的算法系列。它通过使用RNN与LSTM或GRU将一个序列变成另一个序列。
 
         最初的转化器模型也使用了编码器-解码器架构。编码器由编码层组成，对输入进行迭代处理，一层接一层。解码器由解码层组成，对编码器的输出做同样的事情：
 

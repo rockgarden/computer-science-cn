@@ -1,4 +1,4 @@
-# 卷积神经网络中的批量归一化
+# [卷积神经网络中的批量归一化](https://www.baeldung.com/cs/batch-normalization-cnn)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning)
 

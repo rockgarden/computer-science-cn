@@ -37,7 +37,7 @@
 
 5. GNN、CNN 和 RNN 之间的区别
 
-    下表总结了 GNN、卷积神经网络（[CNN](https://www.baeldung.com/cs/ai-convolutional-neural-networks)）和循环神经网络（[RNN](https://www.baeldung.com/cs/convolutional-vs-regular-nn)）在各个方面的差异：
+    下表总结了 GNN、卷积神经网络（CNN）和循环神经网络（[RNN](https://www.baeldung.com/cs/convolutional-vs-regular-nn)）在各个方面的差异：
 
     | 视角      | GNNs        | CNNs        | RNNs        |
     |---------|-------------|-------------|-------------|

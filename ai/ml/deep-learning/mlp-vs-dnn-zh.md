@@ -36,7 +36,7 @@
 
     深度神经网络（DNN）是一种具有深度层的人工神经网络。这里的 "深层"是指网络有多层堆叠在一起，用于处理和学习数据。DNN 最初受到神经生物学的启发。特别是人类学习感知和识别物理事物的方式。
 
-    值得注意的是，MLP 被认为是 DNN 的一个例子。卷积神经网络（[CNN](https://www.baeldung.com/cs/ai-convolutional-neural-networks)）和递归神经网络（RNN）也是 DNN 的其他例子。
+    值得注意的是，MLP 被认为是 DNN 的一个例子。卷积神经网络（CNN）和递归神经网络（RNN）也是 DNN 的其他例子。
 
     由于其复杂性，DNN 通常需要长时间对输入数据进行网络训练。此外，它们还需要配备专门处理单元（如张量处理单元（[TPU](https://en.wikipedia.org/wiki/Tensor_Processing_Unit)）和神经处理单元（[NPU](https://en.wikichip.org/wiki/neural_processor)））的强大计算机。
 

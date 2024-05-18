@@ -1,4 +1,4 @@
-# 实例规范化与批量规范化
+# [实例规范化与批量规范化](https://www.baeldung.com/cs/instance-vs-batch-normalization)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -12,15 +12,15 @@
 
     我们先来看看在深度神经网络中执行归一化的原因。归一化或[特征缩放](https://www.baeldung.com/cs/feature-scaling)是一种确保不同范围的特征将按比例影响网络性能的方法。如果不进行归一化，一些特征或变量可能会被忽略。
 
-    [例如](https://www.baeldung.com/cs/batch-normalization-cnn)，假设我们想使用行驶距离和车龄这两个特征来预测汽车的价格。第一个特征的范围是以千为单位，而第二个特征的范围是以年为单位。使用原始数据预测汽车价格时，行驶距离特征将大大超过车龄特征。因此，我们应该对这两个特征进行归一化处理，以获得更准确的预测结果。
+    例如，假设我们想使用行驶距离和车龄这两个特征来预测汽车的价格。第一个特征的范围是以千为单位，而第二个特征的范围是以年为单位。使用原始数据预测汽车价格时，行驶距离特征将大大超过车龄特征。因此，我们应该对这两个特征进行归一化处理，以获得更准确的预测结果。
 
-    有关归一化概念及其变体的详细讨论，请参阅《[人工神经网络输入的归一化](https://www.baeldung.com/cs/normalizing-inputs-artificial-neural-network)》。
+    有关归一化概念及其变体的详细讨论，请参阅《人工神经网络输入的归一化》。
 
     通常，归一化在输入层进行，以对原始数据进行归一化。然而，对于深度神经网络来说，中间层节点的激活值可能会变得非常大，从而导致与我们的例子相同的问题。这就需要在隐藏层也进行某种类型的归一化。
 
 3. 实例归一化（IN）
 
-    实例归一化是对比归一化的另一个术语，最早出现在 [StyleNet](https://openaccess.thecvf.com/content_cvpr_2017/papers/Ulyanov_Improved_Texture_Networks_CVPR_2017_paper.pdf) 论文中。这两个名称都揭示了这一技术的一些信息。实例归一化告诉我们，它对单个样本进行操作。另一方面，对比度归一化则表示它对样本空间元素之间的对比度进行归一化处理。对于卷积神经网络（[CNN](https://www.baeldung.com/cs/ai-convolutional-neural-networks)），我们也可以说，IN 在单个示例的单个特征图的宽度和高度上执行强度归一化。
+    实例归一化是对比归一化的另一个术语，最早出现在 [StyleNet](https://openaccess.thecvf.com/content_cvpr_2017/papers/Ulyanov_Improved_Texture_Networks_CVPR_2017_paper.pdf) 论文中。这两个名称都揭示了这一技术的一些信息。实例归一化告诉我们，它对单个样本进行操作。另一方面，对比度归一化则表示它对样本空间元素之间的对比度进行归一化处理。对于卷积神经网络（CNN），我们也可以说，IN 在单个示例的单个特征图的宽度和高度上执行强度归一化。
 
     为了说明 IN 的工作原理，让我们考虑一下构成 IN 层输入张量的[样本特征图](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yuxin_Wu_Group_Normalization_ECCV_2018_paper.pdf)。假设 x 是由 N 幅图像组成的张量。因此，$x \in \R^{N\times C\times H\times W}$ 是一个四维张量。在实例规范化中，我们考虑一个训练样本和特征图（图中用红色标出），并取其空间位置（W 和 H）的均值和方差：
 

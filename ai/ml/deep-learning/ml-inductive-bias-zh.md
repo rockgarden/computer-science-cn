@@ -84,7 +84,7 @@
 
         归一化技术可以在多个方面帮助我们的模型，如加快训练速度和正则化。
 
-        但最重要的是，它可以减少网络激活分布的变化，这种变化被称为内部[共变量偏移](https://c.d2l.ai/stanford-cs329p/_static/pdfs/cs329p_slides_8_1.pdf)。正则化技术有多种，如[批量正则化](https://www.baeldung.com/cs/instance-vs-batch-normalization)、[实例正则化](https://arxiv.org/pdf/1607.08022.pdf)和[层正则化](https://arxiv.org/pdf/1607.06450.pdf)。
+        但最重要的是，它可以减少网络激活分布的变化，这种变化被称为内部[共变量偏移](https://c.d2l.ai/stanford-cs329p/_static/pdfs/cs329p_slides_8_1.pdf)。正则化技术有多种，如批量正则化、[实例正则化](https://arxiv.org/pdf/1607.08022.pdf)和[层正则化](https://arxiv.org/pdf/1607.06450.pdf)。
 
     5. 数据增强
 

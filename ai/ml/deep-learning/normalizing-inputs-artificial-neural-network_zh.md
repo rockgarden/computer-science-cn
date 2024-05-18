@@ -1,4 +1,4 @@
-# 人工神经网络输入的规范化
+# [人工神经网络输入的规范化](https://www.baeldung.com/cs/normalizing-inputs-artificial-neural-network)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 

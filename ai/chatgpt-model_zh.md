@@ -11,7 +11,7 @@
     一般来说，根据层和神经元的类型，我们可以将神经网络分为三大类：
 
     - [全连接神经网络（常规神经网络）](https://www.baeldung.com/cs/neural-net-advantages-disadvantages#neural-networks)）
-    - [卷积神经网络](https://www.baeldung.com/cs/ai-convolutional-neural-networks)
+    - 卷积神经网络
     - [递归神经网络](https://www.baeldung.com/cs/nlp-encoder-decoder-models#2-basic-rnn-units)
 
     递归神经网络是 NLP 领域最早的成功应用之一。它们证明了自己捕捉词序列中上下文依赖关系的能力。具体来说，RNN（包括长短时记忆（LSTM）和门控递归单元（GRU）等变体）在语音识别和手写识别等具有序列信息的任务中表现出极高的效率。

@@ -10,7 +10,7 @@
 
 2. 生成模型
 
-    生成模型的主要目标是学习输入数据的底层分布 $\mathbf{p(X)}$ 。然后，这些模型可以预测给定样本的可能性，并根据学习到的底层分布生成现实样本。最著名的生成模型是 GAN，它通过两个在[零和游戏](https://en.wikipedia.org/wiki/Zero-sum_game)中竞争的网络来学习数据分布。关于[GANs背后的理论](https://www.baeldung.com/cs/generative-adversarial-networks)，我们可以在之前的教程中找到更多详细信息。
+    生成模型的主要目标是学习输入数据的底层分布 $\mathbf{p(X)}$ 。然后，这些模型可以预测给定样本的可能性，并根据学习到的底层分布生成现实样本。最著名的生成模型是 GAN，它通过两个在[零和游戏](https://en.wikipedia.org/wiki/Zero-sum_game)中竞争的网络来学习数据分布。关于GANs背后的理论，我们可以在之前的教程中找到更多详细信息。
 
 3. 数据扩充
 

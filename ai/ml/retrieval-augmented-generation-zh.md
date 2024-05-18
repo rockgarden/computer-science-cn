@@ -32,7 +32,7 @@
 
         这些模型在图像生成、文本生成、语音合成和数据增强等多个领域都有大量应用。在生成能捕捉训练数据基本特征的新数据样本的任务中，生成模型起着至关重要的作用。
 
-        常见的生成模型有生成对抗网络（[GANs](https://www.baeldung.com/cs/generative-adversarial-networks)）、变异自动编码器（[VAEs](https://www.baeldung.com/cs/vae-vs-gan-image-generation)）和自回归模型。
+        常见的生成模型有生成对抗网络（GANs）、变异自动编码器（[VAEs](https://www.baeldung.com/cs/vae-vs-gan-image-generation)）和自回归模型。
 
 4. 什么是检索增强生成（RAG）？
 

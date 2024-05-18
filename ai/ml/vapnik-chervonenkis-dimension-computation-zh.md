@@ -18,7 +18,7 @@
 
 3. 分类器系列和假设空间
 
-    不同系列的分类器具有不同的 VC 维度。此外，支持向量机（[SVMs](https://www.baeldung.com/cs/ml-support-vector-machines)）、决策树（[DTs](https://www.baeldung.com/cs/decision-trees-vs-random-forests)）和神经网络（[NNs](https://www.baeldung.com/cs/ai-convolutional-neural-networks)）等分类器具有不同的假设空间，对复杂模式的建模能力也不同，因此表现出不同的 VC 维度。
+    不同系列的分类器具有不同的 VC 维度。此外，支持向量机（[SVMs](https://www.baeldung.com/cs/ml-support-vector-machines)）、决策树（[DTs](https://www.baeldung.com/cs/decision-trees-vs-random-forests)）和神经网络（CNNs）等分类器具有不同的假设空间，对复杂模式的建模能力也不同，因此表现出不同的 VC 维度。
 
     此外，假设空间是指学习算法所能代表的所有可能分类器的集合。假设空间越大、越复杂，VC 维度就越高，表明其具有更强的过拟合或拟合数据中更复杂模式的能力。
 

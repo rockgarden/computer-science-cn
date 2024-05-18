@@ -1,4 +1,4 @@
-# 生成式对抗网络简介
+# [生成式对抗网络简介](https://www.baeldung.com/cs/generative-adversarial-networks)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 

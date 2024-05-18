@@ -56,7 +56,9 @@
 >> 什么是强化学习中的贝尔曼算子？
 >> 径向基函数
 >> 如何选择皮尔逊相关性和斯皮尔曼相关性？
->> Softmax vs. Log Softmax
+
+- Softmax vs. Log Softmax
+
 >> GELU 解释
 >> 什么是噪声对比估计损失？
 >> ReLU vs. LeakyReLU vs. PReLU
@@ -419,7 +421,9 @@
 
 >> What Is the Difference Between Markov Chains and Hidden Markov Models?
 >> Decision Trees vs. Random Forests
->> An Introduction to Generative Adversarial Networks
+
+- An Introduction to Generative Adversarial Networks
+
 >> Differences Between Classification and Clustering
 >> Support Vector Machines (SVM)
 >> Introduction to Convolutional Neural Networks
@@ -444,27 +448,33 @@
 >> Motion Field and Optical Flow
 >> Attention vs. Self-Attention
 >> Maxout Implementation in TensorFlow
->> GAN Implementation in PyTorch
+
+- GAN Implementation in PyTorch
+
 >> Should We Use the Euclidean Metric in High Dimensions?
 >> How Can We Detect Blocks of Text From Scanned Images?
 >> Dealing with Overfitting in Random Forests
 >> What is Digital Differential Analyzer (DDA)?
 >> What Does Learning Rate Warm-up Mean?
->> Padding in Python
->> What Is Group Normalization?
+
+- Padding in Python
+- What Is Group Normalization?
+
 >> What Is Retrieval-Augmented Generation (RAG)?
 >> How to Perform Linear Discriminant Analysis?
 
 - Comparison Between BERT and GPT-3 Architectures
+- How to Use Model Temperature of GPT?
 
->> How to Use Model Temperature of GPT?
 >> How to Select the Type of Kernel for a SVM?
 >> An Introduction to Focal Loss
 >> What Is Image Stitching?
 >> What Is the Bellman Operator in Reinforcement Learning?
 >> Radial Basis Function
 >> How to Choose Between Pearson and Spearman Correlation?
->> Softmax vs. Log Softmax
+
+- Softmax vs. Log Softmax
+
 >> GELU Explained
 >> What Is Noise Contrastive Estimation Loss?
 >> ReLU vs. LeakyReLU vs. PReLU
@@ -503,7 +513,9 @@
 >> Introduction to Spiking Neural Networks
 >> Focal Length and Intrinsic Camera Parameters
 >> The Drawbacks of K-Means Algorithm
->> From RNNs to Transformers
+
+- From RNNs to Transformers
+
 >> What Is Data Science?
 
 - How Does ChatGPT Work?
@@ -713,7 +725,8 @@
 >> Linearly Separable Data in Neural Networks
 >> The Effects of the Depth and Number of Trees in a Random Forest
 >> Using GANs for Data Augmentation
->> Differences Between Bidirectional and Unidirectional LSTM
+
+- Differences Between Bidirectional and Unidirectional LSTM
 
 - Features, Parameters and Classes in Machine Learning
 
@@ -746,7 +759,9 @@
 >> Intuitive Explanation of the Expectation-Maximization (EM) Technique
 >> Pattern Recognition in Time Series
 >> How to Create a Smart Chatbot?
->> Open-Source AI Engines
+
+- Open-Source AI Engines
+
 >> NLP’s word2vec: Negative Sampling Explained
 >> Out-of-bag Error in Random Forests
 >> How to Calculate Receptive Field Size in CNN
@@ -754,7 +769,9 @@
 >> Using a Hard Margin vs. Soft Margin in SVM
 >> Value Iteration vs. Policy Iteration in Reinforcement Learning
 >> How To Convert a Text Sequence to a Vector
->> Instance vs Batch Normalization
+
+- Instance vs Batch Normalization
+
 >> Trade-offs Between Accuracy and the Number of Support Vectors in SVMs
 
 - Open Source Neural Network Libraries
@@ -777,14 +794,18 @@
 >> Weakly Supervised Learning
 >> Interpretation of Loss and Accuracy for a Machine Learning Model
 >> Splitting a Dataset into Train and Test Sets
->> Encoder-Decoder Models for Natural Language Processing
+
+- Encoder-Decoder Models for Natural Language Processing
+
 >> Solving the K-Armed Bandit Problem
 >> Epoch in Neural Networks
 >> Epsilon-Greedy Q-learning
 >> Random Initialization of Weights in a Neural Network
 >> Topic Modeling with Latent Dirichlet Allocation
 >> String Similarity Metrics – Edit Distance
->> Batch Normalization in Convolutional Neural Networks
+
+- Batch Normalization in Convolutional Neural Networks
+
 >> Converting a Word to a Vector
 >> Reinforcement Learning with Neural Network
 >> Converting a Uniform Distribution to a Normal Distribution
@@ -803,7 +824,9 @@
 >> What Is the Difference Between Gradient Descent and Gradient Ascent?
 >> SVM Vs Neural Network
 >> Levenshtein Distance Computation
->> Normalizing Inputs for an Artificial Neural Network
+
+- Normalizing Inputs for an Artificial Neural Network
+
 >> What Is a Learning Curve in Machine Learning?
 >> Introduction to the Classification Model Evaluation
 >> Why Does the Cost Function of Logistic Regression Have a Logarithmic Expression?
