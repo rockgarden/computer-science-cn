@@ -42,7 +42,9 @@
 >> 埃尔加马尔加密算法
 >> 锦标赛排序算法
 >> JPEG 压缩解析
->> 模拟退火解释
+
+- [模拟退火解析](./simulated-annealing_zh.md)
+
 >> 查找前 10 个搜索词
 >> 全对最短路径： 约翰逊算法
 >> 哈维尔-哈基米算法
@@ -123,6 +125,7 @@
 >> 如何计算颜色的相似度
 
 - [Bloom Filter 简介](bloom-filter-zh.md)
+- [词干与词素化](./stemming-vs-lemmatization_zh.md)
 
 >> 如何计算运行时间改进百分比
 >> 如何将颜色从 HSL 转换为 RGB
@@ -165,7 +168,9 @@
 >> 逆向搜索与深度优先搜索
 >> 流中值
 >> Voronoi 图简介
->> 启发式与算法的区别
+
+- [启发式与算法的区别](./heuristic-vs-algorithm_zh.md)
+
 >> 圆线段碰撞检测算法
 >> 最小值算法
 >> 阿克拉-巴兹法
@@ -224,7 +229,9 @@
 >> Quicksort vs. Heapsort
 >> 分而治之 vs. 动态编程
 >> 使用哪种排序算法？
->> 什么是启发式函数？
+
+- [什么是启发式函数？](./heuristics_zh.md)
+
 >> 二叉树的应用
 >> 插入排序与冒泡排序算法
 >> 从一堆袜子中高效配对
@@ -404,24 +411,22 @@ Formal Languages
 >> The Elgamal Cryptography Algorithm
 >> Tournament Sort Algorithm
 >> JPEG Compression Explained
->> Simulated Annealing Explained
+
+- Simulated Annealing Explained
+
 >> Finding Top 10 Search Terms
-Hashing
 >> All-Pairs Shortest Paths: Johnson’s Algorithm
 >> The Havel-Hakimi Algorithm
 >> The Bat Algorithm
 >> Level-order Traversal of Binary Tree
 >> An Efficient Compression Algorithm for Short Text Strings
 >> Hashing – Separate Chaining
-Hashing
 >> Cuckoo Hashing
-Hashing
 >> Slime Mould Algorithm
 >> Genetic Algorithms: Order One Crossover
 >> What Is Cyclomatic Complexity?
 >> From Recursion to Iteration – Factorial Function Example
 >> Check if the Sum of Any Two Numbers in an Array Matches a Given Number
-Hashing
 >> Cuckoo Search Algorithm
 >> The Stable Marriage Problem
 >> Scheduling: Earliest Deadline First
@@ -432,7 +437,6 @@ Hashing
 >> Rearrange an Array to Put the Negative Elements Before the Positive Ones
 >> Defining Multiobjective Algorithms and Pareto Frontiers
 >> How to Convert Finite Automata to Regular Expressions?
-Formal Languages
 >> Firefly Algorithm
 >> Skip List Comparison with Binary Search Tree
 >> Isomorphic Trees
@@ -533,7 +537,9 @@ Hashing
 >> Backtracking vs. Depth-First Search
 >> Streaming Median
 >> An Introduction to the Voronoi Diagram
->> The Difference Between a Heuristic and an Algorithm
+
+- The Difference Between a Heuristic and an Algorithm
+
 >> Circle Line-Segment Collision Detection Algorithm
 >> Minimax Algorithm
 >> The Akra-Bazzi Method
@@ -592,7 +598,9 @@ Hashing
 >> Quicksort vs. Heapsort
 >> Divide and Conquer vs. Dynamic Programming
 >> Which Sorting Algorithm to Use?
->> What Is a Heuristic Function?
+
+- What Is a Heuristic Function?
+
 >> Applications of Binary Trees
 >> Insertion Sort vs. Bubble Sort Algorithms
 >> Pairing Socks From a Pile Efficiently
@@ -670,7 +678,9 @@ Hashing
 >> Branch and Bound Algorithm
 >> Reconstructing a Tree From Its Depth-First Traversals
 >> Looping in a Spiral
->> What the Correlation Coefficient Actually Represents
+
+- What the Correlation Coefficient Actually Represents
+
 >> Create Balanced Binary Search Tree From Sorted List
 >> A* Pathfinding Algorithm
 >> Overview of Rabin-Karp Algorithm
@@ -692,7 +702,9 @@ Hashing
 >> Determine Maximum Number of Edges in a Directed Graph
 >> 0-1 Knapsack: A Problem With NP-Completeness and Solvable in Pseudo-Polynomial Time
 >> How to Find If a Graph Is Bipartite?
->> Stemming vs Lemmatization
+
+- Stemming vs Lemmatization
+
 >> Divide and Conquer Algorithms
 >> Shortest Path to Certain Nodes in a Graph
 >> Fibonacci: Top-Down vs Bottom-Up Dynamic Programming

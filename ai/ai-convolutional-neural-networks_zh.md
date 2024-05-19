@@ -94,7 +94,7 @@
 
         通常使用 CNN 处理的数据，其特征通常具有高度线性依赖性。最常见的例子是文本、音频、图像和视频信号：
 
-        - 对于文本数据，[特征通常是单词](https://www.baeldung.com/cs/stemming-vs-lemmatization)，每个单词在很大程度上都依赖于前后的单词
+        - 对于文本数据，特征通常是单词，每个单词在很大程度上都依赖于前后的单词
         - 对于音频，频率在大部分时间内是连续变化的
         - 图像则是与颜色相对应的[像素集合](https://www.baeldung.com/java-opencv#loading)，其中每种颜色在大多数情况下都与其周围的像素相同
         - 视频是一连串的图像，如果其中包含真实世界的信息，由于[对象的永久性](https://en.wikipedia.org/wiki/Object_permanence)，这些图像只会发生部分变化

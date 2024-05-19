@@ -1,4 +1,4 @@
-# 相关系数的实际含义
+# [相关系数的实际含义](https://www.baeldung.com/cs/correlation-coefficient)
 
 [算法](https://www.baeldung.com/cs/category/algorithms) [数学与逻辑](https://www.baeldung.com/cs/category/core-concepts/math-logic)
 
@@ -203,5 +203,3 @@
     然后，我们研究了皮尔逊相关性及其解释，以及类似的斯皮尔曼相关性。
 
     在此过程中，我们了解到皮尔逊相关性与分布是否适合线性回归有关。斯皮尔曼系数则与近似分布的连续函数的单调性有关。
-
-[What the Correlation Coefficient Actually Represents](https://www.baeldung.com/cs/correlation-coefficient)
