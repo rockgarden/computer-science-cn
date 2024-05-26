@@ -6,7 +6,7 @@
 
 1. 概述
 
-    [支持向量机](https://www.baeldung.com/cs/ml-support-vector-machines)是一种强大的机器学习方法，可用于[分类](https://www.baeldung.com/cs/svm-multiclass-classification)和[回归](https://en.wikipedia.org/wiki/Support-vector_machine#Regression)。当我们想用它来解决问题时，边距类型的选择至关重要。在本教程中，我们将详细介绍在 SVM 中使用硬边距和软边距的区别。
+    [支持向量机](https://www.baeldung.com/cs/ml-support-vector-machines)是一种强大的机器学习方法，可用于分类和[回归](https://en.wikipedia.org/wiki/Support-vector_machine#Regression)。当我们想用它来解决问题时，边距类型的选择至关重要。在本教程中，我们将详细介绍在 SVM 中使用硬边距和软边距的区别。
 
 2. 边际在 SVM 中的作用
 

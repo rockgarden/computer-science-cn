@@ -6,7 +6,7 @@
 
 1. 简介
 
-    在本教程中，我们将讨论文本[分类](https://www.baeldung.com/cs/ml-classification-vs-clustering#classification)中[特征](https://www.baeldung.com/cs/feature-vs-label#features)选择和特征缩减的主要方法。
+    在本教程中，我们将讨论文本[分类](https://www.baeldung.com/cs/ml-classification-vs-clustering#classification)中特征选择和特征缩减的主要方法。
 
 2. 维度的诅咒与选择的祝福
 

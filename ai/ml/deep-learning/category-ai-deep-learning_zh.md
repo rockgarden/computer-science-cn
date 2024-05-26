@@ -4,6 +4,14 @@
 
 - [机器学习与深度学习](machine-learning-vs-deep-learning-zh.md)
 - [开源神经网络库](ml-open-source-libraries_zh.md)
+- 数据
+  - 数据异常
+    - [随机样本共识解释](ransac-zh.md)
+    - [异常值检测和处理](ml-outlier-detection-handling-zh.md)
+  - [数据扩充](ml-data-augmentation_zh.md)
+    - [使用GAN进行数据扩充](../../computer-vision/ml-gan-data-augmentation-zh.md)
+- 算法
+  - [k近邻和高维数据](k-nearest-neighbors-zh.md)
 
 - [卷积神经网络简介](/ai/ai-convolutional-neural-networks_zh.md)
 - [Softmax 对 Log Softmax](softmax-vs-log-softmax-zh.md)
@@ -37,8 +45,7 @@
 - [偏差与误差的区别](bias-vs-error-zh.md)
 - [实例分割与语义分割](../../computer-vision/instance-semantic-segmentation-cnn-zh.md)
 - [在线学习与离线学习](online-vs-offline-learning-zh.md)
-- [数据扩充](ml-data-augmentation-zh.md)
-- [随机样本共识解释](ransac-zh.md)
+
 - [预训练神经网络意味着什么？](neural-network-pre-training-zh.md)
 - [神经网络：什么是权重衰减损失？](neural-networks-weight-decay-loss-zh.md)
 - [神经网络：Conv层和FC层的区别](neural-networks-conv-fc-layers-zh.md)
@@ -70,15 +77,15 @@
 - [计算卷积层的输出大小](../../computer-vision/convolutional-layer-size-zh.md)
 
 - [神经网络中的线性可分离数据](nn-linearly-separable-data-zh.md)
-- [使用GAN进行数据扩充]((../../computer-vision/convolutional-layer-size-zh.md))
+
 - [学习率与批量大小的关系](learning-rate-batch-size-zh.md)
 - [Word2vec单词嵌入操作：添加、串联还是平均单词向量？](word2vec-word-embeddings-zh.md)
-- [异常值检测和处理](ml-outlier-detection-handling-zh.md)
+
 - [文本分类的特征选择和缩减](feature-selection-reduction-for-text-classification-zh.md)
 - [为什么迷你批量比包含所有训练数据的单一"批量"更好？](mini-batch-vs-single-batch-training-data-zh.md)
 - [如何创建智能聊天机器人？](smart-chatbots-zh.md)
 - [如何计算CNN的感知场大小？](cnn-receptive-field-size-zh.md)
-- [k近邻和高维数据](k-nearest-neighbors-zh.md)
+
 - [在SVM中使用硬边际与软边际](svm-hard-margin-vs-soft-margin-zh.md)
 - [强化学习中的值迭代与策略迭代](ml-value-iteration-vs-policy-iteration-zh.md)
 - [如何将文本序列转换为向量](text-sequence-to-vector-zh.md)
@@ -149,8 +156,8 @@
 - [Differences Between Bias and Error](https://www.baeldung.com/cs/bias-vs-error)
 - Instance Segmentation vs. Semantic Segmentation
 - [Online Learning vs. Offline Learning](https://www.baeldung.com/cs/online-vs-offline-learning)
-- [Data Augmentation](https://www.baeldung.com/cs/ml-data-augmentation)
-- [Random Sample Consensus Explained](https://www.baeldung.com/cs/ransac)
+- Data Augmentation
+- Random Sample Consensus Explained
 - [What Does Pre-training a Neural Network Mean?](https://www.baeldung.com/cs/neural-network-pre-training)
 - [Neural Networks: What Is Weight Decay Loss?](https://www.baeldung.com/cs/neural-networks-weight-decay-loss)
 - [Neural Networks: Difference Between Conv and FC Layers](https://www.baeldung.com/cs/neural-networks-conv-fc-layers)
@@ -185,12 +192,12 @@
 - [Using GANs for Data Augmentation](../../computer-vision/README-zh.md)
 - [Relation Between Learning Rate and Batch Size](https://www.baeldung.com/cs/learning-rate-batch-size)
 - [Word2vec Word Embedding Operations: Add, Concatenate or Average Word Vectors?](https://www.baeldung.com/cs/word2vec-word-embeddings)
-- [Outlier Detection and Handling](https://www.baeldung.com/cs/ml-outlier-detection-handling)
+- Outlier Detection and Handling
 - [Feature Selection and Reduction for Text Classification](https://www.baeldung.com/cs/feature-selection-reduction-for-text-classification)
 - [Why Mini-Batch Size Is Better Than One Single “Batch” With All Training Data](https://www.baeldung.com/cs/mini-batch-vs-single-batch-training-data)
 - [How to Create a Smart Chatbot?](https://www.baeldung.com/cs/smart-chatbots)
 - [How to Calculate Receptive Field Size in CNN](https://www.baeldung.com/cs/cnn-receptive-field-size)
-- [k-Nearest Neighbors and High Dimensional Data](https://www.baeldung.com/cs/k-nearest-neighbors)
+- k-Nearest Neighbors and High Dimensional Data
 - [Using a Hard Margin vs. Soft Margin in SVM](https://www.baeldung.com/cs/svm-hard-margin-vs-soft-margin)
 - [Value Iteration vs. Policy Iteration in Reinforcement Learning](https://www.baeldung.com/cs/ml-value-iteration-vs-policy-iteration)
 - [How To Convert a Text Sequence to a Vector](https://www.baeldung.com/cs/text-sequence-to-vector)

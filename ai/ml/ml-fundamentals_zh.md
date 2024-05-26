@@ -88,7 +88,7 @@
 
     4. 数据集
 
-        数据集是与社会或物理世界的某些特征相关的观察结果列表，一般由[特征和标签](https://www.baeldung.com/cs/feature-vs-label)组成。用于[监督](https://www.baeldung.com/cs/sentiment-analysis-training-data#datasets-for-supervised-learning)和[非监督学习](https://www.baeldung.com/cs/machine-learning-intro#unsupervised)的数据集种类繁多，为特定任务选择数据集取决于我们正在研究的问题。一个有用的参考资料是加州大学欧文分校（University of California Irvine）策划的[数据集列表](https://archive.ics.uci.edu/datasets)，其中包含学生最常用的数据集。
+        数据集是与社会或物理世界的某些特征相关的观察结果列表，一般由特征和标签组成。用于[监督](https://www.baeldung.com/cs/sentiment-analysis-training-data#datasets-for-supervised-learning)和[非监督学习](https://www.baeldung.com/cs/machine-learning-intro#unsupervised)的数据集种类繁多，为特定任务选择数据集取决于我们正在研究的问题。一个有用的参考资料是加州大学欧文分校（University of California Irvine）策划的[数据集列表](https://archive.ics.uci.edu/datasets)，其中包含学生最常用的数据集。
 
         在使用数据集训练机器学习模型之前，通常会对数据集进行各种预处理步骤，如[归一化](https://www.baeldung.com/cs/data-normalization-before-after-splitting-set)和[拆分](https://www.baeldung.com/cs/train-test-datasets-ratio)。如果给定的数据集过大，无法进行整体处理（现实世界中的大多数数据集都是如此），我们可以将它们[分批送入](https://www.baeldung.com/cs/mini-batch-vs-single-batch-training-data)正在训练的模型。
 

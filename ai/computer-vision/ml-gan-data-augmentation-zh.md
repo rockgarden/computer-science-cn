@@ -1,4 +1,4 @@
-# 使用GAN进行数据扩充
+# [使用GAN进行数据扩充](https://www.baeldung.com/cs/ml-gan-data-augmentation)
 
 [计算机视觉](https://www.baeldung.com/cs/category/ai/computer-vision) [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning)
 
@@ -43,9 +43,8 @@
 
     虽然普通的 GAN 在海量数据的训练下可以生成非常逼真的样本，但它们无法生成带有特定标签的样本。条件 GAN 通过修改原始生成器网络来控制其输出，从而解决了这一问题。具体来说，网络有两个主要变化。
 
-    我们在生成器的输入中添加一个标签 $\mathbf{y}$ 并尝试生成相应的数据点。
-
-    判别器将样本 $\mathbf{x}$ 和相应的标签 $\mathbf{y}$ 作为输入：
+    - 我们在生成器的输入中添加一个标签 $\mathbf{y}$ 并尝试生成相应的数据点。
+    - 判别器将样本 $\mathbf{x}$ 和相应的标签 $\mathbf{y}$ 作为输入：
 
     ![cgan](pic/cgan-1024x413.webp)
 

@@ -434,7 +434,9 @@
 - Introduction to Supervised, Semi-supervised, Unsupervised and Reinforcement Learning
 
 >> Training and Validation Loss in Deep Learning
->> Multiclass Classification Using Support Vector Machines
+
+- Multiclass Classification Using Support Vector Machines
+
 >> Machine Learning: Active Learning
 >> What Is An Autoregressive Model?
 >> ER vs. EER Diagrams
@@ -649,8 +651,8 @@
 >> What Is One Class SVM and How Does It Work?
 
 - What Is Feature Importance in Machine Learning?
+- Data Augmentation
 
->> Data Augmentation
 >> What Is Fine-Tuning in Neural Networks?
 >> Random Forest vs. Extremely Randomized Trees
 >> How to Use Gabor Filters to Generate Features for Machine Learning
@@ -724,10 +726,9 @@
 >> Differences Between SGD and Backpropagation
 >> Linearly Separable Data in Neural Networks
 >> The Effects of the Depth and Number of Trees in a Random Forest
->> Using GANs for Data Augmentation
 
+- Using GANs for Data Augmentation
 - Differences Between Bidirectional and Unidirectional LSTM
-
 - Features, Parameters and Classes in Machine Learning
 
 >> Relation Between Learning Rate and Batch Size
@@ -743,7 +744,9 @@
 >> When Coherence Score Is Good or Bad in Topic Modeling?
 >> How Do Markov Chain Chatbots Work?
 >> Stratified Sampling in Machine Learning
->> Outlier Detection and Handling
+
+- Outlier Detection and Handling
+
 >> Data Mining in WEKA
 >> Choosing a Learning Rate
 >> Underfitting and Overfitting in Machine Learning
@@ -763,9 +766,13 @@
 - Open-Source AI Engines
 
 >> NLP’s word2vec: Negative Sampling Explained
->> Out-of-bag Error in Random Forests
+
+- Out-of-bag Error in Random Forests
+
 >> How to Calculate Receptive Field Size in CNN
->> k-Nearest Neighbors and High Dimensional Data
+
+- k-Nearest Neighbors and High Dimensional Data
+
 >> Using a Hard Margin vs. Soft Margin in SVM
 >> Value Iteration vs. Policy Iteration in Reinforcement Learning
 >> How To Convert a Text Sequence to a Vector
@@ -852,4 +859,5 @@
 >> Inadequacy of Linear Models: the Road to Nonlinear Functions
 >> Genetic Algorithms vs Neural Networks
 >> Predicates in Computer Science
->> Clustering Into an Unknown Number of Clusters
+
+- Clustering Into an Unknown Number of Clusters

@@ -56,7 +56,7 @@
 
     3. 线性分离的神经网络
 
-        一个更复杂的问题是，输出并不完全对应于输入，而是对应于输入的某种线性组合。就线性回归而言，这个问题相当于确定一个函数 $y = f(x, \beta) = \beta \cdot x$。这里，$\beta$ 表示包含[偏置项](https://www.baeldung.com/cs/neural-networks-bias) $\beta_1$ 的参数向量，x 表示[特征向量](https://www.baeldung.com/cs/feature-vs-label#features) $x = \{x_1，x_2，...，x_{|x|}\}$，其中 $x_1 = 1$。
+        一个更复杂的问题是，输出并不完全对应于输入，而是对应于输入的某种线性组合。就线性回归而言，这个问题相当于确定一个函数 $y = f(x, \beta) = \beta \cdot x$。这里，$\beta$ 表示包含[偏置项](https://www.baeldung.com/cs/neural-networks-bias) $\beta_1$ 的参数向量，x 表示特征向量 $x = \{x_1，x_2，...，x_{|x|}\}$，其中 $x_1 = 1$。
 
         在二元分类的情况下，我们可以说输出向量可以有两个值 $y_1$ 或 $y_2$，其中 $y_1 < y_2$。此，这个问题相当于确定同一个函数$f(x, \beta)$，以解决不等式$y_1 \leq f(x, \beta) \wedge y_2\geq$。
 

@@ -1,4 +1,4 @@
-# 离群值的检测和处理
+# [离群值的检测和处理](https://www.baeldung.com/cs/ml-outlier-detection-handling)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -6,15 +6,15 @@
 
 1. 引言
 
-    检测和处理数据集中的离群值是[机器学习](https://www.baeldung.com/spark-mlib-machine-learning#brief_primer_to_machine_learning)中的一个关键问题。由于[监督学习](https://www.baeldung.com/cs/machine-learning-intro#supervised)算法学习的是数据集中的模式，因此使用有噪声的数据集进行训练会导致模型的预测能力较低。
+    检测和处理数据集中的离群值是机器学习中的一个关键问题。由于监督学习算法学习的是数据集中的模式，因此使用有噪声的数据集进行训练会导致模型的预测能力较低。
 
-    有些算法，如 [kNN](https://www.baeldung.com/cs/k-nearest-neighbors)，对异常值更为敏感。另一方面，基于树的方法（如[随机森林](https://www.baeldung.com/cs/random-forests-out-of-bag-error#random-forest)）对异常值更有弹性。
+    有些算法，如kNN，对异常值更为敏感。另一方面，基于树的方法（如随机森林对异常值更有弹性。
 
     在本文中，我们将了解什么是异常值。然后，我们将讨论检测异常值的方法。最后，我们将讨论如何处理异常值。
 
 2. 离群值
 
-    在[统计学](https://www.baeldung.com/cs/machine-learning-how-to-start#1-statistics)中，我们将与数据集其他部分明显不同的数据点称为离群值。换句话说，离群值包含一个不一致或不符合一般行为的值。
+    在统计学中，我们将与数据集其他部分明显不同的数据点称为离群值。换句话说，离群值包含一个不一致或不符合一般行为的值。
 
     数据集中出现离群值有多种原因。从这个意义上说，测量误差或输入错误都可能导致离群值的存在。
 

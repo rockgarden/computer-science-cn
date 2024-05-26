@@ -1,4 +1,4 @@
-# 数据扩充
+# [数据扩充](https://www.baeldung.com/cs/ml-data-augmentation)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -32,7 +32,7 @@
 
         有时，我们有在不同场景和条件下收集的样本，但却没有足够的唯一样本。
 
-        为了增强此类数据，我们可以使用生成对抗网络（[GAN](https://www.baeldung.com/cs/ml-gan-data-augmentation)）等深度学习方法。它们创建合成数据，试图模仿和扩展训练样本。一个典型的使用案例是人脸检测问题，GAN 会合成不存在的人脸。
+        为了增强此类数据，我们可以使用生成对抗网络（GAN）等深度学习方法。它们创建合成数据，试图模仿和扩展训练样本。一个典型的使用案例是人脸检测问题，GAN 会合成不存在的人脸。
 
         总而言之，当我们需要创建新的独特样本时，我们应该考虑深度学习方法。在难以找到大量数据或难以标注数据的应用中，这可能是必要的。例如，人体姿势或图像到文本的翻译。
 

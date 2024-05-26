@@ -10,13 +10,13 @@
 
 2. 什么是核函数？
 
-    [SVM算法](https://www.baeldung.com/cs/ml-support-vector-machines)使用一组定义为内核的数学函数。[核函数](https://www.baeldung.com/cs/svm-multiclass-classification)是一种将数据作为输入并将其转换为所需形式的方法。换句话说，核函数转换训练数据集，将非线性决策面转换为高维空间中的线性方程。
+    [SVM算法](https://www.baeldung.com/cs/ml-support-vector-machines)使用一组定义为内核的数学函数。核函数是一种将数据作为输入并将其转换为所需形式的方法。换句话说，核函数转换训练数据集，将非线性决策面转换为高维空间中的线性方程。
 
 3. 选择内核时应考虑哪些因素？
 
     SVM 中核的选择取决于问题的类型。事实上，考虑到我们要解决的问题的性质，如线性或非线性分类、异常检测或回归，每种问题都可以选择不同的核。
 
-    如果处理的是[线性分类问题](https://www.baeldung.com/cs/svm-multiclass-classification)，线性内核可能是合适的，因为它能有效分离可以线性分离的数据。但是，当遇到非线性分类问题时，就有必要考虑使用非线性核，如径向基函数（[RBF](https://www.baeldung.com/cs/rbf-neural-networks#:~:text=RBF%20measures%20the%20similarity%20between,the%20data%20and%20reference%20points.)）、多项式或sigmoid核。这些核可以处理更加错综复杂的决策边界。
+    如果处理的是线性分类问题，线性内核可能是合适的，因为它能有效分离可以线性分离的数据。但是，当遇到非线性分类问题时，就有必要考虑使用非线性核，如径向基函数（[RBF](https://www.baeldung.com/cs/rbf-neural-networks#:~:text=RBF%20measures%20the%20similarity%20between,the%20data%20and%20reference%20points.)）、多项式或sigmoid核。这些核可以处理更加错综复杂的决策边界。
 
     此外，在处理[回归任务](https://www.baeldung.com/cs/linear-vs-logistic-regression)或[异常检测](https://www.baeldung.com/cs/ml-drift-anomaly-novelty)时，最重要的是要考虑核的选择。在回归任务中，决定使用哪个核会极大地影响模型理解输入和输出变量之间基本联系的能力。至于异常检测，该任务通常需要识别数据中的复杂模式，因此非线性内核是更合适的选择。
 

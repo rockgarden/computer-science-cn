@@ -22,7 +22,7 @@
 
         在这里，我们首先要了解一般意义上的偏差概念。然后，我们将更具体地结合机器学习来研究它。事实上，偏差的一般含义与我们将其纳入[神经网络](https://www.baeldung.com/cs/neural-net-advantages-disadvantages)[激活函数](https://www.baeldung.com/cs/ml-linear-activation-functions#1-activation-functions)的原因有关，我们很快就会看到。
 
-        事实上，偏差及其与误差和[预测](https://www.baeldung.com/cs/naive-bayes-classification#2-no-predictions-without-prior-knowledge)的关系不仅是机器学习的问题，也是整个[统计分析](https://www.baeldung.com/cs/machine-learning-how-to-start#1-statistics)学科的问题。
+        事实上，偏差及其与误差和[预测](https://www.baeldung.com/cs/naive-bayes-classification#2-no-predictions-without-prior-knowledge)的关系不仅是机器学习的问题，也是整个统计分析学科的问题。
 
         就其通常含义而言，偏差通常是指围绕某种现象进行预测或测量时出现的系统误差。例如，如果一个人不顾任何相反的证据而支持某种观点，我们就会说这个人有偏见。我们还说，如果某些玩家对其他玩家拥有不公平的优势，那么游戏就是有偏见的。
 
@@ -87,7 +87,7 @@
 
         这与误差的类型无关，尤其与产生误差的变量的性质无关。这里的关键词是误差必须是 "系统性的"。如果这种误差是系统性的，我们就可以称其为 "偏差"，并对其进行校正，以获得真实的测量结果。
 
-        同样的道理也适用于预测。我们可以说，如果我们的预测始终偏离某个稳定的量 b，我们就可以把这个量称为偏差，并在我们的模型中加以考虑。正如我们前面所看到的，无论这些模型与[回归还是分类](https://www.baeldung.com/cs/machine-learning-intro)有关，后者都是有效的，而且对统计分析中的任何任务都普遍有效。
+        同样的道理也适用于预测。我们可以说，如果我们的预测始终偏离某个稳定的量 b，我们就可以把这个量称为偏差，并在我们的模型中加以考虑。正如我们前面所看到的，无论这些模型与回归还是分类有关，后者都是有效的，而且对统计分析中的任何任务都普遍有效。
 
         我们必须熟悉系统误差的概念，因为有一些[已知的方法可以计算](https://arxiv.org/ftp/arxiv/papers/1203/1203.3504.pdf)系统误差。因此，我们现在要看看如何处理神经网络中的偏差，然后再讨论如何从线性代数和数值分析的更广泛原理出发，证明神经网络架构中包含偏差是合理的。
 

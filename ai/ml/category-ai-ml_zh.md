@@ -185,9 +185,13 @@
 >> 期望最大化（EM）技术的直观解释
 >> 时间序列中的模式识别
 >> 如何创建智能聊天机器人？
->> 随机森林的袋外误差
+
+- [随机森林的袋外误差](./random-forests-out-of-bag-error_zh.md)
+
 >> 如何计算 CNN 的感受野大小
->> k 近邻和高维数据
+
+- k近邻和高维数据
+
 >> 在 SVM 中使用硬边际与软边际
 >> 强化学习中的值迭代与策略迭代
 >> 如何将文本序列转换为向量
@@ -218,7 +222,9 @@
 >> 神经网络的时代
 >> Epsilon-Greedy Q-learning
 >> 神经网络中权重的随机初始化
->> 使用支持向量机进行多分类
+
+- [使用支持向量机进行多分类](./svm-multiclass-classification_zh.md)
+
 >> 利用神经网络进行强化学习
 >> 什么是交叉熵？
 >> 神经网络与 SVM 相比的优缺点
@@ -330,8 +336,8 @@
 >> What Is One Class SVM and How Does It Work?
 
 - What Is Feature Importance in Machine Learning?
+- Data Augmentation
 
->> Data Augmentation
 >> What Is Fine-Tuning in Neural Networks?
 >> Random Forest vs. Extremely Randomized Trees
 >> How to Use Gabor Filters to Generate Features for Machine Learning
@@ -404,7 +410,9 @@
 >> When Coherence Score Is Good or Bad in Topic Modeling?
 >> How Do Markov Chain Chatbots Work?
 >> Stratified Sampling in Machine Learning
->> Outlier Detection and Handling
+
+- Outlier Detection and Handling
+
 >> Choosing a Learning Rate
 >> Underfitting and Overfitting in Machine Learning
 >> How Do “20 Questions” AI Algorithms Work?
@@ -420,9 +428,12 @@
 
 - Open-Source AI Engines
 
->> Out-of-bag Error in Random Forests
+- Out-of-bag Error in Random Forests
+
 >> How to Calculate Receptive Field Size in CNN
->> k-Nearest Neighbors and High Dimensional Data
+
+- k-Nearest Neighbors and High Dimensional Data
+
 >> Using a Hard Margin vs. Soft Margin in SVM
 >> Value Iteration vs. Policy Iteration in Reinforcement Learning
 >> How To Convert a Text Sequence to a Vector
@@ -453,7 +464,9 @@
 >> Epoch in Neural Networks
 >> Epsilon-Greedy Q-learning
 >> Random Initialization of Weights in a Neural Network
->> Multiclass Classification Using Support Vector Machines
+
+- Multiclass Classification Using Support Vector Machines
+
 >> Reinforcement Learning with Neural Network
 >> What Is Cross-Entropy?
 >> Advantages and Disadvantages of Neural Networks Against SVMs

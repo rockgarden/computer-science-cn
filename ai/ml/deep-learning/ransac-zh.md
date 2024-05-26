@@ -1,4 +1,4 @@
-# 随机抽样共识解释
+# [随机抽样共识解释](https://www.baeldung.com/cs/ransac)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -62,7 +62,7 @@
 
     3. 模型参数 - 迭代次数
 
-        迭代次数越多，我们检测到不含任何异常值的子集的概率就越高。我们可以使用统计学中的一个结果，即离群值与总点之比 $w = \frac{\text{inliers}}{\text{total points}}$、模型计算所需的数据点数 n 以及遇到不含离群值的子集的概率 p：
+        迭代次数越多，我们检测到不含任何异常值的子集的概率就越高。我们可以使用统计学中的一个结果，即离群值与总点之比 $w = \frac{\text{inliers}}{\text{total points}}$，模型计算所需的数据点数 n 以及遇到不含离群值的子集的概率 p：
 
         \[k={\frac {\log(1-p)}{\log(1-w^{n})}}\]
 
@@ -72,7 +72,7 @@
 
     正如我们在上面的公式中所看到的，我们的 RANSAC 算法只有在我们想要拟合的模型（即线性回归）需要的点数较少的情况下才是快速和正确的。此外，必须限制异常值的数量，如果异常值超过 50%，我们可能会遇到问题。
 
-    除了 RANSAC 算法，还有多种方法可以[检测异常值](https://www.baeldung.com/cs/ml-outlier-detection-handling)。例如，支持向量机 ([SVM](https://www.baeldung.com/cs/svm-multiclass-classification)) 等分类算法。对于线性 SVM，我们使用一条简单的线将数据集分为离群值和异常值。我们通过最大化直线与数据集中的点之间的累积距离来实现这一目标。由于我们只想将数据集分为两个类别，即异常值和离群值，因此我们使用的是单类 SVM 算法。另一种值得注意的方法是 k 近邻算法（[kNN](https://www.baeldung.com/cs/k-nearest-neighbors)）。
+    除了 RANSAC 算法，还有多种方法可以检测异常值。例如，支持向量机 (SVM) 等分类算法。对于线性 SVM，我们使用一条简单的线将数据集分为离群值和异常值。我们通过最大化直线与数据集中的点之间的累积距离来实现这一目标。由于我们只想将数据集分为两个类别，即异常值和离群值，因此我们使用的是单类 SVM 算法。另一种值得注意的方法是 k 近邻算法（kNN）。
 
 5. 结论
 

@@ -1,4 +1,4 @@
-# 使用 GAN 进行数据扩充
+# [使用 GAN 进行数据扩充](https://www.baeldung.com/cs/ml-gan-data-augmentation)
 
 [计算机视觉](https://www.baeldung.com/cs/category/ai/computer-vision) [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning)
 
@@ -63,5 +63,3 @@
 6. 结论
 
     在本文中，我们讨论了如何使用 GANs 进行数据扩增。首先，我们介绍了数据扩增和生成模型的主题，然后介绍了可用于生成非常逼真样本的条件 GAN。最后，我们强调了 GAN 的一些局限性。
-
-[Using GANs for Data Augmentation](https://www.baeldung.com/cs/ml-gan-data-augmentation)

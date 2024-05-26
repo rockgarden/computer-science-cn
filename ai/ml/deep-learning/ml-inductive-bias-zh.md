@@ -88,7 +88,7 @@
 
     5. 数据增强
 
-        我们可以将[数据增强](https://www.baeldung.com/cs/ml-gan-data-augmentation)视为另一种正则化方法。
+        我们可以将数据增强视为另一种正则化方法。
 
         它对模型的影响取决于其算法。例如，在句子中[添加噪音](https://aclanthology.org/2021.findings-emnlp.234.pdf)或[单词替换](https://aclanthology.org/D19-1670.pdf?ref=https://githubhelp.com)就是两种数据增强方法。
 

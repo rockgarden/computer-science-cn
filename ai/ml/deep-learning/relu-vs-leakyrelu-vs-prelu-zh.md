@@ -14,7 +14,7 @@
 
     1. 在神经网络中的作用
 
-        我们将人工神经网络定义为由相互连接的节点或人工[神经元](https://www.baeldung.com/cs/neural-networks-neurons)组成的高阶数学模型。它模仿人脑的结构和功能。例如，我们可以利用它进行信息处理，解决[图像分类](https://www.baeldung.com/cs/svm-multiclass-classification)等复杂问题。
+        我们将人工神经网络定义为由相互连接的节点或人工[神经元](https://www.baeldung.com/cs/neural-networks-neurons)组成的高阶数学模型。它模仿人脑的结构和功能。例如，我们可以利用它进行信息处理，解决图像分类等复杂问题。
 
         接着，我们的激活函数是神经元执行的数学函数。因此，它根据神经元的输入和单个输入的相关权重来计算神经元的输出。
 

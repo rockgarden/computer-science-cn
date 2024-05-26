@@ -725,7 +725,9 @@ Gameplay Algorithms
 >> Genetic Algorithms vs Neural Networks
 >> Solving Binary Gap Using Recursion
 >> Longest Increasing Subsequence Using Dynamic Programming
->> Clustering Into an Unknown Number of Clusters
+
+- Clustering Into an Unknown Number of Clusters
+
 >> Computational Complexity of Fibonacci Sequence
 >> Methods of Depth First Traversal and Their Applications
 >> Logarithmic Time Complexity

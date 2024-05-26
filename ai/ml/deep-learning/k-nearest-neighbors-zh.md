@@ -1,4 +1,4 @@
-# k 近邻和高维数据
+# [k近邻和高维数据](https://www.baeldung.com/cs/k-nearest-neighbors)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 

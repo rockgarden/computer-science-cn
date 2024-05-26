@@ -55,4 +55,4 @@
 - [Levenshtein Distance Computation](https://www.baeldung.com/cs/levenshtein-distance-computation)
 - [Big Data vs Data Mining](https://www.baeldung.com/cs/big-data-vs-data-mining)
 - [Predicates in Computer Science](https://www.baeldung.com/cs/predicates)
-- [Clustering Into an Unknown Number of Clusters](https://www.baeldung.com/cs/clustering-unknown-number)
+- Clustering Into an Unknown Number of Clusters
