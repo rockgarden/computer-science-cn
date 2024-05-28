@@ -797,7 +797,9 @@
 >> Normalize Features of a Table
 >> String Similarity Metrics: Token Methods
 >> Gradient Descent Equation in Logistic Regression
->> Correlated Features and Classification Accuracy
+
+- Correlated Features and Classification Accuracy
+
 >> Weakly Supervised Learning
 >> Interpretation of Loss and Accuracy for a Machine Learning Model
 >> Splitting a Dataset into Train and Test Sets

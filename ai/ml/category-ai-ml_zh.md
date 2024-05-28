@@ -214,7 +214,9 @@
 >> 表格特征标准化
 >> 字符串相似度量： 标记方法
 >> 逻辑回归中的梯度下降方程
->> 相关特征和分类精度
+
+- [相关特征和分类精度](./correlation-classification-algorithms_zh.md)
+
 >> 弱监督学习
 >> 解释机器学习模型的损失和准确性
 >> 将数据集拆分为训练集和测试集
@@ -231,7 +233,9 @@
 >> Top-N 精度指标
 >> 神经网络架构： 选择隐藏层数量和大小的标准
 >> 情感分析的训练数据
->> 分类和聚类的区别
+
+- [分类和聚类的区别](./ml-classification-vs-clustering_zh.md)
+
 >> 多类分类的 F-1 分数
 >> 什么是强化学习中的策略？
 >> SVM 与神经网络
@@ -456,7 +460,9 @@
 >> Normalize Features of a Table
 >> String Similarity Metrics: Token Methods
 >> Gradient Descent Equation in Logistic Regression
->> Correlated Features and Classification Accuracy
+
+- Correlated Features and Classification Accuracy
+
 >> Weakly Supervised Learning
 >> Interpretation of Loss and Accuracy for a Machine Learning Model
 >> Splitting a Dataset into Train and Test Sets

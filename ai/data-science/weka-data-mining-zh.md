@@ -30,7 +30,7 @@
 
         接着，[选择合适的特征](https://www.baeldung.com/cs/feature-selection-reduction-for-text-classification)。一般来说，数据有很多不相关的属性和维度。因此，选择正确的属性和降低维度对于产生高质量的结果至关重要。
 
-        然后是为下划线问题选择合适的算法。每种类型的问题都有特定的算法。因此，必须准确了解这是[分类问题还是聚类问题](https://www.baeldung.com/cs/ml-classification-vs-clustering)。
+        然后是为下划线问题选择合适的算法。每种类型的问题都有特定的算法。因此，必须准确了解这是分类问题还是聚类问题。
 
         最后，对数据挖掘算法生成的模式和规则进行解释，以获得有用的知识。
 

@@ -26,7 +26,7 @@
     - 在每个子集上独立并行地训练弱模型
     - 通过求平均值或投票的方式合并每个弱模型的结果，得到最终结果
 
-    在[回归](https://www.baeldung.com/cs/correlation-coefficient-vs-regression-model#regression)任务中，通过求平均值来汇总结果；在[分类](https://www.baeldung.com/cs/ml-classification-vs-clustering#1-introduction-to-classification)任务中，通过选取多数类来汇总结果。
+    在[回归](https://www.baeldung.com/cs/correlation-coefficient-vs-regression-model#regression)任务中，通过求平均值来汇总结果；在分类任务中，通过选取多数类来汇总结果。
 
     1. 使用袋装法的算法
 
