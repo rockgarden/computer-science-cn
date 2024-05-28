@@ -107,7 +107,8 @@
 - [神经网络中的偏差](neural-networks-bias-zh.md)
 - [理解CNN中的维度](ml-understanding-dimensions-cnn-zh.md)
 
-- [大型语言模型简介](large-language-models-zh.md)
+- 大型语言模型
+  - [大型语言模型简介](large-language-models-zh.md)
 - [谷歌 DeepMind 双子座简介](./gemini-google-deepmind_zh.md)
 - [ChatGPT 如何工作？](../../chatgpt-model_zh.md)
 - [BERT 与 GPT-3 架构的比较](./bert-vs-gpt-3-architecture_zh.md)
@@ -137,7 +138,7 @@
 - [An Introduction to Graph Neural Networks](https://www.baeldung.com/cs/ml-gnn)
 - [An Introduction to Deepfakes](https://www.baeldung.com/cs/deepfakes-ai)
 - [Deterministic vs. Stochastic Policies in Reinforcement Learning](https://www.baeldung.com/cs/rl-deterministic-vs-stochastic-policies)
-- [Introduction to Large Language Models](https://www.baeldung.com/cs/large-language-models)
+- Introduction to Large Language Models
 - [What Is and Why Use Temperature in Softmax?](https://www.baeldung.com/cs/softmax-temperature)
 - [What’s a Non-trainable Parameter?](https://www.baeldung.com/cs/non-trainable-parameter)
 - [Epoch or Episode: Understanding Terms in Deep Reinforcement Learning](https://www.baeldung.com/cs/epoch-vs-episode-reinforcement-learning)

@@ -100,7 +100,9 @@
 >> 机器学习中的特征选择
 >> 迁移学习与元学习的区别
 >> 为什么要使用替代损失
->> 参数与超参数
+
+- [参数与超参数](./parameters-vs-hyperparameters_zh.md)
+
 >> 什么是免费午餐定理？
 >> 神经网络中的主干是什么意思？
 >> 什么是基于内容的图像检索？
@@ -331,7 +333,9 @@
 >> Feature Selection in Machine Learning
 >> Differences Between Transfer Learning and Meta-Learning
 >> Why Use a Surrogate Loss
->> Parameters vs. Hyperparameters
+
+- Parameters vs. Hyperparameters
+
 >> What Is the No Free Lunch Theorem?
 >> What Does Backbone Mean in Neural Networks?
 >> What Is Content-Based Image Retrieval?

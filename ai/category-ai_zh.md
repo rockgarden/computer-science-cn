@@ -194,7 +194,9 @@
 >> 光流简介
 >> 生成对抗网络： 判别损失和生成损失
 >> 快速 R-CNN： ROI 层的目的是什么？
->> 参数与超参数
+
+- 参数与超参数
+
 >> 什么是蜂群智能？
 >> 什么是无免费午餐定理？
 >> 粒子群优化是如何工作的？
@@ -619,7 +621,9 @@
 >> Introduction to Optical Flow
 >> Generative Adversarial Networks: Discriminator’s Loss and Generator’s Loss
 >> Fast R-CNN: What is the Purpose of the ROI Layers?
->> Parameters vs. Hyperparameters
+
+- Parameters vs. Hyperparameters
+
 >> What Is Swarm Intelligence?
 >> What Is the No Free Lunch Theorem?
 >> How Does Particle Swarm Optimization Work?
