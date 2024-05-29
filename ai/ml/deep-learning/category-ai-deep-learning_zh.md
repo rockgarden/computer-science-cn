@@ -10,6 +10,8 @@
     - [异常值检测和处理](ml-outlier-detection-handling-zh.md)
   - [数据扩充](ml-data-augmentation_zh.md)
     - [使用GAN进行数据扩充](../../computer-vision/ml-gan-data-augmentation-zh.md)
+- 神经网络参数
+  - [神经网络架构：选择隐藏层数量和大小的标准](neural-networks-hidden-layers-criteria-zh.md)
 - 算法
   - [k近邻和高维数据](k-nearest-neighbors-zh.md)
 
@@ -98,7 +100,7 @@
 - [神经网络中权重的随机初始化](ml-neural-network-weights-zh.md)
 - [卷积神经网络中的批量归一化](batch-normalization-cnn_zh.md)
 - [神经网络与SVM相比的优缺点](ml-ann-vs-svm-zh.md)
-- [神经网络架构：选择隐藏层的数量和大小的标准](neural-networks-hidden-layers-criteria-zh.md)
+
 - [情感分析的训练数据](sentiment-analysis-training-data-zh.md)
 - [多类分类的F-1分数](multi-class-f1-score-zh.md)
 - [什么是强化学习中的策略？](ml-policy-reinforcement-learning-zh.md)
@@ -211,7 +213,7 @@
 - [Random Initialization of Weights in a Neural Network](https://www.baeldung.com/cs/ml-neural-network-weights)
 - Batch Normalization in Convolutional Neural Networks
 - [Advantages and Disadvantages of Neural Networks Against SVMs](https://www.baeldung.com/cs/ml-ann-vs-svm)
-- [Neural Network Architecture: Criteria for Choosing the Number and Size of Hidden Layers](https://www.baeldung.com/cs/neural-networks-hidden-layers-criteria)
+- Neural Network Architecture: Criteria for Choosing the Number and Size of Hidden Layers
 - [Training Data for Sentiment Analysis](https://www.baeldung.com/cs/sentiment-analysis-training-data)
 - [F-1 Score for Multi-Class Classification](https://www.baeldung.com/cs/multi-class-f1-score)
 - [What Is a Policy in Reinforcement Learning?](https://www.baeldung.com/cs/ml-policy-reinforcement-learning)

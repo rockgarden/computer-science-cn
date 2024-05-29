@@ -21,7 +21,9 @@
 >> 卷积神经网络简介
 >> 线性回归与逻辑回归
 >> Naive Bayes 分类法简解
->> PCA：主成分分析
+
+- [PCA：主成分分析](./principal-component-analysis_zh.md)
+
 >> 监督、半监督、无监督和强化学习简介
 >> 深度学习中的训练和验证损失
 >> 使用支持向量机进行多类分类
@@ -431,8 +433,8 @@
 >> Introduction to Convolutional Neural Networks
 >> Linear Regression vs. Logistic Regression
 >> A Simple Explanation of Naive Bayes Classification
->> PCA: Principal Component Analysis
 
+- PCA: Principal Component Analysis
 - Introduction to Supervised, Semi-supervised, Unsupervised and Reinforcement Learning
 
 >> Training and Validation Loss in Deep Learning
@@ -829,7 +831,9 @@
 >> Advantages and Disadvantages of Neural Networks Against SVMs
 >> Top-N Accuracy Metrics
 >> Sentiment Analysis Dictionaries
->> Neural Network Architecture: Criteria for Choosing the Number and Size of Hidden Layers
+
+- Neural Network Architecture: Criteria for Choosing the Number and Size of Hidden Layers
+
 >> Training Data for Sentiment Analysis
 >> F-1 Score for Multi-Class Classification
 >> The Difference Between Epoch and Iteration in Neural Networks
@@ -856,9 +860,12 @@
 
 - What Are the Prerequisites for Studying Machine Learning?
 
->> Advantages and Disadvantages of Neural Networks
+- Advantages and Disadvantages of Neural Networks
+
 >> Publicly Available Spam Filter Training Sets
->> Feature Scaling
+
+- Feature Scaling
+
 >> Understanding Dimensions in CNNs
 >> How ReLU and Dropout Layers Work in CNNs
 >> Nonlinear Activation Functions in a Backpropagation Neural Network

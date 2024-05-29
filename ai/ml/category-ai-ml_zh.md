@@ -249,7 +249,8 @@
 >> 神经网络中的偏差
 >> 如何计算两篇文本文档的相似度？
 >> 分割数据集之前还是之后的数据归一化？
->> 特征缩放
+
+- [特征缩放](./feature-scaling_zh.md)
 
 ## [Machine Learning](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -481,7 +482,9 @@
 >> What Is Cross-Entropy?
 >> Advantages and Disadvantages of Neural Networks Against SVMs
 >> Top-N Accuracy Metrics
->> Neural Network Architecture: Criteria for Choosing the Number and Size of Hidden Layers
+
+- Neural Network Architecture: Criteria for Choosing the Number and Size of Hidden Layers
+
 >> Training Data for Sentiment Analysis
 >> Differences Between Classification and Clustering
 >> F-1 Score for Multi-Class Classification
@@ -502,7 +505,5 @@
 >> Data Normalization Before or After Splitting a Data Set?
 
 - A Simple Explanation of Naive Bayes Classification
-
->> Feature Scaling
-
+- Feature Scaling
 - Introduction to Supervised, Semi-supervised, Unsupervised and Reinforcement Learning

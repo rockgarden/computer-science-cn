@@ -30,7 +30,7 @@
 
         \[y = f_m (\theta_n \cdot f_{m-1} ( \theta_{n-1} \cdot ...\cdot\ f_2 (\theta_2 \cdot f_1 (\theta_1 \cdot x)\ ...\ )\]
 
-        输入向量 x 也是神经网络输入层的名称。包含激活函数 $f_m$ 及其相关参数 $\theta_k$ 的对，在 $1 \leq k < m$ 的情况下，取而代之的是[隐藏层](https://www.baeldung.com/cs/neural-networks-hidden-layers-criteria)的名称。最后，最后一对$(f_m, \theta_n)$是该模型的输出层。
+        输入向量 x 也是神经网络输入层的名称。包含激活函数 $f_m$ 及其相关参数 $\theta_k$ 的对，在 $1 \leq k < m$ 的情况下，取而代之的是隐藏层的名称。最后，最后一对$(f_m, \theta_n)$是该模型的输出层。
 
         我们可以用有[向加权图](https://www.baeldung.com/cs/graphs-directed-vs-undirected-graph#directed-graphs)来[表示神经网络](https://www.baeldung.com/cs/latex-drawing-graphs#neuralnetwork)的图：
 
@@ -117,7 +117,7 @@
 
         ![iris](pic/iris.png)
 
-        对于这个问题，由于我们对解决这个任务的神经网络架构没有很好的理论指导，因此我们测试了一个有两个隐藏层、每个隐藏层有两个神经元的神经网络。事实上，观测数据似乎构成了二维平面上稍有分离的区域，因此，正如我们在关于隐藏层的文章中所研究的那样，我们应该尝试使用两个[隐藏层](https://www.baeldung.com/cs/neural-networks-hidden-layers-criteria#5-neural-networks-for-arbitrary-boundaries)。
+        对于这个问题，由于我们对解决这个任务的神经网络架构没有很好的理论指导，因此我们测试了一个有两个隐藏层、每个隐藏层有两个神经元的神经网络。事实上，观测数据似乎构成了二维平面上稍有分离的区域，因此，正如我们在关于隐藏层的文章中所研究的那样，我们应该尝试使用两个隐藏层。
 
         我们复制了 100 次数据集，并将其输入分类器。收敛后，我们得到了以下结果：
 
