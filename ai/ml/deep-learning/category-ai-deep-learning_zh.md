@@ -112,8 +112,10 @@
 - 大型语言模型
   - [大型语言模型简介](large-language-models-zh.md)
 - [谷歌 DeepMind 双子座简介](./gemini-google-deepmind_zh.md)
-- [ChatGPT 如何工作？](../../chatgpt-model_zh.md)
-- [BERT 与 GPT-3 架构的比较](./bert-vs-gpt-3-architecture_zh.md)
+  - [ChatGPT如何工作？](../../chatgpt-model_zh.md)
+  - [为什么ChatGPT不擅长数学？](../../chatgpt-math-problems_zh.md)
+  - [为什么ChatGPT不能一次性给出答案？](../../chatgpt-answer-sequential-words_zh.md)
+- [BERT与GPT-3架构的比较](./bert-vs-gpt-3-architecture_zh.md)
 
 - [生成对抗网络简介](generative-adversarial-networks_zh.md)
 - [PyTorch 中的 GAN 实现](./pytorch-generative-adversarial-networks_zh.md)

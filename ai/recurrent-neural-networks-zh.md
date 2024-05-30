@@ -1,4 +1,4 @@
-# 递归神经网络
+# [递归神经网络](https://www.baeldung.com/cs/recurrent-neural-networks)
 
 1. 概述
 
@@ -61,7 +61,3 @@
 6. 结论
 
     本文介绍了 RNN。首先，我们介绍了 RNN 的架构及其与传统网络的区别。然后，我们简要讨论了两种 RNN 及其一些应用。
-
-## 相关文章
-
-- [x] [Recurrent Neural Networks](https://www.baeldung.com/cs/recurrent-neural-networks)

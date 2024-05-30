@@ -50,7 +50,9 @@
 >> 什么是组归一化？
 >> 什么是检索增强生成（RAG）？
 >> 如何进行线性判别分析？
->> BERT 和 GPT-3 架构的比较
+
+- BERT 和 GPT-3 架构的比较
+
 >> 如何使用 GPT 的模型温度？
 >> 如何为 SVM 选择核类型？
 >> Focal Loss 简介
@@ -65,7 +67,9 @@
 >> 什么是噪声对比估计损失？
 >> ReLU vs. LeakyReLU vs. PReLU
 >> 如何计算分类器的 VC 维度？
->> 为什么 ChatGPT 不能一次性给出答案？
+
+- 为什么 ChatGPT 不能一次性给出答案？
+
 >> 如何处理逻辑回归中的缺失数据？
 >> 如何用 SMOTE 处理不平衡数据？
 >> 如何绘制逻辑回归的决策边界？
@@ -91,7 +95,9 @@
 >> 图神经网络简介
 >> 高斯混合模型
 >> 机器学习的 Python
->> 为什么 ChatGPT 不擅长数学？
+
+- 为什么 ChatGPT 不擅长数学？
+
 >> 人工智能伦理简介
 >> 深度伪造简介
 >> 什么是奇异值分解？
@@ -489,7 +495,9 @@
 >> What Is Noise Contrastive Estimation Loss?
 >> ReLU vs. LeakyReLU vs. PReLU
 >> How to Calculate the VC-Dimension of a Classifier?
->> Why Does ChatGPT Not Give the Answer All at Once?
+
+- Why Does ChatGPT Not Give the Answer All at Once?
+
 >> How to Handle Missing Data in Logistic Regression?
 >> How to Handle Unbalanced Data With SMOTE?
 >> How to Plot Logistic Regression’s Decision Boundary?
@@ -515,7 +523,9 @@
 >> An Introduction to Graph Neural Networks
 >> Gaussian Mixture Models
 >> Python for Machine Learning
->> Why Is ChatGPT Bad at Math?
+
+- Why Is ChatGPT Bad at Math?
+
 >> Introduction to AI Ethics
 >> An Introduction to Deepfakes
 >> What Is Singular Value Decomposition?
@@ -595,7 +605,9 @@
 >> Differences Between a Parametric and Non-parametric Model
 >> What Is Maxout in a Neural Network?
 >> Maximum Likelihood Estimation
->> Recurrent Neural Networks
+
+- Recurrent Neural Networks
+
 >> Graph Attention Networks
 >> Sparse Coding Neural Networks
 >> Differences Between Luong Attention and Bahdanau Attention

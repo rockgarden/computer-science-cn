@@ -1,4 +1,4 @@
-# 为什么 ChatGPT 不擅长数学？
+# [为什么 ChatGPT 不擅长数学？](https://www.baeldung.com/cs/chatgpt-math-problems)
 
 1. 简介
 
@@ -34,7 +34,7 @@
 
         ChatGPT 是一种基于概率的生成模型。它根据软最大函数概率分布生成文本回复。此外，在模型的一次迭代中，它只输出一个标记，而该标记的采样是根据软最大函数生成的概率分布进行的：
 
-        ![聊天GPT标记](pic/chatgpt-math-problems/1_chatgpt_token.webp)
+        ![聊天GPT标记](pic/1_chatgpt_token.webp)
 
         由于其概率性质，ChatGPT 在其响应中引入了不确定性因素。对于精度和正确性至关重要的数学问题来说，仅仅依靠概率语言模型可能并不理想。
 
@@ -64,15 +64,15 @@
 
         例如，它可以轻松解决积分问题：
 
-        ![Wolfram Plugin Integrals](pic/chatgpt-math-problems/1_wolfram_plugin1.webp)
+        ![Wolfram Plugin Integrals](pic/1_wolfram_plugin1.webp)
 
         甚至还能绘制出结果：
 
-        ![Wolfram Plugin Result](pic/chatgpt-math-problems/1_wolfram_plugin2.webp)
+        ![Wolfram Plugin Result](pic/1_wolfram_plugin2.webp)
 
         此外，它还能解一些复杂方程等：
 
-        ![Wolfram Plugin 复杂方程](pic/chatgpt-math-problems/1_wolfram_plugin3-682x1024.webp)
+        ![Wolfram Plugin 复杂方程](pic/1_wolfram_plugin3-682x1024.webp)
 
 5. 总结
 
