@@ -94,7 +94,7 @@
 
         ![由 QuickLaTeX.com 渲染](pic/quicklatex.com-e0390b792d10235dfd6c030c21f47d75_l3.svg)
 
-        这是一个更普遍规则的具体案例： 文本不会被直接用作特征，只有在经过某种预处理之后才会被用作特征。这些预处理步骤通常包括[词干化和词法化](https://www.baeldung.com/cs/stemming-vs-lemmatization)，以及标记化和[矢量化](https://www.baeldung.com/deeplearning4j#2-vectorizing-and-reading-the-data)。预处理后的文本将成为数据挖掘的特征，但原始形式的文本并不是特征。
+        这是一个更普遍规则的具体案例： 文本不会被直接用作特征，只有在经过某种预处理之后才会被用作特征。这些预处理步骤通常包括[词干化和词法化](https://www.baeldung.com/cs/stemming-vs-lemmatization)，以及标记化和矢量化。预处理后的文本将成为数据挖掘的特征，但原始形式的文本并不是特征。
 
     6. 分类特征
 

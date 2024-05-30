@@ -55,7 +55,7 @@
 
         - 观察、特征和数据集，统计学中的分析单位--观测，也是机器学习中的分析单位
         - 模式提取和统计建模。提取观察特征之间的模式或关系是机器学习中最常见的任务之一。
-        - [回归分析](https://www.baeldung.com/kotlin-supervised-learning#linear-regression)。虽然机器学习有一些与统计不共享的模型，如[神经网络](https://www.baeldung.com/deeplearning4j)，但大多数模型在两者之间是共通的。这意味着，机器学习专业人员除了要熟悉统计学中常用的所有技术外，还要熟悉本学科特有的技术。
+        - [回归分析](https://www.baeldung.com/kotlin-supervised-learning#linear-regression)。虽然机器学习有一些与统计不共享的模型，如神经网络，但大多数模型在两者之间是共通的。这意味着，机器学习专业人员除了要熟悉统计学中常用的所有技术外，还要熟悉本学科特有的技术。
 
     2. 统计学与可复制性问题
 

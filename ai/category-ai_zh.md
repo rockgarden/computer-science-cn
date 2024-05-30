@@ -404,13 +404,17 @@
 >> 分割数据集之前还是之后的数据规范化？
 >> 有标签和无标签数据的区别是什么？
 >> 书面文本中的情感检测简介
->> 神经网络的优缺点
+
+- [神经网络的优缺点](./neural-net-advantages-disadvantages_zh.md)
+
 >> 公开可用的垃圾邮件过滤器训练集
 >> 特征缩放
 >> 了解 CNN 的维度
->> ReLU 和 Dropout 层在 CNN 中的工作原理
->> 反向传播神经网络中的非线性激活函数
->> 线性模型的不足：非线性函数之路
+
+- [ReLU 和 Dropout 层在 CNN 中的工作原理](./ml-relu-dropout-layers_zh.md)
+- [反向传播神经网络中的非线性激活函数](./ml-nonlinear-activation-functions_zh.md)
+- [线性模型的不足：通往非线性函数之路](./ml-linear-activation-functions_zh.md)
+
 >> 遗传算法与神经网络
 >> 计算机科学中的谓词
 >> 向未知数量的聚类
@@ -859,17 +863,16 @@
 >> Introduction to Emotion Detection in Written Text
 
 - What Are the Prerequisites for Studying Machine Learning?
-
 - Advantages and Disadvantages of Neural Networks
 
 >> Publicly Available Spam Filter Training Sets
 
 - Feature Scaling
+- Understanding Dimensions in CNNs
+- How ReLU and Dropout Layers Work in CNNs
+- Nonlinear Activation Functions in a Backpropagation Neural Network
+- Inadequacy of Linear Models: the Road to Nonlinear Functions
 
->> Understanding Dimensions in CNNs
->> How ReLU and Dropout Layers Work in CNNs
->> Nonlinear Activation Functions in a Backpropagation Neural Network
->> Inadequacy of Linear Models: the Road to Nonlinear Functions
 >> Genetic Algorithms vs Neural Networks
 >> Predicates in Computer Science
 

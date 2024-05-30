@@ -221,7 +221,9 @@
 >> 合并两个二叉搜索树
 >> 了解 Dijkstra 算法的时间复杂度计算
 >> 二叉树的节点数 N
->> 梯度下降算法背后的直觉
+
+- [梯度下降算法背后的直觉](./understanding-gradient-descent-zh.md)
+
 >> 步数减为一的最少步数
 >> 时间复杂性与空间复杂性
 >> 使用 Dijkstra 算法的负权重
@@ -590,7 +592,9 @@ Hashing
 >> Merging Two Binary Search Trees
 >> Understanding Time Complexity Calculation for Dijkstra Algorithm
 >> Number of Nodes in a Binary Tree With Level N
->> Intuition Behind Gradient Descent Algorithm
+
+- Intuition Behind Gradient Descent Algorithm
+
 >> Minimum Number of Steps to Reduce Number to One
 >> Time Complexity vs. Space Complexity
 >> Negative Weights Using Dijkstra’s Algorithm

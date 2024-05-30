@@ -16,7 +16,7 @@
 
 3. CNTK
 
-    [CNTK](https://www.baeldung.com/spark-mlib-machine-learning#3-cntk) 又称微软认知工具包（Microsoft Cognitive Toolkit）。CNTK 于 2016 年首次发布，现已弃用，是一个用于训练[深度学习](https://www.baeldung.com/deeplearning4j#what-is-deep-learning)神经网络的开源库。
+    [CNTK](https://www.baeldung.com/spark-mlib-machine-learning#3-cntk) 又称微软认知工具包（Microsoft Cognitive Toolkit）。CNTK 于 2016 年首次发布，现已弃用，是一个用于训练深度学习神经网络的开源库。
 
     它允许用户创建和组合常用的神经网络，如卷积神经网络（CNN）和循环神经网络（RNN）。
 
@@ -48,7 +48,7 @@
 
 8. 深度学习 4J
 
-    [DeepLearning4J](https://www.baeldung.com/deeplearning4j#introduction) 是为 Java 和 Scala 编写的深度学习库，最初于 2014 年发布。它具有分布式计算训练环境，可以加速性能。DeepLearning4J 允许用户灵活地组成和组合神经网络模型。
+    DeepLearning4J是为 Java 和 Scala 编写的深度学习库，最初于 2014 年发布。它具有分布式计算训练环境，可以加速性能。DeepLearning4J 允许用户灵活地组成和组合神经网络模型。
 
     DeepLearning4J 目前支持 Windows、Linux 和 macOS 平台。此外，它还能与 TensorFlow 和 Keras 等其他神经网络库配合使用。
 

@@ -134,7 +134,7 @@
 
     2. Logistic函数的特点
 
-        由于Logistic函数的码域是区间（0,1），这使得Logistic函数特别适合[表示概率](https://www.baeldung.com/apache-commons-math#2-probabilities-and-distributions)。虽然[Logistic函数的其他用途](https://www.baeldung.com/cs/neural-net-advantages-disadvantages#neural-networks)也存在，但该函数通常被用来将实值映射到[伯努利分布](https://www.baeldung.com/cs/naive-bayes-classification#a-bernoulli-naive-bayesian-classifier)的变量。
+        由于Logistic函数的码域是区间（0,1），这使得Logistic函数特别适合[表示概率](https://www.baeldung.com/apache-commons-math#2-probabilities-and-distributions)。虽然Logistic函数的其他用途也存在，但该函数通常被用来将实值映射到[伯努利分布](https://www.baeldung.com/cs/naive-bayes-classification#a-bernoulli-naive-bayesian-classifier)的变量。
 
         如果一个因变量是伯努利分布的，这意味着它可以承担两个值中的一个，通常是0和1.相反，Logistic函数的输入可以是任何实数。这使得logistic函数特别适用于我们需要将域为$(\infty, -\infty)$的变量压缩到一个有限区间的应用。
 

@@ -24,7 +24,7 @@
 
         不过，这种解释要求我们了解在机器学习模型中，我们希望误差函数具有哪些特征。
 
-        学习模型参数的方法多种多样。其中最有名的是梯度下降法，这是一种学习任何连续可导(differentiable)函数参数的通用方法。梯度下降法最常见的应用是学习[神经网络](https://www.baeldung.com/deeplearning4j)中的权重。这是因为权重可被视为该网络的[自成一类的参数](https://www.baeldung.com/cs/graph-theory-intro#8-the-weighted-graph)。
+        学习模型参数的方法多种多样。其中最有名的是梯度下降法，这是一种学习任何连续可导(differentiable)函数参数的通用方法。梯度下降法最常见的应用是学习神经网络中的权重。这是因为权重可被视为该网络的[自成一类的参数](https://www.baeldung.com/cs/graph-theory-intro#8-the-weighted-graph)。
 
         梯度下降法也是我们学习逻辑回归模型参数的方法。那么，我们就可以在这种情况下研究这种算法。通过学习梯度下降算法的应用条件，我们也将学习到应用该算法的函数的预期特征。
 

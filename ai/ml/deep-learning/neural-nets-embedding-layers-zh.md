@@ -16,7 +16,7 @@
 
     神经网络有多种类型，每种类型都有特定的特点和应用。大体上，我们可以将其分为三类：
 
-    - [全连接神经网络（普通神经网络）](https://www.baeldung.com/cs/neural-net-advantages-disadvantages#neural-networks)
+    - 全连接神经网络（普通神经网络）
     - 卷积神经网络
     - [递归神经网络](https://www.baeldung.com/cs/nlp-encoder-decoder-models#2-basic-rnn-units)
 

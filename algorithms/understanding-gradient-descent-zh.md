@@ -1,4 +1,4 @@
-# 梯度下降算法背后的直觉
+# [梯度下降算法背后的直觉](https://www.baeldung.com/cs/understanding-gradient-descent)
 
 [算法](README-zh.md) [核心概念](https://www.baeldung.com/cs/category/core-concepts)
 
@@ -102,4 +102,3 @@
 
     最后，我们分析了为什么梯度下降算法比分析方法更适合解决此类问题。这有助于我们建立梯度下降算法背后的直觉。
 
-[Intuition Behind Gradient Descent Algorithm](https://www.baeldung.com/cs/understanding-gradient-descent)

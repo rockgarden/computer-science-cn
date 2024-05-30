@@ -4,22 +4,23 @@
 
     在本教程中，我们将研究反向传播算法和其他学习程序中最常用的非线性激活函数。
 
-    上一篇[文章](https://www.baeldung.com/cs/ml-linear-activation-functions)已经分析了使用非线性函数的原因。
+    [上一篇文章](https://www.baeldung.com/cs/ml-linear-activation-functions)已经分析了使用非线性函数的原因。
 
 2. 前馈神经网络
 
     反向传播算法在完全互联的前馈神经网络（FFNN）中运行：
 
-    ![前馈神经网络](pic/ANN-feed-forward-1.svg)
+    ![前馈神经网络1](pic/ANN-feed-forward-1.svg)
+
     结构的单元：
 
-    ![人工神经元](pic/Artificial-neuron-1.svg)
+    ![人工神经元1](pic/Artificial-neuron-1.svg)
 
     $\phi$ 函数对输入的加权和进行转换：
 
     \[\Sigma=w_{0}+\sum_{i=1}^{N}w_{i}x_{i}\]
 
-    我们将在线性模型一文中更详细地讨论 FFNN。
+    我们将在[线性模型一文](https://www.baeldung.com/cs/ml-linear-activation-functions)中更详细地讨论 FFNN。
 
 3. 激活函数家族指南
 
@@ -29,7 +30,7 @@
 
     根据我们在线性函数一文中的考虑，平面（线性模型）显然无法逼近图中的函数。
 
-    在引言中，我们使用了 "单元" 一词，而不是 "神经元"。生物类比在很多情况下会产生误导。
+    在引言中，我们使用了 "单元(unit)" 一词，而不是 "神经元(neuron)"。生物类比在很多情况下会产生误导。
 
     神经网络是数学和统计程序，与生物神经网络的相似性有限。不过，这种类比在某些情况下可能有用，我们将讨论神经元的输出，以证明选择某些非线性函数族作为激活函数的合理性。
 
@@ -39,9 +40,9 @@
 
     1. 突触
 
-        信号从一个神经元传递到另一个神经元是通过突触(synaptic)传递进行的，突触传递有[两种类型](https://www.ncbi.nlm.nih.gov/pubmed/24619342)。如果两个神经元相互接触，则直接传递电信号（电突触）。如果两个神经元不接触，则信号通过化学神经递质传播（化学突触）。
+        信号从一个神经元传递到另一个神经元是通过突触传递进行的，突触传递有[两种类型](https://www.ncbi.nlm.nih.gov/pubmed/24619342)。如果两个神经元相互接触，则直接传递电信号（电突触）。如果两个神经元不接触，则信号通过化学神经递质传播（化学突触）。
 
-        鉴于两个细胞之间的物理接触，电突触通常更快，而且是双向的，传统上与反射反应有关。然而，这种类型的信号不受调节，无法适应环境条件的变化。
+        由于两个细胞之间有物理接触，电突触通常速度更快，而且是双向的，传统上与反射反应有关。然而，这种类型的信号不受调节，无法适应环境条件的变化。
 
         因此，进化产生了化学突触，通常出现在高等动物中，具有单向性，可以增强或抑制信号。
 
@@ -61,7 +62,7 @@
 
 4. 反向传播
 
-    现在让我们简要介绍一下反向传播背后的理论。我们可以参考 Krose 和 Van der Smagt 的[经典论文](https://www.infor.uva.es/~teodoro/neuro-intro.pdf)以及 Bishop 的[著作](https://www.amazon.com/Networks-Recognition-Advanced-Econometrics-Paperback/dp/0198538642)。
+    现在让我们简要介绍一下反向传播背后的理论。我们可以参考 [Krose 和 Van der Smagt](https://www.infor.uva.es/~teodoro/neuro-intro.pdf) 的经典论文以及 [Bishop](https://www.amazon.com/Networks-Recognition-Advanced-Econometrics-Paperback/dp/0198538642) 的著作。
 
     1. 通用逼近定理
 
@@ -142,7 +143,7 @@
 
         在这种情况下，我们没有目标作为指导搜索的帮助。此外，隐藏层中权重的变化会导致输出成为下游层的输入，以此类推，直到输出层。这是一个问题，因为只有在输出层，我们才能利用目标来了解所有权重的整体变化是否产生了微小的误差。
 
-        这一难题被称为 "信用分配问题"（Credit Assignment Problem），它对我们现在所说的深度学习的发展构成了重大障碍。直到 1986 年，鲁梅尔哈特、辛顿和威廉姆斯发表了一篇[经典文章](https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf)，描述了反向传播算法。类似的算法早在 20 世纪 70 年代就已为人所知，但作者展示了如何将其用作学习程序。
+        这一难题被称为 "信用分配问题"（Credit Assignment Problem），它对我们现在所说的深度学习的发展构成了重大障碍。直到 1986 年，[鲁梅尔哈特、辛顿和威廉姆斯](https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf)发表了一篇经典文章，描述了反向传播算法。类似的算法早在 20 世纪 70 年代就已为人所知，但作者展示了如何将其用作学习程序。
 
     5. 广义德尔塔法则
 
@@ -154,7 +155,7 @@
 
         \[s_{k}^{p}=w_{0k}+\sum_{j}w_{jk}y_{j}^{p}\]
 
-        为网络单元使用通用非线性激活函数：
+        网络单元使用通用非线性激活函数：
 
         \[y_{k}^{p}=\phi\left(s_{k}^{p}\right)\]
 
@@ -166,37 +167,37 @@
 
         上述表达式涉及激活函数 $\phi^{'}$ 的导数，因此需要连续函数。
 
-    6. 从生物神经元到非线性人工神经网络
+        4.6. 从生物神经元到非线性人工神经网络
 
         我们迄今为止所做的考虑为我们提供了一个选择非线性数学函数作为激活函数的标准。根据反向传播的要求，它们必须是连续的、可微分的，并且能再现生物神经元输出的趋势。
 
         我们将研究两个可能的类别：sigmoid 函数和 ReLU 系列。
 
-5. 西格码激活函数
+5. 西格玛激活函数
 
-    西格玛函数是有界、可微、实数函数，对所有实数输入值都有定义，并且在每一点都有一个非负导数。以下是一些重要的西格类函数及其主要特征。
+    西格玛函数是有界、可微、实数函数，对所有实数输入值都有定义，并且在每一点都有一个非负导数。下面是一些重要的西格玛函数及其主要特征。
 
     1. 对数函数
 
-        logistic 函数的输出范围为 [0:1]：
+        logistic 函数的输出范围为 $[0:1]$：
 
         \[\phi(s_{k})=\frac{1}{1+e^{-s_{k}}}=\frac{e^{s_{k}}}{1+e^{s_{k}}}\]
 
         它的优点是梯度平滑，缺点是计算成本高。
 
-    2. Hyperbolic Tangent
+    2. 双曲正切
 
-        双曲正切具有logistic函数的优点和缺点，但输出范围为 [-1:1]：
+        双曲正切具有物流函数的优点和缺点，但输出范围为 $[-1:1]$：
 
         \[\phi(s_{k})=\tanh(s_{k})\]
 
-    3. Softmax
+    3. 软最大值
 
         我们可以在分类问题中使用 Softmax，通常是在输出层：
 
         \[\phi(s_{k})=\frac{e^{s_{k}}}{\sum_{i}e^{s_{j}}}\]
 
-    4. 反双曲正切 Inverse Hyperbolic Tangent（arctanh）
+    4. 反双曲正切（arctanh）
 
         arctanh 与上述公式类似，但使用较少：
 
@@ -210,35 +211,35 @@
 
     6. 误差函数
 
-        误差函数也叫高斯误差(Gauss error)函数。在统计学中，对于 x 的非负值，以及均值为 0、方差为 1/2 的正态分布随机变量 y，erf x 是 y 落在 [-x:x] 范围内的概率：
+        误差函数也叫高斯误差函数。在统计学中，对于 x 的非负值，以及均值为 0、方差为 1/2 的正态分布随机变量 y，erf x 是 y 落在 $[-x:x]$ 范围内的概率：
 
         \[\phi(s_{k})=\mathrm{erf}(s_{k})=\frac{2}{\sqrt{\pi}}\int_{0}^{s_{k}}e^{-t^{2}}dt\]
 
-    7. Generalised Logistic
+    7. 广义 Logistic
 
-        广义 Logistic 函数可以简化为 a=1 时的Logistic函数：
+        广义 Logistic 函数可以简化为 a=1 时的物流函数：
 
         \[\phi(s_{k})=\left(1+e^{-s_{k}}\right)^{-a},\,a>0\]
 
-    8. Kumaraswamy函数
+    8. 库马拉斯瓦米函数
 
         库马拉斯瓦米函数是 logistic 函数的另一个广义化。当 a=b=1 时，它还原为 logistic 函数：
 
         \[\phi(s_{k})=1-\left[1-\left(\frac{1}{1+e^{-s_{k}}}\right)^{a}\right]^{b}\]
 
-    9. Smoothstep函数
+    9. 平滑步函数
 
         平滑步函数是
 
         \[\phi(s_{k})=\left\{ \begin{array}{ll} \left(\int_{0}^{1}(1-t^{2})^{N}\,dt\right)^{-1}\int_{0}^{s_{k}}(1-t^{2})^{N}\,dt,\, & |s_{k}|\leq1\\ \mathrm{sgn}(s_{k}), & |s_{k}|\geq1 \end{array}\right.,\,N\geq1\]
 
-    10. Algebraic函数
+    10. 代数函数
 
         最后是代数函数
 
         \[\phi(s_{k})=\frac{s_{k}}{\sqrt{1+s_{k}^{2}}}\]
 
-    11. Sigmoid激活函数的问题
+    11. 西格码激活函数的问题
 
         应用所列函数作为激活函数时，通常需要对所考虑问题的数据集进行重新缩放。
 
@@ -248,7 +249,7 @@
 
         ![西格玛激活函数](pic/Activation-functions-sigmoid.svg)
 
-        这种机制导致了所谓的梯度消失问题。即在某些条件下梯度消失，这可能会阻碍学习过程。这一缺点可以通过使用较窄的归一化区间来缓解，例如 logistic 函数的归一化区间为 [0.1:0.9]，而 $\tanh$ 函数的归一化区间为 [-0.9:0.9]。
+        这种机制导致了所谓的梯度消失问题。即在某些条件下梯度消失，这可能会阻碍学习过程。这一缺点可以通过使用较窄的归一化区间来缓解，例如 logistic 函数的归一化区间为 $[0.1:0.9]$，而 $\tanh$ 函数的归一化区间为 $[-0.9:0.9]$。
 
         此外，一般来说，sigmoid 函数的计算量较大。
 
@@ -258,14 +259,14 @@
 
         ReLU 系列有许多优点：
 
-        - 生物合理性(biological plausibility)
+        - 生物合理性
         - 梯度传播效果更好：与双向饱和的 sigmoid 激活函数相比，梯度消失问题更少
         - 计算效率高：只需比较、加法和乘法
         - 规模不变
 
         下图显示了下面提到的一些函数的图形表示：
 
-        ![激活函数ReLU](pic/Activation-functions-ReLU.svg)
+        ![激活函数 ReLU](pic/Activation-functions-ReLU.svg)
 
     2. ReLU
 
@@ -285,15 +286,15 @@
 
         \[\phi(s_{k})=\left\{ \begin{array}{ll} s_{k}, & x>0\\ 0.01s_{k}, & \mathrm{otherwise} \end{array}\right.\]
 
-        然而，它无法对 s_k < 0 进行一致的预测。
+        然而，它无法对 $s_k < 0$ 进行一致的预测。
 
-    4. Parametric ReLU
+    4. 参数 ReLU
 
         参数 ReLU 允许在学习过程中插入参数 a，而不是像 Leaky ReLU 那样定义一个任意值：
 
         \[\phi(s_{k})=\left\{ \begin{array}{ll} s_{k}, & x>0\\ as_{k}, & \mathrm{otherwise} \end{array}\right.\]
 
-    5. Noisy ReLU
+    5. 噪声 ReLU
 
         另一种是 ReLU 的扩展，叫做噪声 ReLU。主要区别在于输出包含由高斯概率密度 $\mathcal{N}$ 产生的噪声，其均值为零，标准差为 $\sigma$：
 
@@ -303,9 +304,9 @@
 
         指数线性单元（ELU）试图让平均激活度更接近零，从而加快学习速度。ELU 可以获得比 ReLU 更高的分类准确率：
 
-        \[\phi(s_{k})=\left\{ \begin{array}{ll} s_{k}, & x>0\\ a(e^{s_{k}}-1), & \mathrm{otherwise} \end{array}\right.,\,a>0\]
+        \[\phi(s_{k})=\left\{ \begin{array}{ll} s_{k}, & x>0\ a(e^{s_{k}}-1), & \mathrm{otherwise}. \end{array}\right.,\,a>0\]
 
-    7. Softplus or Smooth ReLU
+    7. 软加或平滑 ReLU
 
         ReLU的平滑近似（Softplus/SmoothReLU）函数有一个显著特点，即它的导数是对数函数：
 
@@ -313,7 +314,7 @@
 
     8. Swish 函数
 
-        Swish 函数是由谷歌开发的，它的性能优越，计算效率与 ReLU 函数相同：
+        Swish 函数是由谷歌开发的，它与 ReLU 函数具有相同的计算效率，但性能更优越：
 
         \[\phi(s_{k})=\frac{s_{k}}{1+e^{-s_{k}}}\]
 
@@ -323,7 +324,7 @@
 
         我们之前考虑的所有激活函数都是真实的。但在一些应用领域中，会用到具有复杂函数的模型。
 
-        一个典型的例子是电磁系统，其中许多系统都模拟某种具有振幅和相位的波现象。波是周期性函数，可以用欧拉公式中的虚指数来表示，因此波具有复数特性：
+        一个典型的例子是电磁系统，其中许多系统都模拟某种具有振幅和相位的波现象。波是一种周期性函数，可以用虚指数来表示，欧拉公式中的 "$e^{ix}$" 就是波的复数特征：
 
         \[e^{ix}=\cos x+i\sin x\]
 
@@ -335,7 +336,7 @@
 
         我们可以通过几种方法用神经网络处理本质上复杂的问题。例如，我们可以设计一个网络，将模型的实部和虚部作为单独的输出单元，只使用实函数，但也可以直接处理它们。
 
-        这个话题非常广泛。重要的问题是，我们可以利用复杂的非线性激活函数对反向传播进行扩展，形成所谓的复值神经网络 (Complex-Valued Neural Networks, [CVNN](https://www.amazon.com/Complex-Valued-Networks-Studies-Computational-Intelligence/dp/3642276318/ref=sr_1_1?dchild=1&keywords=Hirose%2C+Akira.+Complex-Valued+Neural+Networks&qid=1588159745&s=books&sr=1-1))。
+        这个话题非常广泛。重要的问题是，我们可以利用复杂的非线性激活函数对反向传播进行扩展，形成所谓的复值神经网络 ([CVNN](https://www.amazon.com/Complex-Valued-Networks-Studies-Computational-Intelligence/dp/3642276318/ref=sr_1_1?dchild=1&keywords=Hirose%2C+Akira.+Complex-Valued+Neural+Networks&qid=1588159745&s=books&sr=1-1))。
 
         这些激活函数使用了我们在前面章节中分析过的一些 sigmoid 函数的表达式。网络的每个单元都会产生一个复数输出，我们可以将其汇总，成为下一层单元的复数输入。
 
@@ -355,10 +356,4 @@
 
     我们没有简单罗列数学函数及其特点，而是试图以一种连贯的方法来解决这个问题，突出问题和需求，从逻辑的角度出发，引出本文的论述。
 
-    最近，一些鲜为人知的扩展，如虚函数，使得前馈神经网络和反向传播算法的应用扩展到新的问题成为可能。
-
-    我们还可以发现许多其他非线性激活函数，利用反向传播以外的算法训练网络。例如，径向基函数 (Radial Basis Functions, [RBF](https://en.wikipedia.org/wiki/Radial_basis_function)) 使用高斯函数；不过，在本文中，我们重点讨论的是反向传播机制。
-
-## 相关文章
-
-- [ ] [Nonlinear Activation Functions in a Backpropagation Neural Network](https://www.baeldung.com/cs/ml-nonlinear-activation-functions)
+    一些不太为人所知的扩展，如虚函数，最近使我们有可能扩展其应用。

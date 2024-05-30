@@ -152,7 +152,7 @@
 
     7. 反向传播 = 计算导数 $\neq$ 训练
 
-        我们不应该混淆反向传播算法和训练算法。反向传播是一种在神经网络中计算梯度的策略。进行更新的方法就是训练算法。例如，[梯度下降算法](https://www.baeldung.com/cs/understanding-gradient-descent)、[随机梯度下降算法](https://www.baeldung.com/cs/sgd-vs-backpropagation)和[自适应矩估计算法](https://www.baeldung.com/cs/ml-learning-rate#3-adam)。
+        我们不应该混淆反向传播算法和训练算法。反向传播是一种在神经网络中计算梯度的策略。进行更新的方法就是训练算法。例如，梯度下降算法、[随机梯度下降算法](https://www.baeldung.com/cs/sgd-vs-backpropagation)和[自适应矩估计算法](https://www.baeldung.com/cs/ml-learning-rate#3-adam)。
 
         最后，由于反向传播是一种计算梯度的通用技术，我们可以将其用于任何函数，而不仅仅是神经网络。此外，反向传播并不局限于前馈网络。我们也可以将其应用于递归神经网络。
 

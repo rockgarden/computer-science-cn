@@ -1,4 +1,4 @@
-# 神经网络中的偏差
+# [神经网络中的偏差](https://www.baeldung.com/cs/neural-networks-bias)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -20,7 +20,7 @@
 
     1. 常识意义上的偏差
 
-        在这里，我们首先要了解一般意义上的偏差概念。然后，我们将更具体地结合机器学习来研究它。事实上，偏差的一般含义与我们将其纳入[神经网络](https://www.baeldung.com/cs/neural-net-advantages-disadvantages)[激活函数](https://www.baeldung.com/cs/ml-linear-activation-functions#1-activation-functions)的原因有关，我们很快就会看到。
+        在这里，我们首先要了解一般意义上的偏差概念。然后，我们将更具体地结合机器学习来研究它。事实上，偏差的一般含义与我们将其纳入神经网络激活函数的原因有关，我们很快就会看到。
 
         事实上，偏差及其与误差和[预测](https://www.baeldung.com/cs/naive-bayes-classification#2-no-predictions-without-prior-knowledge)的关系不仅是机器学习的问题，也是整个统计分析学科的问题。
 
@@ -95,7 +95,7 @@
 
     1. 神经网络与线性函数
 
-        我们将从单层神经网络开始讨论神经网络及其偏差，然后再推广到[深度神经网络](https://www.baeldung.com/deeplearning4j#what-is-deep-learning)。
+        我们将从单层神经网络开始讨论神经网络及其偏差，然后再推广到深度神经网络。
 
         我们知道，任何给定的单层神经网络都会计算某个函数 Y = f(X)，其中 X 和 Y 分别是包含独立分量的输入和输出向量。如果神经网络有一个权重矩阵 W，我们也可以将上述函数重写为 Y = f(X，W)。如果 Y 和 X 的维度都是|Y|=|X|=1，我们可以进一步用二维图表示函数 f：
 

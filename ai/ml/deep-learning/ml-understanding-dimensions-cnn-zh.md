@@ -1,4 +1,4 @@
-# 了解 CNN 中的维度
+# [了解CNN中的维度](https://www.baeldung.com/cs/ml-understanding-dimensions-cnn)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning)
 

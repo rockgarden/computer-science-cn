@@ -6,7 +6,7 @@
 
 2. 人工智能和认知计算
 
-    所有能让机器像人类一样理解和行为的技术进步统称为人工智能（AI）。它涵盖了广泛的主题，包括机器学习 (ML) 和[深度学习](https://www.baeldung.com/deeplearning4j)，以及神经网络、图像识别和自然语言处理 ([NLP](http://towardsdatascience.com/a-gentle-introduction-to-natural-language-processing-e716ed3c0863))。
+    所有能让机器像人类一样理解和行为的技术进步统称为人工智能（AI）。它涵盖了广泛的主题，包括机器学习 (ML) 和深度学习，以及神经网络、图像识别和自然语言处理 ([NLP](http://towardsdatascience.com/a-gentle-introduction-to-natural-language-processing-e716ed3c0863))。
 
     人们常常将认知计算误认为是人工智能，因为它使用的是相同的技术。然而，这些系统的输出以及它们与人的交互方式却截然不同。
 

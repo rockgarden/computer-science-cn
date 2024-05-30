@@ -219,5 +219,5 @@
 - [What Is a Policy in Reinforcement Learning?](https://www.baeldung.com/cs/ml-policy-reinforcement-learning)
 - [What Is the Difference Between Gradient Descent and Gradient Ascent?](https://www.baeldung.com/cs/gradient-descent-vs-ascent)
 - Normalizing Inputs for an Artificial Neural Network
-- [Bias in Neural Networks](https://www.baeldung.com/cs/neural-networks-bias)
-- [Understanding Dimensions in CNNs](https://www.baeldung.com/cs/ml-understanding-dimensions-cnn)
+- Bias in Neural Networks
+- Understanding Dimensions in CNNs

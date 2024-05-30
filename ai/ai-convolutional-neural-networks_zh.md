@@ -50,7 +50,7 @@
 
         - "为什么我们不简单地使用前馈神经网络进行图像分类？
 
-        事实上，我们知道[前馈神经网络](https://www.baeldung.com/cs/neural-net-advantages-disadvantages#neural-networks)可以将任何形式的[连续函数](https://www.baeldung.com/cs/ml-nonlinear-activation-functions#magicparlabel-11789)$f: X \in R^n \to Y \in R^m$逼近。然而，我们并不能保证神经网络可以学习该函数。一般来说，如果我们有疑问，可以假设神经网络会对训练数据的噪声进行[过拟合](https://www.baeldung.com/spark-mlib-machine-learning#3-model-performance)，而永远学不会任何给定的[目标函数](https://www.baeldung.com/cs/genetic-algorithms-vs-neural-networks#motivation)：
+        事实上，我们知道前馈神经网络可以将任何形式的[连续函数](https://www.baeldung.com/cs/ml-nonlinear-activation-functions#magicparlabel-11789)$f: X \in R^n \to Y \in R^m$逼近。然而，我们并不能保证神经网络可以学习该函数。一般来说，如果我们有疑问，可以假设神经网络会对训练数据的噪声进行[过拟合](https://www.baeldung.com/spark-mlib-machine-learning#3-model-performance)，而永远学不会任何给定的[目标函数](https://www.baeldung.com/cs/genetic-algorithms-vs-neural-networks#motivation)：
 
         ![1-5](pic/1-5.png)
 
@@ -58,7 +58,7 @@
 
         为训练神经网络而减少数据集[噪音](https://www.baeldung.com/cs/cs-entropy-definition#magicparlabel-8564)的尝试被称为[正则化](https://en.wikipedia.org/wiki/Regularization_(mathematics))。[卷积](https://www.baeldung.com/kotlin-supervised-learning#building-ann)是正则化的一种特殊类型，它利用了特征或观测值的线性依赖性。这反过来又能让我们减少噪声，恢复与特征线性独立性先验假设的一致性，我们很快就会看到这一点。
 
-        从广义上讲，[正则化](https://www.baeldung.com/deeplearning4j#2-setting-network-parameters)包括将数据集的[特征映射](https://www.baeldung.com/kotlin-data-objects)到具有较低熵的新特征上。从形式上来说，这意味着我们将特征$X \to X\prime$，这样，如果 H(X) 是 X 的熵，那么 $H(X) \leq H(X\prime)$。这样我们就可以学习一个新的目标函数 $g：f(X) \to g(X\prime)$，它不容易过度拟合：
+        从广义上讲，正则化包括将数据集的[特征映射](https://www.baeldung.com/kotlin-data-objects)到具有较低熵的新特征上。从形式上来说，这意味着我们将特征$X \to X\prime$，这样，如果 H(X) 是 X 的熵，那么 $H(X) \leq H(X\prime)$。这样我们就可以学习一个新的目标函数 $g：f(X) \to g(X\prime)$，它不容易过度拟合：
 
         ![2-3](pic/2-3.png)
 

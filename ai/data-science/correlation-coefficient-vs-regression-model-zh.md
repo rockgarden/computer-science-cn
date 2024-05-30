@@ -98,7 +98,7 @@
 
         ![二次回归](pic/Quadratic-1.png)
 
-        由于存在[非线性](https://www.baeldung.com/cs/ml-linear-activation-functions)和非单调关系，传统的相关系数无法为数据提供任何启示。
+        由于存在非线性和非单调关系，传统的相关系数无法为数据提供任何启示。
 
         如果是严格的递增或递减关系（即单调关系），Spearman 或 Kendall's tau 系数可以轻松证明它们之间的相关性。
 

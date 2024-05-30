@@ -20,13 +20,13 @@
 
         在关于[支持向量机和神经网络](https://www.baeldung.com/cs/svm-vs-neural-network)的区别的文章中，我们讨论了这两种机器学习模型的架构是如何构建的。在这里，我们将重点讨论这两种模型在解决具体机器学习任务时的具体优缺点的识别和测试。
 
-        一般来说，在有关机器学习的文献中，[前馈神经网络](https://www.baeldung.com/cs/ml-linear-activation-functions#structure-of-feed-forward-neural-networks)和[支持向量机](https://www.baeldung.com/cs/ml-support-vector-machines)几乎可以互换使用。不过，在更高级的层面上，我们可以说确实存在一些重要的差异。
+        一般来说，在有关机器学习的文献中，前馈神经网络和[支持向量机](https://www.baeldung.com/cs/ml-support-vector-machines)几乎可以互换使用。不过，在更高级的层面上，我们可以说确实存在一些重要的差异。
 
         这是因为这两种架构只有在有限的情况下才能完全对应，尤其是在我们讨论[线性SVM](https://www.baeldung.com/cs/ml-support-vector-machines#1-linear-svms-for-linearly-separable-problems)时。在其他情况下，对于[非线性SVM](https://www.baeldung.com/cs/ml-support-vector-machines#non-linear-svms)和ANN而言，随着问题复杂性的增加，差异也会变得越来越大。因此，熟练的数据科学家应该知道应该选择哪种模型，以便从机器学习系统中获得额外的性能。
 
     2. 神经网络的简短定义
 
-        前馈神经网络是一个参数模型，由 n 个权重向量 $\Theta = \{\theta_1, \theta_2, ..., \theta_n\}$、m 个[激活函数](https://www.baeldung.com/cs/ml-linear-activation-functions) $F = \{f_1, f_2, ..., f_m\}$ 和一个输入向量 x 组成：
+        前馈神经网络是一个参数模型，由 n 个权重向量 $\Theta = \{\theta_1, \theta_2, ..., \theta_n\}$、m 个激活函数 $F = \{f_1, f_2, ..., f_m\}$ 和一个输入向量 x 组成：
 
         \[y = f_m (\theta_n \cdot f_{m-1} ( \theta_{n-1} \cdot ...\cdot\ f_2 (\theta_2 \cdot f_1 (\theta_1 \cdot x)\ ...\ )\]
 

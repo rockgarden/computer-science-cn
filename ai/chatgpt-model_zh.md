@@ -10,7 +10,7 @@
 
     一般来说，根据层和神经元的类型，我们可以将神经网络分为三大类：
 
-    - [全连接神经网络（常规神经网络）](https://www.baeldung.com/cs/neural-net-advantages-disadvantages#neural-networks)）
+    - 全连接神经网络（常规神经网络）
     - 卷积神经网络
     - [递归神经网络](https://www.baeldung.com/cs/nlp-encoder-decoder-models#2-basic-rnn-units)
 

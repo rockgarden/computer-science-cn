@@ -85,7 +85,7 @@
 
     3. 用反向传播训练 GNN
 
-        训练 GNN 的目的是学习最佳参数，使网络能够根据图结构数据做出准确的预测或分类。这通常是通过使用损失函数的监督学习过程来实现的。最常见的方法是采用[反向传播](https://www.baeldung.com/cs/neural-networks-backprop-vs-feedforward)和[梯度下降](https://www.baeldung.com/cs/understanding-gradient-descent)来优化 GNN 的参数。
+        训练 GNN 的目的是学习最佳参数，使网络能够根据图结构数据做出准确的预测或分类。这通常是通过使用损失函数的监督学习过程来实现的。最常见的方法是采用[反向传播](https://www.baeldung.com/cs/neural-networks-backprop-vs-feedforward)和梯度下降来优化 GNN 的参数。
 
 8. GNN 的能力
 

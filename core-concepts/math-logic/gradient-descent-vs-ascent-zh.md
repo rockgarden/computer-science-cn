@@ -18,7 +18,7 @@
 
 3. 梯度下降
 
-    梯度下降是一个迭代过程，我们通过它来优化机器学习模型的参数。它主要用于[神经网络](https://www.baeldung.com/cs/neural-net-advantages-disadvantages)，也可用于逻辑回归和[支持向量机](https://www.baeldung.com/cs/ml-support-vector-machines)。
+    梯度下降是一个迭代过程，我们通过它来优化机器学习模型的参数。它主要用于神经网络，也可用于逻辑回归和[支持向量机](https://www.baeldung.com/cs/ml-support-vector-machines)。
 
     它是[成本函数](https://www.baeldung.com/cs/learning-curve-ml#2-single-curves)迭代最小化的最典型方法。不过，它的主要局限在于只能保证收敛到局部最小值，而不一定是全局最小值：
 

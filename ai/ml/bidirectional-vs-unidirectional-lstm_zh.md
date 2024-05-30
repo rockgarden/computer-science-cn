@@ -16,7 +16,7 @@
 
     神经网络有很多种类型，但大致可分为三大类：
 
-    - [前馈神经网络](https://www.baeldung.com/cs/neural-net-advantages-disadvantages#neural-networks)
+    - 前馈神经网络
     - 卷积神经网络
     - [递归神经网络](https://www.baeldung.com/cs/nlp-encoder-decoder-models#2-basic-rnn-units)
 

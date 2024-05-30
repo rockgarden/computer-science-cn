@@ -82,7 +82,7 @@
 
         - 回归模型，如[线性回归和逻辑回归](/core-concepts/math-logic/linear-vs-logistic-regression-zh.md)
         - [支持向量机](https://www.baeldung.com/cs/ml-support-vector-machines)
-        - [神经网络](https://www.baeldung.com/cs/neural-net-advantages-disadvantages)
+        - 神经网络
 
         具体模型的选择取决于正在执行的具体任务。因此，不仅要学习机器学习中使用的理论和[算法](https://www.baeldung.com/cs/heuristic-vs-algorithm#what-is-an-algorithm)，还要学习与解决任何特定任务相关的[启发式](https://www.baeldung.com/cs/heuristics)方法。
 

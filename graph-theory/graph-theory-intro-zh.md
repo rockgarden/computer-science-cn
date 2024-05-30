@@ -156,7 +156,7 @@
 
         ![加权图](pic/weighted-graph.webp)
 
-        机器学习中常用的典型加权图是[人工神经网络](https://www.baeldung.com/cs/neural-net-advantages-disadvantages)。我们可以将神经网络概念化为[有向加权图](https://www.baeldung.com/cs/ml-nonlinear-activation-functions#feed-forward-neural-networks)，其中每个顶点都有一个额外的[激活函数](/ai/ml/ml-nonlinear-activation-functions-zh.md)。
+        机器学习中常用的典型加权图是人工神经网络。我们可以将神经网络概念化为[有向加权图](https://www.baeldung.com/cs/ml-nonlinear-activation-functions#feed-forward-neural-networks)，其中每个顶点都有一个额外的[激活函数](/ai/ml/ml-nonlinear-activation-functions-zh.md)。
 
 4. 结论
 
