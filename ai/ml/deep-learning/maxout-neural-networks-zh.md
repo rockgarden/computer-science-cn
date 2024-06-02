@@ -6,7 +6,7 @@
 
 1. 简介
 
-    在本教程中，我们将介绍深度学习中广泛使用的 [ReLU激活函数](https://www.baeldung.com/cs/activation-functions-neural-nets)的扩展--maxout。我们将介绍它的数学方法，用一个具体的例子来说明它，并讨论它的主要优点和限制。
+    在本教程中，我们将介绍深度学习中广泛使用的ReLU激活函数的扩展--maxout。我们将介绍它的数学方法，用一个具体的例子来说明它，并讨论它的主要优点和限制。
 
 2. 什么是 Maxout？
 

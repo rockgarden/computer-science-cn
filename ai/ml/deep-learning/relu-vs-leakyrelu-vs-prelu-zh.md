@@ -6,7 +6,7 @@
 
 1. 简介
 
-    在本教程中，我们将研究 ReLU [激活函数](https://www.baeldung.com/cs/activation-functions-neural-nets)系列。
+    在本教程中，我们将研究 ReLU 激活函数系列。
 
 2. 激活函数
 

@@ -12,7 +12,7 @@
 
 2. 激活函数： 概述
 
-    [激活函数](https://www.baeldung.com/cs/activation-functions-neural-nets)是应用于神经元输入的数学运算。非线性对于网络学习输入和输出之间的复杂映射关系至关重要，使其能够捕捉数据中错综复杂的模式。常见的激活函数包括sigmoid、双曲正切（[tanh](https://www.baeldung.com/cs/sigmoid-vs-tanh-functions)）和整流线性单元（[ReLU](https://www.baeldung.com/cs/ml-relu-dropout-layers)）。
+    激活函数是应用于神经元输入的数学运算。非线性对于网络学习输入和输出之间的复杂映射关系至关重要，使其能够捕捉数据中错综复杂的模式。常见的激活函数包括sigmoid、双曲正切（[tanh](https://www.baeldung.com/cs/sigmoid-vs-tanh-functions)）和整流线性单元（[ReLU](https://www.baeldung.com/cs/ml-relu-dropout-layers)）。
 
     最近的发展引入了有望提高性能的新型函数。高斯误差线性单元（GELU）激活函数就是其中的佼佼者：
 

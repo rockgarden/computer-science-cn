@@ -56,7 +56,7 @@
 
 >> K-均值算法的缺点
 
-- [从 RNN 到变形器](../rnns-transformers-nlp_zh.md)
+- [从 RNN 到变换器](../rnns-transformers-nlp_zh.md)
 - [机器学习：主动学习](ml-active-learning_zh.md)
 
 >> 支持向量机中的 C 参数
@@ -91,8 +91,8 @@
 >> 稀疏编码神经网络
 >> 卢昂注意与巴赫达瑙注意的区别
 >> 铰链损失和逻辑损失的区别
->> 机器学习： 如何为训练格式化图像
->> 机器学习： 灵活和不灵活的模型
+>> 机器学习：如何为训练格式化图像
+>> 机器学习：灵活和不灵活的模型
 >> 什么是受限玻尔兹曼机？
 >> 什么是数据湖？
 >> 吉布斯采样简介
@@ -294,7 +294,9 @@
 
 >> Machine Learning: Analytical Learning
 >> The C Parameter in Support Vector Machines
->> What Is and Why Use Temperature in Softmax?
+
+- What Is and Why Use Temperature in Softmax?
+
 >> How Do Self-Organizing Maps Work?
 >> Algorithm for Online Outlier Detection in Time Series
 >> How to Analyze Loss vs. Epoch Graphs?

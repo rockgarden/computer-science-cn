@@ -10,9 +10,9 @@
 >> 计算机视觉与图像处理的区别
 >> 物体识别任务及其区别
 
-- [变形模型中的注意机制](./attention-mechanism-transformers_zh.md)
+- [变换器模型中的注意机制](./attention-mechanism-transformers_zh.md)
 
->> 交叉验证： K-折叠与一一排除
+>> 交叉验证：K-折叠与一一排除
 >> 马尔科夫链与隐马尔科夫模型有何不同？
 >> 决策树与随机森林
 >> 生成对抗网络简介
@@ -31,7 +31,6 @@
 >> 什么是自回归模型？
 >> ER 与 EER 图
 >> 什么是噪声对比估计损失？
->> 谷歌 DeepMind 的 Gemini 简介
 >> 什么是工业 4.0？
 >> 训练过程中出现 NaNs 的常见原因
 >> 数据库中的横向和纵向分区
@@ -50,9 +49,6 @@
 >> 什么是组归一化？
 >> 什么是检索增强生成（RAG）？
 >> 如何进行线性判别分析？
-
-- BERT 和 GPT-3 架构的比较
-
 >> 如何使用 GPT 的模型温度？
 >> 如何为 SVM 选择核类型？
 >> Focal Loss 简介
@@ -67,9 +63,6 @@
 >> 什么是噪声对比估计损失？
 >> ReLU vs. LeakyReLU vs. PReLU
 >> 如何计算分类器的 VC 维度？
-
-- 为什么 ChatGPT 不能一次性给出答案？
-
 >> 如何处理逻辑回归中的缺失数据？
 >> 如何用 SMOTE 处理不平衡数据？
 >> 如何绘制逻辑回归的决策边界？
@@ -95,9 +88,6 @@
 >> 图神经网络简介
 >> 高斯混合模型
 >> 机器学习的 Python
-
-- 为什么 ChatGPT 不擅长数学？
-
 >> 人工智能伦理简介
 >> 深度伪造简介
 >> 什么是奇异值分解？
@@ -105,13 +95,10 @@
 >> 尖峰神经网络简介
 >> 焦距和相机固有参数
 >> K-Means 算法的缺点
->> 从 RNN 到变形器
+>> 从 RNN 到变换器
 >> 什么是数据科学？
-
-- ChatGPT 如何工作？
-
->> 机器学习： 分析学习
->> 统计学： 相关与回归
+>> 机器学习：分析学习
+>> 统计学：相关与回归
 >> 支持向量机中的 C 参数
 >> NLP vs. NLU vs. NLG
 >> 了解文本挖掘
@@ -136,7 +123,7 @@
 >> 懒惰学习与急切学习
 >> 数据挖掘系统的分类
 >> 人工免疫系统如何
->> DBSCAN 集群： 它是如何工作的？
+>> DBSCAN集群： 它是如何工作的？
 >> 时代还是事件？理解深度强化学习中的术语
 >> Q 学习 vs. 深度 Q 学习 vs. 深度 Q 网络
 >> 地标检测简介
@@ -173,7 +160,7 @@
 >> 参数模型和非参数模型的区别
 >> 什么是神经网络中的 Maxout？
 >> 最大似然估计
->> 循环神经网络
+>> 递归神经网络
 >> 图注意网络
 >> 稀疏编码神经网络
 >> Luong 注意和 Bahdanau 注意的区别
@@ -215,7 +202,9 @@
 >> 姿势估计如何工作？
 >> 空间金字塔池化
 >> 物体检测： SSD 与 YOLO
->> 了解激活函数
+
+- [了解激活函数](./activation-functions-neural-nets_zh.md)
+
 >> 什么是基于内容的图像检索？
 >> 同步定位和绘图
 >> 人工智能如何下棋？
@@ -272,7 +261,6 @@
 >> 自然语言处理中的递归与递归神经网络
 >> 物体检测中的交集与联合
 >> 什么是神经网络的 "瓶颈"？
->> 卷积神经网络 vs. 常规神经网络
 >> 强人工智能与弱人工智能的区别
 >> 物体检测的平均精度
 >> 神经网络中的隐藏层
@@ -425,6 +413,15 @@
 >> 计算机科学中的谓词
 >> 向未知数量的聚类
 
+[深度学习](./ml/deep-learning/category-ai-deep-learning_zh.md)
+
+- 为什么 ChatGPT 不能一次性给出答案？
+- BERT 和 GPT-3 架构的比较
+- 为什么 ChatGPT 不擅长数学？
+- ChatGPT 如何工作？
+- 卷积神经网络与普通神经网络对比
+- 谷歌 DeepMind 的 Gemini 简介
+
 ## [Artificial Intelligence](https://www.baeldung.com/cs/category/ai)
 
 >> Differences Between Computer Vision and Image Processing
@@ -455,7 +452,9 @@
 >> What Is An Autoregressive Model?
 >> ER vs. EER Diagrams
 >> What Is Noise Contrastive Estimation Loss?
->> An Introduction to Gemini by Google DeepMind
+
+- An Introduction to Gemini by Google DeepMind
+
 >> What Is Industry 4.0?
 >> Common Causes of NaNs During Training
 >> Horizontal and Vertical Partitioning in Databases
@@ -551,8 +550,8 @@
 >> Deterministic vs. Stochastic Policies in Reinforcement Learning
 
 - Introduction to Large Language Models
+- What Is and Why Use Temperature in Softmax?
 
->> What Is and Why Use Temperature in Softmax?
 >> How Do Self-Organizing Maps Work?
 >> Optical Flow: Lucas-Kanade Method
 >> Algorithm for Online Outlier Detection in Time Series
@@ -652,7 +651,9 @@
 >> How Does Pose Estimation Work?
 >> Spatial Pyramid Pooling
 >> Object Detection: SSD Vs. YOLO
->> Understanding Activation Functions
+
+- Understanding Activation Functions
+
 >> What Is Content-Based Image Retrieval?
 >> Simultaneous Localization and Mapping
 >> How Does AI Play Chess?
@@ -711,7 +712,9 @@
 >> Recurrent vs. Recursive Neural Networks in Natural Language Processing
 >> Intersection Over Union for Object Detection
 >> What Are “Bottlenecks” in Neural Networks?
->> Convolutional Neural Network vs. Regular Neural Network
+
+- Convolutional Neural Network vs. Regular Neural Network
+
 >> Differences Between Strong-AI and Weak-AI
 >> Mean Average Precision in Object Detection
 >> Hidden Layers in a Neural Network

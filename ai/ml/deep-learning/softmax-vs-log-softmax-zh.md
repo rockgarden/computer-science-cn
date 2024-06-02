@@ -6,7 +6,7 @@
 
 1. 引言
 
-    与 Sigmoid、tanh 和 [ReLU](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu) 类似，Softmax 也是激活函数的一种，在神经网络中起着至关重要的作用。[激活函数](https://www.baeldung.com/cs/activation-functions-neural-nets)为模型引入了非线性特性，使其能够学习复杂的数据模式。我们可以在许多签名深度神经网络中找到 Softmax，例如 Seq2Seq 模型、[Transformers](https://www.baeldung.com/cs/rnns-transformers-nlp#what-are-transformers) 和 GPT-2。
+    与 Sigmoid、tanh 和 [ReLU](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu) 类似，Softmax 也是激活函数的一种，在神经网络中起着至关重要的作用。激活函数为模型引入了非线性特性，使其能够学习复杂的数据模式。我们可以在许多签名深度神经网络中找到 Softmax，例如 Seq2Seq 模型、[Transformers](https://www.baeldung.com/cs/rnns-transformers-nlp#what-are-transformers) 和 GPT-2。
 
     在本教程中，我们将了解广泛应用于分类问题的 Softmax 函数。此外，我们还将把它与 Log Softmax 进行比较。
 

@@ -6,7 +6,7 @@
 
 2. 简单来说，什么是 ChatGPT？
 
-    ChatGPT 是一种类似聊天的程序或应用程序，它能根据接收到的输入理解并生成类似人类的文本。它源于 GPT（生成式预训练[转换器](https://www.baeldung.com/cs/transformer-text-embeddings#what-are-transformers)）架构，这是一种带有[注意力机制](https://www.baeldung.com/cs/attention-mechanism-transformers)的神经网络。它是一个聊天机器人，能够与用户互动，回答各种问题并提供各领域的信息。
+    ChatGPT 是一种类似聊天的程序或应用程序，它能根据接收到的输入理解并生成类似人类的文本。它源于 GPT（生成式预训练[转换器](https://www.baeldung.com/cs/transformer-text-embeddings#what-are-transformers)）架构，这是一种带有注意力机制的神经网络。它是一个聊天机器人，能够与用户互动，回答各种问题并提供各领域的信息。
 
     ChatGPT 能理解 95 种以上的自然语言。除此之外，它还对编程代码有基本的了解，能够理解和生成某些任务的代码。目前的免费版 ChatGPT 只能处理文本，而付费版 GPT-4 则可以接受文本和图像提示。这意味着 GPT-4 也具备理解和解释图像信息的能力。
 

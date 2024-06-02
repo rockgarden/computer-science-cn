@@ -192,7 +192,7 @@
 
         ![LLM-Popular](pic/LLM-Popular-LLMs-Available.jpg)
 
-        [OpenAI](https://openai.com/)是另一个引领人工智能研究的组织，其LLMs如2018年发布的生成性预训练变形器（[GPT](https://paperswithcode.com/method/gpt)）。它在2019年进一步发布了GPT-2，2020年发布了GPT-3，2023年发布了GPT-4。2022年，它发布了[ChatGPT](https://openai.com/blog/chatgpt)，这是一个建立在GPT-3.5和GPT-4y之上的AI聊天机器人。
+        [OpenAI](https://openai.com/)是另一个引领人工智能研究的组织，其LLMs如2018年发布的生成性预训练变换器（[GPT](https://paperswithcode.com/method/gpt)）。它在2019年进一步发布了GPT-2，2020年发布了GPT-3，2023年发布了GPT-4。2022年，它发布了[ChatGPT](https://openai.com/blog/chatgpt)，这是一个建立在GPT-3.5和GPT-4y之上的AI聊天机器人。
 
         其他突出的LLM包括HuggingFace在2023年发布的BigScience Large Open-science Open-access Multilingual（[BLOOM](https://huggingface.co/bigscience/bloom)），DeepMind在2022年发布的[Chinchilla AI](https://arxiv.org/abs/2203.15556)，以及Meta AI在2023年发布的Large Language Model Meta AI（[LLaMA](https://arxiv.org/abs/2302.13971)）。
 

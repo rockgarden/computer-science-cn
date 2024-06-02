@@ -18,7 +18,7 @@
 
     [CNTK](https://www.baeldung.com/spark-mlib-machine-learning#3-cntk) 又称微软认知工具包（Microsoft Cognitive Toolkit）。CNTK 于 2016 年首次发布，现已弃用，是一个用于训练深度学习神经网络的开源库。
 
-    它允许用户创建和组合常用的神经网络，如卷积神经网络（CNN）和循环神经网络（RNN）。
+    它允许用户创建和组合常用的神经网络，如卷积神经网络（CNN）和递归神经网络（RNN）。
 
     CNTK 支持 Linux、Windows 和 macOS 平台。
 

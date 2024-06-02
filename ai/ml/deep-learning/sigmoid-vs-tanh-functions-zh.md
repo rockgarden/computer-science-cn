@@ -1,4 +1,4 @@
-# 活化函数：Sigmoid与Tanh
+# [活化函数：Sigmoid与Tanh](https://www.baeldung.com/cs/sigmoid-vs-tanh-functions)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 

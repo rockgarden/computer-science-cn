@@ -1,6 +1,7 @@
 # 深度学习
 
-深度学习是一种利用神经网络进行机器学习的技术。了解训练、优化和使用多层神经网络的各种技术。
+深度学习是一种利用神经网络进行机器学习的技术。
+了解训练、优化和使用多层神经网络的各种技术。
 
 - [机器学习与深度学习](machine-learning-vs-deep-learning-zh.md)
 - [开源神经网络库](ml-open-source-libraries_zh.md)
@@ -10,26 +11,35 @@
     - [异常值检测和处理](ml-outlier-detection-handling-zh.md)
   - [数据扩充](ml-data-augmentation_zh.md)
     - [使用GAN进行数据扩充](../../computer-vision/ml-gan-data-augmentation-zh.md)
-- 神经网络参数
+- 神经网络
+  - [卷积神经网络与普通神经网络的对比](convolutional-vs-regular-nn-zh.md)
+  - [递归神经网络](recurrent-neural-networks_zh.md)
+- 神经网络架构
   - [神经网络架构：选择隐藏层数量和大小的标准](neural-networks-hidden-layers-criteria-zh.md)
+  - [Softmax中的温度是什么，为什么要使用温度？](softmax-temperature-zh.md)
 - 算法
   - [k近邻和高维数据](k-nearest-neighbors-zh.md)
+- 大型语言模型
+  - [大型语言模型简介](large-language-models-zh.md)
+    - [BERT与GPT-3架构的比较](./bert-vs-gpt-3-architecture_zh.md)
+  - [ChatGPT如何工作？](../../chatgpt-model_zh.md)
+  - [为什么ChatGPT不擅长数学？](../../chatgpt-math-problems_zh.md)
+  - [为什么ChatGPT不能一次性给出答案？](../../chatgpt-answer-sequential-words_zh.md)
+- 多模态模型
+  - [谷歌 DeepMind 双子座简介](./gemini-google-deepmind_zh.md)
 
 - [卷积神经网络简介](/ai/ai-convolutional-neural-networks_zh.md)
 - [Softmax 对 Log Softmax](softmax-vs-log-softmax-zh.md)
 - [关注与自我关注](./attention-self-badhanau-differences_zh.md)
-- [GELU 解释](gelu-activation-function-zh.md)
+- [GELU解释](gelu-activation-function-zh.md)
 - [什么是噪声对比估计损失？](pic/noise-contrastive-estimation-loss-zh.md)
 - [ReLU vs. LeakyReLU vs. PReLU](relu-vs-leakyrelu-vs-prelu-zh.md)
 - [饱和非线性](saturating-non-linearities-zh.md)
 - [人工智能图像生成器如何工作？](ai-image-generation-gans-dalle-zh.md)
 - [利用LSTM防止梯度消失问题](lstm-vanishing-gradient-prevention-zh.md)
-
 - [图神经网络简介](ml-gnn-zh.md)
 - [深度伪造简介](deepfakes-ai-zh.md)
 - [强化学习中的确定性策略与随机策略](rl-deterministic-vs-stochastic-policies-zh.md)
-
-- [Softmax中的温度是什么，为什么要使用温度？](softmax-temperature-zh.md)
 - [什么是不可训练参数？](non-trainable-parameter-zh.md)
 - [Epoch or Episode：理解深度强化学习中的术语](epoch-vs-episode-reinforcement-learning-zh.md)
 - [Q-Learning vs. Deep Q-Learning vs. Deep Q-Network](../../ml/q-learning-vs-deep-q-learning-vs-deep-q-network-zh.md)
@@ -38,7 +48,7 @@
 - [深度神经网络：填充](deep-neural-networks-padding-zh.md)
 - [单次检测器（SSD）](../../computer-vision/ssd-zh.md)
 - [什么是神经网络中的Maxout？](maxout-neural-networks-zh.md)
-- [循环神经网络](recurrent-neural-networks-zh.md)
+
 - [神经网络中的嵌入层是什么？](neural-nets-embedding-layers-zh.md)
 - [为什么使用替代损失？](surrogate-loss-zh.md)
 - [生成对抗网络：判别器损失和生成器损失](gan-loss-zh.md)
@@ -47,7 +57,6 @@
 - [偏差与误差的区别](bias-vs-error-zh.md)
 - [实例分割与语义分割](../../computer-vision/instance-semantic-segmentation-cnn-zh.md)
 - [在线学习与离线学习](online-vs-offline-learning-zh.md)
-
 - [预训练神经网络意味着什么？](neural-network-pre-training-zh.md)
 - [神经网络：什么是权重衰减损失？](neural-networks-weight-decay-loss-zh.md)
 - [神经网络：Conv层和FC层的区别](neural-networks-conv-fc-layers-zh.md)
@@ -61,7 +70,6 @@
 - [神经网络反向传播中的偏差更新](deep-learning-bias-backpropagation-zh.md)
 - [自然语言处理中的递归与递归神经网络](networks-in-nlp-zh.md)
 - [什么是神经网络中的"瓶颈"？](neural-network-bottleneck-zh.md)
-- [卷积神经网络与普通神经网络](convolutional-vs-regular-nn-zh.md)
 - [物体检测中的平均精度](../../computer-vision/ml-map-object-detection-zh.md)
 - [神经网络中的隐藏层](hidden-layers-neural-network-zh.md)
 - [监督学习和非监督学习的真实案例](examples-supervised-unsupervised-learning-zh.md)
@@ -108,15 +116,6 @@
 - [人工神经网络输入归一化](normalizing-inputs-artificial-neural-network_zh.md)
 - [神经网络中的偏差](neural-networks-bias-zh.md)
 - [理解CNN中的维度](ml-understanding-dimensions-cnn-zh.md)
-
-- 大型语言模型
-  - [大型语言模型简介](large-language-models-zh.md)
-- [谷歌 DeepMind 双子座简介](./gemini-google-deepmind_zh.md)
-  - [ChatGPT如何工作？](../../chatgpt-model_zh.md)
-  - [为什么ChatGPT不擅长数学？](../../chatgpt-math-problems_zh.md)
-  - [为什么ChatGPT不能一次性给出答案？](../../chatgpt-answer-sequential-words_zh.md)
-- [BERT与GPT-3架构的比较](./bert-vs-gpt-3-architecture_zh.md)
-
 - [生成对抗网络简介](generative-adversarial-networks_zh.md)
 - [PyTorch 中的 GAN 实现](./pytorch-generative-adversarial-networks_zh.md)
 - [Python 中的填充](./padding-deep-learning-python_zh.md)
@@ -143,7 +142,7 @@
 - [An Introduction to Deepfakes](https://www.baeldung.com/cs/deepfakes-ai)
 - [Deterministic vs. Stochastic Policies in Reinforcement Learning](https://www.baeldung.com/cs/rl-deterministic-vs-stochastic-policies)
 - Introduction to Large Language Models
-- [What Is and Why Use Temperature in Softmax?](https://www.baeldung.com/cs/softmax-temperature)
+- What Is and Why Use Temperature in Softmax?
 - [What’s a Non-trainable Parameter?](https://www.baeldung.com/cs/non-trainable-parameter)
 - [Epoch or Episode: Understanding Terms in Deep Reinforcement Learning](https://www.baeldung.com/cs/epoch-vs-episode-reinforcement-learning)
 - [Q-Learning vs. Deep Q-Learning vs. Deep Q-Network](https://www.baeldung.com/cs/q-learning-vs-deep-q-learning-vs-deep-q-network)
@@ -152,7 +151,7 @@
 - [Deep Neural Networks: Padding](https://www.baeldung.com/cs/deep-neural-networks-padding)
 - [Single Shot Detectors (SSDs)](https://www.baeldung.com/cs/ssd)
 - [What Is Maxout in a Neural Network?](https://www.baeldung.com/cs/maxout-neural-networks)
-- [Recurrent Neural Networks](https://www.baeldung.com/cs/recurrent-neural-networks)
+- Recurrent Neural Networks
 - [What Are Embedding Layers in Neural Networks?](https://www.baeldung.com/cs/neural-nets-embedding-layers)
 - [Why Use a Surrogate Loss](https://www.baeldung.com/cs/surrogate-loss)
 - [Generative Adversarial Networks: Discriminator’s Loss and Generator’s Loss](https://www.baeldung.com/cs/gan-loss)
@@ -176,7 +175,7 @@
 - [Bias Update in Neural Network Backpropagation](https://www.baeldung.com/cs/deep-learning-bias-backpropagation)
 - [Recurrent vs. Recursive Neural Networks in Natural Language Processing](https://www.baeldung.com/cs/networks-in-nlp)
 - [What Are “Bottlenecks” in Neural Networks?](https://www.baeldung.com/cs/neural-network-bottleneck)
-- [Convolutional Neural Network vs. Regular Neural Network](https://www.baeldung.com/cs/convolutional-vs-regular-nn)
+- Convolutional Neural Network vs. Regular Neural Network
 - [Mean Average Precision in Object Detection](../../computer-vision/README-zh.md)
 - [Hidden Layers in a Neural Network](https://www.baeldung.com/cs/hidden-layers-neural-network)
 - [Real-Life Examples of Supervised Learning and Unsupervised Learning](https://www.baeldung.com/cs/examples-supervised-unsupervised-learning)

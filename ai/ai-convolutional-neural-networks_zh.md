@@ -48,9 +48,9 @@
 
         按照我们介绍机器学习相关主题文章的传统，在开始学习卷积神经网络（以下简称 CNN）时，我们也将对这种机器学习模型中蕴含的[先验或隐含知识](https://www.baeldung.com/cs/ml-labeled-vs-unlabeled-data#1-conceptual-architecture-of-machine-learning-systems)进行少量分析。最好的解释就是问自己一个问题：
 
-        - "为什么我们不简单地使用前馈神经网络进行图像分类？
+        - 为什么我们不简单地使用前馈神经网络进行图像分类？
 
-        事实上，我们知道前馈神经网络可以将任何形式的[连续函数](https://www.baeldung.com/cs/ml-nonlinear-activation-functions#magicparlabel-11789)$f: X \in R^n \to Y \in R^m$逼近。然而，我们并不能保证神经网络可以学习该函数。一般来说，如果我们有疑问，可以假设神经网络会对训练数据的噪声进行[过拟合](https://www.baeldung.com/spark-mlib-machine-learning#3-model-performance)，而永远学不会任何给定的[目标函数](https://www.baeldung.com/cs/genetic-algorithms-vs-neural-networks#motivation)：
+        事实上，我们知道前馈神经网络可以将任何形式的连续函数$f: X \in R^n \to Y \in R^m$逼近。然而，我们并不能保证神经网络可以学习该函数。一般来说，如果我们有疑问，可以假设神经网络会对训练数据的噪声进行[过拟合](https://www.baeldung.com/spark-mlib-machine-learning#3-model-performance)，而永远学不会任何给定的[目标函数](https://www.baeldung.com/cs/genetic-algorithms-vs-neural-networks#motivation)：
 
         ![1-5](pic/1-5.png)
 
