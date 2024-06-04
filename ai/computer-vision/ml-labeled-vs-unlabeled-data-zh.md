@@ -73,9 +73,9 @@
         ![金字塔2](pic/pyramid2.webp)
     6. 关于猫和狗的先验知识将无标签数据转化为有标签数据
 
-        假设我们有两类图片，需要用卷积神经网络进行分类。还假设这两类图片分别是 "猫"和 "狗"。我们向[卷积神经网络](https://www.baeldung.com/cs/ml-relu-dropout-layers)展示的图片包含一个隐含的假设，相当于先验知识，即这些图片要么属于 "猫"类，要么属于 "狗"类。
+        假设我们有两类图片，需要用卷积神经网络进行分类。还假设这两类图片分别是"猫"和"狗"。我们向卷积神经网络展示的图片包含一个隐含的假设，相当于先验知识，即这些图片要么属于"猫"类，要么属于"狗"类。
 
-        换句话说，从机器学习系统的角度来看，这一假设可以表述为 "在这个世界上，我所拥有的传感器提供的数据属于两个类别中的一个。因此，对于任何给定的图像，机器学习系统的先验知识或信念是：$P(cat \vee dog) = 1$。
+        换句话说，从机器学习系统的角度来看，这一假设可以表述为"在这个世界上，我所拥有的传感器提供的数据属于两个类别中的一个"。因此，对于任何给定的图像，机器学习系统的先验知识或信念是：$P(cat \vee dog) = 1$。
 
         世界不一定是这样运转的，但机器学习系统中隐含的世界表征一定是这样建立的。从某种意义上说，也就是我们在本文中提出的观点，所有数据都是无标签数据。只有我们将先验知识赋予这些数据，它们才会变成有标签的数据。
 
@@ -137,7 +137,7 @@
 
         聚类是指识别具有共同特征的观察结果子集，例如在其所属的[向量空间中相互靠近](https://www.baeldung.com/cs/euclidean-distance-vs-cosine-similarity)。典型的聚类算法包括 [K-means](https://www.baeldung.com/java-k-means-clustering-algorithm)、K-NearestNeighbors 和 [DBSCAN](https://www.baeldung.com/cs/clustering-unknown-number#dbscan)。
 
-        降维任务致力于[降低数据集的复杂度](https://www.baeldung.com/cs/ml-understanding-dimensions-cnn)，以限制后续处理所需的资源。这些技术包括主成分分析（[Principal Component Analysis](https://www.baeldung.com/cs/principal-component-analysis)），专门用于从数据集中提取一个简单的模型，以及该模型与原始数据集之间的误差。其他技术包括自动编码、特征选择和 t-SNE。
+        降维任务致力于降低数据集的复杂度，以限制后续处理所需的资源。这些技术包括主成分分析（[Principal Component Analysis](https://www.baeldung.com/cs/principal-component-analysis)），专门用于从数据集中提取一个简单的模型，以及该模型与原始数据集之间的误差。其他技术包括自动编码、特征选择和 t-SNE。
 
         无监督学习的另一个常见任务是[特征缩放](https://www.baeldung.com/cs/feature-scaling)，其目的是将数据集标准化或规范化，以方便神经网络的后续训练。这通常是将数据输入神经网络之前的一个步骤，目的是促进[梯度下降](https://www.baeldung.com/java-gradient-descent)学习。
 

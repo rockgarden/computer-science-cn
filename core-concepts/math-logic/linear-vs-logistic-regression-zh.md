@@ -52,7 +52,7 @@
 
         我们也可以把这种关系想象成参数性的，即它也取决于X以外的项。在这种情况下，我们可以把这些项表示为alpha或A，并称它们为回归的 "参数"。在这种情况下，函数f的形式是$y=f(\alpha,X)$。
 
-        最后，我们还可以设想，我们得出y和X值的测量结果具有测量误差的特点。我们在关于[神经网络偏差](https://www.baeldung.com/cs/neural-networks-bias)的文章中讨论了测量中的系统误差问题；但在这里我们指的是随机的，而不是系统的误差类型。那么，我们可以把这种误差称为e，并把它当作与我们观察的变量无关的因果关系。
+        最后，我们还可以设想，我们得出y和X值的测量结果具有测量误差的特点。我们在关于神经网络偏差的文章中讨论了测量中的系统误差问题；但在这里我们指的是随机的，而不是系统的误差类型。那么，我们可以把这种误差称为e，并把它当作与我们观察的变量无关的因果关系。
 
     5. 回归的一般模型
 
@@ -130,7 +130,7 @@
         Logistic函数是一个形式为$y = \sigma(x) = \frac{e^{x}}{e^{x}+1}$的函数，其中e表示欧拉数，x和之前的线性模型一样是一个自变量。这个函数允许将任何连续分布的变量$x \in R$中映射到开放区间（0,1）。与logistic函数相关的图形是这样的：
 
         ![logistic_function-1](pic/logistic_function-1.webp)
-        我们所展示的logistic函数是一种[sigmoidal函数](https://www.baeldung.com/cs/ml-relu-dropout-layers#1-why-not-using-sigmoidal-functions-in-cnns)。后者在神经网络的[非线性激活函数](https://www.baeldung.com/cs/ml-nonlinear-activation-functions#sigmoid-activation-functions)方面特别重要。然而，它也是[Logit](https://en.wikipedia.org/wiki/Logit)模型定义的基础，这也是我们在进行逻辑回归时试图学习的模型，我们很快就会看到。
+        我们所展示的logistic函数是一种sigmoidal函数。后者在神经网络的[非线性激活函数](https://www.baeldung.com/cs/ml-nonlinear-activation-functions#sigmoid-activation-functions)方面特别重要。然而，它也是[Logit](https://en.wikipedia.org/wiki/Logit)模型定义的基础，这也是我们在进行逻辑回归时试图学习的模型，我们很快就会看到。
 
     2. Logistic函数的特点
 

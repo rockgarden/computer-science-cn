@@ -12,11 +12,17 @@
   - [数据扩充](ml-data-augmentation_zh.md)
     - [使用GAN进行数据扩充](../../computer-vision/ml-gan-data-augmentation-zh.md)
 - 神经网络
+  - [卷积神经网络简介](/ai/ai-convolutional-neural-networks_zh.md)
+    - [理解CNN中的维度](ml-understanding-dimensions-cnn_zh.md)
   - [卷积神经网络与普通神经网络的对比](convolutional-vs-regular-nn-zh.md)
   - [递归神经网络](recurrent-neural-networks_zh.md)
 - 神经网络架构
   - [神经网络架构：选择隐藏层数量和大小的标准](neural-networks-hidden-layers-criteria-zh.md)
-  - [Softmax中的温度是什么，为什么要使用温度？](softmax-temperature-zh.md)
+  - [ ] [神经网络中的偏差](neural-networks-bias-zh.md)
+- 激活函数
+  - [Softmax 对 Log Softmax](softmax-vs-log-softmax-zh.md)
+    - [Softmax中的温度是什么，为什么要使用温度？](softmax-temperature-zh.md)
+  - [ReLU vs. LeakyReLU vs. PReLU](relu-vs-leakyrelu-vs-prelu-zh.md)
 - 算法
   - [k近邻和高维数据](k-nearest-neighbors-zh.md)
 - 大型语言模型
@@ -26,14 +32,11 @@
   - [为什么ChatGPT不擅长数学？](../../chatgpt-math-problems_zh.md)
   - [为什么ChatGPT不能一次性给出答案？](../../chatgpt-answer-sequential-words_zh.md)
 - 多模态模型
-  - [谷歌 DeepMind 双子座简介](./gemini-google-deepmind_zh.md)
+  - [谷歌DeepMind双子座简介](./gemini-google-deepmind_zh.md)
 
-- [卷积神经网络简介](/ai/ai-convolutional-neural-networks_zh.md)
-- [Softmax 对 Log Softmax](softmax-vs-log-softmax-zh.md)
 - [关注与自我关注](./attention-self-badhanau-differences_zh.md)
 - [GELU解释](gelu-activation-function-zh.md)
 - [什么是噪声对比估计损失？](pic/noise-contrastive-estimation-loss-zh.md)
-- [ReLU vs. LeakyReLU vs. PReLU](relu-vs-leakyrelu-vs-prelu-zh.md)
 - [饱和非线性](saturating-non-linearities-zh.md)
 - [人工智能图像生成器如何工作？](ai-image-generation-gans-dalle-zh.md)
 - [利用LSTM防止梯度消失问题](lstm-vanishing-gradient-prevention-zh.md)
@@ -48,7 +51,6 @@
 - [深度神经网络：填充](deep-neural-networks-padding-zh.md)
 - [单次检测器（SSD）](../../computer-vision/ssd-zh.md)
 - [什么是神经网络中的Maxout？](maxout-neural-networks-zh.md)
-
 - [神经网络中的嵌入层是什么？](neural-nets-embedding-layers-zh.md)
 - [为什么使用替代损失？](surrogate-loss-zh.md)
 - [生成对抗网络：判别器损失和生成器损失](gan-loss-zh.md)
@@ -85,37 +87,29 @@
 - [图像处理：遮挡](image-processing-occlusions-zh.md)
 - [生成模型的应用](../../computer-vision/applications-of-generative-models-zh.md)
 - [计算卷积层的输出大小](../../computer-vision/convolutional-layer-size-zh.md)
-
 - [神经网络中的线性可分离数据](nn-linearly-separable-data-zh.md)
-
 - [学习率与批量大小的关系](learning-rate-batch-size-zh.md)
 - [Word2vec单词嵌入操作：添加、串联还是平均单词向量？](word2vec-word-embeddings-zh.md)
-
 - [文本分类的特征选择和缩减](feature-selection-reduction-for-text-classification-zh.md)
 - [为什么迷你批量比包含所有训练数据的单一"批量"更好？](mini-batch-vs-single-batch-training-data-zh.md)
 - [如何创建智能聊天机器人？](smart-chatbots-zh.md)
 - [如何计算CNN的感知场大小？](cnn-receptive-field-size-zh.md)
-
 - [在SVM中使用硬边际与软边际](svm-hard-margin-vs-soft-margin-zh.md)
 - [强化学习中的值迭代与策略迭代](ml-value-iteration-vs-policy-iteration-zh.md)
 - [如何将文本序列转换为向量](text-sequence-to-vector-zh.md)
 - [实例归一化vs批量归一化](instance-vs-batch-normalization-zh.md)
 - [SVM中精度与支持向量数量之间的权衡](ml-accuracy-vs-number-of-support-vectors-svm-zh.md)
-
 - [词嵌入：CBOWvsSkip-Gram](word-embeddings-cbow-vs-skip-gram-zh.md)
 - [自然语言处理的编码器-解码器模型](nlp-encoder-decoder-models_zh.md)
 - [神经网络中的纪元](epoch-neural-networks-zh.md)
 - [神经网络中权重的随机初始化](ml-neural-network-weights-zh.md)
 - [卷积神经网络中的批量归一化](batch-normalization-cnn_zh.md)
 - [神经网络与SVM相比的优缺点](ml-ann-vs-svm-zh.md)
-
 - [情感分析的训练数据](sentiment-analysis-training-data-zh.md)
 - [多类分类的F-1分数](multi-class-f1-score-zh.md)
 - [什么是强化学习中的策略？](ml-policy-reinforcement-learning-zh.md)
 - [梯度下降和梯度上升有什么区别？](gradient-descent-vs-ascent-zh.md)
 - [人工神经网络输入归一化](normalizing-inputs-artificial-neural-network_zh.md)
-- [神经网络中的偏差](neural-networks-bias-zh.md)
-- [理解CNN中的维度](ml-understanding-dimensions-cnn-zh.md)
 - [生成对抗网络简介](generative-adversarial-networks_zh.md)
 - [PyTorch 中的 GAN 实现](./pytorch-generative-adversarial-networks_zh.md)
 - [Python 中的填充](./padding-deep-learning-python_zh.md)
@@ -130,7 +124,7 @@
 - Comparison Between BERT and GPT-3 Architectures
 - How to Use Model Temperature of GPT?
 - Introduction to Convolutional Neural Networks
-- [Softmax vs. Log Softmax](https://www.baeldung.com/cs/softmax-vs-log-softmax)
+- Softmax vs. Log Softmax
 - [GELU Explained](https://www.baeldung.com/cs/gelu-activation-function)
 - [What Is Noise Contrastive Estimation Loss?](https://www.baeldung.com/cs/noise-contrastive-estimation-loss)
 - [ReLU vs. LeakyReLU vs. PReLU](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu)

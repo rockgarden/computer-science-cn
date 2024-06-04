@@ -32,7 +32,7 @@
 
         输入向量 x 也是神经网络输入层的名称。包含激活函数 $f_m$ 及其相关参数 $\theta_k$ 的对，在 $1 \leq k < m$ 的情况下，取而代之的是隐藏层的名称。最后，最后一对$(f_m, \theta_n)$是该模型的输出层。
 
-        我们可以用有[向加权图](https://www.baeldung.com/cs/graphs-directed-vs-undirected-graph#directed-graphs)来[表示神经网络](https://www.baeldung.com/cs/latex-drawing-graphs#neuralnetwork)的图：
+        我们可以用有[向加权图](https://www.baeldung.com/cs/graphs-directed-vs-undirected-graph#directed-graphs)来表示神经网络的图：
 
         ![由QuickLaTeX.com渲染](pic/quicklatex.com-0e9c9f5a771c65c9d662e9a68f0682bc_l3.svg)
 
@@ -50,7 +50,7 @@
 
         我们可以先验地找出一些优缺点，总的来说，与 SVM 相比，ANN 的优缺点应与 SVM 的优缺点相一致，无论它们所执行任务的具体性质如何。
 
-        首先，我们可以先验地限制网络的规模和层数。这意味着，我们可以通过对网络规模任意施加一定的限制，帮助解决机器学习模型的[维度诅咒](https://www.baeldung.com/cs/ml-relu-dropout-layers#the-curse-of-dimensionality-in-cnns)问题。
+        首先，我们可以先验地限制网络的规模和层数。这意味着，我们可以通过对网络规模任意施加一定的限制，帮助解决机器学习模型的维度诅咒问题。
 
         具有非线性内核的 SVM 无法做到这一点。相反，它们的参数数量会随着所采用的支持向量数量的增加而线性增加。在某些情况下，尤其是当我们处理文本数据时，SVM 最终可能会使用数千个支持向量。
 

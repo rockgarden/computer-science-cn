@@ -6,13 +6,13 @@
 
 1. 引言
 
-    与 Sigmoid、tanh 和 [ReLU](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu) 类似，Softmax 也是激活函数的一种，在神经网络中起着至关重要的作用。激活函数为模型引入了非线性特性，使其能够学习复杂的数据模式。我们可以在许多签名深度神经网络中找到 Softmax，例如 Seq2Seq 模型、[Transformers](https://www.baeldung.com/cs/rnns-transformers-nlp#what-are-transformers) 和 GPT-2。
+    与 Sigmoid、tanh 和 ReLU 类似，Softmax 也是激活函数的一种，在神经网络中起着至关重要的作用。激活函数为模型引入了非线性特性，使其能够学习复杂的数据模式。我们可以在许多签名深度神经网络中找到 Softmax，例如 Seq2Seq 模型、Transformers 和 GPT-2。
 
     在本教程中，我们将了解广泛应用于分类问题的 Softmax 函数。此外，我们还将把它与 Log Softmax 进行比较。
 
 2. 什么是 Softmax 函数？
 
-    Softmax 是一种激活函数，通常用作多类分类任务中神经网络的输出。它将实数向量转换为概率向量。在分类任务中，概率向量中的值代表每个类别的概率。我们可以如下计算 Softmax 层。
+    Softmax 是一种激活函数，通常用作多类分类任务中神经网络的输出。它将实数向量转换为概率向量。在分类任务中，概率向量中的值代表每个类别的概率。我们可以如下计算 Softmax 层：
 
     \[\sigma(x_i)=\frac{e^{x_i}}{\Sigma_{k}e^{x_k}}\]
 
@@ -38,7 +38,7 @@
 
         Softmax 函数的一个关键要素是指数函数。指数函数的使用简化了梯度的计算，同时使用负对数似然作为损失函数。因此，它有助于训练大型复杂网络。
 
-        Softmax 和负对数似然的组合也被称为[交叉熵损失](https://www.baeldung.com/cs/cross-entropy#1-cross-entropy-as-a-loss-function)。我们可以将多类分类问题的交叉熵损失视为每个单独类别的负对数似然之和。
+        Softmax 和负对数似然的组合也被称为交叉熵损失。我们可以将多类分类问题的交叉熵损失视为每个单独类别的负对数似然之和。
 
     2. Softmax 的挑战
 
@@ -50,7 +50,7 @@
 
     Log Softmax，顾名思义，就是计算 softmax 函数的对数。
 
-    \[Log\_Softmax (x)= \log{\sigma(x)}\] 对数软极大值函数的对数。
+    \[Log\_Softmax (x)= \log{\sigma(x)}\]
 
     下图说明了 Softmax 和 Log Softmax 之间的区别，从网络中得到的值是一样的：flog
 

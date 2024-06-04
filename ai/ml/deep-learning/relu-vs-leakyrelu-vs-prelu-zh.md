@@ -1,4 +1,4 @@
-# ReLU vs. LeakyReLU vs. PReLU
+# [ReLU vs. LeakyReLU vs. PReLU](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 

@@ -845,7 +845,9 @@
 >> Converting a Uniform Distribution to a Normal Distribution
 >> Gradient Descent vs. Newton’s Gradient Descent
 >> How Does the Google “Did You Mean?” Algorithm Work?
->> What Is Cross-Entropy?
+
+- What Is Cross-Entropy?
+
 >> Algorithms for Determining Text Sentiment
 >> Advantages and Disadvantages of Neural Networks Against SVMs
 >> Top-N Accuracy Metrics

@@ -116,7 +116,7 @@
 
         这个用于多域分析的[数据集](http://www.cs.jhu.edu/~mdredze/datasets/sentiment/)最初是由[宾夕法尼亚大学](http://www.cs.jhu.edu/~mdredze/publications/sentiment_acl07.pdf)基于从亚马逊网站上搜刮的产品而开发的。这些产品属于四个类别：电子产品、书籍、厨房用具和DVD。每条评论都有一个 "正面"或 "负面"的极化分值，分别对应五星以上或五星以下（满分最多五颗星）。
 
-        评论既有未经处理的版本，也有预处理的版本。后者已被[标记](https://www.baeldung.com/java-stringtokenizer)为[单词或双词组](https://www.baeldung.com/cs/ml-understanding-dimensions-cnn#2-encoding-n-grams-with-1d-convolutions)。预处理版本的特点如下：
+        评论既有未经处理的版本，也有预处理的版本。后者已被[标记](https://www.baeldung.com/java-stringtokenizer)为单词或双词组。预处理版本的特点如下：
 
         - 标记本身
         - 每个标记的出现次数

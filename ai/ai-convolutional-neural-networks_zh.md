@@ -46,29 +46,29 @@
 
     1. CNN 解决的问题
 
-        按照我们介绍机器学习相关主题文章的传统，在开始学习卷积神经网络（以下简称 CNN）时，我们也将对这种机器学习模型中蕴含的[先验或隐含知识](https://www.baeldung.com/cs/ml-labeled-vs-unlabeled-data#1-conceptual-architecture-of-machine-learning-systems)进行少量分析。最好的解释就是问自己一个问题：
+        按照我们介绍机器学习相关主题文章的传统，在开始学习卷积神经网络（以下简称 CNN）时，我们也将对这种机器学习模型中蕴含的先验或隐含知识进行少量分析。最好的解释就是问自己一个问题：
 
         - 为什么我们不简单地使用前馈神经网络进行图像分类？
 
-        事实上，我们知道前馈神经网络可以将任何形式的连续函数$f: X \in R^n \to Y \in R^m$逼近。然而，我们并不能保证神经网络可以学习该函数。一般来说，如果我们有疑问，可以假设神经网络会对训练数据的噪声进行[过拟合](https://www.baeldung.com/spark-mlib-machine-learning#3-model-performance)，而永远学不会任何给定的[目标函数](https://www.baeldung.com/cs/genetic-algorithms-vs-neural-networks#motivation)：
+        事实上，我们知道前馈神经网络可以将任何形式的连续函数$f: X \in R^n \to Y \in R^m$逼近。然而，我们并不能保证神经网络可以学习该函数。一般来说，如果我们有疑问，可以假设神经网络会对训练数据的噪声进行过拟合，而永远学不会任何给定的目标函数：
 
         ![1-5](pic/1-5.png)
 
     2. 卷积和正则化
 
-        为训练神经网络而减少数据集[噪音](https://www.baeldung.com/cs/cs-entropy-definition#magicparlabel-8564)的尝试被称为[正则化](https://en.wikipedia.org/wiki/Regularization_(mathematics))。[卷积](https://www.baeldung.com/kotlin-supervised-learning#building-ann)是正则化的一种特殊类型，它利用了特征或观测值的线性依赖性。这反过来又能让我们减少噪声，恢复与特征线性独立性先验假设的一致性，我们很快就会看到这一点。
+        为训练神经网络而减少数据集噪音的尝试被称为[正则化](https://en.wikipedia.org/wiki/Regularization_(mathematics))。卷积是正则化的一种特殊类型，它利用了特征或观测值的线性依赖性。这反过来又能让我们减少噪声，恢复与特征线性独立性先验假设的一致性，我们很快就会看到这一点。
 
-        从广义上讲，正则化包括将数据集的[特征映射](https://www.baeldung.com/kotlin-data-objects)到具有较低熵的新特征上。从形式上来说，这意味着我们将特征$X \to X\prime$，这样，如果 H(X) 是 X 的熵，那么 $H(X) \leq H(X\prime)$。这样我们就可以学习一个新的目标函数 $g：f(X) \to g(X\prime)$，它不容易过度拟合：
+        从广义上讲，正则化包括将数据集的特征映射到具有较低熵的新特征上。从形式上来说，这意味着我们将特征$X \to X\prime$，这样，如果 H(X) 是 X 的熵，那么 $H(X) \leq H(X\prime)$。这样我们就可以学习一个新的目标函数 $g:f(X) \to g(X\prime)$，它不容易过度拟合：
 
         ![2-3](pic/2-3.png)
 
-        卷积本质上就是通过用更复杂的特征替换观测数据中的高熵特征来完成这一任务的。之所以能做到这一点，是因为使用神经网络的一个重要前提条件--特征的线性独立性--在某些类别的数据中被系统性地违反了。
+        卷积本质上就是通过用更复杂的特征替换观测数据中的高熵特征来完成这一任务的。之所以能做到这一点，是因为使用神经网络的一个重要前提条件 - 特征的线性独立性 - 在某些类别的数据中被系统性地违反了。
 
     3. 特征的线性（不）独立性
 
         现在我们来详细了解一下特征线性独立的含义。我们可以举例说明，将上述两个变量 X 和 Y 的分布建模扩展到三维。
 
-        在这个例子中，我们假设这两个变量之间存在线性关系，因此一个变量可以用 y = f(x) 形式的函数来近似另一个变量。具体来说，我们假设这个函数的形式为 Y = 2 X + 1，参数可任意选择。因此，我们可以说，根据构造，这两个变量是线性相关的。
+        在这个例子中，我们假设这两个变量之间存在线性关系，因此一个变量可以用 $y = f(x)$ 形式的函数来近似另一个变量。具体来说，我们假设这个函数的形式为 $Y = 2 X + 1$，参数可任意选择。因此，我们可以说，根据构造，这两个变量是线性相关的。
 
         现在让我们看看，如果将两个线性相关变量作为目标函数 $Z = g(X; Y)$ 的输入，会发生什么情况。下面的动画展示了从 $Z = g(X; Y) = (\beta_x X+\beta_y Y + \beta_{\epsilon})^2$ 形式的目标函数中采样的训练数据：
 
@@ -78,9 +78,9 @@
 
         对于图像中显示的特定分布，我们分配了 $\beta = \{\beta_x = 1; \beta_y = 1; \beta_{\epsilon}=0\}$ 的值，但这只是为了说明问题。
 
-        关于我们将用于回归的模型结构，我们可以先预测它的一些特征。我们知道目标函数具有二次方形式，因为 $Z = g(X; Y) = (X+Y)^2 = X^2 + 2XY + Y^2$。由于 Y 是线性相关的，因此 $g(X; f(X)) = g(X; 2X + 1)$。
+        关于我们将用于回归的模型结构，我们可以先预测它的一些特征。我们知道目标函数具有二次方形式，因为 $Z = g(X;Y) = (X+Y)^2 = X^2 + 2XY + Y^2$。由于 Y 是线性相关的，因此 $g(X; f(X)) = g(X; 2X + 1)$。
 
-        现在我们可以想象对这个函数进行[多项式回归](https://matloff.wordpress.com/2018/06/20/neural-networks-are-essentially-polynomial-regression/)，以学习其参数。如果我们不用等价的 f(X) 来代替 Y，那么我们就必须为我们的模型学习五个参数： $\beta = \{\beta_x; \beta_{x^2}; \beta_y; \beta_{y^2}; \beta_{\epsilon}\}$ 。由于 X 和 Y 这两个特征不是线性独立的，因此它们的线性组合也[不是线性独立](https://www.baeldung.com/cs/neural-networks-bias#3-theres-only-one-bias-per-layer)的。
+        现在我们可以想象对这个函数进行[多项式回归](https://matloff.wordpress.com/2018/06/20/neural-networks-are-essentially-polynomial-regression/)，以学习其参数。如果我们不用等价的 $f(X)$ 来代替 Y，那么我们就必须为我们的模型学习五个参数： $\beta = \{\beta_x;\beta_{x^2};\beta_y;\beta_{y^2};\beta_{\epsilon}\}$ 。由于 X 和 Y 这两个特征不是线性独立的，因此它们的线性组合也不是线性独立的。
 
         这就意味着，我们可以学习与这两个输入变量的线性组合相对应的一组参数，而不是学习 X 和 Y 这两个输入变量的参数。因此，我们可以学习包含参数的更简单的模型 $\beta\prime = \{\beta{\prime}_{(x;y)}; \beta{\prime}_{(x^2;y^2)};\beta{\prime}_{\epsilon}\}$。这在代数上对应于学习函数在投影向量空间 $V_{(X; Y; Z)} \to V_{(X+Y; Z)}$ 上的表示：
 
@@ -96,16 +96,16 @@
 
         - 对于文本数据，特征通常是单词，每个单词在很大程度上都依赖于前后的单词
         - 对于音频，频率在大部分时间内是连续变化的
-        - 图像则是与颜色相对应的[像素集合](https://www.baeldung.com/java-opencv#loading)，其中每种颜色在大多数情况下都与其周围的像素相同
+        - 图像则是与颜色相对应的像素集合，其中每种颜色在大多数情况下都与其周围的像素相同
         - 视频是一连串的图像，如果其中包含真实世界的信息，由于[对象的永久性](https://en.wikipedia.org/wiki/Object_permanence)，这些图像只会发生部分变化
 
-        所有这些类型的数据都适合用 CNN 处理，以[降低其维度](https://www.baeldung.com/cs/ml-understanding-dimensions-cnn)。我们假定具有线性独立特征的数据，例如[有关发动机特征的数据集](https://data.europa.eu/euodp/en/data/dataset/z8FTytRAZFl4ZvOLjMCdng)，并不适合使用 CNN。
+        所有这些类型的数据都适合用 CNN 处理，以降低其维度。我们假定具有线性独立特征的数据，例如[有关发动机特征的数据集](https://data.europa.eu/euodp/en/data/dataset/z8FTytRAZFl4ZvOLjMCdng)，并不适合使用 CNN。
 
     6. CNN 的优势
 
-        通过在高维数据上使用 CNN，我们可以帮助解决神经网络中的[维度诅咒](https://www.baeldung.com/cs/ml-relu-dropout-layers#the-curse-of-dimensionality-in-cnns)问题。这个问题指的是神经网络在增加参数时，其参数大小的增加速度会明显快于输入大小的增加速度。
+        通过在高维数据上使用 CNN，我们可以帮助解决神经网络中的维度诅咒问题。这个问题指的是神经网络在增加参数时，其参数大小的增加速度会明显快于输入大小的增加速度。
 
-        我们在上面的例子中注意到，对于多项式回归这一特定问题，所需的参数数量有可能减少 40%。对于现实世界的问题，这种减少的幅度要大得多，因此使用卷积等[降维技术](https://www.baeldung.com/cs/machine-learning-intro#dimensionalityReduction)是必要的，而不是一种选择。
+        我们在上面的例子中注意到，对于多项式回归这一特定问题，所需的参数数量有可能减少 40%。对于现实世界的问题，这种减少的幅度要大得多，因此使用卷积等降维技术是必要的，而不是一种选择。
 
 4. 神经网络中的卷积
 
@@ -113,11 +113,11 @@
 
         我们现在明白了，如果我们的数据既是线性相关的，又具有高维度的特征，我们就需要使用降低其熵的方法。其中一种方法就是卷积，这也是 CNN 名称的由来。
 
-        神经网络中的卷积公式需要识别输入数据。首先，我们要将进行卷积的数据（例如图像）分配给一个维度为 (x,y) 的矩阵 A_{x,y}。然后，我们定义一个内核矩阵 k，它的元素会影响卷积结果的类型，我们将在下一节看到。
+        神经网络中的卷积公式需要识别输入数据。首先，我们要将进行卷积的数据（例如图像）分配给一个维度为 (x,y) 的矩阵 $A_{x,y}$。然后，我们定义一个内核矩阵 k，它的元素会影响卷积结果的类型，我们将在下一节看到。
 
         然后，卷积操作被定义为矩阵 A 中的一个元素及其所有局部相邻元素的值乘以内核矩阵 k 中的相应元素：
 
-        $k*A = \sum^{x-1}_{i=0} \sum^{y-1}_{j=0} k_{(x-i)(y-j)}A_{(1+i)(1+j)}$
+        $$k*A = \sum^{x-1}_{i=0} \sum^{y-1}_{j=0} k_{(x-i)(y-j)}A_{(1+i)(1+j)}$$
 
     2. 卷积对矩阵的作用
 
@@ -127,17 +127,17 @@
 
         这幅图像由一个像素阵列组成，我们可以通过首先定义一个核矩阵来对其进行卷积。有各种核可以用于不同的目的。下面我们从用于模糊的核开始，来了解一些核：
 
-        $k = \frac{1}{9} \begin{bmatrix} \ \ 1 &\ \ 1 &\ \ 1 \\ \ \ 1 &\ \ 1 &\ \ 1 \\ \ \ 1 &\ \ 1 &\ \ 1 \end{bmatrix}$
+        $$k = \frac{1}{9} \begin{bmatrix} \ \ 1 &\ \ 1 &\ \ 1 \\ \ \ 1 &\ \ 1 &\ \ 1 \\ \ \ 1 &\ \ 1 &\ \ 1 \end{bmatrix}$
 
         ![模糊](pic/blur.webp)
 
-        另一个内核是边缘检测内核
+        另一个内核是边缘检测内核：
 
         $k = \begin{bmatrix} \ \ -1 &\ \ -1 &\ \ -1 \\ \ \ -1 &\ \ 8 &\ \ -1 \\ \ \ -1 &\ \ -1 &\ \ -1 \end{bmatrix}$
 
         ![edges](pic/edges.webp)
 
-        另一个是锐化特征的内核
+        另一个是锐化特征的内核：
 
         $k = \begin{bmatrix} \ \ 0 &\ \ -1 &\ \ 0 \\ \ \ -1 &\ \ 5 &\ \ -1 \\ \ \ 0 &\ \ -1 &\ \ 0 \end{bmatrix}$
 
@@ -149,19 +149,19 @@
 
     1. 卷积神经网络的一般架构
 
-        尽管 CNN 被称为 "卷积 "神经网络，但它也有一些与卷积无关的特殊特征。CNN 区别于前馈神经网络的主要特征包括
+        尽管 CNN 被称为 "卷积" 神经网络，但它也有一些与卷积无关的特殊特征。CNN 区别于前馈神经网络的主要特征包括：
 
         - 池化层
         - 剔除层
         - 还有一些特殊的激活函数
 
-        典型的 CNN 架构一般包括卷积层、池化层和剔除层的序列，必要时可重复多次。最后一层是[分类](https://www.baeldung.com/cs/machine-learning-intro#classification)层或[回归](https://www.baeldung.com/kotlin-supervised-learning#linear-regression)层，这取决于我们要执行的任务。
+        典型的 CNN 架构一般包括卷积层、池化层和剔除层的序列，必要时可重复多次。最后一层是分类层或回归层，这取决于我们要执行的任务。
 
-        让我们依次看看前两层的简短描述。关于最后一点的讨论，我们可以参考我们关于[ReLU作为CNN激活函数](https://www.baeldung.com/cs/ml-relu-dropout-layers#the-rectified-linear-unit)的教程。
+        让我们依次看看前两层的简短描述。关于最后一点的讨论，我们可以参考我们关于ReLU作为CNN激活函数的教程。
 
     2. 池化层
 
-        池化层是 CNN 的一个独特特征，它进行同义的数学运算--[池化](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling)。池化包括从给定矩阵中提取维度更低的新矩阵，新矩阵只包含原始矩阵每个簇或邻域的一个元素。最常见的池化方法是所谓的最大池化（Max-Pooling），其工作原理如下。
+        池化层是 CNN 的一个独特特征，它进行同义的数学运算 - [池化](https://en.wikipedia.org/wiki/Convolutional_neural_network#Pooling)。池化包括从给定矩阵中提取维度更低的新矩阵，新矩阵只包含原始矩阵每个簇或邻域的一个元素。最常见的池化方法是所谓的最大池化（Max-Pooling），其工作原理如下。
 
         如前所述，我们需要一个矩阵 $A_{x,y}$，它代表图像或其他输入数据。然后，我们将矩阵划分为固定大小的邻域。在本例中，我们选择在分布于 (2,2) 池窗口中的四个元素之间进行池化：
 
@@ -175,17 +175,17 @@
 
     3. 剔除层
 
-        卷积神经网络还实现了所谓的 "遗忘层"（[Dropout layer](https://www.baeldung.com/cs/ml-relu-dropout-layers#the-dropout-layer)），即在机器学习模型中引入[遗忘能力](https://www.sciencedirect.com/science/article/pii/B9780934613644500529)。这是基于这样一种观点，即关于某种现象的过多先验知识实际上可能会阻碍而不是支持未来关于同一主题的知识的获取。
+        卷积神经网络还实现了所谓的 "遗忘层"（Dropout layer），即在机器学习模型中引入[遗忘能力](https://www.sciencedirect.com/science/article/pii/B9780934613644500529)。这是基于这样一种观点，即关于某种现象的过多先验知识实际上可能会阻碍而不是支持未来关于同一主题的知识的获取。
 
         遗忘层的工作原理是随机停用给定层中的一些神经元，从而迫使网络适应信息量较少的信号进行学习。虽然与直觉相反，但事实证明，当[高阶交互是虚假](https://arxiv.org/abs/2007.00823)的时，带有 "剔除层" 的卷积神经网络通常学习效果更好。这是因为部分信号的无效化有利于网络高层所代表的抽象特征的学习。
 
         对于给定的剔除参数 $d: 0 \leq d \leq 1$，我们通过以概率 $P(0|a_{i,j})=d$ 随机为矩阵 A 的每个元素 $a_{i,j}$ 赋值 0 来获得剔除函数的输出。如果 $D = {Dropout} (A, d)$，那么形式上：
 
-        $\forall{i}\forall{j}\forall{a_{i,j} \in A}: [P(D_{i,j} \triangleq 0) = d; P(D_{i,j} \triangleq a_{i,j}) = (1-d)]$
+        $$\forall{i}\forall{j}\forall{a_{i,j} \in A}: [P(D_{i,j} \triangleq 0) = d; P(D_{i,j} \triangleq a_{i,j}) = (1-d)]$$
 
         以上一节中的矩阵 A 和辍学概率 d = 0.4 为例，我们可以得到以下输出结果：
 
-        $Dropout (A, d) \to Dropout(\begin{bmatrix} \ \ 1 &\ \ 2 &\ \ 3 \\ \ \ 6 &\ \ 5 &\ \ 4 \\ \ \ 3 &\ \ 1 &\ \ 2 \end{bmatrix}, d=0.4) = \begin{bmatrix} \ \ 0 &\ \ 0 &\ \ 3 \\ \ \ 6 &\ \ 5 &\ \ 0 \\ \ \ 3 &\ \ 0 &\ \ 2 \end{bmatrix}$
+        $$Dropout (A, d) \to Dropout(\begin{bmatrix} \ \ 1 &\ \ 2 &\ \ 3 \\ \ \ 6 &\ \ 5 &\ \ 4 \\ \ \ 3 &\ \ 1 &\ \ 2 \end{bmatrix}, d=0.4) = \begin{bmatrix} \ \ 0 &\ \ 0 &\ \ 3 \\ \ \ 6 &\ \ 5 &\ \ 0 \\ \ \ 3 &\ \ 0 &\ \ 2 \end{bmatrix}$$
 
         这样，我们在这个部分无效矩阵上学习到的模式对过拟合就不那么敏感了。
 

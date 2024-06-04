@@ -24,7 +24,6 @@
 - [径向基函数](rbf-neural-networks-zh.md)
 - [GELU解释](./deep-learning/gelu-activation-function-zh.md)
 - [什么是噪声对比估计损失？](./deep-learning/noise-contrastive-estimation-loss-zh.md)
-- [ReLU vs. LeakyReLU vs. PReLU](./deep-learning/relu-vs-leakyrelu-vs-prelu-zh.md)
 - [如何计算分类器的VC维度？](vapnik-chervonenkis-dimension-computation-zh.md)
 - [如何处理逻辑回归中的缺失数据？](logistic-regression-missing-data-zh.md)
 - [如何用 SMOTE 处理不平衡数据？](synthetic-minority-oversampling-technique-zh.md)
@@ -230,7 +229,9 @@
 - [使用支持向量机进行多分类](./svm-multiclass-classification_zh.md)
 
 >> 利用神经网络进行强化学习
->> 什么是交叉熵？
+
+- [什么是交叉熵？](./cross-entropy_zh.md)
+
 >> 神经网络与 SVM 相比的优缺点
 >> Top-N 精度指标
 >> 神经网络架构： 选择隐藏层数量和大小的标准
@@ -481,7 +482,9 @@
 - Multiclass Classification Using Support Vector Machines
 
 >> Reinforcement Learning with Neural Network
->> What Is Cross-Entropy?
+
+- What Is Cross-Entropy?
+
 >> Advantages and Disadvantages of Neural Networks Against SVMs
 >> Top-N Accuracy Metrics
 
