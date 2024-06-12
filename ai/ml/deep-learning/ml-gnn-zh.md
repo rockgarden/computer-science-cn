@@ -24,7 +24,7 @@
 
     GNN 是一类[深度学习](https://www.baeldung.com/cs/training-validation-loss-deep-learning)模型，旨在处理和分析图结构数据。GNN 利用图的固有结构信息来学习功能强大的节点和图表示，使其能够捕捉复杂的依赖关系，并在图中有效传播信息。
 
-    GNNs 受图嵌入和[卷积神经网络](https://www.baeldung.com/cs/deep-cnn-design)的影响很大，图嵌入对其影响很大。GNNs 可用于根据图对节点、边和任务进行预测。
+    GNNs 受图嵌入和卷积神经网络的影响很大，图嵌入对其影响很大。GNNs 可用于根据图对节点、边和任务进行预测。
 
 4. GNN 架构
 

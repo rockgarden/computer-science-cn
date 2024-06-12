@@ -92,7 +92,7 @@
 
     其次，探索每个状态以创建所需的Q表所需的时间是不现实的。
 
-    为了应对这一挑战，一种替代方法是将Q-learning与[深度神经网络](https://www.baeldung.com/cs/deep-cnn-design)相结合。这种方法被称为深度Q值学习（[DQL](https://www.baeldung.com/cs/q-learning-vs-dynamic-programming)）。DQL中的神经网络充当每对（状态、动作）的Q值近似值。
+    为了应对这一挑战，一种替代方法是将Q-learning与深度神经网络相结合。这种方法被称为深度Q值学习（[DQL](https://www.baeldung.com/cs/q-learning-vs-dynamic-programming)）。DQL中的神经网络充当每对（状态、动作）的Q值近似值。
 
     神经网络接收状态作为输入，并输出所有可能动作的Q值。下图说明了Q-learning和深度Q-learning在评估Q值方面的区别：
 

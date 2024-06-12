@@ -70,7 +70,7 @@
 
         \[\phi(X)=exp(\frac{-||X-\mu||²}{\sigma^2})\]
 
-        在这里，我们将整个特征向量空间划分为[高斯](https://www.baeldung.com/cs/gaussian-mixture-models)神经节点。接下来，每个节点接收一个输入向量，并产生一个信号，信号强度取决于其中心（参考点）与输入向量之间的距离。这里 $\mu$ 是神经元的中心，$\phi (X)$ 是[神经元](https://www.baeldung.com/cs/neural-networks-neurons)对输入 X 的响应：
+        在这里，我们将整个特征向量空间划分为[高斯](https://www.baeldung.com/cs/gaussian-mixture-models)神经节点。接下来，每个节点接收一个输入向量，并产生一个信号，信号强度取决于其中心（参考点）与输入向量之间的距离。这里 $\mu$ 是神经元的中心，$\phi (X)$ 是神经元对输入 X 的响应：
 
         ![RBF](pic/RBF.webp)
 
@@ -101,7 +101,7 @@
 
         与 RBF 网络一样，多层感知器（[MLP](https://www.baeldung.com/cs/mlp-vs-dnn)）也是一种人工神经网络。更详细地说，它是一个至少有三层的全连接神经网络。第一层是输入层。接着是一个或多个隐藏层，最后是输出层。
 
-        在内部，每个 MLP 神经元使用输入信号和连接权重之间的点积。然后，它应用 [sigmoid](https://www.baeldung.com/cs/sigmoid-vs-tanh-functions) 或 [ReLU](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu) 激活函数生成响应。此外，MLP 网络通过反向传播对网络中的所有层进行训练。我们通常使用 MLP 和其他正则化技术（丢弃、批量归一化）来为高度复杂的任务建模。
+        在内部，每个 MLP 神经元使用输入信号和连接权重之间的点积。然后，它应用 sigmoid 或 [ReLU](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu) 激活函数生成响应。此外，MLP 网络通过反向传播对网络中的所有层进行训练。我们通常使用 MLP 和其他正则化技术（丢弃、批量归一化）来为高度复杂的任务建模。
 
     2. MLP 使用案例
 

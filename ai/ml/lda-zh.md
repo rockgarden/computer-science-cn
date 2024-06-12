@@ -12,7 +12,7 @@
 
     降维技术通过降低维度来简化数据集，并将其分为无监督和有监督两种方法。
 
-    无监督方法，如主成分分析法（[PCA](https://www.baeldung.com/cs/principal-component-analysis)）和独立成分分析法（[ICA](https://www.baeldung.com/cs/independent-component-analysis)），不需要类标签，具有通用性。有监督的方法，如混合判别分析（MDA）、神经网络（[NN](https://www.baeldung.com/cs/neural-networks-neurons)）和线性判别分析（LDA），则整合了类标签。我们的重点是线性判别分析。
+    无监督方法，如主成分分析法（[PCA](https://www.baeldung.com/cs/principal-component-analysis)）和独立成分分析法（[ICA](https://www.baeldung.com/cs/independent-component-analysis)），不需要类标签，具有通用性。有监督的方法，如混合判别分析（MDA）、神经网络（[NN]）和线性判别分析（LDA），则整合了类标签。我们的重点是线性判别分析。
 
 3. 什么是线性判别分析（LDA）？
 

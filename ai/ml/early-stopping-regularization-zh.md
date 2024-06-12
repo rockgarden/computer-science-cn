@@ -16,7 +16,7 @@
 
     ![记住训练数据](pic/remembering_data-1024x635.jpg)
 
-    我们使用[正则化](https://www.baeldung.com/cs/regularization-parameter-linear-regression)技术来避免过拟合。最常用、最有效的正则化方法之一是提前停止，尤其是在[神经网络](https://www.baeldung.com/cs/deep-cnn-design)方面。
+    我们使用[正则化](https://www.baeldung.com/cs/regularization-parameter-linear-regression)技术来避免过拟合。最常用、最有效的正则化方法之一是提前停止，尤其是在神经网络方面。
 
 3. 早期停止
 

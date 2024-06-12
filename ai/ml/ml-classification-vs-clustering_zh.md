@@ -83,7 +83,7 @@
 
     3. 卷积神经网络
 
-        神经网络，尤其是[卷积神经网络](https://www.baeldung.com/cs/ai-convolutional-neural-networks)，可以帮助解决数据集分类任务，因为在这些数据集中，特征之间具有[很强的线性依赖性](https://www.baeldung.com/cs/ai-convolutional-neural-networks#3-linear-independence-of-features)。它们的工作方式是降低分类器输入的维度，这样就可以在不需要过多计算能力和时间的情况下完成分类任务。
+        神经网络，尤其是卷积神经网络，可以帮助解决数据集分类任务，因为在这些数据集中，特征之间具有[很强的线性依赖性](https://www.baeldung.com/cs/ai-convolutional-neural-networks#3-linear-independence-of-features)。它们的工作方式是降低分类器输入的维度，这样就可以在不需要过多计算能力和时间的情况下完成分类任务。
 
         卷积神经网络有多种激活函数。中间层通常使用 ReLU 或 Dropout 函数，而分类层一般使用softmax。
 

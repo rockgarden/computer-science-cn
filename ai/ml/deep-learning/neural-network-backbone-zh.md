@@ -1,4 +1,4 @@
-# 神经网络中的主干是什么意思？
+# [神经网络中的主干是什么意思？](https://www.baeldung.com/cs/neural-network-backbone)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -44,7 +44,7 @@
 
     一般来说，骨干指的是将输入数据处理成某种特征表示的特征提取网络。这些特征提取网络通常作为独立网络在较简单的任务中表现良好，因此，我们可以将它们作为较复杂模型中的特征提取部分。
 
-    我们可以将许多[流行的CNN架构](https://www.baeldung.com/cs/deep-cnn-design#popular-cnn-architectures)用作神经网络的骨干。其中包括：
+    我们可以将许多流行的CNN架构用作神经网络的骨干。其中包括：
 
     - VGG - 包括 16 层和 19 层的 VGG-16 和 VGG-19 卷积网络。事实证明，它们在许多任务中都很有效，尤其是在图像分类和物体检测方面。
     - ResNets - 或称残差神经网络，由卷积层和汇集层块之间的跳接或递归单元组成。一些流行的 ResNet-50 和 ResNet 101 版本常用于物体检测和语义分割任务。

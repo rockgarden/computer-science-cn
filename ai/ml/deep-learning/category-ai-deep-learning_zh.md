@@ -18,11 +18,14 @@
   - [递归神经网络](recurrent-neural-networks_zh.md)
 - 神经网络架构
   - [神经网络架构：选择隐藏层数量和大小的标准](neural-networks-hidden-layers-criteria-zh.md)
-  - [ ] [神经网络中的偏差](neural-networks-bias-zh.md)
+  - [神经网络中的偏差](neural-networks-bias-zh.md)
+  - 梯度消失
+    - [利用LSTM防止梯度消失问题](lstm-vanishing-gradient-prevention-zh.md)
 - 激活函数
   - [Softmax 对 Log Softmax](softmax-vs-log-softmax-zh.md)
     - [Softmax中的温度是什么，为什么要使用温度？](softmax-temperature-zh.md)
   - [ReLU vs. LeakyReLU vs. PReLU](relu-vs-leakyrelu-vs-prelu-zh.md)
+  - [激活函数：Sigmoid vs Tanh](sigmoid-vs-tanh-functions-zh.md)
 - 算法
   - [k近邻和高维数据](k-nearest-neighbors-zh.md)
 - 大型语言模型
@@ -33,13 +36,14 @@
   - [为什么ChatGPT不能一次性给出答案？](../../chatgpt-answer-sequential-words_zh.md)
 - 多模态模型
   - [谷歌DeepMind双子座简介](./gemini-google-deepmind_zh.md)
+- 应用
+  - [神经网络中的主干是什么意思？](neural-network-backbone-zh.md)
 
 - [关注与自我关注](./attention-self-badhanau-differences_zh.md)
 - [GELU解释](gelu-activation-function-zh.md)
 - [什么是噪声对比估计损失？](pic/noise-contrastive-estimation-loss-zh.md)
 - [饱和非线性](saturating-non-linearities-zh.md)
 - [人工智能图像生成器如何工作？](ai-image-generation-gans-dalle-zh.md)
-- [利用LSTM防止梯度消失问题](lstm-vanishing-gradient-prevention-zh.md)
 - [图神经网络简介](ml-gnn-zh.md)
 - [深度伪造简介](deepfakes-ai-zh.md)
 - [强化学习中的确定性策略与随机策略](rl-deterministic-vs-stochastic-policies-zh.md)
@@ -54,7 +58,6 @@
 - [神经网络中的嵌入层是什么？](neural-nets-embedding-layers-zh.md)
 - [为什么使用替代损失？](surrogate-loss-zh.md)
 - [生成对抗网络：判别器损失和生成器损失](gan-loss-zh.md)
-- [神经网络中的主干是什么意思？](neural-network-backbone-zh.md)
 - [卷积网络中的通道是什么？](cnn-channels-zh.md)
 - [偏差与误差的区别](bias-vs-error-zh.md)
 - [实例分割与语义分割](../../computer-vision/instance-semantic-segmentation-cnn-zh.md)
@@ -80,7 +83,6 @@
 - [什么是机器学习中的归纳偏差？](ml-inductive-bias-zh.md)
 - [深度学习中的潜空间](dl-latent-space-zh.md)
 - [自编码器详解](autoencoders-explained-zh.md)
-- [激活函数：Sigmoid vs Tanh](sigmoid-vs-tanh-functions-zh.md)
 - [对比学习简介](contrastive-learning-zh.md)
 - [机器学习中内核背后的直觉](intuition-behind-kernels-in-machine-learning-zh.md)
 - [图像比较算法](image-comparison-algorithm-zh.md)
@@ -130,7 +132,7 @@
 - [ReLU vs. LeakyReLU vs. PReLU](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu)
 - [Saturating Non-Linearities](https://www.baeldung.com/cs/saturating-non-linearities)
 - [How Do AI Image Generators Work?](https://www.baeldung.com/cs/ai-image-generation-gans-dalle)
-- [Prevent the Vanishing Gradient Problem with LSTM](https://www.baeldung.com/cs/lstm-vanishing-gradient-prevention)
+- Prevent the Vanishing Gradient Problem with LSTM
 - Machine Learning vs. Deep Learning
 - [An Introduction to Graph Neural Networks](https://www.baeldung.com/cs/ml-gnn)
 - [An Introduction to Deepfakes](https://www.baeldung.com/cs/deepfakes-ai)
@@ -149,7 +151,7 @@
 - [What Are Embedding Layers in Neural Networks?](https://www.baeldung.com/cs/neural-nets-embedding-layers)
 - [Why Use a Surrogate Loss](https://www.baeldung.com/cs/surrogate-loss)
 - [Generative Adversarial Networks: Discriminator’s Loss and Generator’s Loss](https://www.baeldung.com/cs/gan-loss)
-- [What Does Backbone Mean in Neural Networks?](https://www.baeldung.com/cs/neural-network-backbone)
+- What Does Backbone Mean in Neural Networks?
 - [What Are Channels in Convolutional Networks?](https://www.baeldung.com/cs/cnn-channels)
 - [Differences Between Bias and Error](https://www.baeldung.com/cs/bias-vs-error)
 - Instance Segmentation vs. Semantic Segmentation

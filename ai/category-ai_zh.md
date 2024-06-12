@@ -204,6 +204,7 @@
 >> 物体检测： SSD 与 YOLO
 
 - [了解激活函数](./activation-functions-neural-nets_zh.md)
+- 激活函数： Sigmoid 与 Tanh
 
 >> 什么是基于内容的图像检索？
 >> 同步定位和绘图
@@ -218,9 +219,6 @@
 >> 实例分割与语义分割
 >> 如何处理大图像以训练 CNN？
 >> 什么是图像处理中的 "能量"？
-
-- [神经网络中的神经元](neural-networks-neurons-zh.md)
-
 >> 在线学习与离线学习
 >> 什么是一类 SVM 及其工作原理？
 >> 什么是机器学习中的特征重要性？
@@ -230,10 +228,10 @@
 >> 如何使用 Gabor 滤波器生成机器学习特征？
 >> 随机样本共识解释
 >> 预训练神经网络意味着什么？
->> 神经网络： 什么是权重衰减损失？
+>> 神经网络：什么是权重衰减损失？
 >> 用威胁空间搜索赢得五子棋
->> 神经网络： Conv 层和 FC 层的区别
->> 神经网络： 二进制输入 vs. 离散输入 vs. 连续输入
+>> 神经网络：Conv 层和 FC 层的区别
+>> 神经网络：二进制输入 vs. 离散输入 vs. 连续输入
 >> 梯度、随机和迷你批量梯度下降之间的区别
 >> 规模不变特征变换
 >> 什么是调节器？
@@ -275,7 +273,7 @@
 >> 深度学习中的潜空间
 >> 自编码器详解
 >> 成本、损失和目标函数的区别
->> 激活函数： Sigmoid 与 Tanh
+
 >> 对比学习简介
 >> 梯度提升树 vs. 随机森林
 >> 机器学习的基本概念
@@ -317,20 +315,22 @@
 >> WEKA 中的数据挖掘
 >> 选择学习率
 >> 机器学习中的欠拟合和过拟合
->> "20 个问题 "人工智能算法如何工作？
+>> "20个问题"人工智能算法如何工作？
 >> 如何计算线性回归中的正则化参数
 >> 如何从分词的 Word2vec 中获取句子向量
 >> Q 学习与动态编程
 >> 文本分类的特征选择和缩减
 >> PCA 中要取多少主成分？
 >> SVM 与感知器的区别
->> 为什么迷你批量比包含所有训练数据的单一 "批量 "更好？
->> 如何设计深度卷积神经网络？
+>> 为什么迷你批量比包含所有训练数据的单一"批量"更好？
+
+- 如何设计深度卷积神经网络？
+
 >> 期望最大化（EM）技术的直观解释
 >> 时间序列中的模式识别
 >> 如何创建智能聊天机器人？
 >> 开源人工智能引擎
->> NLP 的 word2vec： 负采样解释
+>> NLP 的 word2vec：负采样解释
 >> 随机森林中的袋外误差
 >> 如何计算 CNN 的感受野大小
 >> k 近邻和高维数据
@@ -399,6 +399,7 @@
 >> 有标签和无标签数据的区别是什么？
 >> 书面文本中的情感检测简介
 
+- [神经网络中的神经元](neural-networks-neurons-zh.md)
 - [神经网络的优缺点](./neural-net-advantages-disadvantages_zh.md)
 
 >> 公开可用的垃圾邮件过滤器训练集
@@ -783,7 +784,9 @@
 >> How Many Principal Components to Take in PCA?
 >> Difference Between a SVM and a Perceptron
 >> Why Mini-Batch Size Is Better Than One Single “Batch” With All Training Data
->> How to Design Deep Convolutional Neural Networks?
+
+- How to Design Deep Convolutional Neural Networks?
+
 >> Intuitive Explanation of the Expectation-Maximization (EM) Technique
 >> Pattern Recognition in Time Series
 >> How to Create a Smart Chatbot?

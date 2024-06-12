@@ -1,4 +1,4 @@
-# 用 LSTM 防止梯度消失问题
+# [用LSTM防止梯度消失问题](https://www.baeldung.com/cs/lstm-vanishing-gradient-prevention)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning)
 
@@ -50,9 +50,9 @@
 
 4. LSTM 如何改善梯度消失问题？
 
-    [LSTM](https://www.baeldung.com/cs/nlp-encoder-decoder-models#3-lstm) 由 Sepp Hochreiter 和 Jürgen Schmidhuber 于 1997 年提出，旨在克服梯度消失问题。为此，LSTM 利用门控机制来控制信息流和梯度。这有助于防止梯度消失问题，并允许网络在更长的序列中学习和保留信息。
+    LSTM 由 Sepp Hochreiter 和 Jürgen Schmidhuber 于 1997 年提出，旨在克服梯度消失问题。为此，LSTM 利用门控机制来控制信息流和梯度。这有助于防止梯度消失问题，并允许网络在更长的序列中学习和保留信息。
 
-    下[图](https://commons.wikimedia.org/wiki/File:LSTM.png)显示了 LSTM 单元的结构：
+    [下图](https://commons.wikimedia.org/wiki/File:LSTM.png)显示了 LSTM 单元的结构：
 
     ![LSTM单元](pic/img_64eaecf74e4d7.png)
 
@@ -62,7 +62,7 @@
 
         遗忘门决定从上一个隐藏状态和当前输入中遗忘哪些信息。它使用一个 sigmoid 激活函数，产生介于 0 和 1 之间的值，理想情况下表示通过单元状态的数据分数。
 
-        此外，遗忘门还能让 LSTM 保留关键数据，放弃不必要的数据，确保梯度保持相关。
+        此外，遗忘门还能让 LSTM 保留关键数据，放弃不必要的数据，确保与梯度保持相关。
 
     2. 输入门和输出门
 

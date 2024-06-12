@@ -56,7 +56,7 @@
 
     如果特征与目标变量之间的关系定义明确，模型训练得当，那么急于求成的模型就会非常准确。遗憾的是，这些模型并不总能很好地泛化到新的输入。这种情况通常发生在模型过度拟合训练数据时。
 
-    例如，[决策树](https://www.baeldung.com/cs/decision-trees-vs-random-forests)根据特征值递归拆分数据集，构建类似流程图的结构来进行预测。支持向量机（[SVM](https://www.baeldung.com/cs/ml-support-vector-machines)）通过最大化最接近训练点之间的差值，找到最佳超平面来划分类别。其他急于学习者的例子还有 [Naive Bayes](https://www.baeldung.com/cs/decision-tree-vs-naive-bayes) 和人工神经网络 ([ANN](https://www.baeldung.com/cs/neural-networks-neurons))。
+    例如，[决策树](https://www.baeldung.com/cs/decision-trees-vs-random-forests)根据特征值递归拆分数据集，构建类似流程图的结构来进行预测。支持向量机（[SVM](https://www.baeldung.com/cs/ml-support-vector-machines)）通过最大化最接近训练点之间的差值，找到最佳超平面来划分类别。其他急于学习者的例子还有 [Naive Bayes](https://www.baeldung.com/cs/decision-tree-vs-naive-bayes) 和人工神经网络 ([ANN])。
 
 5. 比较
 

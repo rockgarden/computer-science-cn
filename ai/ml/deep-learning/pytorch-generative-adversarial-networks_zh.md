@@ -90,7 +90,7 @@
 
 6. 生成器
 
-    我们使用顺序神经网络来实现生成器模块。它由一个带有 [Leaky ReLu()](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu) 激活函数的输入层和一个带有 [tanh()](https://www.baeldung.com/cs/sigmoid-vs-tanh-functions) 激活函数的单隐层组成。我们可以根据需要配置 hiddenDim 和 lr 参数：
+    我们使用顺序神经网络来实现生成器模块。它由一个带有 [Leaky ReLu()](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu) 激活函数的输入层和一个带有 tanh() 激活函数的单隐层组成。我们可以根据需要配置 hiddenDim 和 lr 参数：
 
     ```python
     class Generator(nn.Module):

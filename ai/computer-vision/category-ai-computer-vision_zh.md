@@ -11,6 +11,7 @@ Neural Networks (19)Image Processing (11)Object Detection (11)Convolutional Neur
 - [使用GAN进行数据扩充](ml-gan-data-augmentation-zh.md)
 - [实例分割与语义分割](instance-semantic-segmentation-cnn-zh.md)
 - [标签数据与非标签数据有何不同？](./ml-labeled-vs-unlabeled-data-zh.md)
+- [如何设计深度卷积神经网络？](./category-ai-computer-vision_zh.md)
 
 ## [Computer Vision](https://www.baeldung.com/cs/category/ai/computer-vision)
 
@@ -72,6 +73,6 @@ Neural Networks (19)Image Processing (11)Object Detection (11)Convolutional Neur
 - [Calculate the Output Size of a Convolutional Layer](https://www.baeldung.com/cs/convolutional-layer-size)
 - [Using GANs for Data Augmentation](https://www.baeldung.com/cs/ml-gan-data-augmentation)
 
->> How to Design Deep Convolutional Neural Networks?
+- How to Design Deep Convolutional Neural Networks?
 
 - What Is the Difference Between Labeled and Unlabeled Data?
