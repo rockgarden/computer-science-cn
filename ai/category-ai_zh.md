@@ -223,7 +223,9 @@
 >> 什么是一类 SVM 及其工作原理？
 >> 什么是机器学习中的特征重要性？
 >> 数据扩充
->> 什么是神经网络中的微调？
+
+- 什么是神经网络中的微调？
+
 >> 随机森林与极随机树
 >> 如何使用 Gabor 滤波器生成机器学习特征？
 >> 随机样本共识解释
@@ -262,7 +264,9 @@
 >> 强人工智能与弱人工智能的区别
 >> 物体检测的平均精度
 >> 神经网络中的隐藏层
->> 迁移学习与领域适应
+
+- [迁移学习与领域适应](./transfer-learning-vs-domain-adaptation_zh.md)
+
 >> 监督学习和非监督学习的真实案例
 >> 遗传算法在现实世界中的应用
 >> 什么是卷积神经网络的深度？
@@ -676,16 +680,20 @@
 
 - What Is Feature Importance in Machine Learning?
 - Data Augmentation
+- What Is Fine-Tuning in Neural Networks?
 
->> What Is Fine-Tuning in Neural Networks?
 >> Random Forest vs. Extremely Randomized Trees
 >> How to Use Gabor Filters to Generate Features for Machine Learning
 >> Random Sample Consensus Explained
->> What Does Pre-training a Neural Network Mean?
+
+- What Does Pre-training a Neural Network Mean?
+
 >> Neural Networks: What Is Weight Decay Loss?
 >> Win Gomoku with Threat Space Search
 >> Neural Networks: Difference Between Conv and FC Layers
->> Neural Networks: Binary vs. Discrete vs. Continuous Inputs
+
+- Neural Networks: Binary vs. Discrete vs. Continuous Inputs
+
 >> Differences Between Gradient, Stochastic and Mini Batch Gradient Descent
 >> Scale-Invariant Feature Transform
 >> What Is a Regressor?
@@ -719,7 +727,9 @@
 >> Differences Between Strong-AI and Weak-AI
 >> Mean Average Precision in Object Detection
 >> Hidden Layers in a Neural Network
->> Transfer Learning vs Domain Adaptation
+
+- Transfer Learning vs Domain Adaptation
+
 >> Real-Life Examples of Supervised Learning and Unsupervised Learning
 >> Real-World Uses for Genetic Algorithms
 >> What Is Depth in a Convolutional Neural Network?

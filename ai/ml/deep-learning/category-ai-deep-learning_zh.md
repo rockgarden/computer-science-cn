@@ -26,6 +26,7 @@
     - [Softmax中的温度是什么，为什么要使用温度？](softmax-temperature-zh.md)
   - [ReLU vs. LeakyReLU vs. PReLU](relu-vs-leakyrelu-vs-prelu-zh.md)
   - [激活函数：Sigmoid vs Tanh](sigmoid-vs-tanh-functions-zh.md)
+  - [GELU解释](gelu-activation-function-zh.md)
 - 算法
   - [k近邻和高维数据](k-nearest-neighbors-zh.md)
 - 大型语言模型
@@ -38,16 +39,18 @@
   - [谷歌DeepMind双子座简介](./gemini-google-deepmind_zh.md)
 - 应用
   - [神经网络中的主干是什么意思？](neural-network-backbone-zh.md)
+  - 训练
+    - [预训练神经网络意味着什么？](neural-network-pre-training-zh.md)
+    - [什么是不可训练参数？](non-trainable-parameter-zh.md)
+
 
 - [关注与自我关注](./attention-self-badhanau-differences_zh.md)
-- [GELU解释](gelu-activation-function-zh.md)
 - [什么是噪声对比估计损失？](pic/noise-contrastive-estimation-loss-zh.md)
 - [饱和非线性](saturating-non-linearities-zh.md)
 - [人工智能图像生成器如何工作？](ai-image-generation-gans-dalle-zh.md)
 - [图神经网络简介](ml-gnn-zh.md)
 - [深度伪造简介](deepfakes-ai-zh.md)
 - [强化学习中的确定性策略与随机策略](rl-deterministic-vs-stochastic-policies-zh.md)
-- [什么是不可训练参数？](non-trainable-parameter-zh.md)
 - [Epoch or Episode：理解深度强化学习中的术语](epoch-vs-episode-reinforcement-learning-zh.md)
 - [Q-Learning vs. Deep Q-Learning vs. Deep Q-Network](../../ml/q-learning-vs-deep-q-learning-vs-deep-q-network-zh.md)
 - [什么是端到端深度学习？](end-to-end-deep-learning-zh.md)
@@ -62,7 +65,6 @@
 - [偏差与误差的区别](bias-vs-error-zh.md)
 - [实例分割与语义分割](../../computer-vision/instance-semantic-segmentation-cnn-zh.md)
 - [在线学习与离线学习](online-vs-offline-learning-zh.md)
-- [预训练神经网络意味着什么？](neural-network-pre-training-zh.md)
 - [神经网络：什么是权重衰减损失？](neural-networks-weight-decay-loss-zh.md)
 - [神经网络：Conv层和FC层的区别](neural-networks-conv-fc-layers-zh.md)
 - [究竟什么是N-Gram？](n-gram-zh.md)
@@ -139,7 +141,7 @@
 - [Deterministic vs. Stochastic Policies in Reinforcement Learning](https://www.baeldung.com/cs/rl-deterministic-vs-stochastic-policies)
 - Introduction to Large Language Models
 - What Is and Why Use Temperature in Softmax?
-- [What’s a Non-trainable Parameter?](https://www.baeldung.com/cs/non-trainable-parameter)
+- What’s a Non-trainable Parameter?
 - [Epoch or Episode: Understanding Terms in Deep Reinforcement Learning](https://www.baeldung.com/cs/epoch-vs-episode-reinforcement-learning)
 - [Q-Learning vs. Deep Q-Learning vs. Deep Q-Network](https://www.baeldung.com/cs/q-learning-vs-deep-q-learning-vs-deep-q-network)
 - [What Is End-to-End Deep Learning?](https://www.baeldung.com/cs/end-to-end-deep-learning)
@@ -158,7 +160,7 @@
 - [Online Learning vs. Offline Learning](https://www.baeldung.com/cs/online-vs-offline-learning)
 - Data Augmentation
 - Random Sample Consensus Explained
-- [What Does Pre-training a Neural Network Mean?](https://www.baeldung.com/cs/neural-network-pre-training)
+- What Does Pre-training a Neural Network Mean?
 - [Neural Networks: What Is Weight Decay Loss?](https://www.baeldung.com/cs/neural-networks-weight-decay-loss)
 - [Neural Networks: Difference Between Conv and FC Layers](https://www.baeldung.com/cs/neural-networks-conv-fc-layers)
 - [What Exactly Is an N-Gram?](https://www.baeldung.com/cs/n-gram)

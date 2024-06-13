@@ -1,4 +1,4 @@
-# 什么是不可训练参数？
+# [什么是不可训练参数？](https://www.baeldung.com/cs/non-trainable-parameter)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning)
 
@@ -28,7 +28,7 @@
 
 4. 何时使用？
 
-    不可训练参数最常用于预训练模型和迁移学习。在[预训练](https://www.baeldung.com/cs/neural-network-pre-training)中，神经网络首先在一个任务或数据集上进行模型训练。然后，利用训练得到的参数或模型，在不同的任务或数据集上训练另一个模型。
+    不可训练参数最常用于预训练模型和迁移学习。在预训练中，神经网络首先在一个任务或数据集上进行模型训练。然后，利用训练得到的参数或模型，在不同的任务或数据集上训练另一个模型。
 
     一些著名的预训练模型有 [BERT](https://arxiv.org/abs/1810.04805)、[VGG-16](https://arxiv.org/abs/1409.1556)、[ResNet50](https://arxiv.org/abs/1512.03385)、[Inceptionv3](https://arxiv.org/abs/1512.00567) 和 [GPT-4](https://arxiv.org/abs/2303.08774)。
 

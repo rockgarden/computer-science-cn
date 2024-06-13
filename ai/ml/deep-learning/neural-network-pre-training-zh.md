@@ -1,4 +1,4 @@
-# 预训练神经网络意味着什么？
+# [预训练神经网络意味着什么？](https://www.baeldung.com/cs/neural-network-pre-training)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -6,7 +6,7 @@
 
 1. 简介
 
-    在本教程中，我们将回顾[神经网络](https://www.baeldung.com/cs/binary-vs-discrete-vs-continuous-inputs#definitions)中的预训练：它是什么、如何完成以及在哪些方面使用。最后，我们将探讨预训练神经网络的优点和缺点。
+    在本教程中，我们将回顾神经网络中的预训练：它是什么、如何完成以及在哪些方面使用。最后，我们将探讨预训练神经网络的优点和缺点。
 
 2. 预训练
 
@@ -21,13 +21,13 @@
     现在，预训练神经网络需要[四个基本步骤](https://martin-thoma.com/ml-glossary/)：
 
     - 我们有一个机器学习模型 mm 以及数据集 A 和 B
-    - 用数据集 A 训练毫米
+    - 用数据集 A 训练 mm
     - 在数据集 B 上训练模型之前，用在 A 上训练的模型初始化 mm 的部分参数
-    - 在 B 数据集上训练毫米
+    - 在 B 数据集上训练 mm
 
 4. 预训练的应用
 
-    预训练的应用可分为三类： [迁移学习](https://www.baeldung.com/cs/transfer-learning-vs-domain-adoption#introduction)、分类和[特征提取](https://www.mathworks.com/help/deeplearning/ug/pretrained-convolutional-neural-networks.html#bvnkti1)。
+    预训练的应用可分为三类：迁移学习、分类和特征提取。
 
     1. 迁移学习
 

@@ -109,7 +109,9 @@
 >> 在线学习与离线学习
 >> 什么是一类 SVM 及其工作原理？
 >> 数据扩充
->> 什么是神经网络微调？
+
+- [什么是神经网络中的微调？](./fine-tuning-nn-zh.md)
+
 >> 随机森林与极随机化树
 >> 如何使用 Gabor 滤波器生成机器学习特征
 >> 随机样本共识解释
@@ -117,7 +119,9 @@
 >> 神经网络： 什么是权重衰减损失？
 >> 利用威胁空间搜索赢得五子棋
 >> 神经网络： Conv 层和 FC 层的区别
->> 神经网络： 二进制输入 vs. 离散输入 vs. 连续输入
+
+- [神经网络：二进制输入与离散输入与连续输入](./binary-vs-discrete-vs-continuous-inputs_zh.md)
+
 >> 梯度、随机和迷你批量梯度下降之间的区别
 >> 规模不变特征变换
 >> 什么是回归器？
@@ -160,7 +164,7 @@
 >> 神经网络中的线性可分离数据
 >> 随机森林中树的深度和数量的影响
 
-- [双向和单向 LSTM 的区别](./bidirectional-vs-unidirectional-lstm_zh.md)
+- [双向和单向LSTM的区别](./bidirectional-vs-unidirectional-lstm_zh.md)
 
 >> 学习率与批量大小的关系
 >> Word2vec 单词嵌入操作： 添加、串联还是平均单词向量？
@@ -349,8 +353,8 @@
 
 - What Is Feature Importance in Machine Learning?
 - Data Augmentation
+- What Is Fine-Tuning in Neural Networks?
 
->> What Is Fine-Tuning in Neural Networks?
 >> Random Forest vs. Extremely Randomized Trees
 >> How to Use Gabor Filters to Generate Features for Machine Learning
 >> Random Sample Consensus Explained
@@ -358,7 +362,9 @@
 >> Neural Networks: What Is Weight Decay Loss?
 >> Win Gomoku with Threat Space Search
 >> Neural Networks: Difference Between Conv and FC Layers
->> Neural Networks: Binary vs. Discrete vs. Continuous Inputs
+
+- Neural Networks: Binary vs. Discrete vs. Continuous Inputs
+
 >> Differences Between Gradient, Stochastic and Mini Batch Gradient Descent
 >> Scale-Invariant Feature Transform
 >> What Is a Regressor?

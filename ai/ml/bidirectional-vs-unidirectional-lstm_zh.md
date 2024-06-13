@@ -1,4 +1,4 @@
-# [双向和单向 LSTM 的区别](https://www.baeldung.com/cs/bidirectional-vs-unidirectional-lstm)
+# [双向和单向LSTM的区别](https://www.baeldung.com/cs/bidirectional-vs-unidirectional-lstm)
 
 [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
