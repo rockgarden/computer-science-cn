@@ -1,4 +1,4 @@
-# 利用神经网络进行强化学习
+# [利用神经网络进行强化学习](https://www.baeldung.com/cs/reinforcement-learning-neural-network)
 
 [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -309,5 +309,3 @@
     在本文中，我们讨论了强化学习的基础知识。我们特别详细地探讨了 q 学习算法。
 
     最后，我们探讨了神经网络及其在强化学习中的优势。
-
-[Reinforcement Learning with Neural Network](https://www.baeldung.com/cs/reinforcement-learning-neural-network)

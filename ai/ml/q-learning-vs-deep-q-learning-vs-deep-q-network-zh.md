@@ -39,7 +39,7 @@
 
     1. 什么是Q-学习
 
-        Q-learning是一种无模型、基于值、[非策略的算法](https://www.baeldung.com/cs/off-policy-vs-on-policy)，用于在给定环境中为代理找到[最优策略](https://www.baeldung.com/cs/ml-value-iteration-vs-policy-iteration)。该算法根据代理的当前状态确定要采取的一系列最佳行动。Q-learning中的 "Q" 代表质量，表示有价值的行动如何使未来回报最大化。
+        Q-learning是一种无模型、基于值、非策略的算法，用于在给定环境中为代理找到[最优策略](https://www.baeldung.com/cs/ml-value-iteration-vs-policy-iteration)。该算法根据代理的当前状态确定要采取的一系列最佳行动。Q-learning中的 "Q" 代表质量，表示有价值的行动如何使未来回报最大化。
 
         作为一种基于模型的算法，Q-learning不需要过渡函数和奖励函数的知识。它通过试错直接估算出最优策略，并使用从环境中获得的奖励来指导其决策。该算法根据特定（状态、动作）对收到的奖励和下一状态的估计值更新Q值。通过根据观察到的奖励反复更新Q值，Q-learning可以收敛到一个最优策略，使累积奖励随着时间的推移达到最大化。
 

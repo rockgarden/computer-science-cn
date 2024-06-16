@@ -5,6 +5,9 @@
 
 - [机器学习与深度学习](machine-learning-vs-deep-learning-zh.md)
 - [开源神经网络库](ml-open-source-libraries_zh.md)
+- 基础
+  - [Epoch or Episode：理解深度强化学习中的术语](epoch-vs-episode-reinforcement-learning-zh.md)
+  - [非策略与策略强化学习](off-policy-vs-on-policy-zh.md)
 - 数据
   - 数据异常
     - [随机样本共识解释](ransac-zh.md)
@@ -51,7 +54,6 @@
 - [图神经网络简介](ml-gnn-zh.md)
 - [深度伪造简介](deepfakes-ai-zh.md)
 - [强化学习中的确定性策略与随机策略](rl-deterministic-vs-stochastic-policies-zh.md)
-- [Epoch or Episode：理解深度强化学习中的术语](epoch-vs-episode-reinforcement-learning-zh.md)
 - [Q-Learning vs. Deep Q-Learning vs. Deep Q-Network](../../ml/q-learning-vs-deep-q-learning-vs-deep-q-network-zh.md)
 - [什么是端到端深度学习？](end-to-end-deep-learning-zh.md)
 - [连体网络如何在图像识别中发挥作用？](siamese-networks-zh.md)
@@ -73,7 +75,6 @@
 - [0-1损失函数解释](ai-0-1-loss-function-zh.md)
 - [反向传播与前馈网络的区别](neural-networks-backprop-vs-feedforward-zh.md)
 - [交叉验证：K-Fold vs. 一票否决](cross-validation-k-fold-loo-zh.md)
-- [非策略与策略强化学习](off-policy-vs-on-policy-zh.md)
 - [神经网络反向传播中的偏差更新](deep-learning-bias-backpropagation-zh.md)
 - [自然语言处理中的递归与递归神经网络](networks-in-nlp-zh.md)
 - [什么是神经网络中的"瓶颈"？](neural-network-bottleneck-zh.md)
@@ -142,7 +143,7 @@
 - Introduction to Large Language Models
 - What Is and Why Use Temperature in Softmax?
 - What’s a Non-trainable Parameter?
-- [Epoch or Episode: Understanding Terms in Deep Reinforcement Learning](https://www.baeldung.com/cs/epoch-vs-episode-reinforcement-learning)
+- Epoch or Episode: Understanding Terms in Deep Reinforcement Learning
 - [Q-Learning vs. Deep Q-Learning vs. Deep Q-Network](https://www.baeldung.com/cs/q-learning-vs-deep-q-learning-vs-deep-q-network)
 - [What Is End-to-End Deep Learning?](https://www.baeldung.com/cs/end-to-end-deep-learning)
 - [How Do Siamese Networks Work in Image Recognition?](https://www.baeldung.com/cs/siamese-networks)
@@ -169,7 +170,7 @@
 - [0-1 Loss Function Explained](https://www.baeldung.com/cs/ai-0-1-loss-function)
 - [Differences Between Backpropagation and Feedforward Networks](https://www.baeldung.com/cs/neural-networks-backprop-vs-feedforward)
 - [Cross-Validation: K-Fold vs. Leave-One-Out](https://www.baeldung.com/cs/cross-validation-k-fold-loo)
-- [Off-policy vs. On-policy Reinforcement Learning](https://www.baeldung.com/cs/off-policy-vs-on-policy)
+- Off-policy vs. On-policy Reinforcement Learning
 - [Bias Update in Neural Network Backpropagation](https://www.baeldung.com/cs/deep-learning-bias-backpropagation)
 - [Recurrent vs. Recursive Neural Networks in Natural Language Processing](https://www.baeldung.com/cs/networks-in-nlp)
 - [What Are “Bottlenecks” in Neural Networks?](https://www.baeldung.com/cs/neural-network-bottleneck)

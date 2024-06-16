@@ -227,7 +227,9 @@
 >> 将数据集拆分为训练集和测试集
 >> 解决 K 臂匪徒问题
 >> 神经网络的时代
->> Epsilon-Greedy Q-learning
+
+- Epsilon-Greedy Q-learning
+
 >> 神经网络中权重的随机初始化
 
 - [使用支持向量机进行多分类](./svm-multiclass-classification_zh.md)
@@ -375,7 +377,9 @@
 >> 0-1 Loss Function Explained
 >> Differences Between Missing Data and Sparse Data
 >> Differences Between Backpropagation and Feedforward Networks
->> Off-policy vs. On-policy Reinforcement Learning
+
+- Off-policy vs. On-policy Reinforcement Learning
+
 >> Comparing Naïve Bayes and SVM for Text Classification
 >> Recurrent vs. Recursive Neural Networks in Natural Language Processing
 >> What Are “Bottlenecks” in Neural Networks?
@@ -482,7 +486,9 @@
 >> Splitting a Dataset into Train and Test Sets
 >> Solving the K-Armed Bandit Problem
 >> Epoch in Neural Networks
->> Epsilon-Greedy Q-learning
+
+- Epsilon-Greedy Q-learning
+
 >> Random Initialization of Weights in a Neural Network
 
 - Multiclass Classification Using Support Vector Machines

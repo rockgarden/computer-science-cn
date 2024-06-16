@@ -367,7 +367,7 @@
 >> 用于自然语言处理的编码器-解码器模型
 >> 解决 K 臂强盗问题
 >> 神经网络中的纪元
->> Epsilon-Greedy Q-learning
+- Epsilon-Greedy Q-learning
 >> 神经网络中权重的随机初始化
 >> 潜在德里希勒分配的主题建模
 >> 字符串相似度量--编辑距离
@@ -573,7 +573,9 @@
 >> Classification of Data Mining Systems
 >> How Do Artificial Immune Systems Work?
 >> DBSCAN Clustering: How Does It Work?
->> Epoch or Episode: Understanding Terms in Deep Reinforcement Learning
+
+- Epoch or Episode: Understanding Terms in Deep Reinforcement Learning
+
 >> Q-Learning vs. Deep Q-Learning vs. Deep Q-Network
 >> Introduction to Landmark Detection
 >> What Are Downstream Tasks?
@@ -713,7 +715,9 @@
 >> Differences Between Missing Data and Sparse Data
 >> Differences Between Backpropagation and Feedforward Networks
 >> Disparity Map in Stereo Vision
->> Off-policy vs. On-policy Reinforcement Learning
+
+- Off-policy vs. On-policy Reinforcement Learning
+
 >> Bias Update in Neural Network Backpropagation
 >> Algorithm for Handwriting Recognition
 >> Precision vs. Average Precision
@@ -846,7 +850,7 @@
 
 >> Solving the K-Armed Bandit Problem
 >> Epoch in Neural Networks
->> Epsilon-Greedy Q-learning
+- Epsilon-Greedy Q-learning
 >> Random Initialization of Weights in a Neural Network
 >> Topic Modeling with Latent Dirichlet Allocation
 >> String Similarity Metrics – Edit Distance
