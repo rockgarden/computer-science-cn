@@ -339,7 +339,9 @@
 >> 如何计算 CNN 的感受野大小
 >> k 近邻和高维数据
 >> 在 SVM 中使用硬边际 vs. 软边际
->> 强化学习中的值迭代与策略迭代
+
+- 强化学习中的值迭代与策略迭代
+
 >> 如何将文本序列转换为向量
 >> 实例归一化 vs 批量归一化
 >> SVM 中精度与支持向量数量之间的权衡
@@ -367,7 +369,9 @@
 >> 用于自然语言处理的编码器-解码器模型
 >> 解决 K 臂强盗问题
 >> 神经网络中的纪元
+
 - Epsilon-Greedy Q-learning
+
 >> 神经网络中权重的随机初始化
 >> 潜在德里希勒分配的主题建模
 >> 字符串相似度量--编辑距离
@@ -816,7 +820,9 @@
 - k-Nearest Neighbors and High Dimensional Data
 
 >> Using a Hard Margin vs. Soft Margin in SVM
->> Value Iteration vs. Policy Iteration in Reinforcement Learning
+
+- Value Iteration vs. Policy Iteration in Reinforcement Learning
+
 >> How To Convert a Text Sequence to a Vector
 
 - Instance vs Batch Normalization
@@ -850,7 +856,9 @@
 
 >> Solving the K-Armed Bandit Problem
 >> Epoch in Neural Networks
+
 - Epsilon-Greedy Q-learning
+
 >> Random Initialization of Weights in a Neural Network
 >> Topic Modeling with Latent Dirichlet Allocation
 >> String Similarity Metrics – Edit Distance
@@ -875,7 +883,7 @@
 >> Training Data for Sentiment Analysis
 >> F-1 Score for Multi-Class Classification
 >> The Difference Between Epoch and Iteration in Neural Networks
->> What Is a Policy in Reinforcement Learning?
+- What Is a Policy in Reinforcement Learning?
 >> What Is the Difference Between Gradient Descent and Gradient Ascent?
 >> SVM Vs Neural Network
 >> Levenshtein Distance Computation

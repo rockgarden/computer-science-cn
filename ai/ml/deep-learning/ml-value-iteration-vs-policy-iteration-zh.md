@@ -1,4 +1,4 @@
-# 强化学习中的价值迭代与策略迭代
+# [强化学习中的价值迭代与策略迭代](https://www.baeldung.com/cs/ml-value-iteration-vs-policy-iteration)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -6,9 +6,9 @@
 
 1. 引言
 
-    我们可以通过马尔可夫决策过程（Markov Decision Process，MDP）来表述[强化学习](https://www.baeldung.com/cs/reinforcement-learning-neural-network)问题。该问题的基本要素包括环境、状态、奖励、策略和价值。
+    我们可以通过马尔可夫决策过程（Markov Decision Process，MDP）来表述强化学习问题。该问题的基本要素包括环境、状态、奖励、策略和价值。
 
-    [策略](https://www.baeldung.com/cs/ml-policy-reinforcement-learning)是从状态到行动的映射。找到最优策略就能产生最大奖励。给定一个 MDP 环境，我们可以使用动态编程算法来计算最优策略，从而在每个状态下获得尽可能高的未来奖励总和。
+    策略是从状态到行动的映射。找到最优策略就能产生最大奖励。给定一个 MDP 环境，我们可以使用动态编程算法来计算最优策略，从而在每个状态下获得尽可能高的未来奖励总和。
 
     动态编程算法的工作假设是，我们拥有一个完美的 MDP 环境模型。因此，我们可以使用一步前瞻法，计算所有可能行动的奖励。
 
@@ -28,13 +28,13 @@
 
     \[\pi(s) = arg\max_{a} \sum_{s',r'} p[s', r|s,a](r+\gamma V(s'))\]
 
-    这里，r 是采取行动 a 所产生的奖励，$\gamma$ 是未来奖励的[贴现因子](https://www.baeldung.com/cs/epsilon-greedy-q-learning#2-gamma-boldsymbolgamma)，p 是过渡概率。
+    这里，r 是采取行动 a 所产生的奖励，$\gamma$ 是未来奖励的贴现因子，p 是过渡概率。
 
     一开始，我们并不关心初始策略 $\pi_0$ 是否最优。在执行过程中，我们通过重复策略评估和策略改进步骤，集中精力在每次迭代中改进策略。利用这种算法，我们会产生一连串的策略，其中每一个策略都是对前一个策略的改进：
 
     \[\pi_0 \xrightarrow[]{\text{E}} v_{\pi_0} \xrightarrow[]{\text{I}} \pi_1 \xrightarrow[]{\text{E}} v_{\pi_1} \xrightarrow[]{\text{I}} \pi_2 \xrightarrow[]{\text{E}} \dotsi \xrightarrow[]{\text{I}} \pi_*\xrightarrow[]{\text{E}} v_{*}\]
 
-    我们进行政策评估和政策改进，直到政策不再改进为止：
+    我们进行策略评估和策略改进，直到策略不再改进为止：
 
     ![由 QuickLaTeX.com 渲染](pic/quicklatex.com-7996700c6b0398334741dd5d99ada04f_l3.svg)
 

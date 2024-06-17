@@ -198,7 +198,9 @@
 - k近邻和高维数据
 
 >> 在 SVM 中使用硬边际与软边际
->> 强化学习中的值迭代与策略迭代
+
+- 强化学习中的值迭代与策略迭代
+
 >> 如何将文本序列转换为向量
 >> 实例规范化与批量规范化
 >> SVM 中精度与支持向量数量之间的权衡
@@ -457,7 +459,9 @@
 - k-Nearest Neighbors and High Dimensional Data
 
 >> Using a Hard Margin vs. Soft Margin in SVM
->> Value Iteration vs. Policy Iteration in Reinforcement Learning
+
+- Value Iteration vs. Policy Iteration in Reinforcement Learning
+
 >> How To Convert a Text Sequence to a Vector
 
 - Instance vs Batch Normalization
@@ -505,7 +509,7 @@
 >> Training Data for Sentiment Analysis
 >> Differences Between Classification and Clustering
 >> F-1 Score for Multi-Class Classification
->> What Is a Policy in Reinforcement Learning?
+- What Is a Policy in Reinforcement Learning?
 >> SVM Vs Neural Network
 
 - Normalizing Inputs for an Artificial Neural Network

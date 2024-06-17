@@ -5,9 +5,11 @@
 
 - [机器学习与深度学习](machine-learning-vs-deep-learning-zh.md)
 - [开源神经网络库](ml-open-source-libraries_zh.md)
-- 基础
+- 强化学习
   - [Epoch or Episode：理解深度强化学习中的术语](epoch-vs-episode-reinforcement-learning-zh.md)
+  - [什么是强化学习中的策略？](ml-policy-reinforcement-learning-zh.md)
   - [非策略与策略强化学习](off-policy-vs-on-policy-zh.md)
+  - [强化学习中的值迭代与策略迭代](ml-value-iteration-vs-policy-iteration-zh.md)
 - 数据
   - 数据异常
     - [随机样本共识解释](ransac-zh.md)
@@ -38,6 +40,7 @@
   - [ChatGPT如何工作？](../../chatgpt-model_zh.md)
   - [为什么ChatGPT不擅长数学？](../../chatgpt-math-problems_zh.md)
   - [为什么ChatGPT不能一次性给出答案？](../../chatgpt-answer-sequential-words_zh.md)
+  - [顶级大型语言模型对比分析](./top-llm-comparative-analysis_zh.md)
 - 多模态模型
   - [谷歌DeepMind双子座简介](./gemini-google-deepmind_zh.md)
 - 应用
@@ -45,7 +48,6 @@
   - 训练
     - [预训练神经网络意味着什么？](neural-network-pre-training-zh.md)
     - [什么是不可训练参数？](non-trainable-parameter-zh.md)
-
 
 - [关注与自我关注](./attention-self-badhanau-differences_zh.md)
 - [什么是噪声对比估计损失？](pic/noise-contrastive-estimation-loss-zh.md)
@@ -100,7 +102,7 @@
 - [如何创建智能聊天机器人？](smart-chatbots-zh.md)
 - [如何计算CNN的感知场大小？](cnn-receptive-field-size-zh.md)
 - [在SVM中使用硬边际与软边际](svm-hard-margin-vs-soft-margin-zh.md)
-- [强化学习中的值迭代与策略迭代](ml-value-iteration-vs-policy-iteration-zh.md)
+
 - [如何将文本序列转换为向量](text-sequence-to-vector-zh.md)
 - [实例归一化vs批量归一化](instance-vs-batch-normalization-zh.md)
 - [SVM中精度与支持向量数量之间的权衡](ml-accuracy-vs-number-of-support-vectors-svm-zh.md)
@@ -112,7 +114,7 @@
 - [神经网络与SVM相比的优缺点](ml-ann-vs-svm-zh.md)
 - [情感分析的训练数据](sentiment-analysis-training-data-zh.md)
 - [多类分类的F-1分数](multi-class-f1-score-zh.md)
-- [什么是强化学习中的策略？](ml-policy-reinforcement-learning-zh.md)
+
 - [梯度下降和梯度上升有什么区别？](gradient-descent-vs-ascent-zh.md)
 - [人工神经网络输入归一化](normalizing-inputs-artificial-neural-network_zh.md)
 - [生成对抗网络简介](generative-adversarial-networks_zh.md)
@@ -122,6 +124,7 @@
 ## [Deep Learning](https://www.baeldung.com/cs/category/ai/deep-learning)
 
 - An Introduction to Gemini by Google DeepMind
+- Comparative Analysis of Top Large Language Models
 - Attention vs. Self-Attention
 - GAN Implementation in PyTorch
 - Padding in Python
@@ -202,7 +205,7 @@
 - [How to Calculate Receptive Field Size in CNN](https://www.baeldung.com/cs/cnn-receptive-field-size)
 - k-Nearest Neighbors and High Dimensional Data
 - [Using a Hard Margin vs. Soft Margin in SVM](https://www.baeldung.com/cs/svm-hard-margin-vs-soft-margin)
-- [Value Iteration vs. Policy Iteration in Reinforcement Learning](https://www.baeldung.com/cs/ml-value-iteration-vs-policy-iteration)
+- Value Iteration vs. Policy Iteration in Reinforcement Learning
 - [How To Convert a Text Sequence to a Vector](https://www.baeldung.com/cs/text-sequence-to-vector)
 - Instance vs Batch Normalization
 - [Trade-offs Between Accuracy and the Number of Support Vectors in SVMs](https://www.baeldung.com/cs/ml-accuracy-vs-number-of-support-vectors-svm)
@@ -216,7 +219,7 @@
 - Neural Network Architecture: Criteria for Choosing the Number and Size of Hidden Layers
 - [Training Data for Sentiment Analysis](https://www.baeldung.com/cs/sentiment-analysis-training-data)
 - [F-1 Score for Multi-Class Classification](https://www.baeldung.com/cs/multi-class-f1-score)
-- [What Is a Policy in Reinforcement Learning?](https://www.baeldung.com/cs/ml-policy-reinforcement-learning)
+- What Is a Policy in Reinforcement Learning?
 - [What Is the Difference Between Gradient Descent and Gradient Ascent?](https://www.baeldung.com/cs/gradient-descent-vs-ascent)
 - Normalizing Inputs for an Artificial Neural Network
 - Bias in Neural Networks

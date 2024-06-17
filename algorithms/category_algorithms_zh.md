@@ -130,7 +130,9 @@
 >> 如何计算运行时间改进百分比
 >> 如何将颜色从 HSL 转换为 RGB
 >> 自然启发元搜索算法概述
->> 什么是马尔可夫链蒙特卡罗？
+
+- [什么是马尔可夫链蒙特卡洛？](./markov-chain-monte-carlo_zh.md)
+
 >> 高效排序关联列表
 >> 了解散列表
 >> 蚂蚁雄狮优化
@@ -501,7 +503,9 @@ Hashing
 >> How to Calculate the Runtime Percentage Improvement
 >> How to Convert a Color From HSL to RGB
 >> Overview of Nature-Inspired Metaheuristic Algorithms
->> What Is Markov Chain Monte Carlo?
+
+- What Is Markov Chain Monte Carlo?
+
 >> Efficiently Sorting Linked Lists
 >> Understanding Hash Tables
 >> Ant Lion Optimization
