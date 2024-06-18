@@ -41,6 +41,8 @@
   - [为什么ChatGPT不擅长数学？](../../chatgpt-math-problems_zh.md)
   - [为什么ChatGPT不能一次性给出答案？](../../chatgpt-answer-sequential-words_zh.md)
   - [顶级大型语言模型对比分析](./top-llm-comparative-analysis_zh.md)
+  - 变换器架构
+    - [关注与自我关注](./attention-self-badhanau-differences_zh.md)
 - 多模态模型
   - [谷歌DeepMind双子座简介](./gemini-google-deepmind_zh.md)
 - 应用
@@ -49,7 +51,6 @@
     - [预训练神经网络意味着什么？](neural-network-pre-training-zh.md)
     - [什么是不可训练参数？](non-trainable-parameter-zh.md)
 
-- [关注与自我关注](./attention-self-badhanau-differences_zh.md)
 - [什么是噪声对比估计损失？](pic/noise-contrastive-estimation-loss-zh.md)
 - [饱和非线性](saturating-non-linearities-zh.md)
 - [人工智能图像生成器如何工作？](ai-image-generation-gans-dalle-zh.md)
