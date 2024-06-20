@@ -23,7 +23,7 @@
 - [什么是强化学习中的贝尔曼算子？](bellman-operator-reinforcement-learning-zh.md)
 - [径向基函数](rbf-neural-networks-zh.md)
 - [GELU解释](./deep-learning/gelu-activation-function-zh.md)
-- [什么是噪声对比估计损失？](./deep-learning/noise-contrastive-estimation-loss-zh.md)
+- 什么是噪声对比估计损失？
 - [如何计算分类器的VC维度？](vapnik-chervonenkis-dimension-computation-zh.md)
 - [如何处理逻辑回归中的缺失数据？](logistic-regression-missing-data-zh.md)
 - [如何用 SMOTE 处理不平衡数据？](synthetic-minority-oversampling-technique-zh.md)
@@ -85,7 +85,9 @@
 >> 强化学习与最优控制的区别
 >> 什么是独立成分分析（ICA）？
 >> 参数模型与非参数模型的区别
->> 最大似然估计
+
+- [最大似然估计](./maximum-likelihood-estimation_zh.md)
+
 >> 图形注意力网络
 >> 稀疏编码神经网络
 >> 卢昂注意与巴赫达瑙注意的区别
@@ -251,7 +253,9 @@
 >> 什么是强化学习中的策略？
 >> SVM 与神经网络
 >> 人工神经网络的输入规范化
->> 什么是机器学习中的学习曲线？
+
+- [什么是机器学习中的学习曲线？](./learning-curve-ml_zh.md)
+
 >> 分类模型评估简介
 >> 为什么逻辑回归的代价函数是对数表达式？
 >> 线性回归与逻辑回归
@@ -331,7 +335,9 @@
 >> Difference Between Reinforcement Learning and Optimal Control
 >> What Is Independent Component Analysis (ICA)?
 >> Differences Between a Parametric and Non-parametric Model
->> Maximum Likelihood Estimation
+
+- Maximum Likelihood Estimation
+
 >> Graph Attention Networks
 >> Sparse Coding Neural Networks
 >> Differences Between Luong Attention and Bahdanau Attention
@@ -489,11 +495,12 @@
 >> Interpretation of Loss and Accuracy for a Machine Learning Model
 >> Splitting a Dataset into Train and Test Sets
 >> Solving the K-Armed Bandit Problem
->> Epoch in Neural Networks
+
+- Epoch in Neural Networks
 
 - Epsilon-Greedy Q-learning
 
->> Random Initialization of Weights in a Neural Network
+- Random Initialization of Weights in a Neural Network
 
 - Multiclass Classification Using Support Vector Machines
 
@@ -509,12 +516,15 @@
 >> Training Data for Sentiment Analysis
 >> Differences Between Classification and Clustering
 >> F-1 Score for Multi-Class Classification
+
 - What Is a Policy in Reinforcement Learning?
+
 >> SVM Vs Neural Network
 
 - Normalizing Inputs for an Artificial Neural Network
 
->> What Is a Learning Curve in Machine Learning?
+- What Is a Learning Curve in Machine Learning?
+
 >> Introduction to the Classification Model Evaluation
 >> Why Does the Cost Function of Logistic Regression Have a Logarithmic Expression?
 >> Linear Regression vs. Logistic Regression

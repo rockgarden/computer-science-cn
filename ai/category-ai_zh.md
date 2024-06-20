@@ -159,7 +159,9 @@
 >> 什么是独立成分分析（ICA）？
 >> 参数模型和非参数模型的区别
 >> 什么是神经网络中的 Maxout？
->> 最大似然估计
+
+- 最大似然估计
+
 >> 递归神经网络
 >> 图注意网络
 >> 稀疏编码神经网络
@@ -389,13 +391,17 @@
 >> 神经网络架构： 选择隐藏层的数量和大小的标准
 >> 情感分析的训练数据
 >> 多类分类的 F-1 分数
->> 神经网络中纪元和迭代的区别
+
+- [神经网络中纪元与迭代的区别](./neural-networks-epoch-vs-iteration_zh.md)
+
 >> 什么是强化学习中的策略？
 >> 梯度下降和梯度上升有何区别？
 >> SVM 与神经网络
 >> 列文森距离计算
 >> 人工神经网络输入的归一化
->> 什么是机器学习中的学习曲线？
+
+- 什么是机器学习中的学习曲线？
+
 >> 分类模型评估简介
 >> 为什么逻辑回归的代价函数是对数表达式？
 >> 神经网络中的偏差
@@ -614,7 +620,8 @@
 >> What Is Independent Component Analysis (ICA)?
 >> Differences Between a Parametric and Non-parametric Model
 >> What Is Maxout in a Neural Network?
->> Maximum Likelihood Estimation
+
+- Maximum Likelihood Estimation
 
 - Recurrent Neural Networks
 
@@ -855,11 +862,13 @@
 - Encoder-Decoder Models for Natural Language Processing
 
 >> Solving the K-Armed Bandit Problem
->> Epoch in Neural Networks
+
+- Epoch in Neural Networks
 
 - Epsilon-Greedy Q-learning
 
->> Random Initialization of Weights in a Neural Network
+- Random Initialization of Weights in a Neural Network
+
 >> Topic Modeling with Latent Dirichlet Allocation
 >> String Similarity Metrics – Edit Distance
 
@@ -882,15 +891,18 @@
 
 >> Training Data for Sentiment Analysis
 >> F-1 Score for Multi-Class Classification
->> The Difference Between Epoch and Iteration in Neural Networks
+
+- The Difference Between Epoch and Iteration in Neural Networks
 - What Is a Policy in Reinforcement Learning?
->> What Is the Difference Between Gradient Descent and Gradient Ascent?
+- What Is the Difference Between Gradient Descent and Gradient Ascent?
+
 >> SVM Vs Neural Network
 >> Levenshtein Distance Computation
 
 - Normalizing Inputs for an Artificial Neural Network
 
->> What Is a Learning Curve in Machine Learning?
+- What Is a Learning Curve in Machine Learning?
+
 >> Introduction to the Classification Model Evaluation
 >> Why Does the Cost Function of Logistic Regression Have a Logarithmic Expression?
 >> Bias in Neural Networks

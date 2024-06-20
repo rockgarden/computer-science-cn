@@ -10,7 +10,7 @@
 
     在本教程中，我们将介绍 [Student's t 分布](https://en.wikipedia.org/wiki/Student%27s_t-distribution)，它是正态分布的一种概括，以 [William Gosset](https://en.wikipedia.org/wiki/William_Sealy_Gosset) 使用的笔名 "Student" 命名。
 
-    Student's t 分布适用于样本量较小或[群体方差(population variance)](https://www.baeldung.com/cs/maximum-likelihood-estimation)未知的情况。它能更准确地表示样本均值的变异性，即使在标准正态分布失效的情况下，也能做出可靠的推断。
+    Student's t 分布适用于样本量较小或群体方差(population variance)未知的情况。它能更准确地表示样本均值的变异性，即使在标准正态分布失效的情况下，也能做出可靠的推断。
 
 2. 定义
 

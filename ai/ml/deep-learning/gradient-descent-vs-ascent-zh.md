@@ -1,4 +1,4 @@
-# 梯度下降和梯度上升有什么区别？
+# [梯度下降和梯度上升有什么区别？](https://www.baeldung.com/cs/gradient-descent-vs-ascent)
 
 [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [数学与逻辑](https://www.baeldung.com/cs/category/core-concepts/math-logic)
 

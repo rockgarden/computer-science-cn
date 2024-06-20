@@ -18,7 +18,7 @@
 
     \[z = \frac{x - min(x)}{max(x) - min(x)}\]
 
-    在[标准化](https://www.baeldung.com/cs/normalizing-inputs-artificial-neural-network#2-standardization)过程中，我们不会将数据强制纳入一个确定的范围。相反，我们转换为平均值为 0，标准差为 1：
+    在标准化过程中，我们不会将数据强制纳入一个确定的范围。相反，我们转换为平均值为 0，标准差为 1：
 
     \[z = \frac{x - \mu}{\sigma}\]
 

@@ -1,4 +1,4 @@
-# 神经网络中的纪元
+# [神经网络中的纪元](https://www.baeldung.com/cs/epoch-neural-networks)
 
 [人工智能](https://www.baeldung.com/cs/category/ai) [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
 
@@ -12,17 +12,15 @@
 
     神经网络是一种有监督的机器学习算法。我们可以训练神经网络来解决分类或回归问题。然而，利用神经网络解决机器学习问题有利有弊。
 
-    建立神经网络模型需要回答大量面向架构的问题。根据问题的复杂程度和可用数据，我们可以训练不同大小和深度的神经网络。此外，我们还需要预处理输入特征、[初始化权重](https://www.baeldung.com/cs/ml-neural-network-weights)、添加偏置（如需要）以及选择合适的激活函数。
+    建立神经网络模型需要回答大量面向架构的问题。根据问题的复杂程度和可用数据，我们可以训练不同大小和深度的神经网络。此外，我们还需要预处理输入特征、初始化权重、添加偏置（如需要）以及选择合适的激活函数。
 
 3. 神经网络中的历时
 
     一个历元意味着用一个周期内的所有训练数据来训练神经网络。在一个历元中，我们会准确地使用所有数据一次。一次前向传递和一次后向传递算作一次传递：
 
-    前向传递和后向传递加在一起算作一次传递：
-
     ![Epoch FWD BWD PASS](pic/epoch-fwd-bwd-pass.webp)
 
-    一个历元由一个或多个批次组成，在这些[批次](https://www.baeldung.com/cs/neural-networks-epoch-vs-iteration#3-batch)中，我们使用部分数据集来训练神经网络。我们将每批训练示例的传递称为一次[迭代](https://www.baeldung.com/cs/neural-networks-epoch-vs-iteration#2-iteration)。
+    一个历元由一个或多个批次组成，在这些批次中，我们使用部分数据集来训练神经网络。我们将每批训练示例的传递称为一次迭代。
 
     有时，epoch 与 iteration 混合使用。为了澄清这些概念，让我们考虑一个简单的例子，如下图所示，我们有 1000 个数据点：
 

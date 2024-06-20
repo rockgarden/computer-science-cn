@@ -24,7 +24,7 @@
 
     \[ \text{\huge{the}} \rightarrow \begin{bmatrix} 1 \\ 0 \\ 0 \\ 0 \\ 0 \end{bmatrix} \hspace{1cm} \text{\huge{pink}} \rightarrow \begin{bmatrix} 0 \\ 1 \\ 0 \\ 0 \\ 0 \end{bmatrix} \hspace{1cm} \text{\huge{horse}} \rightarrow \begin{bmatrix} 0 \\ 0 \\ 1 \\ 0 \\ 0 \end{bmatrix} \hspace{1cm} \text{\huge{is}} \rightarrow \begin{bmatrix} 0 \\ 0 \\ 0 \\ 1 \\ 0 \end{bmatrix} \hspace{1cm} \text{\huge{eating}} \rightarrow \begin{bmatrix} 0 \\ 0 \\ 0 \\ 0 \\ 1 \end{bmatrix} \]
 
-    每个词都会被分配一个不同的向量；然而，这种表示法涉及到不同的问题。首先，如果词汇量太大，向量的大小就会很大。在使用这种编码模式时，这将[导致维度诅咒](https://www.baeldung.com/cs/ai-convolutional-neural-networks#5-the-curse-of-dimensionality)。此外，如果我们在词汇表中添加或删除单词，所有单词的表示都会发生变化。
+    每个词都会被分配一个不同的向量；然而，这种表示法涉及到不同的问题。首先，如果词汇量太大，向量的大小就会很大。在使用这种编码模式时，这将导致维度诅咒。此外，如果我们在词汇表中添加或删除单词，所有单词的表示都会发生变化。
 
     然而，使用单击编码最重要的问题是，它并没有封装意义。它只是一个区分单词的数字系统。如果我们希望计算机能像人类一样阅读文本，我们就需要能捕捉语义和句法信息的嵌入。向量中的值必须以某种方式量化它们所代表单词的意义。
 

@@ -20,7 +20,7 @@
 
 3. TinyML：它是如何工作的？
 
-    TinyML 使用专门的算法和技术，旨在小型、低功耗设备上高效运行。这些算法通常基于[神经网络](https://www.baeldung.com/cs/epoch-neural-networks)或[决策树](https://www.baeldung.com/cs/decision-trees-vs-random-forests)等传统 ML 模型的简化版本，可针对微控制器和传感器有限的处理能力和内存进行优化。
+    TinyML 使用专门的算法和技术，旨在小型、低功耗设备上高效运行。这些算法通常基于神经网络或[决策树](https://www.baeldung.com/cs/decision-trees-vs-random-forests)等传统 ML 模型的简化版本，可针对微控制器和传感器有限的处理能力和内存进行优化。
 
     创建 TinyML 模型与拟合传统 ML 模型类似。首先，我们从传感器或其他来源收集数据，并使用专门的软件工具进行处理。然后，我们使用这些数据来训练模型。
 

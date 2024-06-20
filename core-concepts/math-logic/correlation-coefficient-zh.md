@@ -30,7 +30,7 @@
 
     2. 相关性而非因果性
 
-        相关性是[探索性数据分析](https://www.baeldung.com/spark-mlib-machine-learning#3-exploratory-data-analysis)的一个重要工具，因为它可以初步识别我们怀疑并非[线性独立](https://www.baeldung.com/cs/ai-convolutional-neural-networks#3-linear-independence-of-features)的特征。它对[因果关系的识别](https://en.wikipedia.org/wiki/Granger_causality)也很重要，因为有一些已知的因果[关系检验方法](https://en.wikipedia.org/wiki/Convergent_cross_mapping)，其核心指标就是相关性。
+        相关性是[探索性数据分析](https://www.baeldung.com/spark-mlib-machine-learning#3-exploratory-data-analysis)的一个重要工具，因为它可以初步识别我们怀疑并非线性独立的特征。它对[因果关系的识别](https://en.wikipedia.org/wiki/Granger_causality)也很重要，因为有一些已知的因果[关系检验方法](https://en.wikipedia.org/wiki/Convergent_cross_mapping)，其核心指标就是相关性。
 
         统计学家们常说的一句话是：[相关性并不意味着因果关系](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation)。这句话背后的意思是，对于两个相关的变量，不能想当然地认为它们之间存在因果关系。
 

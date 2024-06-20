@@ -5,8 +5,9 @@
 
 - [机器学习与深度学习](machine-learning-vs-deep-learning-zh.md)
 - [开源神经网络库](ml-open-source-libraries_zh.md)
-- 强化学习
+- [神经网络中的纪元](epoch-neural-networks-zh.md)
   - [Epoch or Episode：理解深度强化学习中的术语](epoch-vs-episode-reinforcement-learning-zh.md)
+- 强化学习
   - [什么是强化学习中的策略？](ml-policy-reinforcement-learning-zh.md)
   - [非策略与策略强化学习](off-policy-vs-on-policy-zh.md)
   - [强化学习中的值迭代与策略迭代](ml-value-iteration-vs-policy-iteration-zh.md)
@@ -50,8 +51,9 @@
   - 训练
     - [预训练神经网络意味着什么？](neural-network-pre-training-zh.md)
     - [什么是不可训练参数？](non-trainable-parameter-zh.md)
+    - [什么是噪声对比估计损失？](./noise-contrastive-estimation-loss-zh.md)
 
-- [什么是噪声对比估计损失？](pic/noise-contrastive-estimation-loss-zh.md)
+
 - [饱和非线性](saturating-non-linearities-zh.md)
 - [人工智能图像生成器如何工作？](ai-image-generation-gans-dalle-zh.md)
 - [图神经网络简介](ml-gnn-zh.md)
@@ -109,7 +111,7 @@
 - [SVM中精度与支持向量数量之间的权衡](ml-accuracy-vs-number-of-support-vectors-svm-zh.md)
 - [词嵌入：CBOWvsSkip-Gram](word-embeddings-cbow-vs-skip-gram-zh.md)
 - [自然语言处理的编码器-解码器模型](nlp-encoder-decoder-models_zh.md)
-- [神经网络中的纪元](epoch-neural-networks-zh.md)
+
 - [神经网络中权重的随机初始化](ml-neural-network-weights-zh.md)
 - [卷积神经网络中的批量归一化](batch-normalization-cnn_zh.md)
 - [神经网络与SVM相比的优缺点](ml-ann-vs-svm-zh.md)
@@ -135,7 +137,7 @@
 - Introduction to Convolutional Neural Networks
 - Softmax vs. Log Softmax
 - [GELU Explained](https://www.baeldung.com/cs/gelu-activation-function)
-- [What Is Noise Contrastive Estimation Loss?](https://www.baeldung.com/cs/noise-contrastive-estimation-loss)
+- What Is Noise Contrastive Estimation Loss?
 - [ReLU vs. LeakyReLU vs. PReLU](https://www.baeldung.com/cs/relu-vs-leakyrelu-vs-prelu)
 - [Saturating Non-Linearities](https://www.baeldung.com/cs/saturating-non-linearities)
 - [How Do AI Image Generators Work?](https://www.baeldung.com/cs/ai-image-generation-gans-dalle)
@@ -213,7 +215,7 @@
 - [Open Source Neural Network Libraries](https://www.baeldung.com/cs/ml-open-source-libraries)
 - [Word Embeddings: CBOW vs Skip-Gram](https://www.baeldung.com/cs/word-embeddings-cbow-vs-skip-gram)
 - Encoder-Decoder Models for Natural Language Processing
-- [Epoch in Neural Networks](https://www.baeldung.com/cs/epoch-neural-networks)
+- Epoch in Neural Networks
 - [Random Initialization of Weights in a Neural Network](https://www.baeldung.com/cs/ml-neural-network-weights)
 - Batch Normalization in Convolutional Neural Networks
 - [Advantages and Disadvantages of Neural Networks Against SVMs](https://www.baeldung.com/cs/ml-ann-vs-svm)
@@ -221,7 +223,7 @@
 - [Training Data for Sentiment Analysis](https://www.baeldung.com/cs/sentiment-analysis-training-data)
 - [F-1 Score for Multi-Class Classification](https://www.baeldung.com/cs/multi-class-f1-score)
 - What Is a Policy in Reinforcement Learning?
-- [What Is the Difference Between Gradient Descent and Gradient Ascent?](https://www.baeldung.com/cs/gradient-descent-vs-ascent)
+- What Is the Difference Between Gradient Descent and Gradient Ascent?
 - Normalizing Inputs for an Artificial Neural Network
 - Bias in Neural Networks
 - Understanding Dimensions in CNNs

@@ -42,7 +42,7 @@
 
     1. 特征
 
-        与 MLP 的结构类似，DNN 由输入层、隐藏层、输出层、权重、偏置和激活函数组成。或者，就 CNN 而言，神经网络除了上述组件外，还包括[池化层](https://www.baeldung.com/cs/ai-convolutional-neural-networks#2-pooling-layers)和卷积层。
+        与 MLP 的结构类似，DNN 由输入层、隐藏层、输出层、权重、偏置和激活函数组成。或者，就 CNN 而言，神经网络除了上述组件外，还包括池化层和卷积层。
 
         ![img 62bbd7653a6b9](pic/img_62bbd7653a6b9.svg)
 

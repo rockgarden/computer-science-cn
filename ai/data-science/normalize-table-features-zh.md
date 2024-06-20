@@ -38,7 +38,7 @@
 
         现在看起来好多了。然后我们可以重复增加参数的过程，增加 a 和 b 的值。
 
-        这种方法是可行的，不过可能要经过多次迭代才能[收敛](https://www.baeldung.com/cs/epoch-neural-networks#neural-network-training-convergence)。
+        这种方法是可行的，不过可能要经过多次迭代才能收敛。
 
     3. 如何简化
 
