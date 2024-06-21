@@ -1,4 +1,4 @@
-# 二叉树数据结构简介
+# [二叉树数据结构简介](https://www.baeldung.com/cs/binary-tree-intro)
 
 [数据结构](README-zh.md) [树](https://www.baeldung.com/cs/category/graph-theory/trees)
 

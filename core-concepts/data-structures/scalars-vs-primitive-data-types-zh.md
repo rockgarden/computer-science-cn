@@ -1,4 +1,4 @@
-# 标量与原始数据类型的区别
+# [标量与原始数据类型的区别](https://www.baeldung.com/cs/scalars-vs-primitive-data-types)
 
 [数据结构](README-zh.md)
 

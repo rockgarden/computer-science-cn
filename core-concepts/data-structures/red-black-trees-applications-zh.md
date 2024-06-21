@@ -1,4 +1,4 @@
-# 红黑树木的应用
+# [红黑树木的应用](https://www.baeldung.com/cs/red-black-trees-applications)
 
 [数据结构](README-zh.md) [搜索](https://www.baeldung.com/cs/category/algorithms/searching) [树](https://www.baeldung.com/cs/category/graph-theory/trees)
 

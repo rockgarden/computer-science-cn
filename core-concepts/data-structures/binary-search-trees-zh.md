@@ -1,4 +1,4 @@
-# 二叉搜索树快速指南
+# [二叉搜索树快速指南](https://www.baeldung.com/cs/binary-search-trees)
 
 [数据结构](README-zh.md) [树](https://www.baeldung.com/cs/category/graph-theory/trees)
 

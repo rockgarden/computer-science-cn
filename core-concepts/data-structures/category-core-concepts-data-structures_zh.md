@@ -2,6 +2,7 @@
 
 数据结构提供了几乎所有算法的构建块。了解各种数据结构，包括列表、哈希表和树。
 
+- [跳转列表数据结构](./skip-lists_zh.md)
 - [二叉树数据结构简介](binary-tree-intro-zh.md)
 - [标量和原始数据类型之间的差异](scalars-vs-primitive-data-types-zh.md)
 - [消息队列简介](message-queues-zh.md)
@@ -59,7 +60,9 @@
 >>二叉树与链接列表与哈希表
 >>在数组中找到总和最接近给定数字的三个元素
 >>哈希表与平衡二叉树
->>堆栈数据结构
+
+- [堆栈数据结构](stack-data-structure_zh.md)
+
 >>链接列表/双链接列表
 >>优先队列
 >>使用链接列表进行多项式加法和乘法
@@ -92,10 +95,11 @@
 
 ## [Data Structures](https://www.baeldung.com/cs/category/core-concepts/data-structures)
 
-- [Introduction to the Binary Tree Data Structure](https://www.baeldung.com/cs/binary-tree-intro)
-- [Differences Between Scalars and Primitive Data Types](https://www.baeldung.com/cs/scalars-vs-primitive-data-types)
-- [Introduction to Message Queues](https://www.baeldung.com/cs/message-queues)
-- [Binomial Heaps](https://www.baeldung.com/cs/binomial-heaps)
+- The Skip List Data Structure
+- Introduction to the Binary Tree Data Structure
+- Differences Between Scalars and Primitive Data Types
+- Introduction to Message Queues
+- Binomial Heaps
 
 >> Data Structures: Randomized Search Trees (RSTs)
 >> What and Where Are the Memory Stack and Heap?
@@ -116,8 +120,8 @@
 >> Circular Buffer
 >> Hashing – Linear Probing
 
-- [Differences Between a Data Type and a Data Structure](https://www.baeldung.com/cs/data-type-vs-data-structure)
-- [Best Data Structure for Dictionaries](https://www.baeldung.com/cs/language-dictionary-data-structure)
+- Differences Between a Data Type and a Data Structure
+- Best Data Structure for Dictionaries
 
 >> Understanding Fenwick Tree (Binary Indexed Tree)
 >> Which Is Faster – Hash Lookup or Binary Search?
@@ -129,13 +133,14 @@
 >> Hash Table vs. Trie (Prefix Tree)
 >> Red-Black Tree vs. AVL Tree
 >> Binary Tree vs. Binary Search Tree
->> [Applications of Red-Black Trees](https://www.baeldung.com/cs/red-black-trees-applications)
+
+- Applications of Red-Black Trees
+
 >> B-tree Data Structure
 
-- [Balanced Trees](https://www.baeldung.com/cs/balanced-trees)
+- Balanced Trees
 
 >> Tree vs Graph Data Structure
->> The Skip List Data Structure
 >> From Lists to Forests
 >> Real World Examples of Tree Structures
 >> Segment Tree and Its Applications
@@ -143,7 +148,9 @@
 >> Binary Trees vs. Linked Lists vs. Hash Tables
 >> Finding Three Elements in an Array Whose Sum Is Closest to a Given Number
 >> Hash Table vs. Balanced Binary Tree
->> Stack Data Structure
+
+- Stack Data Structure
+
 >> Linked List / Double Linked List
 >> Priority Queue
 >> Polynomial Addition and Multiplication Using Linked List
@@ -165,13 +172,13 @@
 >> Self-Balancing Binary Search Trees
 >> Topological Sort of Directed Acyclic Graph
 
-- [Introduction to Red-Black Trees](https://www.baeldung.com/cs/red-black-trees)
+- Introduction to Red-Black Trees
 
 >> Differences Between Tree Structures
 >> What Is the Difference Between a Directed and an Undirected Graph
 >> Types of Queues
 
-- [A Quick Guide to Binary Search Trees](https://www.baeldung.com/cs/binary-search-trees)
+- A Quick Guide to Binary Search Trees
 
 >> Implement Stack Using Two Queues
 >> Tries (Prefix Trees)

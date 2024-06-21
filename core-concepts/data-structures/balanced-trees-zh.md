@@ -1,4 +1,4 @@
-# 平衡的树木
+# [平衡的树木](https://www.baeldung.com/cs/balanced-trees)
 
 [数据结构](README-zh.md) [树](https://www.baeldung.com/cs/category/graph-theory/trees)
 
