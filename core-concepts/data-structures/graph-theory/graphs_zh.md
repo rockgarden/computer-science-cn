@@ -1,4 +1,4 @@
-# 图形数据结构
+# [图形数据结构](https://www.baeldung.com/cs/graphs)
 
 [数据结构](https://www.baeldung.com/cs/category/data-structures) [图形](https://www.baeldung.com/cs/category/graph-theory/graphs)
 

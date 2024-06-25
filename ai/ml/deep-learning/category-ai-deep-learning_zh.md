@@ -7,16 +7,6 @@
 - [开源神经网络库](ml-open-source-libraries_zh.md)
 - [神经网络中的纪元](epoch-neural-networks-zh.md)
   - [Epoch or Episode：理解深度强化学习中的术语](epoch-vs-episode-reinforcement-learning-zh.md)
-- 强化学习
-  - [什么是强化学习中的策略？](ml-policy-reinforcement-learning-zh.md)
-  - [非策略与策略强化学习](off-policy-vs-on-policy-zh.md)
-  - [强化学习中的值迭代与策略迭代](ml-value-iteration-vs-policy-iteration-zh.md)
-- 数据
-  - 数据异常
-    - [随机样本共识解释](ransac-zh.md)
-    - [异常值检测和处理](ml-outlier-detection-handling-zh.md)
-  - [数据扩充](ml-data-augmentation_zh.md)
-    - [使用GAN进行数据扩充](../../computer-vision/ml-gan-data-augmentation-zh.md)
 - 神经网络
   - [卷积神经网络简介](/ai/ai-convolutional-neural-networks_zh.md)
     - [理解CNN中的维度](ml-understanding-dimensions-cnn_zh.md)
@@ -27,6 +17,20 @@
   - [神经网络中的偏差](neural-networks-bias-zh.md)
   - 梯度消失
     - [利用LSTM防止梯度消失问题](lstm-vanishing-gradient-prevention-zh.md)
+- 强化学习
+  - [什么是强化学习中的策略？](ml-policy-reinforcement-learning-zh.md)
+  - [非策略与策略强化学习](off-policy-vs-on-policy-zh.md)
+  - [强化学习中的值迭代与策略迭代](ml-value-iteration-vs-policy-iteration-zh.md)
+- 数据
+  - 归一化
+    - [人工神经网络输入归一化](normalizing-inputs-artificial-neural-network_zh.md)
+    - [实例归一化vs批量归一化](instance-vs-batch-normalization-zh.md)
+    - [卷积神经网络中的批量归一化](batch-normalization-cnn_zh.md)
+  - 数据异常
+    - [随机样本共识解释](ransac-zh.md)
+    - [异常值检测和处理](ml-outlier-detection-handling-zh.md)
+  - [数据扩充](ml-data-augmentation_zh.md)
+    - [使用GAN进行数据扩充](../../computer-vision/ml-gan-data-augmentation-zh.md)
 - 激活函数
   - [Softmax 对 Log Softmax](softmax-vs-log-softmax-zh.md)
     - [Softmax中的温度是什么，为什么要使用温度？](softmax-temperature-zh.md)
@@ -52,7 +56,6 @@
     - [预训练神经网络意味着什么？](neural-network-pre-training-zh.md)
     - [什么是不可训练参数？](non-trainable-parameter-zh.md)
     - [什么是噪声对比估计损失？](./noise-contrastive-estimation-loss-zh.md)
-
 
 - [饱和非线性](saturating-non-linearities-zh.md)
 - [人工智能图像生成器如何工作？](ai-image-generation-gans-dalle-zh.md)
@@ -107,19 +110,19 @@
 - [在SVM中使用硬边际与软边际](svm-hard-margin-vs-soft-margin-zh.md)
 
 - [如何将文本序列转换为向量](text-sequence-to-vector-zh.md)
-- [实例归一化vs批量归一化](instance-vs-batch-normalization-zh.md)
+
 - [SVM中精度与支持向量数量之间的权衡](ml-accuracy-vs-number-of-support-vectors-svm-zh.md)
 - [词嵌入：CBOWvsSkip-Gram](word-embeddings-cbow-vs-skip-gram-zh.md)
 - [自然语言处理的编码器-解码器模型](nlp-encoder-decoder-models_zh.md)
 
 - [神经网络中权重的随机初始化](ml-neural-network-weights-zh.md)
-- [卷积神经网络中的批量归一化](batch-normalization-cnn_zh.md)
+
 - [神经网络与SVM相比的优缺点](ml-ann-vs-svm-zh.md)
 - [情感分析的训练数据](sentiment-analysis-training-data-zh.md)
 - [多类分类的F-1分数](multi-class-f1-score-zh.md)
 
 - [梯度下降和梯度上升有什么区别？](gradient-descent-vs-ascent-zh.md)
-- [人工神经网络输入归一化](normalizing-inputs-artificial-neural-network_zh.md)
+
 - [生成对抗网络简介](generative-adversarial-networks_zh.md)
 - [PyTorch 中的 GAN 实现](./pytorch-generative-adversarial-networks_zh.md)
 - [Python 中的填充](./padding-deep-learning-python_zh.md)

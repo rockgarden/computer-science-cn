@@ -42,7 +42,7 @@
 
     \[z^N = \left( \frac{z - m_z}{s_z} \right)\]
 
-    其中 m_z 是神经元输出的平均值，s_z 是神经元输出的标准偏差。
+    其中 $m_z$ 是神经元输出的平均值，$s_z$ 是神经元输出的标准偏差。
 
     1. 如何应用？
 
@@ -50,7 +50,7 @@
 
         ![神经网络](pic/neural-network.png)
 
-        批处理规范（Batch Norm）--在图像中用红线表示--在应用激活函数之前应用于神经元的输出。通常情况下，神经元在没有 Batch Norm 的情况下计算如下：
+        批处理规范（Batch Norm） - 在图像中用红线表示 - 在应用激活函数之前应用于神经元的输出。通常情况下，神经元在没有 Batch Norm 的情况下计算如下：
 
         \[z = g(w, x) + b; \hspace{1cm} a = f(z)\]
 
@@ -93,7 +93,7 @@
 
         内部协变量偏移是指神经网络内部层输入分布的变化。对于内部层中的神经元来说，从上一层接收到的输入是不断变化的。这是因为在训练过程中，神经元和权重之前进行了多次计算。
 
-        应用批处理规范可以确保层输入的平均值和标准偏差始终保持不变，分别为 \beta 和 \gamma。这样，各层输入分布的变化量就会减少。更深的层对输入值会是什么有一个更稳固的基础，这在学习过程中很有帮助。
+        应用批处理规范可以确保层输入的平均值和标准偏差始终保持不变，分别为 $\beta$ 和 $\gamma$。这样，各层输入分布的变化量就会减少。更深的层对输入值会是什么有一个更稳固的基础，这在学习过程中很有帮助。
 
         最后，批规范似乎具有正则化效果。 因为它是在迷你批次而不是整个数据集上计算的，所以每次看到的模型数据分布都有一些噪音。这可以起到正则化的作用，有助于克服过度拟合，帮助更好地学习。不过，增加的噪声很小。因此，它本身一般不足以正确正则化，通常与 Dropout 一起使用。
 
@@ -114,12 +114,12 @@
         from tensorflow.keras.layers import Dense, BatchNormalization, Conv2D, MaxPooling2D
 
         model = Sequential([
-        Conv2D(32, (3,3), input_shape=(28, 28, 3) activation='relu'), 
-        BatchNormalization(),
-        Conv2D(32, (3,3), activation='relu'), 
-        BatchNormalization(),
-        MaxPooling2D(),
-        Dense(2, activation='softmax')
+            Conv2D(32, (3,3), input_shape=(28, 28, 3) activation='relu'), 
+            BatchNormalization(),
+            Conv2D(32, (3,3), activation='relu'), 
+            BatchNormalization(),
+            MaxPooling2D(),
+            Dense(2, activation='softmax')
         ])
         ```
 

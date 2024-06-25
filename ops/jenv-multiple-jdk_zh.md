@@ -4,7 +4,7 @@
 
     随着 Java 每个新版本的发布，我们可能需要在环境中管理多个并行版本的软件开发工具包（SDK）。因此，设置和管理 [JAVA_HOME](https://www.baeldung.com/java-home-on-windows-7-8-10-mac-os-x-linux) 路径变量有时会变得非常麻烦。
 
-    在本教程中，我们将了解 jEnv 如何帮助管理多个不同版本的 [JDK](https://www.baeldung.com/jvm-vs-jre-vs-jdk) 安装。
+    在本教程中，我们将了解 jEnv 如何帮助管理多个不同版本的 JDK 安装。
 
 2. 什么是 jEnv？
 
@@ -35,6 +35,7 @@
     ```shell
     echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bash_profile
     echo 'eval "$(jenv init -)"' >> ~/.bash_profile
+    source ~/.bash_profile
     ```
 
     为 Zsh shell 添加 PATH 条目：
@@ -42,6 +43,7 @@
     ```shell
     echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
     echo 'eval "$(jenv init -)"' >> ~/.zshrc
+    source ~/.zshrc
     ```
 
     最后，我们使用 jenv doctor 命令来验证 jEnv 的安装。在 MacOS 上，该命令将显示如下内容：
@@ -189,7 +191,11 @@
 
         同样，对于 Gradle，我们将启用 jEnv gradle 插件：
 
-        `$ jenv enable-plugin gradle`
+        ```shell
+        jenv enable-plugin gradle
+        gradle plugin activated
+        jenv: cannot rehash: /Users/wangkan/.jenv/shims/.jenv-shim exists
+        ```
 
         现在运行 Maven 和 Gradle 命令将使用特定于 jEnv 的 JDK 版本，而不是系统 JDK。
 
