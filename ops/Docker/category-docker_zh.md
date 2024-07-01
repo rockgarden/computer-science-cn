@@ -9,6 +9,14 @@ Docker Container (40)Docker Compose (23)Docker Image (19)Dockerfile (15)Docker C
 >> Helm 资源库和如何删除所有发布版本
 >> 通过 HTTPS 提供 Docker 容器服务
 >> 如何在 Windows、Linux 和 Mac 上安装 Docker
+
+- [向Docker容器传递环境变量](docker-container-environment-variables_zh.md)
+- [从 Docker 容器获取环境变量](docker-get-environment-variable_zh.md)
+- [使用 Shell 命令列出 Kafka 集群中的活动经纪人](kafka-list-active-brokers-in-cluster_zh.md)
+- [Docker 日志指南](docker-logs_zh.md])
+
+- [利用 Minikube 使用本地 Docker 映像](docker-local-images-minikube_zh.md)
+
 >> 潜水和容器差分指南
 >> 在 Docker 中访问主机设备
 >> Docker 指南
@@ -38,9 +46,6 @@ Docker Container (40)Docker Compose (23)Docker Image (19)Dockerfile (15)Docker C
 >> 在 Dockerfile 中添加注释
 >> 查找 Docker 映像的层和层大小
 >> 如何在 Docker 中更改目录
-
-- [利用 Minikube 使用本地 Docker 映像](docker-local-images-minikube_zh.md)
-
 >> 在 Docker Compose 中重建 Docker 容器
 >> 从容器名称获取 Docker 容器 ID
 >> 在 Docker 容器上挂载多个卷
@@ -62,7 +67,6 @@ Docker Container (40)Docker Compose (23)Docker Image (19)Dockerfile (15)Docker C
 >> Docker Registry API - 列出映像和标签
 >> docker stop 和 docker kill 命令的区别
 >> Docker 秘密介绍
->> Docker 日志指南
 >> Docker-Compose 和 Kubernetes 的区别
 >> Docker 标签指南
 >> 使用 Docker Compose 重启单个容器
@@ -77,7 +81,6 @@ Docker Container (40)Docker Compose (23)Docker Image (19)Dockerfile (15)Docker C
 >> Docker、Dockerfile 和 Docker Compose 之间的区别
 >> 运行和启动 Docker 容器之间的区别
 >> 在一个项目中使用多个 Dockerfile
->> 从 Docker 容器获取环境变量
 >> Docker："build "需要 1 个参数错误
 >> 使用 Docker 缓存 Maven 依赖项
 >> 无法连接到 Docker 守护进程
@@ -87,7 +90,6 @@ Docker Container (40)Docker Compose (23)Docker Image (19)Dockerfile (15)Docker C
 >> 如何让 Docker-Compose 始终使用最新镜像？
 >> Docker 容器的状态
 >> 不使用 Docker Hub 共享 Docker 映像
->> 使用 Shell 命令列出 Kafka 集群中的活动经纪人
 >> 使用 Docker 公开多个端口
 >> 连接和脱离 Docker 容器
 >> 如何在 Docker 中处理数据库？
@@ -107,7 +109,6 @@ Docker Container (40)Docker Compose (23)Docker Image (19)Dockerfile (15)Docker C
 >> 将文件复制到 Docker 容器或从 Docker 容器复制文件
 >> Kaniko 简介
 >> 探索 Docker 容器的文件系统
->> 向 Docker 容器传递环境变量
 >> 进入 Docker 容器的 Shell
 >> Docker 映像和容器的区别
 >> Podman 简介
@@ -150,7 +151,7 @@ Docker Container (40)Docker Compose (23)Docker Image (19)Dockerfile (15)Docker C
 >> Finding the Layers and Layer Sizes for a Docker Image
 >> How to Change Directory in Docker
 
-- [Using Local Docker Images With Minikube](https://www.baeldung.com/ops/docker-local-images-minikube)
+- Using Local Docker Images With Minikube
 
 >> Rebuild Docker Container in Docker Compose
 >> Getting Docker Container ID from Container Name
@@ -173,7 +174,7 @@ Docker Container (40)Docker Compose (23)Docker Image (19)Dockerfile (15)Docker C
 >> Docker Registry API – Listing Images and Tags
 >> Difference Between docker stop and docker kill Commands
 >> Introduction to Docker Secrets
->> A Guide to Docker Logs
+- A Guide to Docker Logs
 >> Difference Between Docker-Compose and Kubernetes
 >> A Guide to Tag in Docker
 >> Restart a Single Container With Docker Compose
