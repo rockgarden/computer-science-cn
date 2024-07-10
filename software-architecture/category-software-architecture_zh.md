@@ -17,9 +17,6 @@
 >> 什么是 JSONP？
 >> 数据访问层解析
 >> 什么是分片？
-
-
-
 >> 存储库和服务的区别？
 >> 基础架构即代码
 >> 什么是软件构建？
@@ -42,7 +39,7 @@
 >> 系统设计：依赖反转原则
 >> 区块链：什么是工作证明？
 >> 什么是功能即服务？
->> 分布式系统： 瘦客户端和厚客户端
+>> 分布式系统：瘦客户端和厚客户端
 >> 最终一致性与强最终一致性与强一致性
 >> 发布者-订阅者模型
 >> 管理信息系统（MIS）简介
@@ -75,7 +72,9 @@
 >> 什么是网络文件系统？
 >> Webhooks 解释
 >> 大尾数与小尾数的区别
->> 水平扩展和垂直扩展的区别
+
+- [水平扩展和垂直扩展的区别](scaling-horizontally-vertically_zh.md)
+
 >> GUID 简介
 >> 缓存和 CDN：区别是什么？
 >> 缓存：冷缓存与暖缓存
@@ -84,19 +83,18 @@
 >> 身份验证：多步骤与多因素
 >> 云计算与分布式计算的区别
 >> 集中式计算与分布式计算
->> N 层架构
->> 分层架构
->> 微服务架构中的数据库设计
->> 层与层之间的区别
+
+- [N层架构](n-tier-architecture_zh.md)
+- [分层架构](layered-architecture_zh.md)
+- [微服务架构中的数据库设计](microservices-db-design_zh.md)
+- [Layers与Tiers之间的区别](layers-vs-tiers_zh.md)
 
 - [微服务中的服务发现](service-discovery-microservices_zh.md)
 
 >> 无观点设计与有观点设计
 
 - [事务简介](transactions-intro_zh.md)
-
->> 无服务器架构简介
-
+- [无服务器架构简介](serverless-architecture_zh.md)
 - [分布式系统与分布式计算？](distributed-system-vs-distributed-computing_zh.md)
 
 >> REST 架构
@@ -181,7 +179,9 @@ Design Patterns (13)Databases (12)Distributed Systems and Programming (10)Cloud 
 >> What Is a Network File System?
 >> Webhooks Explained
 >> Big Endian vs. Little Endian
->> Differences Between Scaling Horizontally and Vertically
+
+- Differences Between Scaling Horizontally and Vertically
+
 >> Introduction to GUID
 >> Caching and CDNs: What Is the Difference?
 >> Caching: Cold Cache vs. Warm Cache
@@ -190,17 +190,15 @@ Design Patterns (13)Databases (12)Distributed Systems and Programming (10)Cloud 
 >> Authentication: Multi-Step vs. Multi-Factor
 >> Differences Between Cloud Computing and Distributed Computing
 >> Centralized Computing vs. Distributed Computing
->> N-Tier Architecture
 
+- N-Tier Architecture
 - Service Discovery in Microservices
 
 >> Non-opinionated vs. Opinionated Design
 
 - Introduction to Transactions
-
->> Layered Architecture
->> Introduction to Serverless Architecture
-
+- Layered Architecture
+- Introduction to Serverless Architecture
 - Distributed System vs. Distributed Computing?
 
 >> The REST Architecture
@@ -208,6 +206,7 @@ Design Patterns (13)Databases (12)Distributed Systems and Programming (10)Cloud 
 
 - Microservices and Cross-Cutting Concerns
 
->> Database Design in a Microservices Architecture
->> Difference Between Layers and Tiers
+- Database Design in a Microservices Architecture
+- Difference Between Layers and Tiers
+
 >> Saga Pattern in Microservices
