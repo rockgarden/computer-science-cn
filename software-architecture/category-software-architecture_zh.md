@@ -4,16 +4,17 @@
 
 设计模式 (13)数据库 (12)分布式系统和编程 (10)云计算 (6)微服务 (5)区块链 (5)项目管理 (5)面向对象编程 (4)TCP (3)HTTP (2)Cache (2)
 
->> 云计算： SaaS vs. PaaS vs. IaaS
+>> 云计算：SaaS vs. PaaS vs. IaaS
 >> 并行计算与分布式计算的区别
->> 数据库中的横向和纵向分区
 >> 使用 ULID 的词典可排序标识符
 >> 微服务中的扼杀者图模式
 >> 什么是封装类？
 >> 微服务简介
 >> 32位应用程序在64位操作系统上运行得更快还是更慢？
 >> 量子计算机如何比普通计算机更快？
->> 系统设计：接口隔离原则
+
+- [系统设计：接口隔离原则](systems-design-interface-segregation-principle_zh.md)
+
 >> 什么是 JSONP？
 >> 数据访问层解析
 >> 什么是分片？
@@ -34,6 +35,7 @@
 - 数据库
   - [在线事务处理与在线分析处理](oltp-olap_zh.md)
   - [什么是数据仓库？](data-warehouses_zh.md)
+  - [数据库中的横向和纵向分区](databases-horizontal-vertical-partitioning_zh.md)
 - [什么是数据管道？](data-pipelines_zh.md)
 
 >> 系统设计：依赖反转原则
@@ -62,7 +64,7 @@
 >> 云：公共云vs.私有云vs.混合云
 >> 智能合约--区块链
 >> 负载平衡器如何工作？
->> 分布式系统： 共识
+>> 分布式系统：共识
 >> 云、网格和集群之间的区别
 >> 我们应该分开部署数据库和网络服务器吗？
 >> 无头软件
@@ -102,6 +104,7 @@
 
 - [微服务与交叉关注点](microservices-cross-cutting-concerns_zh.md)
 - [微服务中的传奇模式](saga-pattern-microservices_zh.md)
+- 两阶段提交与传奇模式的区别
 
 ## [Software Architecture](https://www.baeldung.com/cs/category/software-architecture)
 
@@ -109,13 +112,18 @@ Design Patterns (13)Databases (12)Distributed Systems and Programming (10)Cloud 
 
 >> Cloud Computing: SaaS vs. PaaS vs. IaaS
 >> Difference Between Parallel and Distributed Computing
->> Horizontal and Vertical Partitioning in Databases
+>> Difference Between Two-Phase Commit and Saga Pattern
+
+- Horizontal and Vertical Partitioning in Databases
+
 >> Lexicographically Sortable Identifiers Using ULID
 >> The Strangler Fig Pattern in Microservices
 >> Introduction to Microservices
 >> Do 32-bit Apps Run Faster or Slower on 64-bit Operating Systems?
 >> How Is a Quantum Computer Faster Than a Regular Computer?
->> Systems Design: Interface Segregation Principle
+
+- Systems Design: Interface Segregation Principle
+
 >> What Is JSONP?
 >> Data Access Layer Explained
 >> What Is Sharding?
