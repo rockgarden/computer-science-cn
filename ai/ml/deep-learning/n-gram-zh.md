@@ -21,7 +21,7 @@
     - [机器翻译](https://www.analyticssteps.com/blogs/4-types-machine-translation-nlp)
     - 文本摘要
     - 语音识别
-    - [聊天机器人](https://www.baeldung.com/cs/smart-chatbots)
+    - 聊天机器人
     - [命名实体识别](https://www.baeldung.com/cs/finding-dates-addresses-in-emails#named-entity-recognition-ner)及其他
     因此，这些任务大不相同，我们使用许多不同类型的算法来解决 NLP 问题。
 

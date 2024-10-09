@@ -1,4 +1,4 @@
-# 生成模型的应用
+# [生成模型的应用](https://www.baeldung.com/cs/applications-of-generative-models)
 
 [计算机视觉](https://www.baeldung.com/cs/category/ai/computer-vision) [深度学习](https://www.baeldung.com/cs/category/ai/deep-learning)
 

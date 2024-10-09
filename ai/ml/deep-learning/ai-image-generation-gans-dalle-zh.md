@@ -24,7 +24,7 @@
 
     1. 生成式对抗网络
 
-        生成式对抗网络（[GAN](https://www.baeldung.com/cs/vae-vs-gan-image-generation)）是人工智能图像生成的前沿技术。
+        生成式对抗网络（GAN）是人工智能图像生成的前沿技术。
 
         [生成式对抗网络](https://www.baeldung.com/cs/neural-networks-image-recognition#1-generative-adversarial-networks-gans)由两个主要部分组成：生成器和判别器。生成器从随机噪音中生成图像。另一方面，鉴别器对这些图像进行评估，试图确定它们是真实的还是人工生成的。通过持续的拉锯战，生成器不断改进其生成图像的能力，以达到欺骗鉴别器的目的：
 

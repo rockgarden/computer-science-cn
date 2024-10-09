@@ -127,8 +127,11 @@
 - [PyTorch 中的 GAN 实现](./pytorch-generative-adversarial-networks_zh.md)
 - [Python 中的填充](./padding-deep-learning-python_zh.md)
 
+- [概率：联合概率与边际概率与条件概率](./probability-joint-marginal-conditional_zh.md)
+
 ## [Deep Learning](https://www.baeldung.com/cs/category/ai/deep-learning)
 
+- Cross-Validation: K-Fold vs. Leave-One-Out
 - An Introduction to Gemini by Google DeepMind
 - Comparative Analysis of Top Large Language Models
 - Attention vs. Self-Attention
@@ -178,7 +181,7 @@
 - [Model-free vs. Model-based Reinforcement Learning](https://www.baeldung.com/cs/ai-model-free-vs-model-based)
 - [0-1 Loss Function Explained](https://www.baeldung.com/cs/ai-0-1-loss-function)
 - [Differences Between Backpropagation and Feedforward Networks](https://www.baeldung.com/cs/neural-networks-backprop-vs-feedforward)
-- [Cross-Validation: K-Fold vs. Leave-One-Out](https://www.baeldung.com/cs/cross-validation-k-fold-loo)
+- Cross-Validation: K-Fold vs. Leave-One-Out
 - Off-policy vs. On-policy Reinforcement Learning
 - [Bias Update in Neural Network Backpropagation](https://www.baeldung.com/cs/deep-learning-bias-backpropagation)
 - [Recurrent vs. Recursive Neural Networks in Natural Language Processing](https://www.baeldung.com/cs/networks-in-nlp)
@@ -197,7 +200,7 @@
 - [Intuition Behind Kernels in Machine Learning](https://www.baeldung.com/cs/intuition-behind-kernels-in-machine-learning)
 - [Algorithms for Image Comparison](https://www.baeldung.com/cs/image-comparison-algorithm)
 - [Image Processing: Occlusions](https://www.baeldung.com/cs/image-processing-occlusions)
-- [Applications of Generative Models](../../computer-vision/README-zh.md)
+- ~~Applications of Generative Models~~
 - [Calculate the Output Size of a Convolutional Layer](../../computer-vision/README-zh.md)
 - [An Introduction to Generative Adversarial Networks](https://www.baeldung.com/cs/generative-adversarial-networks)
 - [Linearly Separable Data in Neural Networks](https://www.baeldung.com/cs/nn-linearly-separable-data)
@@ -207,7 +210,7 @@
 - Outlier Detection and Handling
 - [Feature Selection and Reduction for Text Classification](https://www.baeldung.com/cs/feature-selection-reduction-for-text-classification)
 - [Why Mini-Batch Size Is Better Than One Single “Batch” With All Training Data](https://www.baeldung.com/cs/mini-batch-vs-single-batch-training-data)
-- [How to Create a Smart Chatbot?](https://www.baeldung.com/cs/smart-chatbots)
+- [How to Create a Smart Chatbot?](/ai/ml/deep-learning/smart-chatbots-zh.md)
 - [How to Calculate Receptive Field Size in CNN](https://www.baeldung.com/cs/cnn-receptive-field-size)
 - k-Nearest Neighbors and High Dimensional Data
 - [Using a Hard Margin vs. Soft Margin in SVM](https://www.baeldung.com/cs/svm-hard-margin-vs-soft-margin)

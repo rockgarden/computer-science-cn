@@ -16,7 +16,6 @@
 - [支持向量机 (SVM)](ml-support-vector-machines-zh.md)
 - 卷积神经网络简介
 - [热身学习率意味着什么？](ml-lr-warm-up-zh.md)
-- [什么是检索增强生成（RAG）](retrieval-augmented-generation-zh.md)
 - [如何进行线性判别分析？](lda-zh.md)
 - [如何为SVM选择核类型？](svm-choose-kernel-zh.md)
 - [Focal Loss简介](focal-loss-zh.md)

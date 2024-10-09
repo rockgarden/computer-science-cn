@@ -69,7 +69,7 @@ Neural Networks (19)Image Processing (11)Object Detection (11)Convolutional Neur
 
 - [Mean Average Precision in Object Detection](https://www.baeldung.com/cs/ml-map-object-detection)
 - [The Reparameterization Trick in Variational Autoencoders](https://www.baeldung.com/cs/vae-reparameterization)
-- [Applications of Generative Models](https://www.baeldung.com/cs/applications-of-generative-models)
+- [Applications of Generative Models](applications-of-generative-models_zh.md)
 - [Calculate the Output Size of a Convolutional Layer](https://www.baeldung.com/cs/convolutional-layer-size)
 - [Using GANs for Data Augmentation](https://www.baeldung.com/cs/ml-gan-data-augmentation)
 

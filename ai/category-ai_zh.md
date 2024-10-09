@@ -764,7 +764,9 @@
 >> Information Gain in Machine Learning
 >> Cross-Validation and Decision Trees
 >> How to Use K-Fold Cross-Validation in a Neural Network?
->> Applications of Generative Models
+
+- ~~Applications of Generative Models~~
+
 >> Calculate the Output Size of a Convolutional Layer
 >> Introduction to Curve Fitting
 >> K-Means for Classification
