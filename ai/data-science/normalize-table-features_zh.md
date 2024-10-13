@@ -1,8 +1,8 @@
-# 规范化表的特征
+# [规范化表的特征](https://www.baeldung.com/cs/normalize-table-features)
 
-[数据科学](https://www.baeldung.com/cs/category/ai/data-science) [机器学习](https://www.baeldung.com/cs/category/ai/ml)
+数据科学 机器学习
 
-[培训](https://www.baeldung.com/cs/tag/training)
+培训
 
 1. 概述
 
@@ -130,6 +130,7 @@
         这就是我们使用的二元分布示例，通过均值和标准差进行了归一化处理：
 
         ![9](pic/9.png)
+
     4. 使用哪一种？
 
         确定使用哪种类型的归一化取决于我们正在执行的任务，这在机器学习中很常见。当我们处理一个新数据集时，可以测试一些可供选择的归一化技术，看看哪种技术能提高模型的准确性。
@@ -143,5 +144,3 @@
     我们首先从直观的角度了解了什么是归一化以及归一化的功能。然后，我们研究了初次接触这一主题时可能会犯的常见错误。
 
     最后，我们学习了归一化的主要技术及其相关公式。
-
-[Normalize Features of a Table](https://www.baeldung.com/cs/normalize-table-features)
