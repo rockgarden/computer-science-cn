@@ -6,7 +6,7 @@
 
 1. 引言
 
-    近年来，人工智能领域的深度学习技术的发展和应用突飞猛进。虽然深度学习给[图像识别](https://www.baeldung.com/cs/image-recognition-one-shot-learning)和[自然语言处理](https://www.baeldung.com/cs/nlp-bleu-score)等许多领域带来了革命性的变化，但它在有效处理结[构化数据](https://www.baeldung.com/cs/text-mining)，特别是[图结构化数据](https://www.baeldung.com/cs/graphs)方面却面临着挑战。为了应对这些挑战，一种名为图神经网络（GNN）的突破性技术应运而生。GNNs 使机器能够更好地理解和处理图结构数据。
+    近年来，人工智能领域的深度学习技术的发展和应用突飞猛进。虽然深度学习给[图像识别](https://www.baeldung.com/cs/image-recognition-one-shot-learning)和[自然语言处理](https://www.baeldung.com/cs/nlp-bleu-score)等许多领域带来了革命性的变化，但它在有效处理结[构化数据](https://www.baeldung.com/cs/text-mining)，特别是图结构化数据方面却面临着挑战。为了应对这些挑战，一种名为图神经网络（GNN）的突破性技术应运而生。GNNs 使机器能够更好地理解和处理图结构数据。
 
     在本教程中，我们将全面介绍 GNN，探索其架构、训练过程和各种应用。
 
