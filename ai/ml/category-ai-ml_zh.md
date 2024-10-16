@@ -270,7 +270,6 @@
 - [Support Vector Machines (SVM)](https://www.baeldung.com/cs/ml-support-vector-machines)
 - Introduction to Convolutional Neural Networks
 - [What Does Learning Rate Warm-up Mean?](https://www.baeldung.com/cs/ml-lr-warm-up)
-- [What Is Retrieval-Augmented Generation (RAG)?](https://www.baeldung.com/cs/retrieval-augmented-generation)
 - [How to Perform Linear Discriminant Analysis?](https://www.baeldung.com/cs/lda)
 - [How to Select the Type of Kernel for a SVM?](https://www.baeldung.com/cs/svm-choose-kernel)
 - [An Introduction to Focal Loss](https://www.baeldung.com/cs/focal-loss)

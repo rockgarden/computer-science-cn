@@ -47,7 +47,6 @@
 >> 学习率预热意味着什么？
 >> Python 中的填充
 >> 什么是组归一化？
->> 什么是检索增强生成（RAG）？
 >> 如何进行线性判别分析？
 >> 如何使用 GPT 的模型温度？
 >> 如何为 SVM 选择核类型？
@@ -488,8 +487,8 @@
 
 - Padding in Python
 - What Is Group Normalization?
+- What Is Retrieval-Augmented Generation (RAG)?
 
->> What Is Retrieval-Augmented Generation (RAG)?
 >> How to Perform Linear Discriminant Analysis?
 
 - Comparison Between BERT and GPT-3 Architectures

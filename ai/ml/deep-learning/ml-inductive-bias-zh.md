@@ -24,7 +24,7 @@
 
     2. k-Nearest Neighbors（k-NN）算法
 
-        k-Nearest Neighbors（[k-NN](https://www.baeldung.com/cs/k-nearest-neighbors)）算法假定，属于某一特定类别的实体应该彼此靠近，而属于不同类别的实体应该相距较远。换句话说，我们假定相似的数据点相互靠近，远离不相似的数据点。
+        k-Nearest Neighbors（k-NN）算法假定，属于某一特定类别的实体应该彼此靠近，而属于不同类别的实体应该相距较远。换句话说，我们假定相似的数据点相互靠近，远离不相似的数据点。
 
     3. 线性回归
 

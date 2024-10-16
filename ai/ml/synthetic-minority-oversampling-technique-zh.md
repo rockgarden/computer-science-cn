@@ -52,7 +52,7 @@
 
         ![由QuickLaTeX.com渲染](pic/quicklatex.com-7472fde36aef93ed53bcf16b92839fea_l3.svg)
 
-        SMOTE 通过在随机选取的少数类实例与随机选取的少数类[近邻](https://www.baeldung.com/cs/k-nearest-neighbors)实例之间进行插值来生成新数据。
+        SMOTE 通过在随机选取的少数类实例与随机选取的少数类近邻实例之间进行插值来生成新数据。
 
     2. 插值
 

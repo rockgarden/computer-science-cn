@@ -43,7 +43,7 @@
 
         下面是一些著名的懒学习算法：
 
-        - k-近邻算法（[kNN](https://www.baeldung.com/cs/k-nearest-neighbors)）会在训练数据中搜索与查询点最近的 k 个实例。它使用距离度量，返回多数类或邻居的回归平均值。
+        - k-近邻算法（kNN）会在训练数据中搜索与查询点最近的 k 个实例。它使用距离度量，返回多数类或邻居的回归平均值。
         - 基于案例的推理（[CBR](https://en.wikipedia.org/wiki/Case-based_reasoning)）可检索和重用已存储的案例来解决新问题。
         - 局部加权学习（LWL）使用基于实例与查询点距离的加权函数，为每个查询点计算局部模型。
         - 学习向量量化（[LVQ](https://en.wikipedia.org/wiki/Learning_vector_quantization)）在训练过程中调整原型向量，以代表数据集类别，并根据最接近的原型进行分类。

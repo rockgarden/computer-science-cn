@@ -20,7 +20,7 @@
 - [人工智能、机器学习、统计学和数据挖掘之间有什么区别？](/ai-ml-statistics-data-mining_zh.md)
 - [机器学习中的信息增益](ml-information-gain-zh.md)
 - [WEKA 中的数据挖掘](weka-data-mining-zh.md)
-- [表的特征归一化](normalize-table-features-zh.md)
+- [表的特征归一化](normalize-table-features_zh.md)
 - [列文森距离计算](/algorithms/levenshtein-distance-computation-zh.md)
 
 - [计算机科学中的谓词](/core-concepts/predicates-zh.md)
