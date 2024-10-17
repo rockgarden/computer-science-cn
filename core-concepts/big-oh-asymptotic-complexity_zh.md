@@ -1,4 +1,4 @@
-# 大O符号的实用示例
+# [大O符号的实用示例](https://www.baeldung.com/cs/big-oh-asymptotic-complexity)
 
 1. 概述
 
@@ -16,11 +16,30 @@
 
     首先，我们来看一个简单的算法，它将变量 n 初始化为 10000，然后打印出来：
 
-    \[\begin{algorithmic}[H] \setcounter{algocf}{0} \SetAlgoLined \KwData{Initial state} \KwResult{Initialize a variable with a big number and print it.} n $\gets${10000}\; \textbf{print} n\; \caption{Initializing and printing a variable} \end{algorithmic}\]
+    ```java
+    algorithm initializeAndPrintVariable:
+        // INPUT
+        //     None
+        // OUTPUT
+        //     Initialize a variable with a big number and print it.
+
+        n <- 10000
+        print n
+    ```
 
     无论 n 的值是多少，这段代码的执行时间都是固定的，算法的时间复杂度为 O(1)。另外，我们也可以使用 for 循环打印 n 变量三次：
 
-    \[\begin{algorithm}[H] \setcounter{algocf}{1} \SetAlgoLined \KwData{Initial state} \KwResult{Initialize a variable with a big number and print it thrice. } n $\gets$ 10000\; \For{i in range(1, 4)}{ \textbf{print} n; } \caption{Initilizing and printing a variable 3 times} \end{algorithm}\]
+    ```java
+    algorithm initializeAndPrintVariableThrice:
+        // INPUT
+        //     None
+        // OUTPUT
+        //     Initialize a variable with a big number and print it several times.
+
+        n <- 10000
+        for i in range(1, 4):
+            print n
+    ```
 
     上面的例子也是恒定时间。我们把恒定时间的算法称为 O(1)。无论输入大小为 n，运行时间都是平常的三倍。因此，O(2)、O(3) 甚至 O(1000) 都与 O(1) 相同。
 
@@ -32,16 +51,45 @@
 
     对数时间算法的一个典型例子是[二进制搜索](https://en.wikipedia.org/wiki/Binary_search_algorithm)算法：
 
-    \[\begin{algorithm}[H] \setcounter{algocf}{2} \SetAlgoLined \KwData{Sorted array A, and target value x} \KwResult{Index of x in A, or -1 if not found} low $\gets$ 0\; high $\gets$ len(A) - 1\; \While{low $\leq$ high}{ mid $\gets$ (low + high) / 2\; \If{A[mid] $<$ x}{ low $\gets$ mid + 1\; } \ElseIf{A[mid] $>$ x}{ high $\gets$ mid - 1\; } \Else{ \Return mid\; } } \Return  -1\; \caption{Binary Search} \end{algorithm}\]
+    ```java
+    algorithm binarySearch(A, x):
+        // INPUT
+        //    A = Sorted array
+        //    x = Target value
+        // OUTPUT
+        //     Index of x in A, or -1 if not found
 
-    在二进制搜索中，输入是数组的大小，算法每次迭代都会将其分成两半，直到找到目标值为止，如果没有目标值，则返回-1。因此，运行时间与 log_2(n)函数成正比，其中 n 是数组中的元素个数。例如，当 n 为 8 时，while 循环将执行 log_2(8) = 3 次。
+        low <- 0
+        high <- len(A) - 1
+        while low <= high:
+            mid <- (low + high) / 2
+            if A[mid] < x:
+                low <- mid + 1
+            else if A[mid] > x:
+                high <- mid - 1
+            else:
+                return mid
+        return -1
+    ```
+
+    在二进制搜索中，输入是数组的大小，算法每次迭代都会将其分成两半，直到找到目标值为止，如果没有目标值，则返回-1。因此，运行时间与 $log_2(n)$ 函数成正比，其中 n 是数组中的元素个数。例如，当 n 为 8 时，while 循环将执行 $log_2(8) = 3$ 次。
 
 5. 线性时间算法 - O(n)
 
     接下来，我们来看看时间复杂度与其输入大小成正比的线性时间算法。
+
     例如，下面是一个枚举 n 个值的算法的伪代码，输入为 n：
 
-    \[\begin{algorithm}[H]  \setcounter{algocf}{3} \SetAlgoLined \KwData{Input value n} \KwResult{Print numbers from 1 to n} \For{i in range(1, n + 1)}{ \textbf{print} i; }\caption{Number Counter} \end{algorithm}\]
+    ```java
+    algorithm numberCounter(n):
+        // INPUT
+        //     n = Input value
+        // OUTPUT
+        //     Print numbers from 1 to n
+
+        for i <- 1 to n:
+            print i
+    ```
 
     在这个例子中，迭代次数与输入大小 n 成正比。因此，该算法的时间复杂度为 O(n)。在表示时间复杂度时，我们不区分 0.1n 或 (1000n+1000)，因为两者的时间复杂度都是 O(n)，且增长与输入大小直接相关。
 
@@ -49,23 +97,54 @@
 
     N log N 算法的性能比线性时间复杂度算法差。这是因为它们的运行时间随着输入大小的增加而线性对数增加。例如，让我们来看看下面带有 for 循环的算法：
 
-    \[\begin{algorithm}[H]  \setcounter{algocf}{4} \SetAlgoLined \KwData{Input value n} \KwResult{Print all pairs of numbers from 1 to n} \For{i in range(1, n + 1)}{ \For{j in range(1, log(n) + 1)}{ \textbf{print} (i, j); } } \caption{All Combinations of two numbers}\end{algorithm}\]
+    ```java
+    algorithm allCombinationsOfTwoNumbers(n):
+        // INPUT
+        //     n = Input value
+        // OUTPUT
+        //     Prints all pairs of numbers from 1 to n
 
-    在这个例子中，外循环运行了 n 次，内循环运行了 log(n) 次。由于循环是嵌套的，所以总次数为 $n * log(n)$，我们将算法的时间复杂度表示为 O(n*log(n))。另一个 N log N 时间算法的例子是[Quicksort算法](https://www.baeldung.com/cs/algorithm-quicksort)。
+        for i <- 1 to n:
+            for j <- 1 to log(n):
+                print(i, j)
+    ```
 
-7. 多项式时间算法 - O(nm)
+    在这个例子中，外循环运行了 n 次，内循环运行了 log(n) 次。由于循环是嵌套的，所以总次数为 $n * log(n)$，我们将算法的时间复杂度表示为 $O(n*log(n))$。另一个 N log N 时间算法的例子是[Quicksort算法](https://www.baeldung.com/cs/algorithm-quicksort)。
+
+7. 多项式时间算法 - $O(n^m)$
 
     接下来，我们将深入探讨多项式时间算法，包括复杂度为 $O(n^2)$、$O(n^3)$，以及更一般的 $O(n^m)$（其中 m 为整数）的算法。值得注意的是，与 N log N 算法相比，多项式算法的速度相对较慢。在多项式算法中，$O(n^2)$ 的效率最高，$O(n^3)$ 、$O(n^4)$ 等算法的效率依次较低。
 
     让我们来看一个使用 for 循环的二次方时间算法的简单例子：
 
-    \[\begin{algorithm}[H]  \setcounter{algocf}{5} \SetAlgoLined \KwData{Input value n} \KwResult{Print all pairs of numbers from 1 to n} \For{i in range(1, n + 1)}{ \For{j in range(1, n + 1)}{ \textbf{print} (i, j); } } \caption{All Permutations of 2 numbers}\end{algorithm}\]
+    ```java
+    algorithm allPermutationsOfTwoNumbers(n):
+        // INPUT
+        //    n = Input value
+        // OUTPUT
+        //    Prints all pairs of numbers from 1 to n
+
+        for i <- 1 to n:
+            for j <- 1 to n:
+                print(i, j)
+    ```
 
     在这个例子中，外循环运行了 n 次，而内循环运行了 n 次。由于循环是嵌套的，所以迭代的总次数是 $n^2$。
 
     复杂度为 $O(n^3)$ 的多项式时间算法的另一个例子如下：
 
-    \[\begin{algorithm}[H]  \setcounter{algocf}{6} \SetAlgoLined \KwData{Input value n} \KwResult{Print all triplets of numbers from 1 to n} \For{i in range(1, n + 1)}{ \For{j in range(1, n + 1)}{ \For{k in range(1, n + 1)}{ \textbf{print} (i, j, k); } } } \caption{All Permutations of 3 numbers}\end{algorithm}\]
+    ```java
+    algorithm allPermutationsOfThreeNumbers(n):
+        // INPUT
+        //    n = Input value
+        // OUTPUT
+        //    Prints all triplets of numbers from 1 to n
+
+        for i <- 1 to n:
+            for j <- 1 to n:
+                for k <- 1 to n:
+                    print(i, j, k)
+    ```
 
     这里，迭代的总数是 $n^3$。在这种情况下，有三个嵌套循环，每个循环运行 n 次。因此计算复杂度为 $O(n^3)$。
 
@@ -75,7 +154,16 @@
 
     让我们来看一个 $O(2^n)$ 时算法的简单例子：
 
-    \[\begin{algorithm}[H] \setcounter{algocf}{7} \SetAlgoLined \KwData{Input value n} \KwResult{Print numbers from 1 to n in binary} \For{i in range(0, 2^{n})}{ \textbf{print} binary(i)\; } \caption{Decimal to Binary enumarator} \end{algorithm}\]
+    ```java
+    algorithm decimalToBinaryEnumerator(n):
+        // INPUT
+        //    n = Input value
+        // OUTPUT
+        //    Print numbers from 1 to n in the binary format
+
+        for i <- 1 to 2^n:
+            print binary(i)
+    ```
 
     在这个例子中，for 循环运行了 $2^n$ 次，打印了从 0 到 $(2^n) - 1$ 的每个二进制数。 指数时间算法的一个典型例子是[递归斐波那契序列](https://www.baeldung.com/cs/fibonacci-computational-complexity)。
 
@@ -87,13 +175,22 @@
 
     虽然解释这个问题的解决方案不在本文的讨论范围之内，但我们可以演示一种简单的 O(n!) 算法，它可以在阶乘的每次迭代中打印出从 0 到 n!
 
-    \[\begin{algorithm}[H]  \setcounter{algocf}{8} \SetAlgoLined \KwData{Integer n} \KwResult{Prints all numbers from 0 to each factorial of a number n} \For{i = 1 \KwTo factorial(n)}{ \textbf{print} i\; } \caption{Simulation of O(n!)}\end{algorithm}\]
+    ```java
+    algorithm simulationOfFactorialTime(n):
+        // INPUT
+        //    n = Integer
+        // OUTPUT
+        //    Prints all numbers from 0 to each factorial of a number n
+
+        for i <- 1 to n!:
+            print i
+    ```
 
     在这个例子中，递归调用的次数随输入大小的阶乘增长，因此运行时复杂度为 O(n!)。
 
 10. 渐近函数
 
-    大 O 符号属于[渐近函数](https://www.baeldung.com/cs/big-o-notation)的一种，我们用它来研究算法的性能。虽然大 O 符号不考虑小输入量算法的效率，但它主要关注算法在大输入量情况下的行为。
+    大 O 符号属于渐近函数的一种，我们用它来研究算法的性能。虽然大 O 符号不考虑小输入量算法的效率，但它主要关注算法在大输入量情况下的行为。
 
     此外，还有另外两种渐近函数来描述算法在极限时的性能：大 Θ 和大 Ω 符号。
 
@@ -113,4 +210,4 @@
 
     在本文中，我们讨论了理解时间复杂性和使用大 O 符号分析算法性能的重要性。我们还研究了时间复杂度，如常量、对数、线性、线性对数、多项式、指数和阶乘时间算法。
 
-    我们可以使用下面的小抄来探索典型数据结构的时间复杂性。
+    我们可以使用下面的小抄来探索典型[数据结构](https://www.baeldung.com/cs/common-data-structures)的时间复杂性。
